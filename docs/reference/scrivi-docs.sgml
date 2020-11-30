@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
+               "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<book id="index" xmlns:xi="http://www.w3.org/2003/XInclude">
+  <bookinfo>
+    <title>scrivi Reference Manual</title>
+  </bookinfo>
+
+  <chapter>
+    <title>scrivi</title>
+    <xi:include href="xml/scrivi-app.xml"/>
+    <xi:include href="xml/scrivi-document.xml"/>
+    <xi:include href="xml/scrivi-encodings-option-menu.xml"/>
+    <xi:include href="xml/scrivi-file-chooser-dialog.xml"/>
+    <xi:include href="xml/scrivi-message-bus.xml"/>
+    <xi:include href="xml/scrivi-message-type.xml"/>
+    <xi:include href="xml/scrivi-message.xml"/>
+    <xi:include href="xml/scrivi-notebook.xml"/>
+    <xi:include href="xml/scrivi-panel.xml"/>
+    <xi:include href="xml/scrivi-plugin.xml"/>
+    <xi:include href="xml/scrivi-print-job-preview.xml"/>
+    <xi:include href="xml/scrivi-print.xml"/>
+    <xi:include href="xml/scrivi-progress-message-area.xml"/>
+    <xi:include href="xml/scrivi-statusbar.xml"/>
+    <xi:include href="xml/scrivi-tab.xml"/>
+    <xi:include href="xml/scrivi-view.xml"/>
+    <xi:include href="xml/scrivi-window.xml"/>
+    <xi:include href="xml/scrivi-convert.xml"/>
+    <xi:include href="xml/scrivi-debug.xml"/>
+    <xi:include href="xml/scrivi-encodings.xml"/>
+    <xi:include href="xml/scrivi-help.xml"/>
+    <xi:include href="xml/scrivi-metadata-manager.xml"/>
+    <xi:include href="xml/scrivi-prefs-manager-app.xml"/>
+    <xi:include href="xml/scrivi-prefs-manager.xml"/>
+    <xi:include href="xml/scrivi-utils.xml"/>
+  </chapter>
+</book>

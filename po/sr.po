@@ -1,0 +1,5016 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 10:33+0300\n"
+"PO-Revision-Date: 2016-01-06 12:38+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/gde2/GDE2/language/sr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:1
+msgid "Use Default Font"
+msgstr "Коришћење основног словног лика"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:2
+msgid ""
+"Whether to use the system's default fixed width font for editing text "
+"instead of a font specific to scrivi. If this option is turned off, then the "
+"font named in the \"Editor Font\" option will be used instead of the system "
+"font."
+msgstr "Да ли ће бити коришћен основни словни лик система сталне ширине за приказ текста уместо словног лика наведеног у подешавањима плуме. Ако је ова опција искључена, словни лик наведен у опцији „Словни лик уређивача“ биће коришћен уместо словног лика система."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:3
+msgctxt "editor-font"
+msgid "'Monospace 12'"
+msgstr "„Утврђене ширине 12“"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:4
+msgid "Editor Font"
+msgstr "Словни лик уређивача"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:5
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr "Произвољни словни лик који ће бити коришћен у простору за унос текста. Ово ће једино имати ефекта ако је штиклирана кућица „Користи пороизвољни словни лик“."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:6
+msgid "Style Scheme"
+msgstr "Поставке стила"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:7
+msgid "The ID of a GtkSourceView Style Scheme used to color the text."
+msgstr "ИД поставке стила Прегледа Гтк извора који се користи за бојење текста."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:8
+msgid "Create Backup Copies"
+msgstr "Прављење резервних примерака"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:9
+msgid ""
+"Whether scrivi should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr "Да ли плума треба да прави резервне примерке за датотеке које чува. Можете поставити проширење датотеке резерве помоћу опције „Проширење резервног примерка“."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:10
+msgid "Autosave"
+msgstr "Периодично чување"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:11
+msgid ""
+"Whether scrivi should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Autosave Interval\" "
+"option."
+msgstr "Да ли ће плума сама да сачува измењену датотеку после одређеног временског интервала. Можете поставити временски интервал помоћу опције „Време периодичног чувања“."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:12
+msgid "Autosave Interval"
+msgstr "Време периодичног чувања"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:13
+msgid ""
+"Number of minutes after which scrivi will automatically save modified files. "
+"This will only take effect if the \"Autosave\" option is turned on."
+msgstr "Број минута након којих ће плума аутоматски сачувати измењену датотеку. Ово ће једино имати ефекта уколико је опција „Периодично чување“ укључена."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:14
+msgid "Writable VFS schemes"
+msgstr "Могућности уписа на виртуалне системе датотека"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:15
+msgid ""
+"List of VFS schemes scrivi supports in write mode. The 'file' scheme is "
+"writable by default."
+msgstr "Списак шема ВСД које плума подржава у режиму уписа. Шема „file“ је подразумевано уписива."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:16
+msgid "Maximum Number of Undo Actions"
+msgstr "Највећи број опозваних радњи"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:17
+msgid ""
+"Maximum number of actions that scrivi will be able to undo or redo. Use "
+"\"-1\" for unlimited number of actions."
+msgstr "Највећи број радњи које ће плума моћи да опозове или понови. Користите „-1“ за неограничени број радњи."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:18
+msgid "Line Wrapping Mode"
+msgstr "Начин прелома реда"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:19
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+"for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
+" the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr "Одређује начин прелома дугих редова у области за уређивање. Користите „GTK_WRAP_NONE“ за искључивање прелома, „GTK_WRAP_WORD“ за прелом на крају речи, и „GTK_WRAP_CHAR“ за прелом између знакова. Обратите пажњу да су вредности осетљиве на велика или мала слова, па се уверите да их користите на исти начин као што су овде наведене."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:20
+msgid "Tab Size"
+msgstr "Величина табулатора"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:21
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr "Одређује број размака који ће бити приказани уместо знака табулатора."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:22
+msgid "Insert spaces"
+msgstr "Уметање размака"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:23
+msgid "Whether scrivi should insert spaces instead of tabs."
+msgstr "Да ли плума треба да уметне размаке уместо табулатора."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:24
+msgid "Automatic indent"
+msgstr "Самостално увлачење"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:25
+msgid "Whether scrivi should enable automatic indentation."
+msgstr "Да ли плума треба да омогући самостално увлачење."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:26
+msgid "Display Line Numbers"
+msgstr "Приказ бројева редова"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:27
+msgid "Whether scrivi should display line numbers in the editing area."
+msgstr "Да ли плума треба да прикаже бројеве редова у простору за уређивање текста."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:28
+msgid "Highlight Current Line"
+msgstr "Истицање текућег реда"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:29
+msgid "Whether scrivi should highlight the current line."
+msgstr "Да ли плума треба да истиче текући ред."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:30
+msgid "Highlight Matching Bracket"
+msgstr "Истицање упарених заграда"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:31
+msgid "Whether scrivi should highlight the bracket matching the selected one."
+msgstr "Да ли плума треба да истакне заграду која одговара изабраној."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:32
+msgid "Display Right Margin"
+msgstr "Приказ десне маргине"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:33
+msgid "Whether scrivi should display the right margin in the editing area."
+msgstr "Да ли плума треба да прикаже десну маргину у простору за уређивање текста."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:34
+msgid "Right Margin Position"
+msgstr "Положај десне маргине"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:35
+msgid "Specifies the position of the right margin."
+msgstr "Одређује положај десне маргине."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:36
+msgid "Smart Home End"
+msgstr "Паметне типке „Почетак/Крај“"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:37
+msgid ""
+"Specifies how the cursor moves when the HOME and END keys are pressed. Use "
+"\"DISABLED\" to always move at the start/end of the line, \"AFTER\" to move "
+"to the start/end of the line the first time the keys are pressed and to the "
+"start/end of the text ignoring whitespaces the second time the keys are "
+"pressed, \"BEFORE\" to move to the start/end of the text before moving to "
+"the start/end of the line and \"ALWAYS\" to always move to the start/end of "
+"the text instead of the start/end of the line."
+msgstr "Одређује како се курсор помера када се притисну типке ПОЧЕТАК и КРАЈ. Користите „DISABLED“ за стално враћање на почетак/крај реда, „AFTER“ за померање на почетак/крај реда по првом притиску и на почетак/крај текста занемаријући размаке по другом притиску, „BEFORE“ за померање на почетак/крај текста пре померања на почетак/крај реда и „ALWAYS“ за померање на почетак/крај текста уместо на почетак/крај реда."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:38
+msgid "Restore Previous Cursor Position"
+msgstr "Враћање претходног положаја курсора"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:39
+msgid ""
+"Whether scrivi should restore the previous cursor position when a file is "
+"loaded."
+msgstr "Да ли плума треба да поврати претходан положај курсора након учитавања датотеке."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:40
+msgid "Enable Search Highlighting"
+msgstr "Укључивање истицања претраге"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:41
+msgid ""
+"Whether scrivi should highlight all the occurrences of the searched text."
+msgstr "Да ли плума треба да истакне све појаве пронађеног текста."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:42
+msgid "Enable Syntax Highlighting"
+msgstr "Укључивање истицања синтаксе"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:43
+msgid "Whether scrivi should enable syntax highlighting."
+msgstr "Да ли плума треба да омогући истицање синтаксе."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:44
+msgid "Toolbar is Visible"
+msgstr "Приказ траке алата"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:45
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr "Да ли трака алата треба да буде видљива."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:46
+msgid "Toolbar Buttons Style"
+msgstr "Изглед траке алата дугмади"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:47
+msgid ""
+"Style for the toolbar buttons. Possible values are \"SCRIVI_TOOLBAR_SYSTEM\" "
+"to use the system's default style, \"SCRIVI_TOOLBAR_ICONS\" to display icons "
+"only, \"SCRIVI_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+"\"SCRIVI_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons."
+" Note that the values are case-sensitive, so make sure they appear exactly "
+"as mentioned here."
+msgstr "Изглед дугмића на траци алата. Могуће вредности су „SCRIVI_TOOLBAR_SYSTEM“ за основни изглед са система, „SCRIVI_TOOLBAR_ICONS“ за приказ само иконица, „SCRIVI_TOOLBAR_ICONS_AND_TEXT“ за приказ и иконица и текста, и „SCRIVI_TOOLBAR_ICONS_BOTH_HORIZ“ за приказ наглашеног текста поред иконица. Обратите пажњу да су вредности осетљиве на велика и мала слова, па се уверите да их користите као што су овде наведене."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:48
+msgid "Status Bar is Visible"
+msgstr "Приказ траке стања"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:49
+msgid ""
+"Whether the status bar at the bottom of editing windows should be visible."
+msgstr "Да ли трака стања на дну прозора за уређивање текста треба да буде видљива."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:50
+msgid "Side Pane is Visible"
+msgstr "Приказ бочне површи"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:51
+msgid ""
+"Whether the side pane at the left of editing windows should be visible."
+msgstr "Да ли бочна површ на левој страни прозора за уређивање текста треба да буде видљива."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:52
+msgid "Bottom Panel is Visible"
+msgstr "Приказ доње површи"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:53
+msgid ""
+"Whether the bottom panel at the bottom of editing windows should be visible."
+msgstr "Да ли доња површ на доњој страни прозора за уређивање текста треба да буде видљива."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:54
+msgid "Maximum Recent Files"
+msgstr "Највећи број скоро отвараних датотека"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:55
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed"
+" in the \"Recent Files\" submenu."
+msgstr "Одређује највећи број скоро отворених датотека које ће бити приказане у подизборнику „Скоро отворене датотеке“."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:56
+msgid "Print Syntax Highlighting"
+msgstr "Штампање истицања синтаксе"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:57
+msgid ""
+"Whether scrivi should print syntax highlighting when printing documents."
+msgstr "Да ли плума треба да истиче синтаксу приликом штампања докумената."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:58
+msgid "Print Header"
+msgstr "Штампање заглавља"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:59
+msgid ""
+"Whether scrivi should include a document header when printing documents."
+msgstr "Да ли плума треба да укључи заглавље документа приликом штампања."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:60
+msgid "Printing Line Wrapping Mode"
+msgstr "Начин прелома штампаног реда"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:61
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+"wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
+" the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr "Одређује начин прелома дугих редова за штампање. Користите „GTK_WRAP_NONE“ за искључивање прелома, „GTK_WRAP_WORD“ за прелом на крају речи, и „GTK_WRAP_CHAR“ за прелом између знакова. Обратите пажњу да су вредности осетљиве на велика или мала слова, па се уверите да их користите на исти начин као што су овде наведене."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:62
+msgid "Print Line Numbers"
+msgstr "Штампање бројева редова"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:63
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, scrivi will print line numbers every such number of "
+"lines."
+msgstr "Уколико је вредност 0, програм неће уметати бројеве редова приликом штампања документа. У супротном, програм ће штампати број реда за сваки број реда."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:64
+msgctxt "print-font-body-pango"
+msgid "'Monospace 9'"
+msgstr "„Утврђене ширине 9“"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:65
+msgid "Body Font for Printing"
+msgstr "Словни лик за штампање"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:66
+msgid ""
+"Specifies the font to use for a document's body when printing documents."
+msgstr "Одређује који ће словни лик бити коришћен за тело документа приликом штампања."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:67
+msgctxt "print-font-header-pango"
+msgid "'Sans 11'"
+msgstr "„Санс 11“"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:68
+msgid "Header Font for Printing"
+msgstr "Словни лик за штампање заглавља"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:69
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr "Одређује који ће словни лик бити коришћен за штампање заглавља странице. Ово ће једино имати ефекта ако је укључена опција „Штампање заглавља“."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:70
+msgctxt "print-font-numbers-pango"
+msgid "'Sans 8'"
+msgstr "„Санс 8“"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:71
+msgid "Line Number Font for Printing"
+msgstr "Словни лик за штампање броја реда"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:72
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr "Одређује који ће словни лик бити коришћен за штампање бројева редова. Ово ће једино имати ефекта уколико опција „Штампање бројева редова“ није постављена на 0."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:73
+msgctxt "auto-detected"
+msgid "[ 'UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16' ]"
+msgstr "[ „УТФ-8“, „КУРЕНТ“, „ИСО-8859-15“, „УТФ-16“ ]"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:74
+msgid "Automatically Detected Encodings"
+msgstr "Самостално откривање кодних распореда"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:75
+msgid ""
+"Sorted list of encodings used by scrivi for automatically detecting the "
+"encoding of a file. \"CURRENT\" represents the current locale encoding. Only"
+" recognized encodings are used."
+msgstr "Уређени списак кодних распореда које програм користи за самопрепознавање кодног распореда датотеке. „CURRENT“ означава текући кодни распоред локалитета. Користе се једино препознати кодни распореди."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:76
+msgctxt "shown-in-menu"
+msgid "[ 'ISO-8859-15' ]"
+msgstr "[ „ИСО-8859-15“ ]"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:77
+msgid "Encodings shown in menu"
+msgstr "Кодни распореди приказани у изборнику"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:78
+msgid ""
+"List of encodings shown in the Character Encoding menu in open/save file "
+"selector. Only recognized encodings are used."
+msgstr "Списак кодирања приказаних у изборнику за кодирање знакова при избору датотека. Користе се само препознати кодни распореди."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:79
+msgid "History for \"search for\" entries"
+msgstr "Историјат уноса „потражи“"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:80
+msgid "List of entries in \"search for\" textbox."
+msgstr "Списак уноса у пољу „потражи“."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:81
+msgid "History for \"replace with\" entries"
+msgstr "Историјат уноса „замени са“"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:82
+msgid "List of entries in \"replace with\" textbox."
+msgstr "Списак уноса у пољу „замени са“."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:83
+msgid "Active plugins"
+msgstr "Покренути прикључци"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:84
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .scrivi-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr "Списак покренутих прикључака. Садржи „путању“ покренутих прикључака. Погледајте датотеку „.scrivi-plugin“ да сазнате „путању“ датог прикључка."
+
+#: ../data/scrivi.appdata.xml.in.h:1
+msgid "A Text Editor for the GDE2 desktop environment"
+msgstr "Уређивач текста за Мејтово радно окружење"
+
+#: ../data/scrivi.appdata.xml.in.h:2
+msgid ""
+"<p> Scrivi is a small, but powerful text editor designed specifically for the"
+" GDE2 desktop. It has most standard text editor functions and fully supports"
+" international text in Unicode. Advanced features include syntax "
+"highlighting and automatic indentation of source code, printing and editing "
+"of multiple documents in one window. </p> <p> Scrivi is extensible through a "
+"plugin system, which currently includes support for spell checking, "
+"comparing files, viewing CVS ChangeLogs, and adjusting indentation levels. "
+"</p>"
+msgstr "<p> Плума је мали, али моћан уређивач текста нарочито осмишљен за Мејтово радно окружење. Поседује најуобичајеније функције уређивача текста и потпуно подржава међународни текст у Уникоду. У напредне функције спадају истицање синтаксе и самостално увлачење изворног кода, штампање и уређивање више докумената у једном прозору. </p> <p> Плума се може проширити системом прикључака, у које тренутно спадају подршка за проверу писања, упоређивање датотека, прегледање дневника измена ЦВС-а, и дотеривање нивоа увлачења. </p>"
+
+#: ../data/scrivi.desktop.in.in.h:1
+msgid "Scrivi"
+msgstr "Плума"
+
+#: ../data/scrivi.desktop.in.in.h:2 ../scrivi/scrivi-print-job.c:767
+msgid "Text Editor"
+msgstr "Уређивач текста"
+
+#: ../data/scrivi.desktop.in.in.h:3
+msgid "Edit text files"
+msgstr "Уређујте текстуалне документе"
+
+#: ../data/scrivi.desktop.in.in.h:4
+msgid "Scrivi Text Editor"
+msgstr "Плума — уређивач текста"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:145
+msgid "Log Out _without Saving"
+msgstr "Одјави се _без чувања"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:149
+msgid "_Cancel Logout"
+msgstr "_Откажи одјављивање"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:156
+msgid "Close _without Saving"
+msgstr "Затвори _без чувања"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:216
+msgid "Question"
+msgstr "Питање"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:416
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld second will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "Измене у последњој %ld секунди ће бити трајно одбачене уколико не сачувате."
+msgstr[1] "Измене у последње %ld секунде ће бити трајно одбачене уколико не сачувате."
+msgstr[2] "Измене у последњих %ld секунди ће бити трајно одбачене уколико не сачувате."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:425
+msgid ""
+"If you don't save, changes from the last minute will be permanently lost."
+msgstr "Измене у последњем минуту ће бити трајно одбачене уколико не сачувате."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:431
+#, c-format
+msgid ""
+"If you don't save, changes from the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "Измене у последњем минуту и %ld секунди ће бити трајно одбачене уколико не сачувате."
+msgstr[1] "Измене у последњем минуту и %ld секунде ће бити трајно одбачене уколико не сачувате."
+msgstr[2] "Измене у последњем минуту и %ld секунди ће бити трајно одбачене уколико не сачувате."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:441
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld minute will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "Измене у последњем %ld минуту ће бити трајно одбачене уколико не сачувате."
+msgstr[1] "Измене у последња %ld минута ће бити трајно одбачене уколико не сачувате."
+msgstr[2] "Измене у последњих %ld минута ће бити трајно одбачене уколико не сачувате."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:456
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
+msgstr "Измене током последњег часа ће бити трајно одбачене уколико не сачувате."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:462
+#, c-format
+msgid ""
+"If you don't save, changes from the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "Измене у последњем часу и %d минуту ће бити трајно одбачене уколико не сачувате."
+msgstr[1] "Измене у последњем часу и %d минута ће бити трајно одбачене уколико не сачувате."
+msgstr[2] "Измене у последњем часу и %d минута ће бити трајно одбачене уколико не сачувате."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:477
+#, c-format
+msgid ""
+"If you don't save, changes from the last %d hour will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] "Измене у последњих %d часа ће бити трајно одбачене уколико не сачувате."
+msgstr[1] "Измене у последња %d часа ће бити трајно одбачене уколико не сачувате."
+msgstr[2] "Измене у последњих %d часова ће бити трајно одбачене уколико не сачувате."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:535
+#, c-format
+msgid "Changes to document \"%s\" will be permanently lost."
+msgstr "Измене учињене у документу „%s“ ће бити трајно одбачене."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:540
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "Да сачувам измене у документу „%s“ пре затварања?"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:554
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:788
+msgid "Saving has been disabled by the system administrator."
+msgstr "Чување је онемогућено од стране администратора система."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:739
+#, c-format
+msgid "Changes to %d document will be permanently lost."
+msgid_plural "Changes to %d documents will be permanently lost."
+msgstr[0] "Измене учињене у %d документу ће бити трајно одбачене."
+msgstr[1] "Измене учињене у %d документа ће бити трајно одбачене."
+msgstr[2] "Измене учињене у %d докумената ће бити трајно одбачене."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:745
+#, c-format
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d documents with unsaved changes. Save changes before closing?"
+msgstr[0] "%d документ има несачуване измене. Да сачувам измене пре затварања?"
+msgstr[1] "%d документа имају несачуване измене. Да сачувам измене пре затварања?"
+msgstr[2] "%d докумената има несачуване измене. Да сачувам измене пре затварања?"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:763
+msgid "Docum_ents with unsaved changes:"
+msgstr "Докум_енти са несачуваним изменама:"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:765
+msgid "S_elect the documents you want to save:"
+msgstr "Изаберите _документе које желите да сачувате:"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:790
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "Уколико их не сачувате, све измене ће бити трајно изгубљене."
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:321
+msgid "Character Encodings"
+msgstr "Кодирања знакова"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:384
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:445
+msgid "_Description"
+msgstr "_Опис"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:393
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:454
+msgid "_Encoding"
+msgstr "_Кодирање"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:1
+msgid "Character encodings"
+msgstr "Кодирања знакова"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:2
+msgid "A_vailable encodings:"
+msgstr "Доступни кодни _распореди:"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:3
+msgid "E_ncodings shown in menu:"
+msgstr "_Кодирања приказана у изборнику:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:574
+msgid "Click on this button to select the font to be used by the editor"
+msgstr "Кликните на ово дугме да изаберете словни лик који ће бити коришћен у уређивачу"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:584
+#, c-format
+msgid "_Use the system fixed width font (%s)"
+msgstr "_Користи словни лик система сталне ширине (%s)"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:787
+msgid "The selected color scheme cannot be installed."
+msgstr "Одабрана поставка боја не може бити постављена."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:812
+msgid "Add Scheme"
+msgstr "Додајте поставку боја"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:819
+msgid "A_dd Scheme"
+msgstr "_Додај поставку боја"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:827
+msgid "Color Scheme Files"
+msgstr "Датотеке са поставкама боја"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:834
+#: ../scrivi/scrivi-file-chooser-dialog.c:55
+msgid "All Files"
+msgstr "Све датотеке"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:879
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr "Не могу да уклоним поставку боја „%s“."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:1090
+msgid "Scrivi Preferences"
+msgstr "Поставке Плуме"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:1
+msgid "Preferences"
+msgstr "Поставке"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:2
+#: ../scrivi/scrivi-print-preferences.ui.h:9
+msgid "Text Wrapping"
+msgstr "Прелом текста"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:3
+#: ../plugins/docinfo/docinfo.ui.h:4
+#: ../plugins/externaltools/tools/tools.ui.h:21
+#: ../plugins/snippets/snippets/snippets.ui.h:9
+#: ../plugins/time/scrivi-time-dialog.ui.h:4
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:3
+msgid "    "
+msgstr "    "
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:4
+#: ../scrivi/scrivi-print-preferences.ui.h:10
+msgid "Enable text _wrapping"
+msgstr "Укључи _преламање текста"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:5
+#: ../scrivi/scrivi-print-preferences.ui.h:11
+msgid "Do not _split words over two lines"
+msgstr "Немој _делити речи у два реда"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:6
+#: ../scrivi/scrivi-print-preferences.ui.h:3
+msgid "Line Numbers"
+msgstr "Бројеви редова"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:7 ../scrivi/scrivi-view.c:2039
+msgid "_Display line numbers"
+msgstr "Прикажи бројеве ре_дова"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:8
+msgid "Current Line"
+msgstr "Текући ред"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:9
+msgid "Highlight current _line"
+msgstr "Истакни текући _ред"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:10
+msgid "Right Margin"
+msgstr "Приказ десне маргине"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:11
+msgid "Display right _margin"
+msgstr "Прикажи десну _маргину"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:12
+msgid "_Right margin at column:"
+msgstr "Прикажи десну _маргину у колони:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:13
+msgid "Bracket Matching"
+msgstr "Поклапање заграда"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:14
+msgid "Highlight matching _bracket"
+msgstr "Истакни упарене _заграде"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:15
+msgid "View"
+msgstr "Преглед"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:16
+msgid "Tab Stops"
+msgstr "Табулатори"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:17
+msgid "_Tab width:"
+msgstr "Ширина _табулатора:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:18
+msgid "Insert _spaces instead of tabs"
+msgstr "Уметни _размаке уместо табулатора"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:19
+msgid "Automatic Indentation"
+msgstr "Самостално увлачење"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:20
+msgid "_Enable automatic indentation"
+msgstr "Укључи _самостално увлачење"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:21
+msgid "File Saving"
+msgstr "Чување датотека"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:22
+msgid "Create a _backup copy of files before saving"
+msgstr "Направи _резервни примерак датотека пре чувања"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:23
+msgid "_Autosave files every"
+msgstr "_Сам сачувај датотеке сваких"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:24
+msgid "_minutes"
+msgstr "_минута"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:25
+msgid "Editor"
+msgstr "Уређивач"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:26
+msgid "Font"
+msgstr "Словни лик"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:27
+msgid "Editor _font: "
+msgstr "Словни лик _уређивача: "
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:28
+msgid "Pick the editor font"
+msgstr "Изаберите словни лик уређивача"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:29
+msgid "Color Scheme"
+msgstr "Шема боја"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:30
+msgid "_Add..."
+msgstr "_Додај..."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:31
+msgid "Font & Colors"
+msgstr "Словни лик и боје"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:32
+msgid "Plugins"
+msgstr "Прикључци"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:302
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:1 ../scrivi/scrivi-window.c:1462
+msgid "Replace"
+msgstr "Замени"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:313 ../scrivi/scrivi-window.c:1460
+msgid "Find"
+msgstr "Нађи"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:417
+msgid "Replace _All"
+msgstr "Замени _све"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:418
+#: ../scrivi/scrivi-commands-file.c:589
+msgid "_Replace"
+msgstr "_Замени"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:2
+msgid "Replace All"
+msgstr "Замени све"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:3
+msgid "_Search for: "
+msgstr "_Потражи: "
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:4
+msgid "Replace _with: "
+msgstr "Замени _са: "
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:5
+msgid "_Match case"
+msgstr "_Упореди величину слова"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:6
+msgid "Match _entire word only"
+msgstr "Упореди само _целе речи"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:7
+msgid "Search _backwards"
+msgstr "Тражи _уназад"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:8
+msgid "_Wrap around"
+msgstr "Преламај _около"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:9
+msgid "_Parse escape sequences (e.g. \\n)"
+msgstr "_Обради низове промене (нпр. „\\n“)"
+
+#: ../scrivi/scrivi.c:104
+msgid "Show the application's version"
+msgstr "Исписује податке о издању програма"
+
+#: ../scrivi/scrivi.c:107
+msgid ""
+"Set the character encoding to be used to open the files listed on the "
+"command line"
+msgstr "Поставља кодирање знакова које се користи при отварању датотека датих у наредби"
+
+#: ../scrivi/scrivi.c:107
+msgid "ENCODING"
+msgstr "КОДНИ РАСПОРЕД"
+
+#: ../scrivi/scrivi.c:110
+msgid "Display list of possible values for the encoding option"
+msgstr "Приказује списак могућих вредности за кодирање"
+
+#: ../scrivi/scrivi.c:113
+msgid "Create a new top-level window in an existing instance of scrivi"
+msgstr "Прави нови прозор највишег нивоа у постојећем примерку програма"
+
+#: ../scrivi/scrivi.c:116
+msgid "Create a new document in an existing instance of scrivi"
+msgstr "Прави нови документ у постојећем примерку програма"
+
+#: ../scrivi/scrivi.c:119
+msgid "[FILE...]"
+msgstr "[ДАТОТЕКА...]"
+
+#: ../scrivi/scrivi.c:174
+#, c-format
+msgid "%s: invalid encoding.\n"
+msgstr "%s: неисправан кодни запис.\n"
+
+#. Setup command line options
+#: ../scrivi/scrivi.c:520
+msgid "- Edit text files"
+msgstr "— Уредите текстуалне документе"
+
+#: ../scrivi/scrivi.c:529
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr "%s\nПокрените „%s --help“ да ​​видите потпун списак доступних опција линије наредби.\n"
+
+#: ../scrivi/scrivi-commands-file.c:250
+#, c-format
+msgid "Loading file '%s'…"
+msgstr "Учитавам датотеку „%s“…"
+
+#: ../scrivi/scrivi-commands-file.c:259
+#, c-format
+msgid "Loading %d file…"
+msgid_plural "Loading %d files…"
+msgstr[0] "Учитавам %d датотеку…"
+msgstr[1] "Учитавам %d датотеке…"
+msgstr[2] "Учитавам %d датотека…"
+
+#. Translators: "Open Files" is the title of the file chooser window
+#: ../scrivi/scrivi-commands-file.c:465
+msgid "Open Files"
+msgstr "Отворите датотеку"
+
+#: ../scrivi/scrivi-commands-file.c:576
+#, c-format
+msgid "The file \"%s\" is read-only."
+msgstr "Датотека „%s“ је само за читање."
+
+#: ../scrivi/scrivi-commands-file.c:581
+msgid "Do you want to try to replace it with the one you are saving?"
+msgstr "Да ли желите да покушате да је замените оном коју чувате?"
+
+#: ../scrivi/scrivi-commands-file.c:650 ../scrivi/scrivi-commands-file.c:873
+#, c-format
+msgid "Saving file '%s'…"
+msgstr "Чувам датотеку „%s“…"
+
+#: ../scrivi/scrivi-commands-file.c:758
+msgid "Save As…"
+msgstr "Сачувај као…"
+
+#: ../scrivi/scrivi-commands-file.c:1087
+#, c-format
+msgid "Reverting the document '%s'…"
+msgstr "Вршим повраћај документа „%s“…"
+
+#: ../scrivi/scrivi-commands-file.c:1132
+#, c-format
+msgid "Revert unsaved changes to document '%s'?"
+msgstr "Да повратим несачуване измене у документу „%s“?"
+
+#: ../scrivi/scrivi-commands-file.c:1141
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld second will be permanently "
+"lost."
+msgid_plural ""
+"Changes made to the document in the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "Измене учињене у документу у последњој %ld секунди ће бити трајно одбачене."
+msgstr[1] "Измене учињене у документу у последње %ld секунде ће бити трајно одбачене."
+msgstr[2] "Измене учињене у документу у последњих %ld секунди ће бити трајно одбачене."
+
+#: ../scrivi/scrivi-commands-file.c:1150
+msgid ""
+"Changes made to the document in the last minute will be permanently lost."
+msgstr "Измене учињене у документу у последњем минуту ће бити трајно одбачене."
+
+#: ../scrivi/scrivi-commands-file.c:1156
+#, c-format
+msgid ""
+"Changes made to the document in the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "Измене учињене у документу у последњем минуту и %ld секунди ће бити трајно одбачене."
+msgstr[1] "Измене учињене у документу у последњем минуту и %ld секунде ће бити трајно одбачене."
+msgstr[2] "Измене учињене у документу у последњем минуту и %ld секунди ће бити трајно одбачене."
+
+#: ../scrivi/scrivi-commands-file.c:1166
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld minute will be permanently "
+"lost."
+msgid_plural ""
+"Changes made to the document in the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "Измене учињене у документу у последњем %ld минуту ће бити трајно одбачене."
+msgstr[1] "Измене учињене у документу у последња %ld минута ће бити трајно одбачене."
+msgstr[2] "Измене учињене у документу у последњих %ld минута ће бити трајно одбачене."
+
+#: ../scrivi/scrivi-commands-file.c:1181
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
+msgstr "Измене учињене у документу током последњег часа ће бити трајно одбачене."
+
+#: ../scrivi/scrivi-commands-file.c:1187
+#, c-format
+msgid ""
+"Changes made to the document in the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "Измене учињене у документу у последњем часу и %d минут ће бити трајно одбачене."
+msgstr[1] "Измене учињене у документу у последњем часу и %d минута ће бити трајно одбачене."
+msgstr[2] "Измене учињене у документу у последњем часу и %d минута ће бити трајно одбачене."
+
+#: ../scrivi/scrivi-commands-file.c:1202
+#, c-format
+msgid ""
+"Changes made to the document in the last %d hour will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %d hours will be permanently lost."
+msgstr[0] "Измене учињене у документу у последњем %d часу ће бити трајно одбачене."
+msgstr[1] "Измене учињене у документу у последња %d часа ће бити трајно одбачене."
+msgstr[2] "Измене учињене у документу у последњих %d часова ће бити трајно одбачене."
+
+#: ../scrivi/scrivi-commands-file.c:1228
+msgid "_Revert"
+msgstr "Пов_рати"
+
+#: ../scrivi/scrivi-commands-help.c:83
+msgid "Scrivi is a small and lightweight text editor for the GDE2 Desktop"
+msgstr "Плума је мали и лагани уређивач текста за Мејтово радно окружење"
+
+#: ../scrivi/scrivi-commands-help.c:95
+msgid "translator-credits"
+msgstr "Горан Ракић <grakic@devbase.net>\nДанило Шеган <danilo@prevod.org>\nСтрахиња Радић <vilinkamen@mail.ru>\nИгор Несторовић <igor@prevod.org\nСлободан Д Средојевић <slobo@akrep.be>\nБранко Кокановић <branko.kokanovic@gmail.com>\nМирослав Николић <miroslavnikolic@rocketmail.com>\n\nhttp://prevod.org — превод на српски језик."
+
+#: ../scrivi/scrivi-commands-search.c:115
+#, c-format
+msgid "Found and replaced %d occurrence"
+msgid_plural "Found and replaced %d occurrences"
+msgstr[0] "Пронашао сам и заменио %d појаву"
+msgstr[1] "Пронашао сам и заменио %d појаве"
+msgstr[2] "Пронашао сам и заменио %d појава"
+
+#: ../scrivi/scrivi-commands-search.c:125
+msgid "Found and replaced one occurrence"
+msgstr "Пронашао сам и заменио једну појаву"
+
+#. Translators: %s is replaced by the text
+#. entered by the user in the search box
+#: ../scrivi/scrivi-commands-search.c:146
+#, c-format
+msgid "\"%s\" not found"
+msgstr "Нисам пронашао „%s“"
+
+#: ../scrivi/scrivi-document.c:1090 ../scrivi/scrivi-document.c:1110
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "Несачуван документ „%d“"
+
+#: ../scrivi/scrivi-documents-panel.c:101 ../scrivi/scrivi-documents-panel.c:115
+#: ../scrivi/scrivi-window.c:2187 ../scrivi/scrivi-window.c:2192
+msgid "Read-Only"
+msgstr "Само читање"
+
+#: ../scrivi/scrivi-documents-panel.c:796 ../scrivi/scrivi-window.c:3577
+msgid "Documents"
+msgstr "Документи"
+
+#: ../scrivi/scrivi-encodings.c:138 ../scrivi/scrivi-encodings.c:180
+#: ../scrivi/scrivi-encodings.c:182 ../scrivi/scrivi-encodings.c:184
+#: ../scrivi/scrivi-encodings.c:186 ../scrivi/scrivi-encodings.c:188
+#: ../scrivi/scrivi-encodings.c:190 ../scrivi/scrivi-encodings.c:192
+msgid "Unicode"
+msgstr "Уникод"
+
+#: ../scrivi/scrivi-encodings.c:151 ../scrivi/scrivi-encodings.c:175
+#: ../scrivi/scrivi-encodings.c:225 ../scrivi/scrivi-encodings.c:268
+msgid "Western"
+msgstr "Западни"
+
+#: ../scrivi/scrivi-encodings.c:153 ../scrivi/scrivi-encodings.c:227
+#: ../scrivi/scrivi-encodings.c:264
+msgid "Central European"
+msgstr "Централноевропски"
+
+#: ../scrivi/scrivi-encodings.c:155
+msgid "South European"
+msgstr "Јужноевропски"
+
+#: ../scrivi/scrivi-encodings.c:157 ../scrivi/scrivi-encodings.c:171
+#: ../scrivi/scrivi-encodings.c:278
+msgid "Baltic"
+msgstr "Балтички"
+
+#: ../scrivi/scrivi-encodings.c:159 ../scrivi/scrivi-encodings.c:229
+#: ../scrivi/scrivi-encodings.c:242 ../scrivi/scrivi-encodings.c:246
+#: ../scrivi/scrivi-encodings.c:248 ../scrivi/scrivi-encodings.c:266
+msgid "Cyrillic"
+msgstr "Ћирилични"
+
+#: ../scrivi/scrivi-encodings.c:161 ../scrivi/scrivi-encodings.c:235
+#: ../scrivi/scrivi-encodings.c:276
+msgid "Arabic"
+msgstr "Арапски"
+
+#: ../scrivi/scrivi-encodings.c:163 ../scrivi/scrivi-encodings.c:270
+msgid "Greek"
+msgstr "Грчки"
+
+#: ../scrivi/scrivi-encodings.c:165
+msgid "Hebrew Visual"
+msgstr "Хебрејски визуелни"
+
+#: ../scrivi/scrivi-encodings.c:167 ../scrivi/scrivi-encodings.c:231
+#: ../scrivi/scrivi-encodings.c:272
+msgid "Turkish"
+msgstr "Турски"
+
+#: ../scrivi/scrivi-encodings.c:169
+msgid "Nordic"
+msgstr "Нордијски"
+
+#: ../scrivi/scrivi-encodings.c:173
+msgid "Celtic"
+msgstr "Келтски"
+
+#: ../scrivi/scrivi-encodings.c:177
+msgid "Romanian"
+msgstr "Румунски"
+
+#: ../scrivi/scrivi-encodings.c:195
+msgid "Armenian"
+msgstr "Јерменски"
+
+#: ../scrivi/scrivi-encodings.c:197 ../scrivi/scrivi-encodings.c:199
+#: ../scrivi/scrivi-encodings.c:213
+msgid "Chinese Traditional"
+msgstr "Кинески традиционални"
+
+#: ../scrivi/scrivi-encodings.c:201
+msgid "Cyrillic/Russian"
+msgstr "Ћирилични/руски"
+
+#: ../scrivi/scrivi-encodings.c:204 ../scrivi/scrivi-encodings.c:206
+#: ../scrivi/scrivi-encodings.c:208 ../scrivi/scrivi-encodings.c:238
+#: ../scrivi/scrivi-encodings.c:253
+msgid "Japanese"
+msgstr "Јапански"
+
+#: ../scrivi/scrivi-encodings.c:211 ../scrivi/scrivi-encodings.c:240
+#: ../scrivi/scrivi-encodings.c:244 ../scrivi/scrivi-encodings.c:259
+msgid "Korean"
+msgstr "Корејски"
+
+#: ../scrivi/scrivi-encodings.c:216 ../scrivi/scrivi-encodings.c:218
+#: ../scrivi/scrivi-encodings.c:220
+msgid "Chinese Simplified"
+msgstr "Кинески поједностављени"
+
+#: ../scrivi/scrivi-encodings.c:222
+msgid "Georgian"
+msgstr "Грузијски"
+
+#: ../scrivi/scrivi-encodings.c:233 ../scrivi/scrivi-encodings.c:274
+msgid "Hebrew"
+msgstr "Хебрејски"
+
+#: ../scrivi/scrivi-encodings.c:250
+msgid "Cyrillic/Ukrainian"
+msgstr "Ћирилични/украјински"
+
+#: ../scrivi/scrivi-encodings.c:255 ../scrivi/scrivi-encodings.c:261
+#: ../scrivi/scrivi-encodings.c:280
+msgid "Vietnamese"
+msgstr "Вијетнамски"
+
+#: ../scrivi/scrivi-encodings.c:257
+msgid "Thai"
+msgstr "Тајландски"
+
+#: ../scrivi/scrivi-encodings.c:431
+msgid "Unknown"
+msgstr "Непознато"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:272
+msgid "Automatically Detected"
+msgstr "Самостално препознат"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:288
+#: ../scrivi/scrivi-encodings-combo-box.c:303
+#, c-format
+msgid "Current Locale (%s)"
+msgstr "Текући локалитет (%s)"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:353
+msgid "Add or Remove..."
+msgstr "Додај или уклони..."
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:56
+msgid "All Text Files"
+msgstr "Све текстуалне датотеке"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:88
+msgid "C_haracter Encoding:"
+msgstr "Кодирање зн_акова:"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:157
+msgid "L_ine Ending:"
+msgstr "За_вршетак линије:"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:180
+msgid "Unix/Linux"
+msgstr "Уникс/Линукс"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:186
+msgid "Mac OS Classic"
+msgstr "Мек ОС класични"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:192
+msgid "Windows"
+msgstr "Виндоуз"
+
+#: ../scrivi/scrivi-help.c:81
+msgid "There was an error displaying the help."
+msgstr "Дошло је до грешке приказивања помоћи."
+
+#: ../scrivi/scrivi-io-error-message-area.c:196
+#: ../scrivi/scrivi-io-error-message-area.c:498
+msgid "_Retry"
+msgstr "_Пробај поново"
+
+#: ../scrivi/scrivi-io-error-message-area.c:217
+#, c-format
+msgid "Could not find the file %s."
+msgstr "Не могу да нађем датотеку „%s“."
+
+#: ../scrivi/scrivi-io-error-message-area.c:219
+#: ../scrivi/scrivi-io-error-message-area.c:258
+#: ../scrivi/scrivi-io-error-message-area.c:265
+msgid "Please check that you typed the location correctly and try again."
+msgstr "Проверите да ли сте тачно навели путању (место) и покушајте поново."
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../scrivi/scrivi-io-error-message-area.c:234
+#, c-format
+msgid "scrivi cannot handle %s locations."
+msgstr "Не могу да рукујем „%s“ путањама."
+
+#: ../scrivi/scrivi-io-error-message-area.c:240
+msgid "scrivi cannot handle this location."
+msgstr "Не могу да рукујем овом путањом."
+
+#: ../scrivi/scrivi-io-error-message-area.c:248
+msgid "The location of the file cannot be mounted."
+msgstr "Не могу да приступим путањи датотеке."
+
+#: ../scrivi/scrivi-io-error-message-area.c:252
+msgid "The location of the file cannot be accessed because it is not mounted."
+msgstr "Не могу да приступим путањи датотеке јер није прикачена."
+
+#: ../scrivi/scrivi-io-error-message-area.c:256
+#, c-format
+msgid "%s is a directory."
+msgstr "„%s“ је фасцикла."
+
+#: ../scrivi/scrivi-io-error-message-area.c:263
+#, c-format
+msgid "%s is not a valid location."
+msgstr "„%s“ није исправна путања."
+
+#: ../scrivi/scrivi-io-error-message-area.c:293
+#, c-format
+msgid ""
+"Host %s could not be found. Please check that your proxy settings are "
+"correct and try again."
+msgstr "Рачунар „%s“ није пронађен. Проверите да ли су исправна подешавања мрежног посредника и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:306
+#, c-format
+msgid ""
+"Hostname was invalid. Please check that you typed the location correctly and"
+" try again."
+msgstr "Назив рачунара није исправан. Проверите да ли сте унели исправну адресу и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:314
+#, c-format
+msgid "%s is not a regular file."
+msgstr "„%s“ није обична датотека."
+
+#: ../scrivi/scrivi-io-error-message-area.c:319
+msgid "Connection timed out. Please try again."
+msgstr "Време за успостављање везе је истекло. Покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:342
+msgid "The file is too big."
+msgstr "Датотека је превелика."
+
+#: ../scrivi/scrivi-io-error-message-area.c:383
+#, c-format
+msgid "Unexpected error: %s"
+msgstr "Неочекивана грешка: %s"
+
+#: ../scrivi/scrivi-io-error-message-area.c:419
+msgid "scrivi cannot find the file. Perhaps it has recently been deleted."
+msgstr "Не могу да пронађем датотеку. Можда је недавно обрисана."
+
+#: ../scrivi/scrivi-io-error-message-area.c:429
+#, c-format
+msgid "Could not revert the file %s."
+msgstr "Не могу да повратим датотеку „%s“."
+
+#: ../scrivi/scrivi-io-error-message-area.c:455
+msgid "Ch_aracter Encoding:"
+msgstr "Кодирање _знака:"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../scrivi/scrivi-io-error-message-area.c:507
+#: ../scrivi/scrivi-io-error-message-area.c:794
+msgid "Edit Any_way"
+msgstr "_Ипак промени"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../scrivi/scrivi-io-error-message-area.c:512
+#: ../scrivi/scrivi-io-error-message-area.c:799
+msgid "D_on't Edit"
+msgstr "_Не мењај"
+
+#: ../scrivi/scrivi-io-error-message-area.c:620
+msgid ""
+"The number of followed links is limited and the actual file could not be "
+"found within this limit."
+msgstr "Не могу да нађем тражену датотеку јер је број веза за праћење ограничен."
+
+#: ../scrivi/scrivi-io-error-message-area.c:624
+msgid "You do not have the permissions necessary to open the file."
+msgstr "Немате потребне дозволе да отворите датотеку."
+
+#: ../scrivi/scrivi-io-error-message-area.c:630
+msgid "scrivi has not been able to detect the character encoding."
+msgstr "Не могу да препознам кодирање знакова."
+
+#: ../scrivi/scrivi-io-error-message-area.c:632
+#: ../scrivi/scrivi-io-error-message-area.c:654
+msgid "Please check that you are not trying to open a binary file."
+msgstr "Проверите да не покушавате да отворите извршну датотеку."
+
+#: ../scrivi/scrivi-io-error-message-area.c:633
+msgid "Select a character encoding from the menu and try again."
+msgstr "Изаберите кодирање знакова из изборника и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:639
+#, c-format
+msgid "There was a problem opening the file %s."
+msgstr "Дошло је до грешке при отварању датотеке „%s“."
+
+#: ../scrivi/scrivi-io-error-message-area.c:641
+msgid ""
+"The file you opened has some invalid characters. If you continue editing "
+"this file you could make this document useless."
+msgstr "Датотека коју сте отворили има неке неисправне знакове. Ако наставите да уређујете ову датотеку, можете да је оштетите."
+
+#: ../scrivi/scrivi-io-error-message-area.c:644
+msgid "You can also choose another character encoding and try again."
+msgstr "Изаберите кодирање знакова из изборника и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:651
+#, c-format
+msgid "Could not open the file %s using the %s character encoding."
+msgstr "Не могу да отворим датотеку „%s“ помоћу кодирања знакова „%s“."
+
+#: ../scrivi/scrivi-io-error-message-area.c:655
+#: ../scrivi/scrivi-io-error-message-area.c:730
+msgid "Select a different character encoding from the menu and try again."
+msgstr "Изаберите неко друго кодирање знакова из изборника и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:665
+#, c-format
+msgid "Could not open the file %s."
+msgstr "Не могу да отворим датотеку „%s“."
+
+#: ../scrivi/scrivi-io-error-message-area.c:725
+#, c-format
+msgid "Could not save the file %s using the %s character encoding."
+msgstr "Не могу да сачувам датотеку „%s“ користећи „%s“ кодирање знакова."
+
+#: ../scrivi/scrivi-io-error-message-area.c:728
+msgid ""
+"The document contains one or more characters that cannot be encoded using "
+"the specified character encoding."
+msgstr "Документ садржи један или више знакова који не могу бити претворени коришћењем задатог кодног записа знакова."
+
+#: ../scrivi/scrivi-io-error-message-area.c:818
+#, c-format
+msgid "This file (%s) is already open in another scrivi window."
+msgstr "Ова датотека „%s“ је већ отворена у другом прозору."
+
+#: ../scrivi/scrivi-io-error-message-area.c:836
+msgid ""
+"scrivi opened this instance of the file in a non-editable way. Do you want to"
+" edit it anyway?"
+msgstr "Програм је отворио овај примерак документа тако да мењање садржаја није могуће. Да ли и поред тога желите да мењате садржај?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:899
+#: ../scrivi/scrivi-io-error-message-area.c:1007
+msgid "S_ave Anyway"
+msgstr "С_ачувај и поред тога"
+
+#: ../scrivi/scrivi-io-error-message-area.c:903
+#: ../scrivi/scrivi-io-error-message-area.c:1011
+msgid "D_on't Save"
+msgstr "_Немој сачувати"
+
+#. FIXME: review this message, it's not clear since for the user the
+#. "modification"
+#. could be interpreted as the changes he made in the document. beside
+#. "reading" is
+#. not accurate (since last load/save)
+#: ../scrivi/scrivi-io-error-message-area.c:925
+#, c-format
+msgid "The file %s has been modified since reading it."
+msgstr "Датотека „%s“ је измењена након што сте је учитали."
+
+#: ../scrivi/scrivi-io-error-message-area.c:944
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
+msgstr "Ако је сачувате, све спољне измене могу бити изгубљене. Сачуваћете је и поред тога?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1033
+#, c-format
+msgid "Could not create a backup file while saving %s"
+msgstr "Не могу да направим резерву након чувања документа „%s“"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1036
+#, c-format
+msgid "Could not create a temporary backup file while saving %s"
+msgstr "Не могу да направим привремену резерву датотеке приликом чувања документа „%s“"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1056
+msgid ""
+"scrivi could not back up the old copy of the file before saving the new one. "
+"You can ignore this warning and save the file anyway, but if an error occurs"
+" while saving, you could lose the old copy of the file. Save anyway?"
+msgstr "Не могу да направим резерву старог документа пре чувања новог. Можете занемарити ово упозорење и сачувати нови документ и поред тога, али уколико дође до грешке приликом чувања, можете да изгубите стари примерак документа. Да ипак сачувам документ?"
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../scrivi/scrivi-io-error-message-area.c:1120
+#, c-format
+msgid ""
+"scrivi cannot handle %s locations in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr "Не могу да радим са „%s“ путањама у режиму уписа. Проверите да ли сте унели исправну путању и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1128
+msgid ""
+"scrivi cannot handle this location in write mode. Please check that you typed"
+" the location correctly and try again."
+msgstr "Не могу да радим са овим путањама у режиму уписа. Проверите да ли сте унели исправну путању и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1137
+#, c-format
+msgid ""
+"%s is not a valid location. Please check that you typed the location "
+"correctly and try again."
+msgstr "„%s“ није исправна путања. Проверите да ли сте унели исправну путању и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1143
+msgid ""
+"You do not have the permissions necessary to save the file. Please check "
+"that you typed the location correctly and try again."
+msgstr "Немате неопходне дозволе да сачувате датотеку. Проверите да ли сте унели исправну путању и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1149
+msgid ""
+"There is not enough disk space to save the file. Please free some disk space"
+" and try again."
+msgstr "Нема довољно простора на диску да сачувате датотеку. Ослободите простор на диску и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1154
+msgid ""
+"You are trying to save the file on a read-only disk. Please check that you "
+"typed the location correctly and try again."
+msgstr "Покушавате да сачувате датотеку на диску на којем упис није дозвољен. Проверите да ли сте путању укуцали исправно и покушајте поново."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1160
+msgid "A file with the same name already exists. Please use a different name."
+msgstr "Постоји још једна датотека са истим називом. Користите неки други назив."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1165
+msgid ""
+"The disk where you are trying to save the file has a limitation on length of"
+" the file names. Please use a shorter name."
+msgstr "Диск на који покушавате да сачувате датотеку има ограничење на дужину назива датотека. Употребите краћи назив."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1172
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes. Please try saving a smaller file or saving it to a disk that does not"
+" have this limitation."
+msgstr "Диск на који покушавате да сачувате датотеку ограничава одређену величину датотеке. Сачувајте мању датотеку или је сачувате на неки други диск који нема ово ограничење."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1188
+#, c-format
+msgid "Could not save the file %s."
+msgstr "Не могу да сачувам датотеку „%s“."
+
+#. FIXME: review this message, it's not clear since for the user the
+#. "modification"
+#. could be interpreted as the changes he made in the document. beside
+#. "reading" is
+#. not accurate (since last load/save)
+#: ../scrivi/scrivi-io-error-message-area.c:1232
+#, c-format
+msgid "The file %s changed on disk."
+msgstr "Садржај датотеке „%s“ је измењен на диску."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1237
+msgid "Do you want to drop your changes and reload the file?"
+msgstr "Да ли желите да одбаците измене и поново учитате датотеку?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1239
+msgid "Do you want to reload the file?"
+msgstr "Да ли желите поново да учитате датотеку?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1244
+msgid "_Reload"
+msgstr "_Поново учитај"
+
+#: ../scrivi/scrivi-panel.c:372 ../scrivi/scrivi-panel.c:549
+msgid "Empty"
+msgstr "Празно"
+
+#: ../scrivi/scrivi-panel.c:439
+msgid "Hide panel"
+msgstr "Сакриј панел"
+
+#: ../scrivi/scrivi-plugin-manager.c:54
+msgid "Plugin"
+msgstr "Прикључци"
+
+#: ../scrivi/scrivi-plugin-manager.c:55
+msgid "Enabled"
+msgstr "Укључено"
+
+#: ../scrivi/scrivi-plugin-manager.c:508
+msgid "_About"
+msgstr "_О програму"
+
+#: ../scrivi/scrivi-plugin-manager.c:516
+msgid "C_onfigure"
+msgstr "П_одеси"
+
+#: ../scrivi/scrivi-plugin-manager.c:525
+msgid "A_ctivate"
+msgstr "_Покрени"
+
+#: ../scrivi/scrivi-plugin-manager.c:536
+msgid "Ac_tivate All"
+msgstr "Покрени _све"
+
+#: ../scrivi/scrivi-plugin-manager.c:541
+msgid "_Deactivate All"
+msgstr "_Искључи све"
+
+#: ../scrivi/scrivi-plugin-manager.c:811
+msgid "Active _Plugins:"
+msgstr "Покренути _прикључци:"
+
+#: ../scrivi/scrivi-plugin-manager.c:844
+msgid "_About Plugin"
+msgstr "_О прикључку"
+
+#: ../scrivi/scrivi-plugin-manager.c:848
+msgid "C_onfigure Plugin"
+msgstr "П_одесите прикључак"
+
+#: ../scrivi/scrivi-print-job.c:551
+#, c-format
+msgid "File: %s"
+msgstr "Датотека: %s"
+
+#: ../scrivi/scrivi-print-job.c:560
+msgid "Page %N of %Q"
+msgstr "Страница %N од %Q"
+
+#: ../scrivi/scrivi-print-job.c:817
+msgid "Preparing..."
+msgstr "Припремам..."
+
+#: ../scrivi/scrivi-print-preferences.ui.h:1
+msgid "Syntax Highlighting"
+msgstr "Истицање синтаксе"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:2
+msgid "Print synta_x highlighting"
+msgstr "Штампај истицање _синтаксе"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:4
+msgid "Print line nu_mbers"
+msgstr "Испиши бројеве _редова"
+
+#. 'Number every' from 'Number every 3 lines' in the 'Text Editor' tab of the
+#. print preferences.
+#: ../scrivi/scrivi-print-preferences.ui.h:6
+msgid "_Number every"
+msgstr "Испиши _број након"
+
+#. 'lines' from 'Number every 3 lines' in the 'Text Editor' tab of the print
+#. preferences.
+#: ../scrivi/scrivi-print-preferences.ui.h:8
+msgid "lines"
+msgstr "редова"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:12
+msgid "Page header"
+msgstr "Заглавље стране"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:13
+msgid "Print page _headers"
+msgstr "Испиши _заглавља страница"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:14
+msgid "Fonts"
+msgstr "Словни ликови"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:15
+msgid "_Body:"
+msgstr "Те_ло:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:16
+msgid "_Line numbers:"
+msgstr "Бројеви _редова:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:17
+msgid "He_aders and footers:"
+msgstr "За_главља и подножја:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:18
+msgid "_Restore Default Fonts"
+msgstr "Пов_рати основне словне ликове"
+
+#: ../scrivi/scrivi-print-preview.c:572
+msgid "Show the previous page"
+msgstr "Прикажите претходну страницу"
+
+#: ../scrivi/scrivi-print-preview.c:584
+msgid "Show the next page"
+msgstr "Прикажите следећу страницу"
+
+#: ../scrivi/scrivi-print-preview.c:600
+msgid "Current page (Alt+P)"
+msgstr "Текућа страница (Алт+П)"
+
+#. Translators: the "of" from "1 of 19" in print preview.
+#: ../scrivi/scrivi-print-preview.c:623
+msgid "of"
+msgstr "од"
+
+#: ../scrivi/scrivi-print-preview.c:631
+msgid "Page total"
+msgstr "Укупан број страна"
+
+#: ../scrivi/scrivi-print-preview.c:632
+msgid "The total number of pages in the document"
+msgstr "Укупан број страна у документу"
+
+#: ../scrivi/scrivi-print-preview.c:649
+msgid "Show multiple pages"
+msgstr "Прикажите више страница одједном"
+
+#: ../scrivi/scrivi-print-preview.c:662
+msgid "Zoom 1:1"
+msgstr "Увећај 1:1"
+
+#: ../scrivi/scrivi-print-preview.c:671
+msgid "Zoom to fit the whole page"
+msgstr "Увећајте да испуни целу страницу"
+
+#: ../scrivi/scrivi-print-preview.c:680
+msgid "Zoom the page in"
+msgstr "Увећајте страницу"
+
+#: ../scrivi/scrivi-print-preview.c:689
+msgid "Zoom the page out"
+msgstr "Умањите страницу"
+
+#: ../scrivi/scrivi-print-preview.c:701
+msgid "_Close Preview"
+msgstr "_Затвори преглед штампе"
+
+#: ../scrivi/scrivi-print-preview.c:704
+msgid "Close print preview"
+msgstr "Затворите преглед пред штампу"
+
+#: ../scrivi/scrivi-print-preview.c:774
+#, c-format
+msgid "Page %d of %d"
+msgstr "Страница %d од %d"
+
+#: ../scrivi/scrivi-print-preview.c:958
+msgid "Page Preview"
+msgstr "Преглед пред штампу"
+
+#: ../scrivi/scrivi-print-preview.c:959
+msgid "The preview of a page in the document to be printed"
+msgstr "Прегледајте страницу документа коју желите да одштампате"
+
+#: ../scrivi/scrivi-smart-charset-converter.c:319
+msgid "It is not possible to detect the encoding automatically"
+msgstr "Није могуће самостално откривање кодирања"
+
+#: ../scrivi/scrivi-statusbar.c:74 ../scrivi/scrivi-statusbar.c:80
+msgid "OVR"
+msgstr "ПРЕП"
+
+#: ../scrivi/scrivi-statusbar.c:74 ../scrivi/scrivi-statusbar.c:80
+msgid "INS"
+msgstr "УБАЦ"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for
+#. "Column". Please,
+#. use abbreviations if possible to avoid space problems.
+#: ../scrivi/scrivi-statusbar.c:266
+#, c-format
+msgid "  Ln %d, Col %d"
+msgstr "  %d. ред, %d. кол"
+
+#: ../scrivi/scrivi-statusbar.c:367
+#, c-format
+msgid "There is a tab with errors"
+msgid_plural "There are %d tabs with errors"
+msgstr[0] "Постоје грешке у %d листу"
+msgstr[1] "Постоје грешке у %d листа"
+msgstr[2] "Постоје грешке у %d листова"
+
+#: ../scrivi/scrivi-style-scheme-manager.c:220
+#, c-format
+msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr "Не могу да направим фасциклу „%s“: „g_mkdir_with_parents()“ позив није успео: %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:664
+#, c-format
+msgid "Reverting %s from %s"
+msgstr "Враћам документ „%s“ из фасцикле „%s“"
+
+#: ../scrivi/scrivi-tab.c:671
+#, c-format
+msgid "Reverting %s"
+msgstr "Враћам документ „%s“"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:687
+#, c-format
+msgid "Loading %s from %s"
+msgstr "Учитавам документ „%s“ из фасцикле „%s“"
+
+#: ../scrivi/scrivi-tab.c:694
+#, c-format
+msgid "Loading %s"
+msgstr "Учитавам „%s“"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:777
+#, c-format
+msgid "Saving %s to %s"
+msgstr "Чувам документ „%s“ у фацикли „%s“"
+
+#: ../scrivi/scrivi-tab.c:784
+#, c-format
+msgid "Saving %s"
+msgstr "Чувам „%s“"
+
+#. Read only
+#: ../scrivi/scrivi-tab.c:1662
+msgid "RO"
+msgstr "СЧ"
+
+#: ../scrivi/scrivi-tab.c:1709
+#, c-format
+msgid "Error opening file %s"
+msgstr "Грешка отварања датотеке „%s“"
+
+#: ../scrivi/scrivi-tab.c:1714
+#, c-format
+msgid "Error reverting file %s"
+msgstr "Не могу да повратим документ „%s“"
+
+#: ../scrivi/scrivi-tab.c:1719
+#, c-format
+msgid "Error saving file %s"
+msgstr "Грешка чувања датотеке „%s“"
+
+#: ../scrivi/scrivi-tab.c:1740
+msgid "Unicode (UTF-8)"
+msgstr "Уникод (УТФ-8)"
+
+#: ../scrivi/scrivi-tab.c:1747
+msgid "Name:"
+msgstr "Назив:"
+
+#: ../scrivi/scrivi-tab.c:1748
+msgid "MIME Type:"
+msgstr "МИМЕ врста:"
+
+#: ../scrivi/scrivi-tab.c:1749
+msgid "Encoding:"
+msgstr "Кодирање:"
+
+#: ../scrivi/scrivi-tab-label.c:285
+msgid "Close document"
+msgstr "Затвори документ"
+
+#. Toplevel
+#: ../scrivi/scrivi-ui.h:47
+msgid "_File"
+msgstr "_Датотека"
+
+#: ../scrivi/scrivi-ui.h:48
+msgid "_Edit"
+msgstr "_Уреди"
+
+#: ../scrivi/scrivi-ui.h:49
+msgid "_View"
+msgstr "Пре_глед"
+
+#: ../scrivi/scrivi-ui.h:50
+msgid "_Search"
+msgstr "_Потражи"
+
+#: ../scrivi/scrivi-ui.h:51
+msgid "_Tools"
+msgstr "_Алати"
+
+#: ../scrivi/scrivi-ui.h:52
+msgid "_Documents"
+msgstr "_Документи"
+
+#: ../scrivi/scrivi-ui.h:53
+msgid "_Help"
+msgstr "По_моћ"
+
+#: ../scrivi/scrivi-ui.h:57
+msgid "Create a new document"
+msgstr "Направите нови документ"
+
+#: ../scrivi/scrivi-ui.h:58
+msgid "_Open..."
+msgstr "_Отвори..."
+
+#: ../scrivi/scrivi-ui.h:59 ../scrivi/scrivi-window.c:1390
+msgid "Open a file"
+msgstr "Отворите датотеку"
+
+#. Edit menu
+#: ../scrivi/scrivi-ui.h:62
+msgid "Pr_eferences"
+msgstr "_Поставке"
+
+#: ../scrivi/scrivi-ui.h:63
+msgid "Configure the application"
+msgstr "Подесите програм"
+
+#. Help menu
+#: ../scrivi/scrivi-ui.h:66
+msgid "_Contents"
+msgstr "_Садржај"
+
+#: ../scrivi/scrivi-ui.h:67
+msgid "Open the scrivi manual"
+msgstr "Отворите упутство плуме"
+
+#: ../scrivi/scrivi-ui.h:69
+msgid "About this application"
+msgstr "О овом програму"
+
+#: ../scrivi/scrivi-ui.h:73
+msgid "Leave fullscreen mode"
+msgstr "Напустите цео екран"
+
+#: ../scrivi/scrivi-ui.h:81
+msgid "Save the current file"
+msgstr "Сачувајте тренутну датотеку"
+
+#: ../scrivi/scrivi-ui.h:82
+msgid "Save _As..."
+msgstr "Сачувај _као..."
+
+#: ../scrivi/scrivi-ui.h:83
+msgid "Save the current file with a different name"
+msgstr "Сачувајте текућу датотеку под другим називом"
+
+#: ../scrivi/scrivi-ui.h:85
+msgid "Revert to a saved version of the file"
+msgstr "Врати на сачувано издање датотеке"
+
+#: ../scrivi/scrivi-ui.h:86
+msgid "Print Previe_w"
+msgstr "Преглед пред _штампу"
+
+#: ../scrivi/scrivi-ui.h:87
+msgid "Print preview"
+msgstr "Прегледајте страну пре штампања"
+
+#: ../scrivi/scrivi-ui.h:88
+msgid "_Print..."
+msgstr "_Штампај..."
+
+#: ../scrivi/scrivi-ui.h:89
+msgid "Print the current page"
+msgstr "Одштампајте текућу страницу"
+
+#: ../scrivi/scrivi-ui.h:93
+msgid "Undo the last action"
+msgstr "Опозовите последњу радњу"
+
+#: ../scrivi/scrivi-ui.h:95
+msgid "Redo the last undone action"
+msgstr "Поновите последњу опозвану радњу"
+
+#: ../scrivi/scrivi-ui.h:97
+msgid "Cut the selection"
+msgstr "Исеците избор"
+
+#: ../scrivi/scrivi-ui.h:99
+msgid "Copy the selection"
+msgstr "Умножите избор"
+
+#: ../scrivi/scrivi-ui.h:101
+msgid "Paste the clipboard"
+msgstr "Убаците из списка исечака"
+
+#: ../scrivi/scrivi-ui.h:103
+msgid "Delete the selected text"
+msgstr "Обришите изабрани текст"
+
+#: ../scrivi/scrivi-ui.h:104
+msgid "Select _All"
+msgstr "Изабери _све"
+
+#: ../scrivi/scrivi-ui.h:105
+msgid "Select the entire document"
+msgstr "Изаберите читав документ"
+
+#. View menu
+#: ../scrivi/scrivi-ui.h:108
+msgid "_Highlight Mode"
+msgstr "_Режим истицања"
+
+#. Search menu
+#: ../scrivi/scrivi-ui.h:111
+msgid "_Find..."
+msgstr "_Нађи..."
+
+#: ../scrivi/scrivi-ui.h:112
+msgid "Search for text"
+msgstr "Потражите текст"
+
+#: ../scrivi/scrivi-ui.h:113
+msgid "Find Ne_xt"
+msgstr "Нађи _следеће"
+
+#: ../scrivi/scrivi-ui.h:114
+msgid "Search forwards for the same text"
+msgstr "Потражите исти текст унапред"
+
+#: ../scrivi/scrivi-ui.h:115
+msgid "Find Pre_vious"
+msgstr "Нађи _претходно"
+
+#: ../scrivi/scrivi-ui.h:116
+msgid "Search backwards for the same text"
+msgstr "Потражите исти текст уназад"
+
+#: ../scrivi/scrivi-ui.h:117
+msgid "_Replace..."
+msgstr "Зам_ени..."
+
+#: ../scrivi/scrivi-ui.h:118
+msgid "Search for and replace text"
+msgstr "Потражите и замените жељени текст"
+
+#: ../scrivi/scrivi-ui.h:119
+msgid "_Clear Highlight"
+msgstr "Уклони _истицање"
+
+#: ../scrivi/scrivi-ui.h:120
+msgid "Clear highlighting of search matches"
+msgstr "Уклоните истицање пронађеног текста"
+
+#: ../scrivi/scrivi-ui.h:121
+msgid "Go to _Line..."
+msgstr "_Иди на ред..."
+
+#: ../scrivi/scrivi-ui.h:122
+msgid "Go to a specific line"
+msgstr "Идите на одређени ред у тексту"
+
+#: ../scrivi/scrivi-ui.h:123
+msgid "_Incremental Search..."
+msgstr "_Повећавајућа претрага..."
+
+#: ../scrivi/scrivi-ui.h:124
+msgid "Incrementally search for text"
+msgstr "Потражите текст са повећањем"
+
+#. Documents menu
+#: ../scrivi/scrivi-ui.h:127
+msgid "_Save All"
+msgstr "_Сачувај све"
+
+#: ../scrivi/scrivi-ui.h:128
+msgid "Save all open files"
+msgstr "Сачувајте све отворене датотеке"
+
+#: ../scrivi/scrivi-ui.h:129
+msgid "_Close All"
+msgstr "_Затвори све"
+
+#: ../scrivi/scrivi-ui.h:130
+msgid "Close all open files"
+msgstr "Затворите све отворене датотеке"
+
+#: ../scrivi/scrivi-ui.h:131
+msgid "_Previous Document"
+msgstr "_Претходни документ"
+
+#: ../scrivi/scrivi-ui.h:132
+msgid "Activate previous document"
+msgstr "Прикажите претходни документ"
+
+#: ../scrivi/scrivi-ui.h:133
+msgid "_Next Document"
+msgstr "_Наредни документ"
+
+#: ../scrivi/scrivi-ui.h:134
+msgid "Activate next document"
+msgstr "Прикажите наредни документ"
+
+#: ../scrivi/scrivi-ui.h:135
+msgid "_Move to New Window"
+msgstr "Премести у _нови прозор"
+
+#: ../scrivi/scrivi-ui.h:136
+msgid "Move the current document to a new window"
+msgstr "Преместите тренутни документ у нови прозор"
+
+#: ../scrivi/scrivi-ui.h:143
+msgid "Close the current file"
+msgstr "Затворите тренутну датотеку"
+
+#: ../scrivi/scrivi-ui.h:150
+msgid "Quit the program"
+msgstr "Затворите програм"
+
+#: ../scrivi/scrivi-ui.h:155
+msgid "_Toolbar"
+msgstr "Трака _алата"
+
+#: ../scrivi/scrivi-ui.h:156
+msgid "Show or hide the toolbar in the current window"
+msgstr "Прикажите или сакријте траку алата у тренутном прозору"
+
+#: ../scrivi/scrivi-ui.h:158
+msgid "_Statusbar"
+msgstr "Трака _стања"
+
+#: ../scrivi/scrivi-ui.h:159
+msgid "Show or hide the statusbar in the current window"
+msgstr "Прикажите или сакријте траку стања у тренутном прозору"
+
+#: ../scrivi/scrivi-ui.h:162
+msgid "Edit text in fullscreen"
+msgstr "Уређујте текст преко целог екрана"
+
+#: ../scrivi/scrivi-ui.h:169
+msgid "Side _Pane"
+msgstr "Бочна _површ"
+
+#: ../scrivi/scrivi-ui.h:170
+msgid "Show or hide the side pane in the current window"
+msgstr "Прикажите или сакријте бочну површ у тренутном прозору"
+
+#: ../scrivi/scrivi-ui.h:172
+msgid "_Bottom Pane"
+msgstr "_Доња површ"
+
+#: ../scrivi/scrivi-ui.h:173
+msgid "Show or hide the bottom pane in the current window"
+msgstr "Прикажите или сакријте доњу површ у тренутном прозору"
+
+#: ../scrivi/scrivi-utils.c:1100
+msgid "Please check your installation."
+msgstr "Проверите вашу инсталацију."
+
+#: ../scrivi/scrivi-utils.c:1177
+#, c-format
+msgid "Unable to open UI file %s. Error: %s"
+msgstr "Не могу да отворим датотеку сучеља „%s“. Грешка: %s"
+
+#: ../scrivi/scrivi-utils.c:1197
+#, c-format
+msgid "Unable to find the object '%s' inside file %s."
+msgstr "Не могу да пронађем предмет „%s“ унутар датотеке %s."
+
+#. Translators: '/ on <remote-share>'
+#: ../scrivi/scrivi-utils.c:1357
+#, c-format
+msgid "/ on %s"
+msgstr "/ на „%s“"
+
+#. create "Wrap Around" menu item.
+#: ../scrivi/scrivi-view.c:1261
+msgid "_Wrap Around"
+msgstr "Преламај _около"
+
+#. create "Match Entire Word Only" menu item.
+#: ../scrivi/scrivi-view.c:1271
+msgid "Match _Entire Word Only"
+msgstr "Упореди само целе _речи"
+
+#. create "Match Case" menu item.
+#: ../scrivi/scrivi-view.c:1281
+msgid "_Match Case"
+msgstr "Упореди _величину слова"
+
+#. create "Parse escapes" menu item.
+#: ../scrivi/scrivi-view.c:1291
+msgid ""
+"_Parse escape sequences (e.g. \n"
+")"
+msgstr "_Обради низове промене (нпр. \n)"
+
+#: ../scrivi/scrivi-view.c:1405
+msgid "String you want to search for"
+msgstr "Ниска коју желите да потражите"
+
+#: ../scrivi/scrivi-view.c:1414
+msgid "Line you want to move the cursor to"
+msgstr "Ред на који желите да поставите курсор"
+
+#: ../scrivi/scrivi-window.c:943
+#, c-format
+msgid "Use %s highlight mode"
+msgstr "Користи „%s“ режим истицања"
+
+#. add the "Plain Text" item before all the others
+#. Translators: "Plain Text" means that no highlight mode is selected in the
+#. * "View->Highlight Mode" submenu and so syntax highlighting is disabled
+#: ../scrivi/scrivi-window.c:1000 ../scrivi/scrivi-window.c:1892
+#: ../plugins/externaltools/tools/manager.py:121
+#: ../plugins/externaltools/tools/manager.py:419
+#: ../plugins/externaltools/tools/manager.py:529
+#: ../plugins/externaltools/tools/manager.py:844
+msgid "Plain Text"
+msgstr "Обичан текст"
+
+#: ../scrivi/scrivi-window.c:1001
+msgid "Disable syntax highlighting"
+msgstr "Искључивање истицања синтаксе"
+
+#. Translators: %s is a URI
+#: ../scrivi/scrivi-window.c:1287
+#, c-format
+msgid "Open '%s'"
+msgstr "Отвори „%s“"
+
+#: ../scrivi/scrivi-window.c:1392
+msgid "Open a recently used file"
+msgstr "Отворите скоро коришћену датотеку"
+
+#: ../scrivi/scrivi-window.c:1398
+msgid "Open"
+msgstr "Отвори"
+
+#: ../scrivi/scrivi-window.c:1456
+msgid "Save"
+msgstr "Сачувај"
+
+#: ../scrivi/scrivi-window.c:1458
+msgid "Print"
+msgstr "Штампај"
+
+#. Translators: %s is a URI
+#: ../scrivi/scrivi-window.c:1617
+#, c-format
+msgid "Activate '%s'"
+msgstr "Покрени „%s“"
+
+#: ../scrivi/scrivi-window.c:1870
+msgid "Use Spaces"
+msgstr "Користи размаке"
+
+#: ../scrivi/scrivi-window.c:1941
+msgid "Tab Width"
+msgstr "Ширина табулатора"
+
+#: ../plugins/changecase/changecase.scrivi-plugin.desktop.in.h:1
+msgid "Change Case"
+msgstr "Измени величину слова"
+
+#: ../plugins/changecase/changecase.scrivi-plugin.desktop.in.h:2
+msgid "Changes the case of selected text."
+msgstr "Измените величину слова изабраног текста."
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:222
+msgid "C_hange Case"
+msgstr "Измени величину _слова"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:223
+msgid "All _Upper Case"
+msgstr "Сва _велика слова"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:224
+msgid "Change selected text to upper case"
+msgstr "Пребаците изабрани текст у велика слова"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:226
+msgid "All _Lower Case"
+msgstr "Сва _мала слова"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:227
+msgid "Change selected text to lower case"
+msgstr "Пребаците изабрани текст у мала слова"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:229
+msgid "_Invert Case"
+msgstr "_Обрни величину слова"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:230
+msgid "Invert the case of selected text"
+msgstr "Обрните величину слова изабраног текста"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:232
+msgid "_Title Case"
+msgstr "Величина слова _наслова"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:233
+msgid "Capitalize the first letter of each selected word"
+msgstr "Испишите великим словом прво слово сваке изабране речи"
+
+#: ../plugins/docinfo/docinfo.scrivi-plugin.desktop.in.h:1
+#: ../plugins/docinfo/docinfo.ui.h:1
+msgid "Document Statistics"
+msgstr "Статистика документа"
+
+#: ../plugins/docinfo/docinfo.scrivi-plugin.desktop.in.h:2
+msgid ""
+"Analyzes the current document and reports the number of words, lines, "
+"characters and non-space characters in it."
+msgstr "Анализира тренутни документ и извештава о броју речи, редова, знакова, и знакова без размака."
+
+#: ../plugins/docinfo/docinfo.ui.h:2
+msgid "_Update"
+msgstr "_Освежи"
+
+#: ../plugins/docinfo/docinfo.ui.h:3
+msgid "File Name"
+msgstr "Назив датотеке"
+
+#: ../plugins/docinfo/docinfo.ui.h:5
+msgid "Bytes"
+msgstr "Бајтова"
+
+#: ../plugins/docinfo/docinfo.ui.h:6
+msgid "Characters (no spaces)"
+msgstr "Знакова (без размака)"
+
+#: ../plugins/docinfo/docinfo.ui.h:7
+msgid "Characters (with spaces)"
+msgstr "Знакова (са размацима)"
+
+#: ../plugins/docinfo/docinfo.ui.h:8
+msgid "Words"
+msgstr "Речи"
+
+#: ../plugins/docinfo/docinfo.ui.h:9
+msgid "Lines"
+msgstr "Редови"
+
+#: ../plugins/docinfo/docinfo.ui.h:10
+msgid "Document"
+msgstr "Документ"
+
+#: ../plugins/docinfo/docinfo.ui.h:11
+msgid "Selection"
+msgstr "Избор"
+
+#: ../plugins/docinfo/scrivi-docinfo-plugin.c:423
+msgid "_Document Statistics"
+msgstr "Статистика _документа"
+
+#: ../plugins/docinfo/scrivi-docinfo-plugin.c:425
+msgid "Get statistical information on the current document"
+msgstr "добавите статистичке податке о тренутном документу"
+
+#: ../plugins/externaltools/externaltools.scrivi-plugin.desktop.in.h:1
+msgid "External Tools"
+msgstr "Спољни алати"
+
+#: ../plugins/externaltools/externaltools.scrivi-plugin.desktop.in.h:2
+msgid "Execute external commands and shell scripts."
+msgstr "Извршава спољне наредбе и скрипте љуске."
+
+#: ../plugins/externaltools/tools/__init__.py:172
+msgid "Manage _External Tools..."
+msgstr "Управљај _спољним алатима..."
+
+#: ../plugins/externaltools/tools/__init__.py:174
+msgid "Opens the External Tools Manager"
+msgstr "Отвори управника спољним алатима"
+
+#: ../plugins/externaltools/tools/__init__.py:178
+msgid "External _Tools"
+msgstr "Спољни _алати"
+
+#: ../plugins/externaltools/tools/__init__.py:180
+msgid "External tools"
+msgstr "Спољни алати"
+
+#: ../plugins/externaltools/tools/__init__.py:212
+msgid "Shell Output"
+msgstr "Излаз љуске"
+
+#: ../plugins/externaltools/tools/capture.py:93
+#, python-format
+msgid "Could not execute command: %s"
+msgstr "Не могу да извршим наредбу: %s"
+
+#: ../plugins/externaltools/tools/functions.py:162
+msgid "You must be inside a word to run this command"
+msgstr "Морате бити унутар неке речи да бисте извршили ову наредбу"
+
+#: ../plugins/externaltools/tools/functions.py:267
+msgid "Running tool:"
+msgstr "Покренути алат:"
+
+#: ../plugins/externaltools/tools/functions.py:292
+msgid "Done."
+msgstr "Урађено."
+
+#: ../plugins/externaltools/tools/functions.py:294
+msgid "Exited"
+msgstr "Изашао"
+
+#: ../plugins/externaltools/tools/manager.py:119
+msgid "All languages"
+msgstr "Сви језици"
+
+#: ../plugins/externaltools/tools/manager.py:518
+#: ../plugins/externaltools/tools/manager.py:522
+#: ../plugins/externaltools/tools/manager.py:842
+#: ../plugins/externaltools/tools/tools.ui.h:22
+msgid "All Languages"
+msgstr "Сви језици"
+
+#: ../plugins/externaltools/tools/manager.py:628
+msgid "New tool"
+msgstr "Нови алат"
+
+#: ../plugins/externaltools/tools/manager.py:759
+#, python-format
+msgid "This accelerator is already bound to %s"
+msgstr "Ова пречица је већ везана за „%s“"
+
+#: ../plugins/externaltools/tools/manager.py:810
+msgid "Type a new accelerator, or press Backspace to clear"
+msgstr "Упишите нову пречицу или очистите тастером за брисање"
+
+#: ../plugins/externaltools/tools/manager.py:812
+msgid "Type a new accelerator"
+msgstr "Унесите нову пречицу"
+
+#: ../plugins/externaltools/tools/outputpanel.py:105
+msgid "Stopped."
+msgstr "Заустављен."
+
+#. ex:ts=4:et:
+#: ../plugins/externaltools/tools/tools.ui.h:1
+msgid "Nothing"
+msgstr "Ништа"
+
+#: ../plugins/externaltools/tools/tools.ui.h:2
+msgid "Current document"
+msgstr "Текући документ"
+
+#: ../plugins/externaltools/tools/tools.ui.h:3
+msgid "All documents"
+msgstr "Сви документи"
+
+#: ../plugins/externaltools/tools/tools.ui.h:4
+msgid "Current selection"
+msgstr "Тренутно изабрано"
+
+#: ../plugins/externaltools/tools/tools.ui.h:5
+msgid "Current selection (default to document)"
+msgstr "Тренутно изабрано (подразумевано у документу)"
+
+#: ../plugins/externaltools/tools/tools.ui.h:6
+msgid "Current line"
+msgstr "Текући ред"
+
+#: ../plugins/externaltools/tools/tools.ui.h:7
+msgid "Current word"
+msgstr "Текућа реч"
+
+#: ../plugins/externaltools/tools/tools.ui.h:8
+msgid "Display in bottom pane"
+msgstr "Прикажите у области на дну"
+
+#: ../plugins/externaltools/tools/tools.ui.h:9
+msgid "Create new document"
+msgstr "Направите нови документ"
+
+#: ../plugins/externaltools/tools/tools.ui.h:10
+msgid "Append to current document"
+msgstr "Припојте тренутном документу"
+
+#: ../plugins/externaltools/tools/tools.ui.h:11
+msgid "Replace current document"
+msgstr "Замените текући документ"
+
+#: ../plugins/externaltools/tools/tools.ui.h:12
+msgid "Replace current selection"
+msgstr "Замените тренутно означени текст"
+
+#: ../plugins/externaltools/tools/tools.ui.h:13
+msgid "Insert at cursor position"
+msgstr "Уметните на позицију курсора"
+
+#: ../plugins/externaltools/tools/tools.ui.h:14
+msgid "All documents except untitled ones"
+msgstr "Сви документи изузев оних без наслова"
+
+#: ../plugins/externaltools/tools/tools.ui.h:15
+msgid "Local files only"
+msgstr "Само локалне датотеке"
+
+#: ../plugins/externaltools/tools/tools.ui.h:16
+msgid "Remote files only"
+msgstr "Само удаљене датотеке"
+
+#: ../plugins/externaltools/tools/tools.ui.h:17
+msgid "Untitled documents only"
+msgstr "Само ненасловљени документи"
+
+#: ../plugins/externaltools/tools/tools.ui.h:18
+msgid "External Tools Manager"
+msgstr "Спољни управник алата"
+
+#: ../plugins/externaltools/tools/tools.ui.h:19
+msgid "_Tools:"
+msgstr "_Алати:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:20
+#: ../plugins/snippets/snippets/snippets.ui.h:7
+msgid "_Edit:"
+msgstr "_Уреди:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:23
+msgid "_Applicability:"
+msgstr "_Применљивост:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:24
+msgid "_Output:"
+msgstr "И_злаз:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:25
+msgid "_Input:"
+msgstr "У_лаз:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:26
+msgid "_Save:"
+msgstr "_Сачувај:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:27
+msgid "_Shortcut Key:"
+msgstr "Тастер _пречице:"
+
+#: ../plugins/externaltools/data/build.desktop.in.h:1
+msgid "Build"
+msgstr "Изгради"
+
+#: ../plugins/externaltools/data/build.desktop.in.h:2
+msgid "Run \"make\" in the document directory"
+msgstr "Изврши наредбу „make“ у фасцикли докумената"
+
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:1
+msgid "Open terminal here"
+msgstr "Овде отвори терминал"
+
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:2
+msgid "Open a terminal in the document location"
+msgstr "Отворите терминал са почетком у отвореној фасцикли"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:1
+msgid "Remove trailing spaces"
+msgstr "Уклони завршне размаке"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:2
+msgid "Remove useless trailing spaces in your file"
+msgstr "Уклања бескорисне размаке и празнине на крају реда у датотеци"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:1
+msgid "Run command"
+msgstr "Извршите наредбу"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:2
+msgid "Execute a custom command and put its output in a new document"
+msgstr "Покреће наредбу и смешта њен излаз у нови документ"
+
+#: ../plugins/externaltools/data/search-recursive.desktop.in.h:1
+msgid "Search"
+msgstr "Претрага"
+
+#: ../plugins/externaltools/data/switch-c.desktop.in.h:1
+msgid "Switch onto a file .c and .h"
+msgstr "Пребацује се на датотеку „.c“ и „.h“"
+
+#: ../plugins/filebrowser/filebrowser.scrivi-plugin.desktop.in.h:1
+msgid "File Browser Pane"
+msgstr "Површ прегледача датотека"
+
+#: ../plugins/filebrowser/filebrowser.scrivi-plugin.desktop.in.h:2
+msgid "Easy file access from the side pane"
+msgstr "Лак приступ датотекама из бочне области"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:1
+msgid "Set Location to First Document"
+msgstr "Постављање почетка на први документ"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:2
+msgid ""
+"If TRUE the file browser plugin will view the directory of the first opened "
+"document given that the file browser hasn't been used yet. (Thus this "
+"generally applies to opening a document from the command line or opening it "
+"with Caja, etc.)"
+msgstr "Ако је изабрано, прикључак за разгледање датотека ће приказати фасциклу документа који је први отворен, уколико прегледач није већ коришћен. (Ово се обично примењује приликом отврања документа из линије наредби, или у Цаји, итд.)"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:3
+msgid "File Browser Filter Mode"
+msgstr "Режим издвајања у прегледачу датотека"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:4
+msgid ""
+"This value determines what files get filtered from the file browser. Valid "
+"values are: none (filter nothing), hidden (filter hidden files), binary "
+"(filter binary files) and hidden_and_binary (filter both hidden and binary "
+"files)."
+msgstr "Ова вредност одређује које датотеке ће бити издвојене из прегледача датотека. Подржане вредности су: „none“ (без издвајања), „hidden“ (издвајаће скривене датотеке), „binary“ (издвајаће извршне датотеке) и „hidden-and-binar“ (издвајаће скривене и извршне датотеке)."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:5
+msgid "File Browser Filter Pattern"
+msgstr "Образац пропусника у прегледачу датотека"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:6
+msgid ""
+"The filter pattern to filter the file browser with. This filter works on top"
+" of the filter_mode."
+msgstr "Образац пропусника за примену у прегледнику датотека. Овај пропусник ради по режиму из „filter_mode“."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:7
+msgid "Open With Tree View"
+msgstr "Отварање у прегледу стаблом"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:8
+msgid ""
+"Open the tree view when the file browser plugin gets loaded instead of the "
+"bookmarks view"
+msgstr "Приказује стабло када се учита прикључак прегледача датотека уместо прегледа обележивача"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:9
+msgid "File Browser Root Directory"
+msgstr "Корени директоријум у прегледачу датотека"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:10
+msgid ""
+"The file browser root directory to use when loading the file browser plugin "
+"and onload/tree_view is TRUE."
+msgstr "Корени директоријум прегледника датотека који ће бити коришћен приликом учитавања прикључка прегледника датотека и када је изабрано „onload/tree_view“."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:11
+msgid "File Browser Virtual Root Directory"
+msgstr "Замишљени корени директоријум у прегледачу датотека"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:12
+msgid ""
+"The file browser virtual root directory to use when loading the file browser"
+" plugin when onload/tree_view is TRUE. The virtual root must always be below"
+" the actual root."
+msgstr "Виртуелни корени директоријум прегледника датотека који ће бити коришћен приликом учитавања прикључка прегледника датотека и када је изабрано „onload/tree_view“. Виртуелни корени директоријум мора увек бити унутар стварног."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:13
+msgid "Enable Restore of Remote Locations"
+msgstr "Омогући обнављање удаљених локација"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:14
+msgid "Sets whether to enable restoring of remote locations."
+msgstr "Да ли треба омогућити обнављање удаљених локација."
+
+#: ../plugins/filebrowser/scrivi-file-bookmarks-store.c:235
+msgid "File System"
+msgstr "Систем датотека"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:537
+msgid "_Set root to active document"
+msgstr "_Постави корен на текући документ"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:539
+msgid "Set the root to the active document location"
+msgstr "Отворите терминал са почетком у отвореној фасцикли"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:544
+msgid "_Open terminal here"
+msgstr "_Овде отвори терминал"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:546
+msgid "Open a terminal at the currently opened directory"
+msgstr "Отворите терминал са почетком у отвореној фасцикли"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:688
+msgid "File Browser"
+msgstr "Прегледач датотека"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:818
+msgid "An error occurred while creating a new directory"
+msgstr "Дошло је до грешке при прављењу нове фасцикле"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:821
+msgid "An error occurred while creating a new file"
+msgstr "Дошло је до грешке при прављењу нове датотеке"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:826
+msgid "An error occurred while renaming a file or directory"
+msgstr "Дошло је до грешке при преименовању датотеке или фасцикле"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:831
+msgid "An error occurred while deleting a file or directory"
+msgstr "Дошло је до грешке при брисању датотеке или фасцикле"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:836
+msgid "An error occurred while opening a directory in the file manager"
+msgstr "Дошло је до грешке при отварању фасцикле у прегледачу датотека"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:840
+msgid "An error occurred while setting a root directory"
+msgstr "Дошло је до грешке при постављању коренске фасцикле"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:844
+msgid "An error occurred while loading a directory"
+msgstr "Дошло је до грешке током учитавања фасцикле"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:847
+msgid "An error occurred"
+msgstr "Дошло је до грешке"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1078
+msgid ""
+"Cannot move file to trash, do you\n"
+"want to delete permanently?"
+msgstr "Не могу да преместим датотеку у смеће.\nДа ли желите да је обришете трајно?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1082
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash."
+msgstr "Датотека „%s“ не може бити премештена у смеће."
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1085
+msgid "The selected files cannot be moved to the trash."
+msgstr "Одабрана датотека не може бити премештена у смеће."
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1118
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "Да ли сигурно желите да трајно обришете „%s“?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1121
+msgid "Are you sure you want to permanently delete the selected files?"
+msgstr "Да ли сигурно желите да трајно обришете одабране датотеке?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1124
+msgid "If you delete an item, it is permanently lost."
+msgstr "Уколико обришете неку ставку, биће заувек изгубљена."
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:1667
+msgid "(Empty)"
+msgstr "(Празно)"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3305
+msgid ""
+"The renamed file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr "Преименована датотека је одстрањена пропусником. Морате прилагодити подешавања пропуштања како бисте је учинили видљивом."
+
+#. Translators: This is the default name of new files created by the file
+#. browser pane.
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3544
+msgid "file"
+msgstr "датотека"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3568
+msgid ""
+"The new file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr "Нова датотека је одстрањена пропусником. Морате прилагодити подешавања пропуштања како бисте је учинили видљивом."
+
+#. Translators: This is the default name of new directories created by the
+#. file browser pane.
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3597
+msgid "directory"
+msgstr "фасцикла"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3617
+msgid ""
+"The new directory is currently filtered out. You need to adjust your filter "
+"settings to make the directory visible"
+msgstr "Нови директоријум је одстрањен пропусником. Морате прилагодити подешавања пропуштања како бисте га учинили видљивим."
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:724
+msgid "Bookmarks"
+msgstr "Обележивачи"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:805
+msgid "_Filter"
+msgstr "_Издвој"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:810
+msgid "_Move to Trash"
+msgstr "Премести у _смеће"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:811
+msgid "Move selected file or folder to trash"
+msgstr "Преместите изабрану датотеку или фасциклу у смеће"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:813
+msgid "_Delete"
+msgstr "_Избриши"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:814
+msgid "Delete selected file or folder"
+msgstr "Избришите изабрану датотеку или фасциклу"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:821
+msgid "Open selected file"
+msgstr "Отворите изабрану датотеку"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:827
+msgid "Up"
+msgstr "Горе"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:828
+msgid "Open the parent folder"
+msgstr "Отворите полазну фасциклу"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:833
+msgid "_New Folder"
+msgstr "Нова _фасцикла"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:834
+msgid "Add new empty folder"
+msgstr "Додајте нову празну фасциклу"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:836
+msgid "New F_ile"
+msgstr "Нова _датотека"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:837
+msgid "Add new empty file"
+msgstr "Додајте нову празну датотеку"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:842
+msgid "_Rename"
+msgstr "_Преименуј"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:843
+msgid "Rename selected file or folder"
+msgstr "Преименујте изабрану датотеку или фасциклу"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:849
+msgid "_Previous Location"
+msgstr "_Претходна путања"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:851
+msgid "Go to the previous visited location"
+msgstr "Идите на претходно посећено место"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:853
+msgid "_Next Location"
+msgstr "_Наредна путања"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:854
+msgid "Go to the next visited location"
+msgstr "Идите на следеће посећено место"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:855
+msgid "Re_fresh View"
+msgstr "_Освежи преглед"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:856
+msgid "Refresh the view"
+msgstr "Освежите преглед"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:857
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:875
+msgid "_View Folder"
+msgstr "_Прикажи фасциклу"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:858
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:876
+msgid "View folder in file manager"
+msgstr "Прикажите фасциклу у прегледнику датотека"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:865
+msgid "Show _Hidden"
+msgstr "Прикажи _скривене"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:866
+msgid "Show hidden files and folders"
+msgstr "Прикажите сакривене датотеке и фасцикле"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:868
+msgid "Show _Binary"
+msgstr "Прикажи _извршне"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:869
+msgid "Show binary files"
+msgstr "Прикажите извршне датотеке"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1001
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1010
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1031
+msgid "Previous location"
+msgstr "Претходна путања"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1003
+msgid "Go to previous location"
+msgstr "Идите на претходну путању"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1005
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1026
+msgid "Go to a previously opened location"
+msgstr "Идите на претходно отворену путању"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1022
+msgid "Next location"
+msgstr "Наредна путања"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1024
+msgid "Go to next location"
+msgstr "Идите на следећу путању"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1236
+msgid "_Match Filename"
+msgstr "_Упореди назив датотеке"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2165
+#, c-format
+msgid "No mount object for mounted volume: %s"
+msgstr "Не постоји предмет прикачињања за прикачени диск: %s"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2245
+#, c-format
+msgid "Could not open media: %s"
+msgstr "Не могу да отворим медијум: %s"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2292
+#, c-format
+msgid "Could not mount volume: %s"
+msgstr "Не могу да прикачим диск: %s"
+
+#. ex:ts=8:noet:
+#: ../plugins/modelines/modelines.scrivi-plugin.desktop.in.h:1
+msgid "Modelines"
+msgstr "Линије режима"
+
+#: ../plugins/modelines/modelines.scrivi-plugin.desktop.in.h:2
+msgid "Emacs, Kate and Vim-style modelines support for scrivi."
+msgstr "Емакс, Кејт и Вим подршка за линије режима у плуми."
+
+#: ../plugins/pythonconsole/pythonconsole.scrivi-plugin.desktop.in.h:1
+#: ../plugins/pythonconsole/pythonconsole/__init__.py:50
+msgid "Python Console"
+msgstr "Питонова конзола"
+
+#: ../plugins/pythonconsole/pythonconsole.scrivi-plugin.desktop.in.h:2
+msgid "Interactive Python console standing in the bottom panel"
+msgstr "Међудејствена конзола питона која стоји у панелу на дну"
+
+#. ex:et:ts=4:
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:1
+msgid "C_ommand color:"
+msgstr "Боја _наредбе:"
+
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:2
+msgid "_Error color:"
+msgstr "Боја _грешке:"
+
+#. ex:ts=8:et:
+#: ../plugins/quickopen/quickopen/popup.py:35
+#: ../plugins/quickopen/quickopen.scrivi-plugin.desktop.in.h:1
+msgid "Quick Open"
+msgstr "Брзо отвори"
+
+#: ../plugins/quickopen/quickopen/windowhelper.py:69
+msgid "Quick open"
+msgstr "Брзо отворите"
+
+#: ../plugins/quickopen/quickopen/windowhelper.py:70
+msgid "Quickly open documents"
+msgstr "Брзо отварите документе"
+
+#: ../plugins/quickopen/quickopen.scrivi-plugin.desktop.in.h:2
+msgid "Quickly open files"
+msgstr "Брзо отворите датотеке"
+
+#: ../plugins/snippets/snippets.scrivi-plugin.desktop.in.h:1
+#: ../plugins/snippets/snippets/Document.py:58
+msgid "Snippets"
+msgstr "Исечци"
+
+#: ../plugins/snippets/snippets.scrivi-plugin.desktop.in.h:2
+msgid "Insert often-used pieces of text in a fast way"
+msgstr "Уметните реченице које често користите на брз начин"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:1
+msgid "Snippets Manager"
+msgstr "Управник исечака"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:2
+msgid "_Snippets:"
+msgstr "_Исечци:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:3
+msgid "Create new snippet"
+msgstr "Направите нови исечак"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:4
+#: ../plugins/snippets/snippets/Manager.py:800
+msgid "Import snippets"
+msgstr "Увезите исечке"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:5
+msgid "Export selected snippets"
+msgstr "Извезите одабране исечке"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:6
+#: ../plugins/snippets/snippets/Manager.py:412
+msgid "Delete selected snippet"
+msgstr "Обришите одабрани исечак"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:8
+msgid "Activation"
+msgstr "Покретање"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:10
+msgid "_Tab trigger:"
+msgstr "Оки_дач за језичак:"
+
+#. self['hbox_tab_trigger'].set_spacing(0)
+#: ../plugins/snippets/snippets/snippets.ui.h:11
+#: ../plugins/snippets/snippets/Manager.py:689
+msgid "Single word the snippet is activated with after pressing Tab"
+msgstr "Реч на коју се активира исечак након притиска на тастер табулатора"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:12
+msgid "Shortcut key with which the snippet is activated"
+msgstr "Пречица са тастатуре која активира исечак"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:13
+msgid "S_hortcut key:"
+msgstr "Преч_ица:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:14
+msgid "_Drop targets:"
+msgstr "О_дредиште:"
+
+#: ../plugins/snippets/snippets/WindowHelper.py:130
+msgid "Manage _Snippets..."
+msgstr "Управљај _исечцима..."
+
+#: ../plugins/snippets/snippets/WindowHelper.py:131
+msgid "Manage snippets"
+msgstr "Управљајте исечцима"
+
+#: ../plugins/snippets/snippets/Manager.py:46
+msgid "Snippets archive"
+msgstr "Архива исечака"
+
+#: ../plugins/snippets/snippets/Manager.py:71
+msgid "Add a new snippet..."
+msgstr "Додај нови исечак..."
+
+#: ../plugins/snippets/snippets/Manager.py:121
+msgid "Global"
+msgstr "Опште"
+
+#: ../plugins/snippets/snippets/Manager.py:409
+msgid "Revert selected snippet"
+msgstr "Поврати означени исечак"
+
+#. self['hbox_tab_trigger'].set_spacing(3)
+#: ../plugins/snippets/snippets/Manager.py:682
+msgid ""
+"This is not a valid Tab trigger. Triggers can either contain letters or a "
+"single (non-alphanumeric) character like: {, [, etc."
+msgstr "Ово није исправан окидач за језичак. Окидачи могу да садрже словно-бројевне знаке (или _ : и .) или једноструке знаке који нису слова ни цифре, попут {, [, итд."
+
+#: ../plugins/snippets/snippets/Manager.py:779
+#, python-format
+msgid "The following error occurred while importing: %s"
+msgstr "Дошло је до грешке при увозу: %s"
+
+#: ../plugins/snippets/snippets/Manager.py:786
+msgid "Import successfully completed"
+msgstr "Увоз је успешно завршен"
+
+#: ../plugins/snippets/snippets/Manager.py:805
+#: ../plugins/snippets/snippets/Manager.py:891
+#: ../plugins/snippets/snippets/Manager.py:954
+msgid "All supported archives"
+msgstr "Све подржане архиве"
+
+#: ../plugins/snippets/snippets/Manager.py:806
+#: ../plugins/snippets/snippets/Manager.py:892
+#: ../plugins/snippets/snippets/Manager.py:955
+msgid "Gzip compressed archive"
+msgstr "Архива сажета Гзипом"
+
+#: ../plugins/snippets/snippets/Manager.py:807
+#: ../plugins/snippets/snippets/Manager.py:893
+#: ../plugins/snippets/snippets/Manager.py:956
+msgid "Bzip2 compressed archive"
+msgstr "Архива сажета Бзипом 2"
+
+#: ../plugins/snippets/snippets/Manager.py:808
+msgid "Single snippets file"
+msgstr "Јединствена датотека са исечцима"
+
+#: ../plugins/snippets/snippets/Manager.py:809
+#: ../plugins/snippets/snippets/Manager.py:895
+#: ../plugins/snippets/snippets/Manager.py:958
+msgid "All files"
+msgstr "Све датотеке"
+
+#: ../plugins/snippets/snippets/Manager.py:821
+#, python-format
+msgid "The following error occurred while exporting: %s"
+msgstr "Дошло је до грешке при извозу: %s"
+
+#: ../plugins/snippets/snippets/Manager.py:825
+msgid "Export successfully completed"
+msgstr "Извоз је успешно завршен"
+
+#. Ask if system snippets should also be exported
+#: ../plugins/snippets/snippets/Manager.py:865
+#: ../plugins/snippets/snippets/Manager.py:932
+msgid "Do you want to include selected <b>system</b> snippets in your export?"
+msgstr "Да ли желите да укључите означене <b>системске</b> исечке при извозу?"
+
+#: ../plugins/snippets/snippets/Manager.py:880
+#: ../plugins/snippets/snippets/Manager.py:950
+msgid "There are no snippets selected to be exported"
+msgstr "Нема одабраних исечака за извоз"
+
+#: ../plugins/snippets/snippets/Manager.py:885
+#: ../plugins/snippets/snippets/Manager.py:923
+msgid "Export snippets"
+msgstr "Извезите исечке"
+
+#: ../plugins/snippets/snippets/Manager.py:1062
+msgid "Type a new shortcut, or press Backspace to clear"
+msgstr "Унесите нову пречицу, или је уклоните тастером за брисање уназад"
+
+#: ../plugins/snippets/snippets/Manager.py:1064
+msgid "Type a new shortcut"
+msgstr "Укуцајте нову пречицу"
+
+#: ../plugins/snippets/snippets/Exporter.py:65
+#, python-format
+msgid "The archive \"%s\" could not be created"
+msgstr "Не могу да направим архиву „%s“"
+
+#: ../plugins/snippets/snippets/Exporter.py:82
+#, python-format
+msgid "Target directory \"%s\" does not exist"
+msgstr "Циљна фасцикла „%s“ не постоји"
+
+#: ../plugins/snippets/snippets/Exporter.py:85
+#, python-format
+msgid "Target directory \"%s\" is not a valid directory"
+msgstr "Циљна фасцикла „%s“ није исправна"
+
+#: ../plugins/snippets/snippets/Importer.py:29
+#: ../plugins/snippets/snippets/Importer.py:83
+#, python-format
+msgid "File \"%s\" does not exist"
+msgstr "Датотека „%s“ не постоји"
+
+#: ../plugins/snippets/snippets/Importer.py:32
+#, python-format
+msgid "File \"%s\" is not a valid snippets file"
+msgstr "Датотека „%s“ није исправна датотека са исечцима"
+
+#: ../plugins/snippets/snippets/Importer.py:42
+#, python-format
+msgid "Imported file \"%s\" is not a valid snippets file"
+msgstr "Увезена датотека „%s“ није исправна датотека са исечцима"
+
+#: ../plugins/snippets/snippets/Importer.py:52
+#, python-format
+msgid "The archive \"%s\" could not be extracted"
+msgstr "Архива „%s“ не може бити распакована"
+
+#: ../plugins/snippets/snippets/Importer.py:70
+#, python-format
+msgid "The following files could not be imported: %s"
+msgstr "Следеће датотеке нису могле бити увежене: %s"
+
+#: ../plugins/snippets/snippets/Importer.py:86
+#: ../plugins/snippets/snippets/Importer.py:99
+#, python-format
+msgid "File \"%s\" is not a valid snippets archive"
+msgstr "Датотека „%s“ није исправна датотека са исечцима"
+
+#: ../plugins/snippets/snippets/Placeholder.py:594
+#, python-format
+msgid ""
+"Execution of the Python command (%s) exceeds the maximum time, execution "
+"aborted."
+msgstr "Извршавање наредбе Питона (%s) је трајало дуже него што је дозвољено, те је прекинуто."
+
+#: ../plugins/snippets/snippets/Placeholder.py:602
+#, python-format
+msgid "Execution of the Python command (%s) failed: %s"
+msgstr "Извршавање наредбе Питона (%s) није успело: %s"
+
+#: ../plugins/sort/scrivi-sort-plugin.c:88
+msgid "S_ort..."
+msgstr "П_оређај..."
+
+#: ../plugins/sort/scrivi-sort-plugin.c:90
+msgid "Sort the current document or selection"
+msgstr "Поређајте текући документ или означени део"
+
+#: ../plugins/sort/sort.scrivi-plugin.desktop.in.h:1
+#: ../plugins/sort/sort.ui.h:1
+msgid "Sort"
+msgstr "Поређај"
+
+#: ../plugins/sort/sort.scrivi-plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "Поређајте документ или изабрани текст."
+
+#: ../plugins/sort/sort.ui.h:2
+msgid "_Sort"
+msgstr "_Поређај"
+
+#: ../plugins/sort/sort.ui.h:3
+msgid "_Reverse order"
+msgstr "О_брни редослед"
+
+#: ../plugins/sort/sort.ui.h:4
+msgid "R_emove duplicates"
+msgstr "Уклони дупли_кате"
+
+#: ../plugins/sort/sort.ui.h:5
+msgid "_Ignore case"
+msgstr "_Занемари величину слова"
+
+#: ../plugins/sort/sort.ui.h:6
+msgid "S_tart at column:"
+msgstr "Почни са _колоном:"
+
+#: ../plugins/sort/sort.ui.h:7
+msgid "You cannot undo a sort operation"
+msgstr "Не можете поништити ређање"
+
+#: ../plugins/spell/org.gde2.scrivi.plugins.spell.gschema.xml.in.h:1
+msgid "Autocheck Type"
+msgstr "Сам провери писање"
+
+#. Translators: Displayed in the "Check Spelling" dialog if there are no
+#. suggestions for the current misspelled word
+#. Translators: Displayed in the "Check Spelling" dialog if there are no
+#. suggestions
+#. * for the current misspelled word
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:420
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:455
+msgid "(no suggested words)"
+msgstr "(нема предлога речи)"
+
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:444
+msgid "_More..."
+msgstr "Да_ље..."
+
+#. Ignore all
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:503
+msgid "_Ignore All"
+msgstr "_Занемари све"
+
+#. + Add to Dictionary
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:518
+msgid "_Add"
+msgstr "_Додај"
+
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:557
+msgid "_Spelling Suggestions..."
+msgstr "Предлози провере пи_сања..."
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:270
+msgid "Check Spelling"
+msgstr "Провери писање"
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:281
+msgid "Suggestions"
+msgstr "Предлози"
+
+#. Translators: Displayed in the "Check Spelling" dialog if the current word
+#. isn't misspelled
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:562
+msgid "(correct spelling)"
+msgstr "(исправно писање)"
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:709
+msgid "Completed spell checking"
+msgstr "Провера писања је завршена"
+
+#. Translators: the first %s is the language name, and
+#. * the second %s is the locale name. Example:
+#. * "French (France)"
+#: ../plugins/spell/scrivi-spell-checker-language.c:285
+#: ../plugins/spell/scrivi-spell-checker-language.c:291
+#, c-format
+msgctxt "language"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#. Translators: this refers to an unknown language code
+#. * (one which isn't in our built-in list).
+#: ../plugins/spell/scrivi-spell-checker-language.c:300
+#, c-format
+msgctxt "language"
+msgid "Unknown (%s)"
+msgstr "Непознат (%s)"
+
+#. Translators: this refers the Default language used by the
+#. * spell checker
+#: ../plugins/spell/scrivi-spell-checker-language.c:406
+msgctxt "language"
+msgid "Default"
+msgstr "Основни"
+
+#: ../plugins/spell/scrivi-spell-language-dialog.c:141
+#: ../plugins/spell/languages-dialog.ui.h:1
+msgid "Set language"
+msgstr "Поставите језик"
+
+#: ../plugins/spell/scrivi-spell-language-dialog.c:195
+msgid "Languages"
+msgstr "Језици"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:92
+msgid "_Check Spelling..."
+msgstr "Провери пи_сање..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:94
+msgid "Check the current document for incorrect spelling"
+msgstr "Проверите тренутни документ за грешкама у писању"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:100
+msgid "Set _Language..."
+msgstr "Постави _језик..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:102
+msgid "Set the language of the current document"
+msgstr "Подесите језик текућег документа"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:111
+msgid "_Autocheck Spelling"
+msgstr "_Сам провери писање"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:113
+msgid "Automatically spell-check the current document"
+msgstr "Сам проверавај писање у тренутном документу"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:753
+msgid "Configure Spell Checker plugin..."
+msgstr "Подесите прикључак за проверу писања..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:962
+msgid "The document is empty."
+msgstr "Документ је празан."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:992
+msgid "No misspelled words"
+msgstr "Нема погрешно написаних речи"
+
+#: ../plugins/spell/languages-dialog.ui.h:2
+msgid "Select the _language of the current document."
+msgstr "Изабери је_зик тренутног документа."
+
+#: ../plugins/spell/spell-checker.ui.h:1
+msgid "Check spelling"
+msgstr "Провера писања"
+
+#: ../plugins/spell/spell-checker.ui.h:2
+msgid "Misspelled word:"
+msgstr "Погрешно написана реч:"
+
+#: ../plugins/spell/spell-checker.ui.h:3
+msgid "word"
+msgstr "реч"
+
+#: ../plugins/spell/spell-checker.ui.h:4
+msgid "Change _to:"
+msgstr "Изме_ни у:"
+
+#: ../plugins/spell/spell-checker.ui.h:5
+msgid "Check _Word"
+msgstr "Провери ре_ч"
+
+#: ../plugins/spell/spell-checker.ui.h:6
+msgid "_Suggestions:"
+msgstr "Предло_зи:"
+
+#: ../plugins/spell/spell-checker.ui.h:7
+msgid "_Ignore"
+msgstr "_Занемари"
+
+#: ../plugins/spell/spell-checker.ui.h:8
+msgid "Cha_nge"
+msgstr "Изме_ни"
+
+#: ../plugins/spell/spell-checker.ui.h:9
+msgid "Ignore _All"
+msgstr "_Занемари све"
+
+#: ../plugins/spell/spell-checker.ui.h:10
+msgid "Change A_ll"
+msgstr "И_змени све"
+
+#: ../plugins/spell/spell-checker.ui.h:11
+msgid "User dictionary:"
+msgstr "Кориснички речник:"
+
+#: ../plugins/spell/spell-checker.ui.h:12
+msgid "Add w_ord"
+msgstr "Д_одај реч"
+
+#: ../plugins/spell/spell-checker.ui.h:13
+msgid "Language:"
+msgstr "Језик:"
+
+#: ../plugins/spell/spell-checker.ui.h:14
+msgid "Language"
+msgstr "Језик"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:1
+msgid "_Configure Spell Checker plugin..."
+msgstr "_Подеси прикључак за проверу писања..."
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:2
+msgid "Autocheck spelling on document load..."
+msgstr "Сам провери писање приликом учитавања документа..."
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:3
+msgid "_Never autocheck"
+msgstr "_Никада сам не проверавај"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:4
+msgid "_Remember autocheck by document"
+msgstr "_Запамти самопроверу према документу"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:5
+msgid "_Always autocheck"
+msgstr "_Увек сам провери"
+
+#: ../plugins/spell/spell.scrivi-plugin.desktop.in.h:1
+msgid "Spell Checker"
+msgstr "Провера правописа"
+
+#: ../plugins/spell/spell.scrivi-plugin.desktop.in.h:2
+msgid "Checks the spelling of the current document."
+msgstr "Проверите писање у тренутном документу."
+
+#: ../plugins/taglist/scrivi-taglist-plugin.c:98
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:725
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:743
+msgid "Tags"
+msgstr "Елементи"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:622
+msgid "Select the group of tags you want to use"
+msgstr "Изаберите групу ознака за коришћење"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:641
+msgid "_Preview"
+msgstr "_Претпреглед"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:722
+msgid "Available Tag Lists"
+msgstr "Доступни спискови ознака"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:1
+msgid "XHTML 1.0 - Tags"
+msgstr "XHTML 1.0 — Ознаке"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:2
+msgid "Abbreviated form"
+msgstr "Скарћени облик"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:3
+msgid "Abbreviation"
+msgstr "Скраћеница"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:4
+msgid "Accessibility key character"
+msgstr "Знак за приступни тастер"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:5
+msgid "Acronym"
+msgstr "Акроним"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:6
+msgid "Align"
+msgstr "Поравнање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:7
+msgid "Alignment character"
+msgstr "Знак за поравнање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:8
+msgid "Alternative"
+msgstr "Алтернативно"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:9
+msgid "Anchor URI"
+msgstr "Адреса везе"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:10
+msgid "Anchor"
+msgstr "Сидро"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:12
+msgid "Applet class file code (deprecated)"
+msgstr "Код датотеке разреда програмчића (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:13
+msgid "Associated information"
+msgstr "Приложени подаци"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:14
+msgid "Author info"
+msgstr "Подаци о аутору"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:15
+msgid "Axis related headers"
+msgstr "Заглавља која се односе на осу"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:17
+msgid "Background color (deprecated)"
+msgstr "Боја позадине (превазиђено)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:19
+msgid "Background texture tile (deprecated)"
+msgstr "Текстура позадине (превазиђено)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:21
+msgid "Base font (deprecated)"
+msgstr "Основни словни лик (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:22
+msgid "Base URI"
+msgstr "Основна путања"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:23
+msgid "Bold"
+msgstr "Подебљано"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:25
+msgid "Border (deprecated)"
+msgstr "Ивица (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:26
+msgid "Cell rowspan"
+msgstr "Поље у више редова"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:28
+msgid "Center (deprecated)"
+msgstr "Усредсредишти (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:29
+msgid "Character encoding of linked resource"
+msgstr "Кодирања знакова повезаног изворишта"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:30
+msgid "Checked state"
+msgstr "Проверено стање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:31
+msgid "Citation"
+msgstr "Навод"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:32
+msgid "Cite reason for change"
+msgstr "Наведите разлог измене"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:33
+msgid "Class implementation ID"
+msgstr "ИБ примене разреда"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:34
+msgid "Class list"
+msgstr "Списак разреда"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:35
+msgid "Clear text flow control"
+msgstr "Очисти контролу протока текста"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:36
+msgid "Code content type"
+msgstr "Врста садржаја кода"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:38
+msgid "Color of selected links (deprecated)"
+msgstr "Боја изабраних веза (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:39
+msgid "Column span"
+msgstr "Распон стубаца"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:40
+msgid "Columns"
+msgstr "Ступци"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:41
+msgid "Comment"
+msgstr "Напомена"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:42
+msgid "Computer code fragment"
+msgstr "Исечак рачунарског кода"
+
+#. The "type" attribute is deprecated for the "ol" tag only,
+#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:45
+msgid "Content type (deprecated)"
+msgstr "Врста садржаја (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:46
+msgid "Coordinates"
+msgstr "Координате"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:47
+msgid "Date and time of change"
+msgstr "Датум и време измене"
+
+#. NOTE: used in "object" tag
+#: ../plugins/taglist/HTML.tags.xml.in.h:49
+msgid "Declare flag"
+msgstr "Опција изјаве"
+
+#. Translators: DEFER is an optional attribute of the <script> tag.
+#. It indicates that the script is not going to generate any document
+#. content. The browser can continue parsing and drawing the page.
+#: ../plugins/taglist/HTML.tags.xml.in.h:53
+msgid "Defer attribute"
+msgstr "Атрибут одлагања"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:54
+msgid "Definition description"
+msgstr "Опис одреднице"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:55
+msgid "Definition list"
+msgstr "Списак одредница"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:56
+msgid "Definition term"
+msgstr "Израз одреднице"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:57
+msgid "Deleted text"
+msgstr "Обрисани текст"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:58
+msgid "Directionality"
+msgstr "Усмеривост"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:60
+msgid "Directionality (deprecated)"
+msgstr "Усмеривост (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:61
+msgid "Disabled"
+msgstr "Искључено"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:62
+msgid "DIV container"
+msgstr "ДИВ садржалац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:63
+msgid "DIV Style container"
+msgstr "Садржалац ДИВ изгледа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:64
+msgid "Document base"
+msgstr "Основа документа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:65
+msgid "Document body"
+msgstr "Тело документа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:66
+msgid "Document head"
+msgstr "Заглавље документа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:67
+msgid "Element ID"
+msgstr "ИБ елемента"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:68
+msgid "Document title"
+msgstr "Наслов документа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:69
+msgid "Document type"
+msgstr "Врста документа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:70
+#: ../plugins/taglist/Latex.tags.xml.in.h:72
+msgid "Emphasis"
+msgstr "Наглашавање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:71
+msgid "Encode type"
+msgstr "Врста кодирања"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:73
+msgid "Font face (deprecated)"
+msgstr "Словни лик (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:74
+msgid "For label"
+msgstr "За натпис"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:75
+msgid "Forced line break"
+msgstr "Присилни прелом реда"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:76
+msgid "Form action handler"
+msgstr "Радња за образац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:77
+msgid "Form control group"
+msgstr "Група елемената за образац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:78
+msgid "Form field label text"
+msgstr "Текст ознаке поља у обрасцу"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:79
+msgid "Form input type"
+msgstr "Врста уноса у образац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:80
+msgid "Form input"
+msgstr "Унос у образац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:81
+msgid "Form method"
+msgstr "Начин слања обрасца"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:82
+msgid "Form"
+msgstr "Образац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:83
+msgid "Forward link"
+msgstr "Прослеђивање везе"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:84
+msgid "Frame render parts"
+msgstr "Делови исцртавања оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:85
+msgid "Frame source"
+msgstr "Извор оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:86
+msgid "Frame target"
+msgstr "Мета оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:87
+msgid "Frame"
+msgstr "Оквир"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:88
+msgid "Frame border"
+msgstr "Граница оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:89
+msgid "Frameset columns"
+msgstr "Ступци скупа оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:90
+msgid "Frameset rows"
+msgstr "Редови скупа оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:91
+msgid "Frameset"
+msgstr "Скуп оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:92
+msgid "Frame spacing"
+msgstr "Размак оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:93
+msgid "Generic embedded object"
+msgstr "Општи угњеждени објекат"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:94
+msgid "Generic metainformation"
+msgstr "Општи метаподаци"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:95
+msgid "Generic span"
+msgstr "Опште обухватање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:96
+msgid "Header cell IDs"
+msgstr "ИБ поља заглавља"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:97
+msgid "Heading 1"
+msgstr "1. заглавље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:98
+msgid "Heading 2"
+msgstr "2. заглавље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:99
+msgid "Heading 3"
+msgstr "3. заглавље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:100
+msgid "Heading 4"
+msgstr "4. заглавље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:101
+msgid "Heading 5"
+msgstr "5. заглавље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:102
+msgid "Heading 6"
+msgstr "6. заглавље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:103
+msgid "Height"
+msgstr "Висина"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:104
+msgid "Horizontal rule"
+msgstr "Водоравна линија"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:106
+msgid "Horizontal space (deprecated)"
+msgstr "Водоравни размак (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:107
+msgid "HREF URI"
+msgstr "ХРЕФ путања"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:108
+msgid "HTML root element"
+msgstr "Корени ХТМЛ елемент"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:109
+msgid "HTTP header name"
+msgstr "Назив ХТТП заглавља"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:110
+msgid "I18N BiDi override"
+msgstr "И18А двосмерно превазилажење"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:111
+msgid "Image map area"
+msgstr "Област мапиране слике"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:112
+msgid "Image map name"
+msgstr "Назив мапиране слике"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:113
+msgid "Image map"
+msgstr "Мапирана слика"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:114
+msgid "Image"
+msgstr "Слика"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:115
+msgid "Inline frame"
+msgstr "Оквир у тексту"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:116
+msgid "Inserted text"
+msgstr "Уметнути текст"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:117
+msgid "Instance definition"
+msgstr "Одредница примерка"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:118
+msgid "Italic text"
+msgstr "Искошени текст"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:120
+msgid "Java applet (deprecated)"
+msgstr "Програмче Јаве (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:121
+msgid "Label"
+msgstr "Натпис"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:122
+msgid "Language code"
+msgstr "Код језика"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:123
+msgid "Large text style"
+msgstr "Стил великог текста"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:125
+msgid "Link color (deprecated)"
+msgstr "Боја за везе (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:126
+msgid "List item"
+msgstr "Ставка списка"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:127
+msgid "List of MIME types for file upload"
+msgstr "Списак МИМЕ врсти за отпремање датотеке"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:128
+msgid "List of supported character sets"
+msgstr "Списак подржаних скупова знакова"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:129
+msgid "Local change to font"
+msgstr "Месна промена у словни лик"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:130
+msgid "Long description link"
+msgstr "Веза дугог описа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:131
+msgid "Long quotation"
+msgstr "Дуг навод"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:133
+msgid "Margin pixel height"
+msgstr "Висина маргине у тачкицама"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:135
+msgid "Margin pixel width"
+msgstr "Ширина маргине у тачкицама"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:136
+msgid "Maximum length of text field"
+msgstr "Највећа дужина текстуалног поља"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:137
+msgid "Output media"
+msgstr "Медијум излаза"
+
+#. Here I take some liberties: There's no mandatory attributes,
+#. but those are most common, and will likely be used.
+#: ../plugins/taglist/HTML.tags.xml.in.h:140
+msgid "Media-independent link"
+msgstr "Веза независна од медија"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:142
+msgid "Menu list (deprecated)"
+msgstr "Списак изборника (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:143
+msgid "Multi-line text field"
+msgstr "Вишередно текстуално поље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:144
+msgid "Multiple"
+msgstr "Вишеструки избор"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:145
+msgid "Name"
+msgstr "Назив"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:146
+msgid "Named property value"
+msgstr "Именована вредност особине"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:147
+msgid "No frames"
+msgstr "Без оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:148
+msgid "No resize"
+msgstr "Без промене величине"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:149
+msgid "No script"
+msgstr "Без скрипте"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:151
+msgid "No shade (deprecated)"
+msgstr "Без сенчења (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:152
+msgid "No URI"
+msgstr "Без путање"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:154
+msgid "No word wrap (deprecated)"
+msgstr "Без прелома реда (превазиђено)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:156
+msgid "Object applet file (deprecated)"
+msgstr "Датотека предмета програмчета (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:157
+msgid "Object data reference"
+msgstr "Упута података предмета"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:158
+msgid "Offset for alignment character"
+msgstr "Померај за знак поравнања"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:159
+msgid "OnBlur event"
+msgstr "Догађај на замућење"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:160
+msgid "OnChange event"
+msgstr "Догађај на промену"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:161
+msgid "OnClick event"
+msgstr "Догађај за „На клик“"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:162
+msgid "OnDblClick event"
+msgstr "Догађај на двоклик"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:163
+msgid "OnFocus event"
+msgstr "Догађај на први план"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:164
+msgid "OnKeyDown event"
+msgstr "Догађај на тастер доле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:165
+msgid "OnKeyPress event"
+msgstr "Догађај на притисак тастера"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:166
+msgid "OnKeyUp event"
+msgstr "Догађај на тастер горе"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:167
+msgid "OnLoad event"
+msgstr "Догађај на учитавање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:168
+msgid "OnMouseDown event"
+msgstr "Догађај на мишем доле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:169
+msgid "OnMouseMove event"
+msgstr "Догађај на покрет миша"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:170
+msgid "OnMouseOut event"
+msgstr "Догађај на излаз миша"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:171
+msgid "OnMouseOver event"
+msgstr "Догађај на мишем преко"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:172
+msgid "OnMouseUp event"
+msgstr "Догађај на мишем горе"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:173
+msgid "OnReset event"
+msgstr "Догађај на повраћај"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:174
+msgid "OnSelect event"
+msgstr "Догађај на избор"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:175
+msgid "OnSubmit event"
+msgstr "Догађај на слање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:176
+msgid "OnUnload event"
+msgstr "Догађај на одучитавање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:177
+msgid "Option group"
+msgstr "Група опција"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:178
+msgid "Option selector"
+msgstr "Избирач опција"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:179
+msgid "Ordered list"
+msgstr "Уређени списак"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:180
+msgid "Paragraph class"
+msgstr "Разред пасуса"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:181
+msgid "Paragraph style"
+msgstr "Изглед пасуса"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:182
+msgid "Paragraph"
+msgstr "Пасус"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:183
+msgid "Preformatted text"
+msgstr "Предобликовани текст"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:184
+msgid "Profile metainfo dictionary"
+msgstr "Речник метаподатака профила"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:185
+msgid "Push button"
+msgstr "Дугме"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:186
+msgid "ReadOnly text and password"
+msgstr "Текст само за читање и лозинка"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:188
+msgid "Reduced spacing (deprecated)"
+msgstr "Смањени размак (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:189
+msgid "Reverse link"
+msgstr "Веза окренутости"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:190
+msgid "Rows"
+msgstr "Редови"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:191
+msgid "Rulings between rows and columns"
+msgstr "Линије између редова и стубаца"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:192
+msgid "Sample program output, scripts"
+msgstr "Пример исписа програма, скрипти"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:193
+msgid "Scope covered by header cells"
+msgstr "Опсег покривен пољима заглавља"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:195
+msgid "Script language name"
+msgstr "Назив језика скрипте"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:196
+msgid "Script statements"
+msgstr "Наредбе скрипте"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:197
+msgid "Scrollbar"
+msgstr "Клизач"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:198
+msgid "Selectable option"
+msgstr "Избирљива опција"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:199
+msgid "Selected"
+msgstr "Изабрано"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:200
+msgid "Server-side image map"
+msgstr "Мапа слике на серверу"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:201
+msgid "Shape"
+msgstr "Облик"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:202
+msgid "Short inline quotation"
+msgstr "Кратак уметнути навод"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:204
+msgid "Size (deprecated)"
+msgstr "Величина (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:205
+msgid "Small text style"
+msgstr "Изглед малог текста"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:206
+msgid "Source"
+msgstr "Извор"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:207
+msgid "Space-separated archive list"
+msgstr "Списак архива раздвојен размаком"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:208
+msgid "Spacing between cells"
+msgstr "Размак међу пољима"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:209
+msgid "Spacing within cells"
+msgstr "Размак у пољима"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:210
+msgid "Span"
+msgstr "Обухватање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:211
+msgid "Standby load message"
+msgstr "Порука за чекање при учитавању"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:213
+msgid "Starting sequence number (deprecated)"
+msgstr "Број за почетак низа (превазиђено)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:215
+msgid "Strike-through text style (deprecated)"
+msgstr "Стил прецртаног текста (превазиђено)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:217
+msgid "Strike-through text (deprecated)"
+msgstr "Прецртани текст (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:218
+msgid "Strong emphasis"
+msgstr "Снажно наглашавање"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:219
+msgid "Style info"
+msgstr "Подаци о стилу"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:220
+msgid "Subscript"
+msgstr "Индекс"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:221
+msgid "Superscript"
+msgstr "Изложилац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:222
+msgid "Table body"
+msgstr "Тело табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:223
+msgid "Table caption"
+msgstr "Наслов табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:224
+msgid "Table column group properties"
+msgstr "Особине групе стубаца табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:225
+msgid "Table column properties"
+msgstr "Особине ступца табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:226
+msgid "Table data cell"
+msgstr "Поље табеле са подацима"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:227
+msgid "Table footer"
+msgstr "Подножје табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:228
+msgid "Table header cell"
+msgstr "Поље заглавља табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:229
+msgid "Table header"
+msgstr "Заглавље табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:230
+msgid "Table row"
+msgstr "Ред табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:231
+msgid "Table summary"
+msgstr "Сажетак табеле"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:232
+msgid "Table"
+msgstr "Табела"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:233
+msgid "Target - Blank"
+msgstr "Одредиште — празно"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:234
+msgid "Target - Parent"
+msgstr "Одредиште — садржалац"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:235
+msgid "Target - Self"
+msgstr "Одредиште — исти"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:236
+msgid "Target - Top"
+msgstr "Одредиште — главни"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:237
+msgid "Teletype or monospace text style"
+msgstr "Стил текста утврђене ширине"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:239
+msgid "Text color (deprecated)"
+msgstr "Боја текста (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:240
+msgid "Text entered by user"
+msgstr "Текст који уноси корисник"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:241
+msgid "Title"
+msgstr "Наслов"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:242
+msgid "Underlined text style"
+msgstr "Изглед подвученог текста"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:243
+msgid "Unordered list"
+msgstr "Неуређени списак"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:244
+msgid "Use image map"
+msgstr "Користи мапу слике"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:245
+msgid "Value interpretation"
+msgstr "Тумачење вредности"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:246
+msgid "Value"
+msgstr "Вредност"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:247
+msgid "Variable or program argument"
+msgstr "Променљива или аргумент програма"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:248
+msgid "Vertical cell alignment"
+msgstr "Усправно поравнање поља"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:250
+msgid "Vertical space (deprecated)"
+msgstr "Усправни размак (превазиђено)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:252
+msgid "Visited link color (deprecated)"
+msgstr "Боја за посећене везе (превазиђено)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:253
+msgid "Width"
+msgstr "Ширина"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:254
+msgid "HTML - Tags"
+msgstr "ХТМЛ — Ознаке"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:255
+msgid "Above"
+msgstr "Изнад"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:256
+msgid "Applet class file code"
+msgstr "Код за аплете"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:257
+msgid "Array"
+msgstr "Низ"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:258
+msgid "Background color"
+msgstr "Боја позадине"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:259
+msgid "Background texture tile"
+msgstr "Текстура позадине"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:260
+msgid "Base font"
+msgstr "Основни словни лик"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:261
+msgid "Border color"
+msgstr "Боја ивице"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:262
+msgid "Border"
+msgstr "Ивица"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:263
+msgid "Center"
+msgstr "Усредсредишти"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:264
+msgid "Checked (state)"
+msgstr "Проверено (стање)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:265
+msgid "Color of selected links"
+msgstr "Боја изабраних веза"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:266
+msgid "Content scheme"
+msgstr "Боја садржаја"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:267
+msgid "Content type"
+msgstr "Врста садржаја"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:268
+msgid "Direction"
+msgstr "Смер"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:269
+msgid "Directory list"
+msgstr "Списак фасцикли"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:270
+msgid "HTML version"
+msgstr "Издање ХТМЛ-а"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:271
+msgid "Embedded object"
+msgstr "Угнеждени објекат"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:272
+msgid "Figure"
+msgstr "Слика"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:273
+msgid "Font face"
+msgstr "Словни лик"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:274
+msgid "Frameborder"
+msgstr "Ивица оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:275
+msgid "Framespacing"
+msgstr "Размак оквира"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:276
+msgid "Heading"
+msgstr "Заглавље"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:277
+msgid "Horizontal space"
+msgstr "Водоравни размак"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:278
+msgid "Image source"
+msgstr "Извор слике"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:279
+msgid "Inline layer"
+msgstr "Слој у тексту"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:280
+msgid "Java applet"
+msgstr "Јава програмче"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:281
+msgid "Layer"
+msgstr "Слој"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:282
+msgid "Link color"
+msgstr "Боја везе"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:283
+msgid "Listing"
+msgstr "Испис"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:284
+msgid "Mail link"
+msgstr "Веза за пошту"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:285
+msgid "Marquee"
+msgstr "Рекламна порука"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:286
+msgid "Menu list"
+msgstr "Списак изборника"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:287
+msgid "Multicolumn"
+msgstr "Више стубаца"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:288
+msgid "Next ID"
+msgstr "Следећи ИБ"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:289
+msgid "No embedded objects"
+msgstr "Нема угњеждених објеката"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:290
+msgid "No layers"
+msgstr "Без слојева"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:291
+msgid "No line break"
+msgstr "Без прелома реда"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:292
+msgid "No shade"
+msgstr "Без сенчења"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:293
+msgid "No word wrap"
+msgstr "Без прелома реда"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:294
+msgid "Note"
+msgstr "Белешка"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:295
+msgid "Object applet file"
+msgstr "Датотека програмчета предмета"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:296
+msgid "Preformatted listing"
+msgstr "Предобликовани испис"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:297
+msgid "Prompt message"
+msgstr "Порука упита"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:298
+msgid "Quote"
+msgstr "Навод"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:299
+msgid "Range"
+msgstr "Опсег"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:300
+msgid "Reduced spacing"
+msgstr "Смањени размак"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:301
+msgid "Root"
+msgstr "Корен"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:302
+msgid "Single line prompt"
+msgstr "Упит у једном реду"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:303
+msgid "Size"
+msgstr "Величина"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:304
+msgid "Soft line break"
+msgstr "Меки прелом реда"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:305
+msgid "Sound"
+msgstr "Звук"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:306
+msgid "Spacer"
+msgstr "Размакник"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:307
+msgid "Square root"
+msgstr "Квадратни корен"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:308
+msgid "Starting sequence number"
+msgstr "Почетни број низа"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:309
+msgid "Strike-through text style"
+msgstr "Изглед прецртаног текста"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:310
+msgid "Strike-through text"
+msgstr "Прецртани текст"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:311
+msgid "Tab order position"
+msgstr "Положај поретка табулатора"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:312
+msgid "Text color"
+msgstr "Боја текста"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:313
+msgid "Text"
+msgstr "Текст"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:314
+msgid "Top margin in pixels"
+msgstr "Горња маргина у тачкицама"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:315
+msgid "URL"
+msgstr "Адреса"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:316
+msgid "Vertical space"
+msgstr "Усправни размак"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:317
+msgid "Visited link color"
+msgstr "Боја посећених веза"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:318
+msgid "HTML - Special Characters"
+msgstr "ХТМЛ — нарочити знаци"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:319
+msgid "Non-breaking space"
+msgstr "Не-преламајући размак"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:1
+msgid "Latex - Tags"
+msgstr "ЛаТеХ — Ознаке"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:2
+msgid "Bibliography (cite)"
+msgstr "Библиографија (цитат)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:3
+msgid "Bibliography (item)"
+msgstr "Библиографија (ставка)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:4
+msgid "Bibliography (shortcite)"
+msgstr "Библиографија (кратак цитат)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:5
+msgid "Bibliography (thebibliography)"
+msgstr "Библиографија (библиографија)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:6
+msgid "Brackets ()"
+msgstr "Заграде ()"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:7
+msgid "Brackets []"
+msgstr "Заграде []"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:8
+msgid "Brackets {}"
+msgstr "Заграде {}"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:9
+msgid "Brackets <>"
+msgstr "Заграде <>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:10
+msgid "File input"
+msgstr "Улаз датотеке"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:11
+msgid "Function cosine"
+msgstr "Функција косинус"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:12
+msgid "Function e^"
+msgstr "Функција e^"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:13
+msgid "Function exp"
+msgstr "Функција exp"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:14
+msgid "Function log"
+msgstr "Функција log"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:15
+msgid "Function log10"
+msgstr "Функција log10"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:16
+msgid "Function sine"
+msgstr "Функција синус"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:17
+msgid "Greek alpha"
+msgstr "Грчко алфа"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:18
+msgid "Greek beta"
+msgstr "Грчко бета"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:19
+msgid "Greek epsilon"
+msgstr "Грчко ипсилон"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:20
+msgid "Greek gamma"
+msgstr "Грчко гама"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:21
+msgid "Greek lambda"
+msgstr "Грчко ламбда"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:22
+msgid "Greek rho"
+msgstr "Грчко ро"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:23
+msgid "Greek tau"
+msgstr "Грчко тау"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:24
+msgid "Header 0 (chapter)"
+msgstr "Заглавље 0 (chapter)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:25
+msgid "Header 0 (chapter*)"
+msgstr "Заглавље 0 (chapter*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:26
+msgid "Header 1 (section)"
+msgstr "Заглавље 1 (section)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:27
+msgid "Header 1 (section*)"
+msgstr "Заглавље 1 (section*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:28
+msgid "Header 2 (subsection)"
+msgstr "Заглавље 2 (subsection)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:29
+msgid "Header 2 (subsection*)"
+msgstr "Заглавље 2 (subsection*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:30
+msgid "Header 3 (subsubsection)"
+msgstr "Заглавље 3 (subsubsection)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:31
+msgid "Header 3 (subsubsection*)"
+msgstr "Заглавље 3 (subsubsection*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:32
+msgid "Header 4 (paragraph)"
+msgstr "Заглавље 4 (paragraph)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:33
+msgid "Header appendix"
+msgstr "Заглавље додатка"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:34
+msgid "List description"
+msgstr "Опис списка"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:35
+msgid "List enumerate"
+msgstr "Побројани списак"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:36
+msgid "List itemize"
+msgstr "Списак по тачкама"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:37
+msgid "Item with label"
+msgstr "Ставка са натписом"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:38
+msgid "Item"
+msgstr "Ставка"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:39
+msgid "Maths (display)"
+msgstr "Математички израз (издвојен)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:40
+msgid "Maths (inline)"
+msgstr "Математички израз (у тексту)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:41
+msgid "Operator fraction"
+msgstr "Оператор разломка"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:42
+msgid "Operator integral (display)"
+msgstr "Оператор интеграла (издвојен)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:43
+msgid "Operator integral (inline)"
+msgstr "Оператор интеграла (у тексту)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:44
+msgid "Operator sum (display)"
+msgstr "Оператор збира (издвојен)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:45
+msgid "Operator sum (inline)"
+msgstr "Оператор збира (у тексту)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:46
+msgid "Reference label"
+msgstr "Натпис упуте"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:47
+msgid "Reference ref"
+msgstr "Упута упуте"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:48
+msgid "Symbol <<"
+msgstr "Симбол <"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:49
+msgid "Symbol <="
+msgstr "Симбол <="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:50
+msgid "Symbol >="
+msgstr "Симбол >="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:51
+msgid "Symbol >>"
+msgstr "Симбол >>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:52
+msgid "Symbol and"
+msgstr "Симбол and"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:53
+msgid "Symbol const"
+msgstr "Симбол const"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:54
+msgid "Symbol d2-by-dt2-partial"
+msgstr "Симбол d2-са-dt2-делимично"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:55
+msgid "Symbol dagger"
+msgstr "Симбол бодеж"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:56
+msgid "Symbol d-by-dt"
+msgstr "Симбол d-са-dt"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:57
+msgid "Symbol d-by-dt-partial"
+msgstr "Симбол d-са-dt-парцијално"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:58
+msgid "Symbol equiv"
+msgstr "Симбол еквиваленција"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:59
+msgid "Symbol en-dash --"
+msgstr "Симбол црта --"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:60
+msgid "Symbol em-dash ---"
+msgstr "Симбол дуга црта ---"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:61
+msgid "Symbol infinity"
+msgstr "Симбол бесконачно"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:62
+msgid "Symbol mathspace ,"
+msgstr "Симбол матразмак ,"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:63
+msgid "Symbol mathspace ."
+msgstr "Симбол матразмак ."
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:64
+msgid "Symbol mathspace _"
+msgstr "Симбол матразмак _"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:65
+msgid "Symbol mathspace __"
+msgstr "Симбол матразмак __"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:66
+msgid "Symbol simeq"
+msgstr "Симбол слично"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:67
+msgid "Symbol star"
+msgstr "Симбол звезда"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:68
+msgid "Typeface bold"
+msgstr "Подебљани словни лик"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:69
+msgid "Typeface type"
+msgstr "Врста словног лика"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:70
+msgid "Typeface italic"
+msgstr "Искошени словни лик"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:71
+msgid "Typeface slanted"
+msgstr "Нагнути словни лик"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:73
+msgid "Unbreakable text"
+msgstr "Непреломиви текст"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:74
+msgid "Footnote"
+msgstr "Фуснота"
+
+#: ../plugins/taglist/taglist.scrivi-plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr "Списак елемената"
+
+#: ../plugins/taglist/taglist.scrivi-plugin.desktop.in.h:2
+msgid ""
+"Provides a method to easily insert commonly used tags/strings into a "
+"document without having to type them."
+msgstr "Обезбеђује начин лаког уметања често коришћених елемената/ниски у документ без потребе да их куцате."
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:1
+msgid "XSLT - Elements"
+msgstr "XSLT — Елементи"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:2
+msgid "XSLT - Functions"
+msgstr "XSLT — Функције"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:3
+msgid "XSLT - Axes"
+msgstr "XSLT — Осе"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:4
+msgid "ancestor"
+msgstr "предак"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:5
+msgid "ancestor-or-self"
+msgstr "предак-или-исти"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:6
+msgid "attribute"
+msgstr "атрибут"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:7
+msgid "child"
+msgstr "садржани"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:8
+msgid "descendant"
+msgstr "наследник"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:9
+msgid "descendant-or-self"
+msgstr "наследник-или-исти"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:10
+msgid "following"
+msgstr "наредни"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:11
+msgid "following-sibling"
+msgstr "наредни-слични"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:12
+msgid "namespace"
+msgstr "простор имена"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:13
+msgid "parent"
+msgstr "надређени"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:14
+msgid "preceding"
+msgstr "претходни"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:15
+msgid "preceding-sibling"
+msgstr "претходни-слични"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:16
+msgid "self"
+msgstr "исти"
+
+#: ../plugins/taglist/XUL.tags.xml.in.h:1
+msgid "XUL - Tags"
+msgstr "XUL — Ознаке"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:1
+msgid "Prompt type"
+msgstr "Врста упита"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:2
+msgid "Selected format"
+msgstr "Изабрани запис"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:3
+msgid "Custom format"
+msgstr "Произвољни запис"
+
+#: ../plugins/time/scrivi-time-plugin.c:179
+msgid "In_sert Date and Time..."
+msgstr "Уметни датум и _време..."
+
+#: ../plugins/time/scrivi-time-plugin.c:181
+msgid "Insert current date and time at the cursor position"
+msgstr "Уметните тренутни датум и време на положај курсора"
+
+#: ../plugins/time/scrivi-time-plugin.c:562
+msgid "Available formats"
+msgstr "Доступни записи"
+
+#: ../plugins/time/scrivi-time-plugin.c:713
+msgid "Configure insert date/time plugin..."
+msgstr "Подесите прикључак за уметање датума/времена..."
+
+#: ../plugins/time/time.scrivi-plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "Уметни датум/време"
+
+#: ../plugins/time/time.scrivi-plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "Уметните тренутни датум и време на положај курсора."
+
+#: ../plugins/trailsave/trailsave.scrivi-plugin.desktop.in.h:1
+msgid "Save Without Trailing Spaces"
+msgstr "Сачувај без завршних размака"
+
+#: ../plugins/trailsave/trailsave.scrivi-plugin.desktop.in.h:2
+msgid "Removes trailing spaces from lines before saving."
+msgstr "Уклоните пратеће размаке и празнине из редова пре чувања."
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:1
+msgid "Insert Date and Time"
+msgstr "Уметни датум и време"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:2
+msgid "_Insert"
+msgstr "_Уметни"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:3
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:5
+msgid "Use the _selected format"
+msgstr "Користи изабрани _запис"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:5
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:6
+msgid "_Use custom format"
+msgstr "Кори_сти произвољан запис"
+
+#. Translators: Use the more common date format in your locale
+#: ../plugins/time/scrivi-time-dialog.ui.h:7
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:9
+#, no-c-format
+msgid "%d/%m/%Y %H:%M:%S"
+msgstr "%d.%m.%Y., %H:%M:%S"
+
+#. Translators: This example should follow the date format defined in the
+#. entry above
+#: ../plugins/time/scrivi-time-dialog.ui.h:8
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:11
+msgid "01/11/2009 17:52:00"
+msgstr "01.11.2009, 17:52:00"
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:1
+msgid "Configure date/time plugin"
+msgstr "Подесите прикључак за датум/време"
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:2
+msgid "When inserting date/time..."
+msgstr "Када се убацује датум/време..."
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:4
+msgid "_Prompt for a format"
+msgstr "У_питај за запис"

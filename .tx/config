@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+ 
+[GDE2.scrivi]
+file_filter = po/<lang>.po
+source_file = po/scrivi.pot
+source_lang = en

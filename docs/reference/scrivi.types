@@ -1,0 +1,32 @@
+#include "scrivi-app.h"
+#include "scrivi-document.h"
+#include "scrivi-encodings.h"
+#include "scrivi-encodings-combo-box.h"
+#include "scrivi-file-chooser-dialog.h"
+#include "scrivi-message.h"
+#include "scrivi-message-bus.h"
+#include "scrivi-message-type.h"
+#include "scrivi-notebook.h"
+#include "scrivi-panel.h"
+#include "scrivi-plugin.h"
+#include "scrivi-progress-message-area.h"
+#include "scrivi-statusbar.h"
+#include "scrivi-tab.h"
+#include "scrivi-view.h"
+#include "scrivi-window.h"
+scrivi_app_get_type
+scrivi_document_get_type
+scrivi_encoding_get_type
+scrivi_encodings_combo_box_get_type
+scrivi_file_chooser_dialog_get_type
+scrivi_message_get_type
+scrivi_message_bus_get_type
+scrivi_message_type_get_type
+scrivi_notebook_get_type
+scrivi_panel_get_type
+scrivi_plugin_get_type
+scrivi_progress_message_area_get_type
+scrivi_statusbar_get_type
+scrivi_tab_get_type
+scrivi_view_get_type
+scrivi_window_get_type

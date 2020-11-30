@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#TODO: use "gsettings get org.gde2.applications-terminal exec"
+exec `zenity --entry --title="Run command - Scrivi" --text="Command to run"`

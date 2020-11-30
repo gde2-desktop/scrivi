@@ -1,0 +1,19 @@
+[Desktop Entry]
+_Name=Scrivi
+_GenericName=Text Editor
+_Comment=Edit text files
+Exec=scrivi %U
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=accessories-text-editor
+Categories=GTK;Utility;TextEditor;
+Keywords=text;editor;GDE2;tabs;highlighting;code;multiple;files;pluggable;
+X-GDE2-DocPath=scrivi/scrivi.xml
+_X-GDE2-FullName=Scrivi Text Editor
+X-GDE2-Bugzilla-Bugzilla=GDE2
+X-GDE2-Bugzilla-Product=Scrivi
+X-GDE2-Bugzilla-Component=general
+X-GDE2-Bugzilla-Version=@VERSION@
+X-GDE2-Bugzilla-ExtraInfoScript=@FULL_LIBEXECDIR@/scrivi/scrivi-bugreport.sh

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#TODO: use "gde2conftool-2 -g /desktop/gde2/applications/terminal/exec"
+gde2-terminal --working-directory=$SCRIVI_CURRENT_DOCUMENT_DIR &

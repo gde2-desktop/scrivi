@@ -1,0 +1,5007 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Alberto Federman Neto <mrtabac@gmail.com>, 2013
+# Aldo Oliveira <america103@gmail.com>, 2016
+# Fabrizzio Alphonsus Soares <fabrizzio.soares@gmail.com>, 2014
+# Gilberto José Souza Coutinho <gilberto.jsc@gmail.com>, 2015
+# Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2014
+# Matheus Macabu <mkbu95@gmail.com>, 2016
+# Victor Maximiliano <VicBrd09@mail2tor.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 10:33+0300\n"
+"PO-Revision-Date: 2016-03-09 13:04+0000\n"
+"Last-Translator: Aldo Oliveira <america103@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/gde2/GDE2/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:1
+msgid "Use Default Font"
+msgstr "Usar fonte padrão"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:2
+msgid ""
+"Whether to use the system's default fixed width font for editing text "
+"instead of a font specific to scrivi. If this option is turned off, then the "
+"font named in the \"Editor Font\" option will be used instead of the system "
+"font."
+msgstr "Usar a fonte de largura fixa padronizada no sistema para editar texto em vez da fonte especificada para o scrivi. Se esta opção estiver desligada, então a fonte indicada na opção \"Fonte do editor\" será usada no lugar da fonte do sistema."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:3
+msgctxt "editor-font"
+msgid "'Monospace 12'"
+msgstr "'Monospace 12'"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:4
+msgid "Editor Font"
+msgstr "Fonte do editor"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:5
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr "Fonte personalizada a ser usada na área de edição, caso a opção \"Usar fonte padrão\" seja desligada."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:6
+msgid "Style Scheme"
+msgstr "Esquema de estilo"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:7
+msgid "The ID of a GtkSourceView Style Scheme used to color the text."
+msgstr "A identificação (id) de um Esquema de estilo GtkSourceView usado para colorir o texto."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:8
+msgid "Create Backup Copies"
+msgstr "Criar cópias de backup"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:9
+msgid ""
+"Whether scrivi should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr "Criar cópias de backup dos arquivos que salvar. Você pode definir a extensão do arquivo de backup na opção \"Extensão da cópia de backup\"."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:10
+msgid "Autosave"
+msgstr "Salvar automaticamente"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:11
+msgid ""
+"Whether scrivi should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Autosave Interval\" "
+"option."
+msgstr "Salvar automaticamente arquivos modificados depois de um intervalo de tempo. Você pode definir o intervalo de tempo com a opção \"Intervalo para salvar automaticamente\"."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:12
+msgid "Autosave Interval"
+msgstr "Intervalo para salvar automaticamente"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:13
+msgid ""
+"Number of minutes after which scrivi will automatically save modified files. "
+"This will only take effect if the \"Autosave\" option is turned on."
+msgstr "Número de minutos para que o scrivi salve automaticamente os arquivos modificados. Só terá efeito se a opção \"Salvar automaticamente\" estiver ligada."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:14
+msgid "Writable VFS schemes"
+msgstr "Esquemas VFS modificáveis"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:15
+msgid ""
+"List of VFS schemes scrivi supports in write mode. The 'file' scheme is "
+"writable by default."
+msgstr "Lista de esquemas VFS ao qual o scrivi tem suporte em modo de escrita. O esquema de \\\"arquivo\\\" tem permissão de escrita por padrão."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:16
+msgid "Maximum Number of Undo Actions"
+msgstr "Número máximo de ações do desfazer"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:17
+msgid ""
+"Maximum number of actions that scrivi will be able to undo or redo. Use "
+"\"-1\" for unlimited number of actions."
+msgstr "Número máximo de ações que o scrivi poderá desfazer ou refazer. Use \"-1\" para um número ilimitado de ações."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:18
+msgid "Line Wrapping Mode"
+msgstr "Modo de quebra de linhas"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:19
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+"for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
+" the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr "Como quebrar linhas na área de edição: \"GTK_WRAP_NONE\" para não quebrar, \"GTK_WRAP_WORD\" para quebrar entre palavras, e \"GTK_WRAP_CHAR\" para quebrar entre caracteres individuais. Note que os valores são sensíveis a maiusculização, então assegure-se de definir exatamente como mencionado aqui."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:20
+msgid "Tab Size"
+msgstr "Tamanho da tabulação"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:21
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr "Número de espaços a serem exibidos no lugar dos caracteres de tabulação."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:22
+msgid "Insert spaces"
+msgstr "Inserir espaços"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:23
+msgid "Whether scrivi should insert spaces instead of tabs."
+msgstr "Inserir espaços em vez de tabulações."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:24
+msgid "Automatic indent"
+msgstr "Recuo automático"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:25
+msgid "Whether scrivi should enable automatic indentation."
+msgstr "Habilitar recuo automático."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:26
+msgid "Display Line Numbers"
+msgstr "Mostrar números de linha"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:27
+msgid "Whether scrivi should display line numbers in the editing area."
+msgstr "Exibir números de linha na área de edição."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:28
+msgid "Highlight Current Line"
+msgstr "Destacar linha atual"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:29
+msgid "Whether scrivi should highlight the current line."
+msgstr "Destacar a linha atual."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:30
+msgid "Highlight Matching Bracket"
+msgstr "Destacar parênteses correspondentes"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:31
+msgid "Whether scrivi should highlight the bracket matching the selected one."
+msgstr "Destacar a chave que combina com a chave selecionada."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:32
+msgid "Display Right Margin"
+msgstr "Mostrar margem direita"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:33
+msgid "Whether scrivi should display the right margin in the editing area."
+msgstr "Exibir a margem direita na área de edição."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:34
+msgid "Right Margin Position"
+msgstr "Posição da margem direita"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:35
+msgid "Specifies the position of the right margin."
+msgstr "Posição da margem direita."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:36
+msgid "Smart Home End"
+msgstr "Home end inteligente"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:37
+msgid ""
+"Specifies how the cursor moves when the HOME and END keys are pressed. Use "
+"\"DISABLED\" to always move at the start/end of the line, \"AFTER\" to move "
+"to the start/end of the line the first time the keys are pressed and to the "
+"start/end of the text ignoring whitespaces the second time the keys are "
+"pressed, \"BEFORE\" to move to the start/end of the text before moving to "
+"the start/end of the line and \"ALWAYS\" to always move to the start/end of "
+"the text instead of the start/end of the line."
+msgstr "Especifica como o cursor move quando as teclas HOME e END são pressionadas. Use \"DISABLED\" para sempre mover para o início/fim da linha, \"AFTER\" para mover para o início/fim da linha a primeira vez as teclas forem pressionadas e para o início/fim do texto, ignorando espaços a segunda vez as teclas forem pressionadas, \"BEFORE\" para mover para o início/fim do texto antes de mover para o início/fim da linha e \"ALWAYS\" para sempre mover para o início/fim texto invés do início/fim da linha."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:38
+msgid "Restore Previous Cursor Position"
+msgstr "Restaurar posição anterior do cursor"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:39
+msgid ""
+"Whether scrivi should restore the previous cursor position when a file is "
+"loaded."
+msgstr "Restaurar a posição anterior do cursor quando um arquivo é carregado."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:40
+msgid "Enable Search Highlighting"
+msgstr "Habilitar destaque de pesquisa"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:41
+msgid ""
+"Whether scrivi should highlight all the occurrences of the searched text."
+msgstr "Destacar todas as ocorrências do texto pesquisado."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:42
+msgid "Enable Syntax Highlighting"
+msgstr "Habilitar destaque de sintaxe"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:43
+msgid "Whether scrivi should enable syntax highlighting."
+msgstr "Habilitar destaque de sintaxe."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:44
+msgid "Toolbar is Visible"
+msgstr "Barra de ferramentas visível"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:45
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr "Exibir a barra de ferramentas em janelas de edição."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:46
+msgid "Toolbar Buttons Style"
+msgstr "Estilo dos botões da barra de ferramentas"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:47
+msgid ""
+"Style for the toolbar buttons. Possible values are \"SCRIVI_TOOLBAR_SYSTEM\" "
+"to use the system's default style, \"SCRIVI_TOOLBAR_ICONS\" to display icons "
+"only, \"SCRIVI_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+"\"SCRIVI_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons."
+" Note that the values are case-sensitive, so make sure they appear exactly "
+"as mentioned here."
+msgstr "Estilo para os botões da barra de ferramentas: \"SCRIVI_TOOLBAR_SYSTEM\" para usar o estilo padrão do sistema, \"SCRIVI_TOOLBAR_ICONS\" para mostrar apenas ícones, \"SCRIVI_TOOLBAR_ICONS_AND_TEXT\" para mostrar ícones e texto, e \"SCRIVI_TOOLBAR_ICONS_BOTH_HORIZ\" para mostrar texto prioritário ao lado dos ícones. Note que os valores são sensíveis a maiusculização, então assegure-se de que eles estejam idênticos aos mencionados aqui."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:48
+msgid "Status Bar is Visible"
+msgstr "Barra de status visível"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:49
+msgid ""
+"Whether the status bar at the bottom of editing windows should be visible."
+msgstr "Exibir a barra de status na parte de baixo da janela de edição."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:50
+msgid "Side Pane is Visible"
+msgstr "Barra lateral visível"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:51
+msgid ""
+"Whether the side pane at the left of editing windows should be visible."
+msgstr "Exibir a barra lateral do lado esquerdo da janela de edição."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:52
+msgid "Bottom Panel is Visible"
+msgstr "Painel inferior visível"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:53
+msgid ""
+"Whether the bottom panel at the bottom of editing windows should be visible."
+msgstr "Exibir o painel inferior na janela de edição."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:54
+msgid "Maximum Recent Files"
+msgstr "Número máximo de arquivos recentes"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:55
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed"
+" in the \"Recent Files\" submenu."
+msgstr "Número máximo de arquivos abertos recentemente a serem exibidos no submenu \"Arquivos recentes\"."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:56
+msgid "Print Syntax Highlighting"
+msgstr "Imprimir destaque de sintaxe"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:57
+msgid ""
+"Whether scrivi should print syntax highlighting when printing documents."
+msgstr "Imprimir o destaque de sintaxe ao imprimir documentos."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:58
+msgid "Print Header"
+msgstr "Imprimir cabeçalho"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:59
+msgid ""
+"Whether scrivi should include a document header when printing documents."
+msgstr "Incluir um cabeçalho de documento ao imprimir documentos."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:60
+msgid "Printing Line Wrapping Mode"
+msgstr "Modo de quebra de linha na impressão"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:61
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+"wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
+" the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr "Como quebrar linhas para impressão: \"GTK_WRAP_NONE\" para não quebrar, \"GTK_WRAP_WORD\" para quebrar entre palavras, ou \"GTK_WRAP_CHAR\" para quebrar entre caracteres individuais. Note que os valores são sensíveis à maiusculização, então assegure-se de definir exatamente como mencionado aqui."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:62
+msgid "Print Line Numbers"
+msgstr "Imprimir números de linha"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:63
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, scrivi will print line numbers every such number of "
+"lines."
+msgstr "Se esse valor for 0 não serão inseridos números de linha quando um documento for impresso. Do contrário, o scrivi vai imprimir números de linha a cada número especificado de linhas."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:64
+msgctxt "print-font-body-pango"
+msgid "'Monospace 9'"
+msgstr "'Monospace 9'"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:65
+msgid "Body Font for Printing"
+msgstr "Fonte do corpo para impressão"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:66
+msgid ""
+"Specifies the font to use for a document's body when printing documents."
+msgstr "Fonte a ser usada para o corpo de um documento ao imprimir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:67
+msgctxt "print-font-header-pango"
+msgid "'Sans 11'"
+msgstr "'Sans 11'"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:68
+msgid "Header Font for Printing"
+msgstr "Fonte do cabeçalho para impressão"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:69
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr "Fonte a ser usada para cabeçalhos de páginas ao imprimir um documento, caso a opção \"Imprimir cabeçalho\" esteja ativada."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:70
+msgctxt "print-font-numbers-pango"
+msgid "'Sans 8'"
+msgstr "'Sans 8'"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:71
+msgid "Line Number Font for Printing"
+msgstr "Fonte do número de linha para impressão"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:72
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr "Fonte a ser usada para imprimir números de linha, caso a opção \"Imprimir números de linha\" seja diferente de zero."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:73
+msgctxt "auto-detected"
+msgid "[ 'UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16' ]"
+msgstr "[ 'UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16' ]"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:74
+msgid "Automatically Detected Encodings"
+msgstr "Codificações detectadas automaticamente"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:75
+msgid ""
+"Sorted list of encodings used by scrivi for automatically detecting the "
+"encoding of a file. \"CURRENT\" represents the current locale encoding. Only"
+" recognized encodings are used."
+msgstr "Lista ordenada de codificações usadas pelo scrivi para detectar automaticamente a codificação de um arquivo. \"CURRENT\" é a codificação da localização atual. Somente codificações reconhecidas são usadas."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:76
+msgctxt "shown-in-menu"
+msgid "[ 'ISO-8859-15' ]"
+msgstr "[ 'ISO-8859-15' ]"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:77
+msgid "Encodings shown in menu"
+msgstr "Codificações mostradas no menu"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:78
+msgid ""
+"List of encodings shown in the Character Encoding menu in open/save file "
+"selector. Only recognized encodings are used."
+msgstr "Lista de codificações mostradas no menu de Codificação de Caracteres no seletor de arquivos abrir/salvar. Somente codificações reconhecidas são usadas."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:79
+msgid "History for \"search for\" entries"
+msgstr "Histórico das entradas \"procurar por\""
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:80
+msgid "List of entries in \"search for\" textbox."
+msgstr "Lista das Entradas na Caixa de Texto de \"procurar por\""
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:81
+msgid "History for \"replace with\" entries"
+msgstr "Histórico das Entradas \"substituir por\""
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:82
+msgid "List of entries in \"replace with\" textbox."
+msgstr "Lista das Entradas na Caixa de Texto de \"substituir por\""
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:83
+msgid "Active plugins"
+msgstr "Ativar plug-ins"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:84
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .scrivi-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr "Lista dos plug-ins ativos. Ela contém a \"Localização\" dos plug-ins ativos. Veja o arquivo .scrivi-plug-in para obter a \"Localização\" de um dado plug-in."
+
+#: ../data/scrivi.appdata.xml.in.h:1
+msgid "A Text Editor for the GDE2 desktop environment"
+msgstr "Um Editor de Texto do ambiente de trabalho GDE2"
+
+#: ../data/scrivi.appdata.xml.in.h:2
+msgid ""
+"<p> Scrivi is a small, but powerful text editor designed specifically for the"
+" GDE2 desktop. It has most standard text editor functions and fully supports"
+" international text in Unicode. Advanced features include syntax "
+"highlighting and automatic indentation of source code, printing and editing "
+"of multiple documents in one window. </p> <p> Scrivi is extensible through a "
+"plugin system, which currently includes support for spell checking, "
+"comparing files, viewing CVS ChangeLogs, and adjusting indentation levels. "
+"</p>"
+msgstr "<p> Scrivi é um pequeno, mas poderoso, editor de texto desenvolvido específicamente para o ambiente de trabalho GDE2. Ele possuí a maioria das funções padrão de editores de texto e suporte completo aos texto internacionais em Unicode. Ferramentas avançada incluem destque de sintaxe e identificação automática de códio fonte, impressão e edição de múltiplos documentos em uma janela. </p> <p> Scrivi pode ser extendido através dos sistema de plugins, que atualmente inclui suporte para verificação ortográfica, comparação de arquivos, visualização de ChangeLogs CVS, e ajuste de níveis de recuo. </p>"
+
+#: ../data/scrivi.desktop.in.in.h:1
+msgid "Scrivi"
+msgstr "Scrivi"
+
+#: ../data/scrivi.desktop.in.in.h:2 ../scrivi/scrivi-print-job.c:767
+msgid "Text Editor"
+msgstr "Editor de texto"
+
+#: ../data/scrivi.desktop.in.in.h:3
+msgid "Edit text files"
+msgstr "Edite arquivos de texto"
+
+#: ../data/scrivi.desktop.in.in.h:4
+msgid "Scrivi Text Editor"
+msgstr "Editor de Texto Scrivi"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:145
+msgid "Log Out _without Saving"
+msgstr "_Encerrar sessão sem salvar"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:149
+msgid "_Cancel Logout"
+msgstr "_Cancelar encerramento de sessão"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:156
+msgid "Close _without Saving"
+msgstr "_Fechar sem salvar"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:216
+msgid "Question"
+msgstr "Pergunta"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:416
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld second will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "Se você não salvar, as alterações feitas no último %ld segundo serão permanentemente perdidas."
+msgstr[1] "Se você não salvar, as alterações feitas nos últimos %ld segundos serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:425
+msgid ""
+"If you don't save, changes from the last minute will be permanently lost."
+msgstr "Se você não salvar, as alterações feitas no último minuto serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:431
+#, c-format
+msgid ""
+"If you don't save, changes from the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "Se você não salvar, as alterações feitas no último minuto e %ld segundo serão permanentemente perdidas."
+msgstr[1] "Se você não salvar, as alterações feitas no último minuto e %ld segundos serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:441
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld minute will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "Se você não salvar, as alterações feitas no último %ld minuto serão permanentemente perdidas."
+msgstr[1] "Se você não salvar, as alterações feitas nos últimos %ld minutos serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:456
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
+msgstr "Se você não salvar, as alterações feitas na última hora serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:462
+#, c-format
+msgid ""
+"If you don't save, changes from the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "Se você não salvar, as alterações feitas na última hora e %d minuto serão permanentemente perdidas."
+msgstr[1] "Se você não salvar, as alterações feitas na última hora e %d minutos serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:477
+#, c-format
+msgid ""
+"If you don't save, changes from the last %d hour will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] "Se você não salvar, as alterações feitas na última %d hora serão permanentemente perdidas."
+msgstr[1] "Se você não salvar, as alterações feitas nas últimas %d horas serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:535
+#, c-format
+msgid "Changes to document \"%s\" will be permanently lost."
+msgstr "Alterações do documento \"%s\" serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:540
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "Salvar as alterações para o documento \"%s\" antes de fechar?"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:554
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:788
+msgid "Saving has been disabled by the system administrator."
+msgstr "A gravação em disco foi desabilitada pelo administrador."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:739
+#, c-format
+msgid "Changes to %d document will be permanently lost."
+msgid_plural "Changes to %d documents will be permanently lost."
+msgstr[0] "Alterações de %d documento serão permanentemente perdidas."
+msgstr[1] "Alterações de %d documentos serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:745
+#, c-format
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d documents with unsaved changes. Save changes before closing?"
+msgstr[0] "Existe %d documento com alterações não salvas. Salvar as alterações antes de fechar?"
+msgstr[1] "Existem %d documentos com alterações não salvas. Salvar as alterações antes de fechar?"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:763
+msgid "Docum_ents with unsaved changes:"
+msgstr "_Documentos com mudanças não salvas:"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:765
+msgid "S_elect the documents you want to save:"
+msgstr "Selecione os _documentos que você quer salvar:"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:790
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "Se você não salvar, todas as suas alterações serão permanentemente perdidas."
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:321
+msgid "Character Encodings"
+msgstr "Codificações de caracteres"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:384
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:445
+msgid "_Description"
+msgstr "D_escrição"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:393
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:454
+msgid "_Encoding"
+msgstr "Co_dificação"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:1
+msgid "Character encodings"
+msgstr "Codificações de caracteres"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:2
+msgid "A_vailable encodings:"
+msgstr "Codificações dispo_níveis:"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:3
+msgid "E_ncodings shown in menu:"
+msgstr "Codificações mostradas no _menu:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:574
+msgid "Click on this button to select the font to be used by the editor"
+msgstr "Pressionar esse botão para selecionar a fonte a ser usada pelo editor"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:584
+#, c-format
+msgid "_Use the system fixed width font (%s)"
+msgstr "_Usar a fonte de largura fixa padrão (%s)"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:787
+msgid "The selected color scheme cannot be installed."
+msgstr "O esquema de cores selecionado não pode ser instalado."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:812
+msgid "Add Scheme"
+msgstr "Adicionar esquema"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:819
+msgid "A_dd Scheme"
+msgstr "A_dicionar esquema"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:827
+msgid "Color Scheme Files"
+msgstr "Arquivos de esquema de cores"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:834
+#: ../scrivi/scrivi-file-chooser-dialog.c:55
+msgid "All Files"
+msgstr "Todos os arquivos"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:879
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr "Não foi possível remover o esquema de cores \"%s\"."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:1090
+msgid "Scrivi Preferences"
+msgstr "Preferências do Scrivi"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:1
+msgid "Preferences"
+msgstr "Preferências"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:2
+#: ../scrivi/scrivi-print-preferences.ui.h:9
+msgid "Text Wrapping"
+msgstr "Quebra de Texto"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:3
+#: ../plugins/docinfo/docinfo.ui.h:4
+#: ../plugins/externaltools/tools/tools.ui.h:21
+#: ../plugins/snippets/snippets/snippets.ui.h:9
+#: ../plugins/time/scrivi-time-dialog.ui.h:4
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:3
+msgid "    "
+msgstr "    "
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:4
+#: ../scrivi/scrivi-print-preferences.ui.h:10
+msgid "Enable text _wrapping"
+msgstr "Habilitar _quebra de texto"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:5
+#: ../scrivi/scrivi-print-preferences.ui.h:11
+msgid "Do not _split words over two lines"
+msgstr "Não _dividir uma palavra em duas linhas"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:6
+#: ../scrivi/scrivi-print-preferences.ui.h:3
+msgid "Line Numbers"
+msgstr "Números de linha"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:7 ../scrivi/scrivi-view.c:2039
+msgid "_Display line numbers"
+msgstr "Exi_bir números de linha"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:8
+msgid "Current Line"
+msgstr "Linha atual"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:9
+msgid "Highlight current _line"
+msgstr "Destacar _linha atual"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:10
+msgid "Right Margin"
+msgstr "Margem direita"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:11
+msgid "Display right _margin"
+msgstr "Mostrar margem _direita"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:12
+msgid "_Right margin at column:"
+msgstr "Margem _direita na coluna:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:13
+msgid "Bracket Matching"
+msgstr "Parênteses correspondentes"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:14
+msgid "Highlight matching _bracket"
+msgstr "Destacar parênteses _correspondentes"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:15
+msgid "View"
+msgstr "Visão"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:16
+msgid "Tab Stops"
+msgstr "Paradas de tabulação"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:17
+msgid "_Tab width:"
+msgstr "Largura das _tabulações:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:18
+msgid "Insert _spaces instead of tabs"
+msgstr "Inserir _espaços em vez de tabulações"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:19
+msgid "Automatic Indentation"
+msgstr "Recuo automático"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:20
+msgid "_Enable automatic indentation"
+msgstr "Habilitar recuo _automático"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:21
+msgid "File Saving"
+msgstr "Gravação de arquivos"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:22
+msgid "Create a _backup copy of files before saving"
+msgstr "Criar uma cópia de _backup dos arquivos antes de salvar"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:23
+msgid "_Autosave files every"
+msgstr "_Salvar arquivos automaticamente a cada"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:24
+msgid "_minutes"
+msgstr "_minutos"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:25
+msgid "Editor"
+msgstr "Editor"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:26
+msgid "Font"
+msgstr "Fonte"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:27
+msgid "Editor _font: "
+msgstr "_Fonte do editor: "
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:28
+msgid "Pick the editor font"
+msgstr "Selecione a fonte do editor"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:29
+msgid "Color Scheme"
+msgstr "Esquema de cores"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:30
+msgid "_Add..."
+msgstr "_Adicionar..."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:31
+msgid "Font & Colors"
+msgstr "Fontes e cores"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:32
+msgid "Plugins"
+msgstr "Plug-ins"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:302
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:1 ../scrivi/scrivi-window.c:1462
+msgid "Replace"
+msgstr "Substituir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:313 ../scrivi/scrivi-window.c:1460
+msgid "Find"
+msgstr "Localizar"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:417
+msgid "Replace _All"
+msgstr "Substituir t_odas"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:418
+#: ../scrivi/scrivi-commands-file.c:589
+msgid "_Replace"
+msgstr "_Substituir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:2
+msgid "Replace All"
+msgstr "Substituir todas"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:3
+msgid "_Search for: "
+msgstr "_Pesquisar por: "
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:4
+msgid "Replace _with: "
+msgstr "_Substituir por: "
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:5
+msgid "_Match case"
+msgstr "_Diferenciar maiúsculas/minúsculas"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:6
+msgid "Match _entire word only"
+msgstr "_Coincidir apenas com palavra completa"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:7
+msgid "Search _backwards"
+msgstr "Pesquisar para _trás"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:8
+msgid "_Wrap around"
+msgstr "_Voltar ao início"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:9
+msgid "_Parse escape sequences (e.g. \\n)"
+msgstr "_Analisa sequências de escape (ex: \\n)"
+
+#: ../scrivi/scrivi.c:104
+msgid "Show the application's version"
+msgstr "Mostra a versão do aplicativo"
+
+#: ../scrivi/scrivi.c:107
+msgid ""
+"Set the character encoding to be used to open the files listed on the "
+"command line"
+msgstr "Define a codificação de caracteres a ser usada para abrir os arquivos listados na linha de comando"
+
+#: ../scrivi/scrivi.c:107
+msgid "ENCODING"
+msgstr "CODIFICAÇÃO"
+
+#: ../scrivi/scrivi.c:110
+msgid "Display list of possible values for the encoding option"
+msgstr "Mostra uma lista de possíveis valores para a opção de codificação"
+
+#: ../scrivi/scrivi.c:113
+msgid "Create a new top-level window in an existing instance of scrivi"
+msgstr "Cria uma nova janela principal em uma instância existente do scrivi"
+
+#: ../scrivi/scrivi.c:116
+msgid "Create a new document in an existing instance of scrivi"
+msgstr "Cria um novo documento em uma instância existente do scrivi"
+
+#: ../scrivi/scrivi.c:119
+msgid "[FILE...]"
+msgstr "[ARQUIVO...]"
+
+#: ../scrivi/scrivi.c:174
+#, c-format
+msgid "%s: invalid encoding.\n"
+msgstr "%s: codificação inválida.\n"
+
+#. Setup command line options
+#: ../scrivi/scrivi.c:520
+msgid "- Edit text files"
+msgstr "- Edite arquivos de texto"
+
+#: ../scrivi/scrivi.c:529
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr "%s\nExecute \\\"%s --help\\\" para ver uma lista completa de opções disponíveis de linha de comando.\n"
+
+#: ../scrivi/scrivi-commands-file.c:250
+#, c-format
+msgid "Loading file '%s'…"
+msgstr "Carregando o arquivo \\\"%s\\\"..."
+
+#: ../scrivi/scrivi-commands-file.c:259
+#, c-format
+msgid "Loading %d file…"
+msgid_plural "Loading %d files…"
+msgstr[0] "Carregando %d arquivo..."
+msgstr[1] "Carregando %d arquivos..."
+
+#. Translators: "Open Files" is the title of the file chooser window
+#: ../scrivi/scrivi-commands-file.c:465
+msgid "Open Files"
+msgstr "Abrir arquivos"
+
+#: ../scrivi/scrivi-commands-file.c:576
+#, c-format
+msgid "The file \"%s\" is read-only."
+msgstr "O arquivo \"%s\" é somente para leitura."
+
+#: ../scrivi/scrivi-commands-file.c:581
+msgid "Do you want to try to replace it with the one you are saving?"
+msgstr "Deseja tentar substituí-lo com o que você está salvando?"
+
+#: ../scrivi/scrivi-commands-file.c:650 ../scrivi/scrivi-commands-file.c:873
+#, c-format
+msgid "Saving file '%s'…"
+msgstr "Salvando o arquivo \\\"%s\\\"..."
+
+#: ../scrivi/scrivi-commands-file.c:758
+msgid "Save As…"
+msgstr "Salvar como..."
+
+#: ../scrivi/scrivi-commands-file.c:1087
+#, c-format
+msgid "Reverting the document '%s'…"
+msgstr "Revertendo o documento \\\"%s\\\"..."
+
+#: ../scrivi/scrivi-commands-file.c:1132
+#, c-format
+msgid "Revert unsaved changes to document '%s'?"
+msgstr "Reverter as alterações não salvas para o documento \\\"%s\\\"?"
+
+#: ../scrivi/scrivi-commands-file.c:1141
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld second will be permanently "
+"lost."
+msgid_plural ""
+"Changes made to the document in the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "As alterações feitas no documento no último %ld segundo serão permanentemente perdidas."
+msgstr[1] "As alterações feitas no documento nos últimos %ld segundos serão permanentemente perdidas."
+
+#: ../scrivi/scrivi-commands-file.c:1150
+msgid ""
+"Changes made to the document in the last minute will be permanently lost."
+msgstr "As alterações feitas no documento no último minuto serão permanentemente perdidas."
+
+#: ../scrivi/scrivi-commands-file.c:1156
+#, c-format
+msgid ""
+"Changes made to the document in the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "As alterações feitas no documento no último minuto e %ld segundo serão permanentemente perdidas."
+msgstr[1] "As alterações feitas no documento no último minuto e %ld segundos serão permanentemente perdidas."
+
+#: ../scrivi/scrivi-commands-file.c:1166
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld minute will be permanently "
+"lost."
+msgid_plural ""
+"Changes made to the document in the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "As alterações feitas no documento no último %ld minuto serão permanentemente perdidas."
+msgstr[1] "As alterações feitas no documento nos últimos %ld minutos serão permanentemente perdidas."
+
+#: ../scrivi/scrivi-commands-file.c:1181
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
+msgstr "As alterações feitas no documento na última hora serão permanentemente perdidas."
+
+#: ../scrivi/scrivi-commands-file.c:1187
+#, c-format
+msgid ""
+"Changes made to the document in the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "As alterações feitas no documento na última hora e %d minuto serão permanentemente perdidas."
+msgstr[1] "As alterações feitas no documento na última hora e %d minutos serão permanentemente perdidas."
+
+#: ../scrivi/scrivi-commands-file.c:1202
+#, c-format
+msgid ""
+"Changes made to the document in the last %d hour will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %d hours will be permanently lost."
+msgstr[0] "As alterações feitas no documento na última %d hora serão permanentemente perdidas."
+msgstr[1] "As alterações feitas no documento nas últimas %d horas serão permanentemente perdidas."
+
+#: ../scrivi/scrivi-commands-file.c:1228
+msgid "_Revert"
+msgstr "_Reverter"
+
+#: ../scrivi/scrivi-commands-help.c:83
+msgid "Scrivi is a small and lightweight text editor for the GDE2 Desktop"
+msgstr "Scrivi é pequeno e leve editor de texto para o GDE2."
+
+#: ../scrivi/scrivi-commands-help.c:95
+msgid "translator-credits"
+msgstr "Frederic L. W. Meunier <linux@urbi.com.br>\nAldo Oliveira <america103@gmail.com>\nEvandro Fernandes Giovanini <evandrofg@ig.com.br>\nDavid Barzilay <barzilay@redhat.com>\nGustavo Noronha Silva <kov@debian.org>\nFrancisco Petrucio Cavalcante Junior <fpcj@impa.br>\nJoão Emanuel <deathbird1981@yahoo.com.br>\nJoão Paulo Gomes Vanzuita <joaopaulo99@terra.com.br>\nRaphael Higino <In Memoriam>\nEverson Santos Araujo <everson@por.com.br>\nLeonardo Ferreira Fontenelle <leonardof@gnome.org>\nOg Maciel <ogmaciel@gnome.org>\nJonh Wendell <wendell@bani.com.br>\nFábio Nogueira <deb-user-ba@ubuntu.com>\nCésar Veiga <tombs@linuxmail.org>\nAndré Gondim <andregondim@ubuntu.com>\nHenrique P. Machado <hpmachado@gnome.org>"
+
+#: ../scrivi/scrivi-commands-search.c:115
+#, c-format
+msgid "Found and replaced %d occurrence"
+msgid_plural "Found and replaced %d occurrences"
+msgstr[0] "%d ocorrência localizada e substituída"
+msgstr[1] "%d ocorrências localizadas e substituídas"
+
+#: ../scrivi/scrivi-commands-search.c:125
+msgid "Found and replaced one occurrence"
+msgstr "Uma ocorrência localizada e substituída"
+
+#. Translators: %s is replaced by the text
+#. entered by the user in the search box
+#: ../scrivi/scrivi-commands-search.c:146
+#, c-format
+msgid "\"%s\" not found"
+msgstr "\"%s\" não localizado"
+
+#: ../scrivi/scrivi-document.c:1090 ../scrivi/scrivi-document.c:1110
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "Documento não-salvo %d"
+
+#: ../scrivi/scrivi-documents-panel.c:101 ../scrivi/scrivi-documents-panel.c:115
+#: ../scrivi/scrivi-window.c:2187 ../scrivi/scrivi-window.c:2192
+msgid "Read-Only"
+msgstr "Somente leitura"
+
+#: ../scrivi/scrivi-documents-panel.c:796 ../scrivi/scrivi-window.c:3577
+msgid "Documents"
+msgstr "Documentos"
+
+#: ../scrivi/scrivi-encodings.c:138 ../scrivi/scrivi-encodings.c:180
+#: ../scrivi/scrivi-encodings.c:182 ../scrivi/scrivi-encodings.c:184
+#: ../scrivi/scrivi-encodings.c:186 ../scrivi/scrivi-encodings.c:188
+#: ../scrivi/scrivi-encodings.c:190 ../scrivi/scrivi-encodings.c:192
+msgid "Unicode"
+msgstr "Unicode"
+
+#: ../scrivi/scrivi-encodings.c:151 ../scrivi/scrivi-encodings.c:175
+#: ../scrivi/scrivi-encodings.c:225 ../scrivi/scrivi-encodings.c:268
+msgid "Western"
+msgstr "Ocidental"
+
+#: ../scrivi/scrivi-encodings.c:153 ../scrivi/scrivi-encodings.c:227
+#: ../scrivi/scrivi-encodings.c:264
+msgid "Central European"
+msgstr "Europeu Central"
+
+#: ../scrivi/scrivi-encodings.c:155
+msgid "South European"
+msgstr "Europeu do Sul"
+
+#: ../scrivi/scrivi-encodings.c:157 ../scrivi/scrivi-encodings.c:171
+#: ../scrivi/scrivi-encodings.c:278
+msgid "Baltic"
+msgstr "Báltico"
+
+#: ../scrivi/scrivi-encodings.c:159 ../scrivi/scrivi-encodings.c:229
+#: ../scrivi/scrivi-encodings.c:242 ../scrivi/scrivi-encodings.c:246
+#: ../scrivi/scrivi-encodings.c:248 ../scrivi/scrivi-encodings.c:266
+msgid "Cyrillic"
+msgstr "Cirílico"
+
+#: ../scrivi/scrivi-encodings.c:161 ../scrivi/scrivi-encodings.c:235
+#: ../scrivi/scrivi-encodings.c:276
+msgid "Arabic"
+msgstr "Arábico"
+
+#: ../scrivi/scrivi-encodings.c:163 ../scrivi/scrivi-encodings.c:270
+msgid "Greek"
+msgstr "Grego"
+
+#: ../scrivi/scrivi-encodings.c:165
+msgid "Hebrew Visual"
+msgstr "Visual Hebraico"
+
+#: ../scrivi/scrivi-encodings.c:167 ../scrivi/scrivi-encodings.c:231
+#: ../scrivi/scrivi-encodings.c:272
+msgid "Turkish"
+msgstr "Turco"
+
+#: ../scrivi/scrivi-encodings.c:169
+msgid "Nordic"
+msgstr "Nórdico"
+
+#: ../scrivi/scrivi-encodings.c:173
+msgid "Celtic"
+msgstr "Céltico"
+
+#: ../scrivi/scrivi-encodings.c:177
+msgid "Romanian"
+msgstr "Romeno"
+
+#: ../scrivi/scrivi-encodings.c:195
+msgid "Armenian"
+msgstr "Armênio"
+
+#: ../scrivi/scrivi-encodings.c:197 ../scrivi/scrivi-encodings.c:199
+#: ../scrivi/scrivi-encodings.c:213
+msgid "Chinese Traditional"
+msgstr "Chinês Tradicional"
+
+#: ../scrivi/scrivi-encodings.c:201
+msgid "Cyrillic/Russian"
+msgstr "Cirílico/Russo"
+
+#: ../scrivi/scrivi-encodings.c:204 ../scrivi/scrivi-encodings.c:206
+#: ../scrivi/scrivi-encodings.c:208 ../scrivi/scrivi-encodings.c:238
+#: ../scrivi/scrivi-encodings.c:253
+msgid "Japanese"
+msgstr "Japonês"
+
+#: ../scrivi/scrivi-encodings.c:211 ../scrivi/scrivi-encodings.c:240
+#: ../scrivi/scrivi-encodings.c:244 ../scrivi/scrivi-encodings.c:259
+msgid "Korean"
+msgstr "Coreano"
+
+#: ../scrivi/scrivi-encodings.c:216 ../scrivi/scrivi-encodings.c:218
+#: ../scrivi/scrivi-encodings.c:220
+msgid "Chinese Simplified"
+msgstr "Chinês Simplificado"
+
+#: ../scrivi/scrivi-encodings.c:222
+msgid "Georgian"
+msgstr "Georgiano"
+
+#: ../scrivi/scrivi-encodings.c:233 ../scrivi/scrivi-encodings.c:274
+msgid "Hebrew"
+msgstr "Hebraico"
+
+#: ../scrivi/scrivi-encodings.c:250
+msgid "Cyrillic/Ukrainian"
+msgstr "Cirílico/Ucraniano"
+
+#: ../scrivi/scrivi-encodings.c:255 ../scrivi/scrivi-encodings.c:261
+#: ../scrivi/scrivi-encodings.c:280
+msgid "Vietnamese"
+msgstr "Vietnamita"
+
+#: ../scrivi/scrivi-encodings.c:257
+msgid "Thai"
+msgstr "Tailandês"
+
+#: ../scrivi/scrivi-encodings.c:431
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:272
+msgid "Automatically Detected"
+msgstr "Detectado automaticamente"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:288
+#: ../scrivi/scrivi-encodings-combo-box.c:303
+#, c-format
+msgid "Current Locale (%s)"
+msgstr "Localidade atual (%s)"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:353
+msgid "Add or Remove..."
+msgstr "Adicionar ou remover..."
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:56
+msgid "All Text Files"
+msgstr "Todos os arquivos de texto"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:88
+msgid "C_haracter Encoding:"
+msgstr "_Codificação de caracteres:"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:157
+msgid "L_ine Ending:"
+msgstr "F_im de linha:"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:180
+msgid "Unix/Linux"
+msgstr "Unix/Linux"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:186
+msgid "Mac OS Classic"
+msgstr "Mac OS Classic"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:192
+msgid "Windows"
+msgstr "Windows"
+
+#: ../scrivi/scrivi-help.c:81
+msgid "There was an error displaying the help."
+msgstr "Houve um erro ao exibir a ajuda."
+
+#: ../scrivi/scrivi-io-error-message-area.c:196
+#: ../scrivi/scrivi-io-error-message-area.c:498
+msgid "_Retry"
+msgstr "_Tentar de novo"
+
+#: ../scrivi/scrivi-io-error-message-area.c:217
+#, c-format
+msgid "Could not find the file %s."
+msgstr "Não foi possível localizar o arquivo %s."
+
+#: ../scrivi/scrivi-io-error-message-area.c:219
+#: ../scrivi/scrivi-io-error-message-area.c:258
+#: ../scrivi/scrivi-io-error-message-area.c:265
+msgid "Please check that you typed the location correctly and try again."
+msgstr "Verifique se você digitou a localização corretamente e tente de novo."
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../scrivi/scrivi-io-error-message-area.c:234
+#, c-format
+msgid "scrivi cannot handle %s locations."
+msgstr "O scrivi não pode lidar com localizações %s."
+
+#: ../scrivi/scrivi-io-error-message-area.c:240
+msgid "scrivi cannot handle this location."
+msgstr "O scrivi não pode lidar com essa localização."
+
+#: ../scrivi/scrivi-io-error-message-area.c:248
+msgid "The location of the file cannot be mounted."
+msgstr "O esquema de cores selecionado não pode ser montado."
+
+#: ../scrivi/scrivi-io-error-message-area.c:252
+msgid "The location of the file cannot be accessed because it is not mounted."
+msgstr "A localização do arquivo não pode ser acessada porque não está montada."
+
+#: ../scrivi/scrivi-io-error-message-area.c:256
+#, c-format
+msgid "%s is a directory."
+msgstr "%s é um diretório."
+
+#: ../scrivi/scrivi-io-error-message-area.c:263
+#, c-format
+msgid "%s is not a valid location."
+msgstr "%s não é uma localização válida."
+
+#: ../scrivi/scrivi-io-error-message-area.c:293
+#, c-format
+msgid ""
+"Host %s could not be found. Please check that your proxy settings are "
+"correct and try again."
+msgstr "Não foi possível localizar a máquina %s. Verifique se suas configurações de proxy estão corretas e tente novamente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:306
+#, c-format
+msgid ""
+"Hostname was invalid. Please check that you typed the location correctly and"
+" try again."
+msgstr "O nome de máquina era inválido. Verifique se você digitou a localização corretamente e tente novamente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:314
+#, c-format
+msgid "%s is not a regular file."
+msgstr "%s não é um arquivo normal."
+
+#: ../scrivi/scrivi-io-error-message-area.c:319
+msgid "Connection timed out. Please try again."
+msgstr "Conexão expirada. Tente novamente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:342
+msgid "The file is too big."
+msgstr "O arquivo é grande demais."
+
+#: ../scrivi/scrivi-io-error-message-area.c:383
+#, c-format
+msgid "Unexpected error: %s"
+msgstr "Erro inesperado: %s"
+
+#: ../scrivi/scrivi-io-error-message-area.c:419
+msgid "scrivi cannot find the file. Perhaps it has recently been deleted."
+msgstr "O scrivi não pode localizar o arquivo. Talvez o arquivo tenha sido excluído recentemente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:429
+#, c-format
+msgid "Could not revert the file %s."
+msgstr "Não foi possível reverter o arquivo %s."
+
+#: ../scrivi/scrivi-io-error-message-area.c:455
+msgid "Ch_aracter Encoding:"
+msgstr "Co_dificação de caracteres:"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../scrivi/scrivi-io-error-message-area.c:507
+#: ../scrivi/scrivi-io-error-message-area.c:794
+msgid "Edit Any_way"
+msgstr "Edi_tar mesmo assim"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../scrivi/scrivi-io-error-message-area.c:512
+#: ../scrivi/scrivi-io-error-message-area.c:799
+msgid "D_on't Edit"
+msgstr "_Não editar"
+
+#: ../scrivi/scrivi-io-error-message-area.c:620
+msgid ""
+"The number of followed links is limited and the actual file could not be "
+"found within this limit."
+msgstr "O número dos links a seguir é limitado e o arquivo exato não pôde ser localizado dentro deste limite."
+
+#: ../scrivi/scrivi-io-error-message-area.c:624
+msgid "You do not have the permissions necessary to open the file."
+msgstr "Você não tem a permissão necessária para abrir o arquivo."
+
+#: ../scrivi/scrivi-io-error-message-area.c:630
+msgid "scrivi has not been able to detect the character encoding."
+msgstr "O scrivi não conseguiu detectar a codificação de caracteres."
+
+#: ../scrivi/scrivi-io-error-message-area.c:632
+#: ../scrivi/scrivi-io-error-message-area.c:654
+msgid "Please check that you are not trying to open a binary file."
+msgstr "Verifique se você não está tentando abrir um arquivo binário."
+
+#: ../scrivi/scrivi-io-error-message-area.c:633
+msgid "Select a character encoding from the menu and try again."
+msgstr "Selecione uma codificação de caracteres do menu e tente novamente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:639
+#, c-format
+msgid "There was a problem opening the file %s."
+msgstr "Houve um problema ao abrir o arquivo %s."
+
+#: ../scrivi/scrivi-io-error-message-area.c:641
+msgid ""
+"The file you opened has some invalid characters. If you continue editing "
+"this file you could make this document useless."
+msgstr "O arquivo que você abriu tem alguns caracteres inválidos. Se você continuar a edição, pode tornar este documento corrompido."
+
+#: ../scrivi/scrivi-io-error-message-area.c:644
+msgid "You can also choose another character encoding and try again."
+msgstr "Você pode também selecionar outra codificação de caracteres e tentar novamente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:651
+#, c-format
+msgid "Could not open the file %s using the %s character encoding."
+msgstr "Não foi possível abrir o arquivo %s usando a codificação de caracteres %s."
+
+#: ../scrivi/scrivi-io-error-message-area.c:655
+#: ../scrivi/scrivi-io-error-message-area.c:730
+msgid "Select a different character encoding from the menu and try again."
+msgstr "Selecione uma codificação de caracteres diferentes do menu e tente novamente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:665
+#, c-format
+msgid "Could not open the file %s."
+msgstr "Não foi possível abrir o arquivo %s."
+
+#: ../scrivi/scrivi-io-error-message-area.c:725
+#, c-format
+msgid "Could not save the file %s using the %s character encoding."
+msgstr "Não foi possível salvar o arquivo %s usando a codificação de caracteres %s."
+
+#: ../scrivi/scrivi-io-error-message-area.c:728
+msgid ""
+"The document contains one or more characters that cannot be encoded using "
+"the specified character encoding."
+msgstr "O documento contém um ou mais caracteres que não podem ser codificados usando a codificação de caracteres especificada."
+
+#: ../scrivi/scrivi-io-error-message-area.c:818
+#, c-format
+msgid "This file (%s) is already open in another scrivi window."
+msgstr "Esse arquivo (%s) já está aberto em outra janela do scrivi."
+
+#: ../scrivi/scrivi-io-error-message-area.c:836
+msgid ""
+"scrivi opened this instance of the file in a non-editable way. Do you want to"
+" edit it anyway?"
+msgstr "scrivi abriu esta instância do arquivo de forma não-editável. Você deseja editá-lo mesmo assim?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:899
+#: ../scrivi/scrivi-io-error-message-area.c:1007
+msgid "S_ave Anyway"
+msgstr "Salvar mesmo _assim"
+
+#: ../scrivi/scrivi-io-error-message-area.c:903
+#: ../scrivi/scrivi-io-error-message-area.c:1011
+msgid "D_on't Save"
+msgstr "_Não salvar"
+
+#. FIXME: review this message, it's not clear since for the user the
+#. "modification"
+#. could be interpreted as the changes he made in the document. beside
+#. "reading" is
+#. not accurate (since last load/save)
+#: ../scrivi/scrivi-io-error-message-area.c:925
+#, c-format
+msgid "The file %s has been modified since reading it."
+msgstr "O arquivo %s foi modificado desde a última leitura."
+
+#: ../scrivi/scrivi-io-error-message-area.c:944
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
+msgstr "Se você salvá-lo, todas as mudanças externas serão perdidas. Salvar mesmo assim?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1033
+#, c-format
+msgid "Could not create a backup file while saving %s"
+msgstr "Não foi possível criar um arquivo de backup enquanto salvava %s"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1036
+#, c-format
+msgid "Could not create a temporary backup file while saving %s"
+msgstr "Não foi possível criar um arquivo temporário de backup enquanto salvava %s"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1056
+msgid ""
+"scrivi could not back up the old copy of the file before saving the new one. "
+"You can ignore this warning and save the file anyway, but if an error occurs"
+" while saving, you could lose the old copy of the file. Save anyway?"
+msgstr "O scrivi não pôde fazer backup da antiga cópia do arquivo antes de salvar o novo. Você pode ignorar este aviso e salvar o arquivo mesmo assim, mas se um erro ocorrer ao salvar o arquivo, você pode perder a cópia antiga do arquivo. Salvar mesmo assim?"
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../scrivi/scrivi-io-error-message-area.c:1120
+#, c-format
+msgid ""
+"scrivi cannot handle %s locations in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr "O scrivi não sabe lidar com localizações %s em modo de escrita. Verifique se você digitou a localização corretamente e tente de novo."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1128
+msgid ""
+"scrivi cannot handle this location in write mode. Please check that you typed"
+" the location correctly and try again."
+msgstr "O scrivi não sabe lidar com essa localização em modo de escrita. Verifique se você digitou a localização corretamente e tente de novo."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1137
+#, c-format
+msgid ""
+"%s is not a valid location. Please check that you typed the location "
+"correctly and try again."
+msgstr "%s não é um local válido. Verifique se você digitou a localização corretamente e tente de novo."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1143
+msgid ""
+"You do not have the permissions necessary to save the file. Please check "
+"that you typed the location correctly and try again."
+msgstr "Você não tem as permissões necessárias para salvar o arquivo. Verifique se você digitou a localização corretamente e tente de novo."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1149
+msgid ""
+"There is not enough disk space to save the file. Please free some disk space"
+" and try again."
+msgstr "Não há espaço em disco suficiente para salvar o arquivo. Libere algum espaço em disco e tente novamente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1154
+msgid ""
+"You are trying to save the file on a read-only disk. Please check that you "
+"typed the location correctly and try again."
+msgstr "Você está tentando salvar o arquivo em um disco somente de leitura. Verifique se você digitou a localização corretamente e tente de novo."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1160
+msgid "A file with the same name already exists. Please use a different name."
+msgstr "Já existe um arquivo com o mesmo nome. Use um nome diferente."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1165
+msgid ""
+"The disk where you are trying to save the file has a limitation on length of"
+" the file names. Please use a shorter name."
+msgstr "O disco onde você está tentando salvar o arquivo tem uma limitação de tamanho de nome de arquivo. Use um nome mais curto."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1172
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes. Please try saving a smaller file or saving it to a disk that does not"
+" have this limitation."
+msgstr "A unidade em que você está tentando salvar o arquivo tem uma limitação de tamanho de arquivos. Tente salvar um arquivo menor ou salvá-lo em uma unidade que não tenha esta limitação."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1188
+#, c-format
+msgid "Could not save the file %s."
+msgstr "Não foi possível salvar o arquivo %s."
+
+#. FIXME: review this message, it's not clear since for the user the
+#. "modification"
+#. could be interpreted as the changes he made in the document. beside
+#. "reading" is
+#. not accurate (since last load/save)
+#: ../scrivi/scrivi-io-error-message-area.c:1232
+#, c-format
+msgid "The file %s changed on disk."
+msgstr "O arquivo %s foi alterado no disco."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1237
+msgid "Do you want to drop your changes and reload the file?"
+msgstr "Você deseja descartar suas alterações e carregar o arquivo novamente?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1239
+msgid "Do you want to reload the file?"
+msgstr "Deseja carregar o arquivo novamente?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1244
+msgid "_Reload"
+msgstr "_Reverter"
+
+#: ../scrivi/scrivi-panel.c:372 ../scrivi/scrivi-panel.c:549
+msgid "Empty"
+msgstr "Vazio"
+
+#: ../scrivi/scrivi-panel.c:439
+msgid "Hide panel"
+msgstr "Ocultar painel"
+
+#: ../scrivi/scrivi-plugin-manager.c:54
+msgid "Plugin"
+msgstr "Plug-in"
+
+#: ../scrivi/scrivi-plugin-manager.c:55
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: ../scrivi/scrivi-plugin-manager.c:508
+msgid "_About"
+msgstr "_Sobre"
+
+#: ../scrivi/scrivi-plugin-manager.c:516
+msgid "C_onfigure"
+msgstr "_Configurar"
+
+#: ../scrivi/scrivi-plugin-manager.c:525
+msgid "A_ctivate"
+msgstr "_Ativar"
+
+#: ../scrivi/scrivi-plugin-manager.c:536
+msgid "Ac_tivate All"
+msgstr "Ativar _tudo"
+
+#: ../scrivi/scrivi-plugin-manager.c:541
+msgid "_Deactivate All"
+msgstr "_Desativar tudo"
+
+#: ../scrivi/scrivi-plugin-manager.c:811
+msgid "Active _Plugins:"
+msgstr "Ativar _plug-ins:"
+
+#: ../scrivi/scrivi-plugin-manager.c:844
+msgid "_About Plugin"
+msgstr "_Sobre o plug-in"
+
+#: ../scrivi/scrivi-plugin-manager.c:848
+msgid "C_onfigure Plugin"
+msgstr "_Configurar plug-in"
+
+#: ../scrivi/scrivi-print-job.c:551
+#, c-format
+msgid "File: %s"
+msgstr "Arquivo: %s"
+
+#: ../scrivi/scrivi-print-job.c:560
+msgid "Page %N of %Q"
+msgstr "Página %N de %Q"
+
+#: ../scrivi/scrivi-print-job.c:817
+msgid "Preparing..."
+msgstr "Preparando..."
+
+#: ../scrivi/scrivi-print-preferences.ui.h:1
+msgid "Syntax Highlighting"
+msgstr "Destaque de sintaxe"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:2
+msgid "Print synta_x highlighting"
+msgstr "Imprimir destaque de _sintaxe"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:4
+msgid "Print line nu_mbers"
+msgstr "Imprimir nú_meros das linhas"
+
+#. 'Number every' from 'Number every 3 lines' in the 'Text Editor' tab of the
+#. print preferences.
+#: ../scrivi/scrivi-print-preferences.ui.h:6
+msgid "_Number every"
+msgstr "E_numerar a cada"
+
+#. 'lines' from 'Number every 3 lines' in the 'Text Editor' tab of the print
+#. preferences.
+#: ../scrivi/scrivi-print-preferences.ui.h:8
+msgid "lines"
+msgstr "linhas"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:12
+msgid "Page header"
+msgstr "Cabeçalho da página"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:13
+msgid "Print page _headers"
+msgstr "Imprimir cabeçal_hos da página"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:14
+msgid "Fonts"
+msgstr "Fontes"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:15
+msgid "_Body:"
+msgstr "C_orpo:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:16
+msgid "_Line numbers:"
+msgstr "Números de _linha:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:17
+msgid "He_aders and footers:"
+msgstr "_Cabeçalhos e rodapés:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:18
+msgid "_Restore Default Fonts"
+msgstr "_Restaurar fontes padrão"
+
+#: ../scrivi/scrivi-print-preview.c:572
+msgid "Show the previous page"
+msgstr "Mostrar página anterior"
+
+#: ../scrivi/scrivi-print-preview.c:584
+msgid "Show the next page"
+msgstr "Mostrar próxima página"
+
+#: ../scrivi/scrivi-print-preview.c:600
+msgid "Current page (Alt+P)"
+msgstr "Página atual (Alt+P)"
+
+#. Translators: the "of" from "1 of 19" in print preview.
+#: ../scrivi/scrivi-print-preview.c:623
+msgid "of"
+msgstr "de"
+
+#: ../scrivi/scrivi-print-preview.c:631
+msgid "Page total"
+msgstr "Total de páginas"
+
+#: ../scrivi/scrivi-print-preview.c:632
+msgid "The total number of pages in the document"
+msgstr "O número total de páginas do documento"
+
+#: ../scrivi/scrivi-print-preview.c:649
+msgid "Show multiple pages"
+msgstr "Mostrar múltiplas páginas"
+
+#: ../scrivi/scrivi-print-preview.c:662
+msgid "Zoom 1:1"
+msgstr "Ampliação 1:1"
+
+#: ../scrivi/scrivi-print-preview.c:671
+msgid "Zoom to fit the whole page"
+msgstr "Fazer página completa caber"
+
+#: ../scrivi/scrivi-print-preview.c:680
+msgid "Zoom the page in"
+msgstr "Ampliar página"
+
+#: ../scrivi/scrivi-print-preview.c:689
+msgid "Zoom the page out"
+msgstr "Reduzir página"
+
+#: ../scrivi/scrivi-print-preview.c:701
+msgid "_Close Preview"
+msgstr "_Fechar visualização"
+
+#: ../scrivi/scrivi-print-preview.c:704
+msgid "Close print preview"
+msgstr "Fechar visualização de impressão"
+
+#: ../scrivi/scrivi-print-preview.c:774
+#, c-format
+msgid "Page %d of %d"
+msgstr "Página %d de %d"
+
+#: ../scrivi/scrivi-print-preview.c:958
+msgid "Page Preview"
+msgstr "Visualização de página"
+
+#: ../scrivi/scrivi-print-preview.c:959
+msgid "The preview of a page in the document to be printed"
+msgstr "A visualização da página no documento a ser impresso"
+
+#: ../scrivi/scrivi-smart-charset-converter.c:319
+msgid "It is not possible to detect the encoding automatically"
+msgstr "Não é possível detectar automaticamente a codificação de caracteres "
+
+#: ../scrivi/scrivi-statusbar.c:74 ../scrivi/scrivi-statusbar.c:80
+msgid "OVR"
+msgstr "SE"
+
+#: ../scrivi/scrivi-statusbar.c:74 ../scrivi/scrivi-statusbar.c:80
+msgid "INS"
+msgstr "INS"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for
+#. "Column". Please,
+#. use abbreviations if possible to avoid space problems.
+#: ../scrivi/scrivi-statusbar.c:266
+#, c-format
+msgid "  Ln %d, Col %d"
+msgstr "  Lin %d, Col %d"
+
+#: ../scrivi/scrivi-statusbar.c:367
+#, c-format
+msgid "There is a tab with errors"
+msgid_plural "There are %d tabs with errors"
+msgstr[0] "Há uma aba com erros"
+msgstr[1] "Há %d abas com erros"
+
+#: ../scrivi/scrivi-style-scheme-manager.c:220
+#, c-format
+msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr "O diretório \\\"%s\\\" não pôde ser criado: falha em g_mkdir_with_parents(): %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:664
+#, c-format
+msgid "Reverting %s from %s"
+msgstr "Revertendo %s a partir de %s"
+
+#: ../scrivi/scrivi-tab.c:671
+#, c-format
+msgid "Reverting %s"
+msgstr "Revertendo %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:687
+#, c-format
+msgid "Loading %s from %s"
+msgstr "Carregando %s a partir de %s"
+
+#: ../scrivi/scrivi-tab.c:694
+#, c-format
+msgid "Loading %s"
+msgstr "Carregando %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:777
+#, c-format
+msgid "Saving %s to %s"
+msgstr "Salvando %s em %s"
+
+#: ../scrivi/scrivi-tab.c:784
+#, c-format
+msgid "Saving %s"
+msgstr "Salvando %s"
+
+#. Read only
+#: ../scrivi/scrivi-tab.c:1662
+msgid "RO"
+msgstr "SL"
+
+#: ../scrivi/scrivi-tab.c:1709
+#, c-format
+msgid "Error opening file %s"
+msgstr "Erro ao abrir o arquivo %s"
+
+#: ../scrivi/scrivi-tab.c:1714
+#, c-format
+msgid "Error reverting file %s"
+msgstr "Erro ao reverter o arquivo %s"
+
+#: ../scrivi/scrivi-tab.c:1719
+#, c-format
+msgid "Error saving file %s"
+msgstr "Erro ao salvar o arquivo %s"
+
+#: ../scrivi/scrivi-tab.c:1740
+msgid "Unicode (UTF-8)"
+msgstr "Unicode (UTF-8)"
+
+#: ../scrivi/scrivi-tab.c:1747
+msgid "Name:"
+msgstr "Nome:"
+
+#: ../scrivi/scrivi-tab.c:1748
+msgid "MIME Type:"
+msgstr "Tipo MIME:"
+
+#: ../scrivi/scrivi-tab.c:1749
+msgid "Encoding:"
+msgstr "Codificação:"
+
+#: ../scrivi/scrivi-tab-label.c:285
+msgid "Close document"
+msgstr "Fechar documento"
+
+#. Toplevel
+#: ../scrivi/scrivi-ui.h:47
+msgid "_File"
+msgstr "_Arquivo"
+
+#: ../scrivi/scrivi-ui.h:48
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../scrivi/scrivi-ui.h:49
+msgid "_View"
+msgstr "_Ver"
+
+#: ../scrivi/scrivi-ui.h:50
+msgid "_Search"
+msgstr "_Pesquisar"
+
+#: ../scrivi/scrivi-ui.h:51
+msgid "_Tools"
+msgstr "Ferra_mentas"
+
+#: ../scrivi/scrivi-ui.h:52
+msgid "_Documents"
+msgstr "_Documentos"
+
+#: ../scrivi/scrivi-ui.h:53
+msgid "_Help"
+msgstr "Aj_uda"
+
+#: ../scrivi/scrivi-ui.h:57
+msgid "Create a new document"
+msgstr "Cria um novo documento"
+
+#: ../scrivi/scrivi-ui.h:58
+msgid "_Open..."
+msgstr "_Abrir..."
+
+#: ../scrivi/scrivi-ui.h:59 ../scrivi/scrivi-window.c:1390
+msgid "Open a file"
+msgstr "Abre um arquivo"
+
+#. Edit menu
+#: ../scrivi/scrivi-ui.h:62
+msgid "Pr_eferences"
+msgstr "_Preferências"
+
+#: ../scrivi/scrivi-ui.h:63
+msgid "Configure the application"
+msgstr "Configura o aplicativo"
+
+#. Help menu
+#: ../scrivi/scrivi-ui.h:66
+msgid "_Contents"
+msgstr "S_umário"
+
+#: ../scrivi/scrivi-ui.h:67
+msgid "Open the scrivi manual"
+msgstr "Abre o manual do scrivi"
+
+#: ../scrivi/scrivi-ui.h:69
+msgid "About this application"
+msgstr "Sobre este aplicativo"
+
+#: ../scrivi/scrivi-ui.h:73
+msgid "Leave fullscreen mode"
+msgstr "Sair do modo tela cheia"
+
+#: ../scrivi/scrivi-ui.h:81
+msgid "Save the current file"
+msgstr "Salva o arquivo atual"
+
+#: ../scrivi/scrivi-ui.h:82
+msgid "Save _As..."
+msgstr "Salvar _como..."
+
+#: ../scrivi/scrivi-ui.h:83
+msgid "Save the current file with a different name"
+msgstr "Salva o arquivo atual com um nome diferente"
+
+#: ../scrivi/scrivi-ui.h:85
+msgid "Revert to a saved version of the file"
+msgstr "Reverte para uma versão salva do arquivo"
+
+#: ../scrivi/scrivi-ui.h:86
+msgid "Print Previe_w"
+msgstr "Visualizar _impressão"
+
+#: ../scrivi/scrivi-ui.h:87
+msgid "Print preview"
+msgstr "Visualiza impressão"
+
+#: ../scrivi/scrivi-ui.h:88
+msgid "_Print..."
+msgstr "Im_primir..."
+
+#: ../scrivi/scrivi-ui.h:89
+msgid "Print the current page"
+msgstr "Imprime a página atual"
+
+#: ../scrivi/scrivi-ui.h:93
+msgid "Undo the last action"
+msgstr "Desfaz a última ação"
+
+#: ../scrivi/scrivi-ui.h:95
+msgid "Redo the last undone action"
+msgstr "Refaz a última ação desfeita"
+
+#: ../scrivi/scrivi-ui.h:97
+msgid "Cut the selection"
+msgstr "Recorta a seleção"
+
+#: ../scrivi/scrivi-ui.h:99
+msgid "Copy the selection"
+msgstr "Copiar o texto selecionado"
+
+#: ../scrivi/scrivi-ui.h:101
+msgid "Paste the clipboard"
+msgstr "Cola a área de transferência"
+
+#: ../scrivi/scrivi-ui.h:103
+msgid "Delete the selected text"
+msgstr "Exclui o texto selecionado"
+
+#: ../scrivi/scrivi-ui.h:104
+msgid "Select _All"
+msgstr "Selecionar t_udo"
+
+#: ../scrivi/scrivi-ui.h:105
+msgid "Select the entire document"
+msgstr "Seleciona o documento inteiro"
+
+#. View menu
+#: ../scrivi/scrivi-ui.h:108
+msgid "_Highlight Mode"
+msgstr "Modo de _destaque"
+
+#. Search menu
+#: ../scrivi/scrivi-ui.h:111
+msgid "_Find..."
+msgstr "_Localizar..."
+
+#: ../scrivi/scrivi-ui.h:112
+msgid "Search for text"
+msgstr "Pesquisa por texto"
+
+#: ../scrivi/scrivi-ui.h:113
+msgid "Find Ne_xt"
+msgstr "Localizar pró_xima"
+
+#: ../scrivi/scrivi-ui.h:114
+msgid "Search forwards for the same text"
+msgstr "Pesquisa o mesmo texto para frente"
+
+#: ../scrivi/scrivi-ui.h:115
+msgid "Find Pre_vious"
+msgstr "Localizar _anterior"
+
+#: ../scrivi/scrivi-ui.h:116
+msgid "Search backwards for the same text"
+msgstr "Pesquisa o mesmo texto para trás"
+
+#: ../scrivi/scrivi-ui.h:117
+msgid "_Replace..."
+msgstr "_Substituir..."
+
+#: ../scrivi/scrivi-ui.h:118
+msgid "Search for and replace text"
+msgstr "Pesquisa texto e substitui"
+
+#: ../scrivi/scrivi-ui.h:119
+msgid "_Clear Highlight"
+msgstr "Limpar _destaque"
+
+#: ../scrivi/scrivi-ui.h:120
+msgid "Clear highlighting of search matches"
+msgstr "Limpa o destaque de ocorrências da pesquisa"
+
+#: ../scrivi/scrivi-ui.h:121
+msgid "Go to _Line..."
+msgstr "_Ir para a linha..."
+
+#: ../scrivi/scrivi-ui.h:122
+msgid "Go to a specific line"
+msgstr "Vai para uma linha específica"
+
+#: ../scrivi/scrivi-ui.h:123
+msgid "_Incremental Search..."
+msgstr "Pesquisa i_ncremental..."
+
+#: ../scrivi/scrivi-ui.h:124
+msgid "Incrementally search for text"
+msgstr "Pesquisa texto interativamente"
+
+#. Documents menu
+#: ../scrivi/scrivi-ui.h:127
+msgid "_Save All"
+msgstr "_Salvar todos"
+
+#: ../scrivi/scrivi-ui.h:128
+msgid "Save all open files"
+msgstr "Salva todos os arquivos abertos"
+
+#: ../scrivi/scrivi-ui.h:129
+msgid "_Close All"
+msgstr "_Fechar todos"
+
+#: ../scrivi/scrivi-ui.h:130
+msgid "Close all open files"
+msgstr "Fecha todos os arquivos abertos"
+
+#: ../scrivi/scrivi-ui.h:131
+msgid "_Previous Document"
+msgstr "Documento a_nterior"
+
+#: ../scrivi/scrivi-ui.h:132
+msgid "Activate previous document"
+msgstr "Ativa documento anterior"
+
+#: ../scrivi/scrivi-ui.h:133
+msgid "_Next Document"
+msgstr "P_róximo documento"
+
+#: ../scrivi/scrivi-ui.h:134
+msgid "Activate next document"
+msgstr "Ativa próximo documento"
+
+#: ../scrivi/scrivi-ui.h:135
+msgid "_Move to New Window"
+msgstr "Mover para nova _janela"
+
+#: ../scrivi/scrivi-ui.h:136
+msgid "Move the current document to a new window"
+msgstr "Move o documento atual para uma nova janela"
+
+#: ../scrivi/scrivi-ui.h:143
+msgid "Close the current file"
+msgstr "Fecha o arquivo atual"
+
+#: ../scrivi/scrivi-ui.h:150
+msgid "Quit the program"
+msgstr "Sai do programa"
+
+#: ../scrivi/scrivi-ui.h:155
+msgid "_Toolbar"
+msgstr "Barra de _ferramentas"
+
+#: ../scrivi/scrivi-ui.h:156
+msgid "Show or hide the toolbar in the current window"
+msgstr "Mostra ou oculta a barra de ferramentas na janela atual"
+
+#: ../scrivi/scrivi-ui.h:158
+msgid "_Statusbar"
+msgstr "Barra de _status"
+
+#: ../scrivi/scrivi-ui.h:159
+msgid "Show or hide the statusbar in the current window"
+msgstr "Mostra ou oculta a barra de status na janela atual"
+
+#: ../scrivi/scrivi-ui.h:162
+msgid "Edit text in fullscreen"
+msgstr "Editar texto em tela cheia"
+
+#: ../scrivi/scrivi-ui.h:169
+msgid "Side _Pane"
+msgstr "Painel _lateral"
+
+#: ../scrivi/scrivi-ui.h:170
+msgid "Show or hide the side pane in the current window"
+msgstr "Mostra ou oculta a barra de ferramentas na janela atual"
+
+#: ../scrivi/scrivi-ui.h:172
+msgid "_Bottom Pane"
+msgstr "_Painel inferior"
+
+#: ../scrivi/scrivi-ui.h:173
+msgid "Show or hide the bottom pane in the current window"
+msgstr "Mostra ou oculta o painel inferior na janela atual"
+
+#: ../scrivi/scrivi-utils.c:1100
+msgid "Please check your installation."
+msgstr "Verifique sua instalação."
+
+#: ../scrivi/scrivi-utils.c:1177
+#, c-format
+msgid "Unable to open UI file %s. Error: %s"
+msgstr "Não foi possível abrir o arquivo de interface de usuário %s. Erro: %s"
+
+#: ../scrivi/scrivi-utils.c:1197
+#, c-format
+msgid "Unable to find the object '%s' inside file %s."
+msgstr "Não foi possível localizar o objeto \\\"%s\\\" dentro do arquivo %s."
+
+#. Translators: '/ on <remote-share>'
+#: ../scrivi/scrivi-utils.c:1357
+#, c-format
+msgid "/ on %s"
+msgstr "/ em %s"
+
+#. create "Wrap Around" menu item.
+#: ../scrivi/scrivi-view.c:1261
+msgid "_Wrap Around"
+msgstr "_Voltar ao início"
+
+#. create "Match Entire Word Only" menu item.
+#: ../scrivi/scrivi-view.c:1271
+msgid "Match _Entire Word Only"
+msgstr "Coincidir ap_enas com palavra completa"
+
+#. create "Match Case" menu item.
+#: ../scrivi/scrivi-view.c:1281
+msgid "_Match Case"
+msgstr "Diferenciar _maiúsculas/minúsculas"
+
+#. create "Parse escapes" menu item.
+#: ../scrivi/scrivi-view.c:1291
+msgid ""
+"_Parse escape sequences (e.g. \n"
+")"
+msgstr "_Analisa sequencias de escape (e.g.\n)"
+
+#: ../scrivi/scrivi-view.c:1405
+msgid "String you want to search for"
+msgstr "Expressão que você deseja pesquisar"
+
+#: ../scrivi/scrivi-view.c:1414
+msgid "Line you want to move the cursor to"
+msgstr "Linha para a qual que você deseja mover o cursor"
+
+#: ../scrivi/scrivi-window.c:943
+#, c-format
+msgid "Use %s highlight mode"
+msgstr "Usa modo de destaque %s"
+
+#. add the "Plain Text" item before all the others
+#. Translators: "Plain Text" means that no highlight mode is selected in the
+#. * "View->Highlight Mode" submenu and so syntax highlighting is disabled
+#: ../scrivi/scrivi-window.c:1000 ../scrivi/scrivi-window.c:1892
+#: ../plugins/externaltools/tools/manager.py:121
+#: ../plugins/externaltools/tools/manager.py:419
+#: ../plugins/externaltools/tools/manager.py:529
+#: ../plugins/externaltools/tools/manager.py:844
+msgid "Plain Text"
+msgstr "Texto sem formatação"
+
+#: ../scrivi/scrivi-window.c:1001
+msgid "Disable syntax highlighting"
+msgstr "Desabilita destaque de sintaxe"
+
+#. Translators: %s is a URI
+#: ../scrivi/scrivi-window.c:1287
+#, c-format
+msgid "Open '%s'"
+msgstr "Abrir \\\"%s\\\""
+
+#: ../scrivi/scrivi-window.c:1392
+msgid "Open a recently used file"
+msgstr "Abre um arquivo recentemente usado"
+
+#: ../scrivi/scrivi-window.c:1398
+msgid "Open"
+msgstr "Abrir"
+
+#: ../scrivi/scrivi-window.c:1456
+msgid "Save"
+msgstr "Salvar"
+
+#: ../scrivi/scrivi-window.c:1458
+msgid "Print"
+msgstr "Imprimir"
+
+#. Translators: %s is a URI
+#: ../scrivi/scrivi-window.c:1617
+#, c-format
+msgid "Activate '%s'"
+msgstr "Ativar \\\"%s\\\""
+
+#: ../scrivi/scrivi-window.c:1870
+msgid "Use Spaces"
+msgstr "Usar espaços"
+
+#: ../scrivi/scrivi-window.c:1941
+msgid "Tab Width"
+msgstr "Largura das tabulações"
+
+#: ../plugins/changecase/changecase.scrivi-plugin.desktop.in.h:1
+msgid "Change Case"
+msgstr "Alterar maiusculização"
+
+#: ../plugins/changecase/changecase.scrivi-plugin.desktop.in.h:2
+msgid "Changes the case of selected text."
+msgstr "Altera o texto para maiúsculas ou minúsculas."
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:222
+msgid "C_hange Case"
+msgstr "Alt_erar maiusculização"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:223
+msgid "All _Upper Case"
+msgstr "Toda_s em maiúsculas"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:224
+msgid "Change selected text to upper case"
+msgstr "Altera o texto selecionado para maiúsculas"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:226
+msgid "All _Lower Case"
+msgstr "Todas em mi_núsculas"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:227
+msgid "Change selected text to lower case"
+msgstr "Altera o texto selecionado para minúsculas"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:229
+msgid "_Invert Case"
+msgstr "Invert_er maiusculização"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:230
+msgid "Invert the case of selected text"
+msgstr "Troca maiúsculas por minúsculas e vice-versa no texto selecionado"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:232
+msgid "_Title Case"
+msgstr "_Iniciais maiúsculas"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:233
+msgid "Capitalize the first letter of each selected word"
+msgstr "Converte em maiúscula a primeira letra de cada palavra selecionada"
+
+#: ../plugins/docinfo/docinfo.scrivi-plugin.desktop.in.h:1
+#: ../plugins/docinfo/docinfo.ui.h:1
+msgid "Document Statistics"
+msgstr "Estatísticas do documento"
+
+#: ../plugins/docinfo/docinfo.scrivi-plugin.desktop.in.h:2
+msgid ""
+"Analyzes the current document and reports the number of words, lines, "
+"characters and non-space characters in it."
+msgstr "Analisa o documento atual e relata o número de palavras, linhas, caracteres, e caracteres que não espaço."
+
+#: ../plugins/docinfo/docinfo.ui.h:2
+msgid "_Update"
+msgstr "_Atualizar"
+
+#: ../plugins/docinfo/docinfo.ui.h:3
+msgid "File Name"
+msgstr "Nome do arquivo"
+
+#: ../plugins/docinfo/docinfo.ui.h:5
+msgid "Bytes"
+msgstr "Bytes"
+
+#: ../plugins/docinfo/docinfo.ui.h:6
+msgid "Characters (no spaces)"
+msgstr "Caracteres (sem espaços)"
+
+#: ../plugins/docinfo/docinfo.ui.h:7
+msgid "Characters (with spaces)"
+msgstr "Caracteres (com espaços)"
+
+#: ../plugins/docinfo/docinfo.ui.h:8
+msgid "Words"
+msgstr "Palavras"
+
+#: ../plugins/docinfo/docinfo.ui.h:9
+msgid "Lines"
+msgstr "Linhas"
+
+#: ../plugins/docinfo/docinfo.ui.h:10
+msgid "Document"
+msgstr "Documento"
+
+#: ../plugins/docinfo/docinfo.ui.h:11
+msgid "Selection"
+msgstr "Seleção"
+
+#: ../plugins/docinfo/scrivi-docinfo-plugin.c:423
+msgid "_Document Statistics"
+msgstr "_Estatísticas do documento"
+
+#: ../plugins/docinfo/scrivi-docinfo-plugin.c:425
+msgid "Get statistical information on the current document"
+msgstr "Obtém informações estatísticas sobre o documento atual"
+
+#: ../plugins/externaltools/externaltools.scrivi-plugin.desktop.in.h:1
+msgid "External Tools"
+msgstr "Ferramentas externas"
+
+#: ../plugins/externaltools/externaltools.scrivi-plugin.desktop.in.h:2
+msgid "Execute external commands and shell scripts."
+msgstr "Executa comandos externos e shell scripts."
+
+#: ../plugins/externaltools/tools/__init__.py:172
+msgid "Manage _External Tools..."
+msgstr "Gerenciar ferramentas e_xternas..."
+
+#: ../plugins/externaltools/tools/__init__.py:174
+msgid "Opens the External Tools Manager"
+msgstr "Abre o Gerenciador de ferramentas externas"
+
+#: ../plugins/externaltools/tools/__init__.py:178
+msgid "External _Tools"
+msgstr "Ferramentas e_xternas"
+
+#: ../plugins/externaltools/tools/__init__.py:180
+msgid "External tools"
+msgstr "Ferramentas externas"
+
+#: ../plugins/externaltools/tools/__init__.py:212
+msgid "Shell Output"
+msgstr "Saída para o shell"
+
+#: ../plugins/externaltools/tools/capture.py:93
+#, python-format
+msgid "Could not execute command: %s"
+msgstr "Não foi possível executar o comando: %s"
+
+#: ../plugins/externaltools/tools/functions.py:162
+msgid "You must be inside a word to run this command"
+msgstr "Você deve estar dentro de uma palavra para executar este comando"
+
+#: ../plugins/externaltools/tools/functions.py:267
+msgid "Running tool:"
+msgstr "Executando ferramenta:"
+
+#: ../plugins/externaltools/tools/functions.py:292
+msgid "Done."
+msgstr "Pronto."
+
+#: ../plugins/externaltools/tools/functions.py:294
+msgid "Exited"
+msgstr "Saiu"
+
+#: ../plugins/externaltools/tools/manager.py:119
+msgid "All languages"
+msgstr "Todos os idiomas"
+
+#: ../plugins/externaltools/tools/manager.py:518
+#: ../plugins/externaltools/tools/manager.py:522
+#: ../plugins/externaltools/tools/manager.py:842
+#: ../plugins/externaltools/tools/tools.ui.h:22
+msgid "All Languages"
+msgstr "Todos os idiomas"
+
+#: ../plugins/externaltools/tools/manager.py:628
+msgid "New tool"
+msgstr "Nova ferramenta"
+
+#: ../plugins/externaltools/tools/manager.py:759
+#, python-format
+msgid "This accelerator is already bound to %s"
+msgstr "Este acelerador já está associado a %s"
+
+#: ../plugins/externaltools/tools/manager.py:810
+msgid "Type a new accelerator, or press Backspace to clear"
+msgstr "Digite um novo acelerador ou pressione Backspace para limpar"
+
+#: ../plugins/externaltools/tools/manager.py:812
+msgid "Type a new accelerator"
+msgstr "Digite um novo acelerador"
+
+#: ../plugins/externaltools/tools/outputpanel.py:105
+msgid "Stopped."
+msgstr "Parado."
+
+#. ex:ts=4:et:
+#: ../plugins/externaltools/tools/tools.ui.h:1
+msgid "Nothing"
+msgstr "Nada"
+
+#: ../plugins/externaltools/tools/tools.ui.h:2
+msgid "Current document"
+msgstr "Documento atual"
+
+#: ../plugins/externaltools/tools/tools.ui.h:3
+msgid "All documents"
+msgstr "Todos os documentos"
+
+#: ../plugins/externaltools/tools/tools.ui.h:4
+msgid "Current selection"
+msgstr "Seleção atual"
+
+#: ../plugins/externaltools/tools/tools.ui.h:5
+msgid "Current selection (default to document)"
+msgstr "Seleção atual (padrão para documento)"
+
+#: ../plugins/externaltools/tools/tools.ui.h:6
+msgid "Current line"
+msgstr "Linha atual"
+
+#: ../plugins/externaltools/tools/tools.ui.h:7
+msgid "Current word"
+msgstr "Palavra atual"
+
+#: ../plugins/externaltools/tools/tools.ui.h:8
+msgid "Display in bottom pane"
+msgstr "Mostrar no painel inferior"
+
+#: ../plugins/externaltools/tools/tools.ui.h:9
+msgid "Create new document"
+msgstr "Criar novo documento"
+
+#: ../plugins/externaltools/tools/tools.ui.h:10
+msgid "Append to current document"
+msgstr "Anexar ao documento atual"
+
+#: ../plugins/externaltools/tools/tools.ui.h:11
+msgid "Replace current document"
+msgstr "Substituir documento atual"
+
+#: ../plugins/externaltools/tools/tools.ui.h:12
+msgid "Replace current selection"
+msgstr "Substituir seleção atual"
+
+#: ../plugins/externaltools/tools/tools.ui.h:13
+msgid "Insert at cursor position"
+msgstr "Inserir na posição do cursor"
+
+#: ../plugins/externaltools/tools/tools.ui.h:14
+msgid "All documents except untitled ones"
+msgstr "Todos os documentos exceto os não salvos"
+
+#: ../plugins/externaltools/tools/tools.ui.h:15
+msgid "Local files only"
+msgstr "Arquivos locais apenas"
+
+#: ../plugins/externaltools/tools/tools.ui.h:16
+msgid "Remote files only"
+msgstr "Arquivos remotos apenas"
+
+#: ../plugins/externaltools/tools/tools.ui.h:17
+msgid "Untitled documents only"
+msgstr "Documentos não salvos apenas"
+
+#: ../plugins/externaltools/tools/tools.ui.h:18
+msgid "External Tools Manager"
+msgstr "Gerenciador de ferramentas externas"
+
+#: ../plugins/externaltools/tools/tools.ui.h:19
+msgid "_Tools:"
+msgstr "_Ferramentas:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:20
+#: ../plugins/snippets/snippets/snippets.ui.h:7
+msgid "_Edit:"
+msgstr "_Editar:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:23
+msgid "_Applicability:"
+msgstr "_Aplicabilidade:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:24
+msgid "_Output:"
+msgstr "_Saída:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:25
+msgid "_Input:"
+msgstr "_Entrada:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:26
+msgid "_Save:"
+msgstr "_Salvar:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:27
+msgid "_Shortcut Key:"
+msgstr "_Tecla de atalho:"
+
+#: ../plugins/externaltools/data/build.desktop.in.h:1
+msgid "Build"
+msgstr "Compilar"
+
+#: ../plugins/externaltools/data/build.desktop.in.h:2
+msgid "Run \"make\" in the document directory"
+msgstr "Executa \"make\" no diretório do documento"
+
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:1
+msgid "Open terminal here"
+msgstr "Abrir terminal aqui"
+
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:2
+msgid "Open a terminal in the document location"
+msgstr "Abre um terminal no mesmo local do documento"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:1
+msgid "Remove trailing spaces"
+msgstr "Remover espaços à direita"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:2
+msgid "Remove useless trailing spaces in your file"
+msgstr "Remove espaços inúteis no final das linhas de seu arquivo"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:1
+msgid "Run command"
+msgstr "Executar comando"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:2
+msgid "Execute a custom command and put its output in a new document"
+msgstr "Executa um comando personalizado e direcione a saída para um novo documento"
+
+#: ../plugins/externaltools/data/search-recursive.desktop.in.h:1
+msgid "Search"
+msgstr "Pesquisa"
+
+#: ../plugins/externaltools/data/switch-c.desktop.in.h:1
+msgid "Switch onto a file .c and .h"
+msgstr "Alterna entre um arquivo .c e .h"
+
+#: ../plugins/filebrowser/filebrowser.scrivi-plugin.desktop.in.h:1
+msgid "File Browser Pane"
+msgstr "Painel do navegador de arquivos"
+
+#: ../plugins/filebrowser/filebrowser.scrivi-plugin.desktop.in.h:2
+msgid "Easy file access from the side pane"
+msgstr "Fácil acesso a arquivos a partir do painel lateral"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:1
+msgid "Set Location to First Document"
+msgstr "Definir localização para primeiro documento"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:2
+msgid ""
+"If TRUE the file browser plugin will view the directory of the first opened "
+"document given that the file browser hasn't been used yet. (Thus this "
+"generally applies to opening a document from the command line or opening it "
+"with Caja, etc.)"
+msgstr "Se VERDADEIRO, o plug-in do navegador de arquivos verá o diretório do primeiro documento aberto desde que o navegador de arquivos ainda não tenha sido usado. (O que geralmente se aplica ao abrir um documento a partir da linha de comando ou com o Caja etc.)"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:3
+msgid "File Browser Filter Mode"
+msgstr "Modo do filtro do navegador de arquivos"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:4
+msgid ""
+"This value determines what files get filtered from the file browser. Valid "
+"values are: none (filter nothing), hidden (filter hidden files), binary "
+"(filter binary files) and hidden_and_binary (filter both hidden and binary "
+"files)."
+msgstr "Quais arquivos filtrar do navegador de arquivos: \"none\" (não filtrar), \"hidden\" (filtrar arquivos ocultos), \"binary\" (filtrar arquivos binários) ou \"hidden_and_binary\" (filtrar tanto arquivos ocultos quanto binários)."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:5
+msgid "File Browser Filter Pattern"
+msgstr "Padrão do filtro do navegador de arquivos"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:6
+msgid ""
+"The filter pattern to filter the file browser with. This filter works on top"
+" of the filter_mode."
+msgstr "O padrão com o qual filtrar o navegador de arquivos. Esse filtro funciona sobre o definido por filter_mode."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:7
+msgid "Open With Tree View"
+msgstr "Abrir com visão em árvore"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:8
+msgid ""
+"Open the tree view when the file browser plugin gets loaded instead of the "
+"bookmarks view"
+msgstr "Usar a visão em árvore ao carregar o navegador de arquivos, em vez da visão em marcadores"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:9
+msgid "File Browser Root Directory"
+msgstr "Diretório raiz do navegador de arquivos"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:10
+msgid ""
+"The file browser root directory to use when loading the file browser plugin "
+"and onload/tree_view is TRUE."
+msgstr "Diretório raiz usado ao carregar o navegador de arquivos, se a chave onload/tree_view tiver valor VERDADEIRO."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:11
+msgid "File Browser Virtual Root Directory"
+msgstr "Diretório raiz virtual do navegador de arquivos"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:12
+msgid ""
+"The file browser virtual root directory to use when loading the file browser"
+" plugin when onload/tree_view is TRUE. The virtual root must always be below"
+" the actual root."
+msgstr "O diretório raiz virtual usado ao carregar o navegador de arquivos, se a chave onload/tree_view tiver valor VERDADEIRO. O diretório raiz virtual deve sempre estar dentro do verdadeiro."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:13
+msgid "Enable Restore of Remote Locations"
+msgstr "Habilitar restauração de localizações remotas"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:14
+msgid "Sets whether to enable restoring of remote locations."
+msgstr "Define se habilita ou não a restauração de localizações remotas."
+
+#: ../plugins/filebrowser/scrivi-file-bookmarks-store.c:235
+msgid "File System"
+msgstr "Sistema de arquivos"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:537
+msgid "_Set root to active document"
+msgstr "_Definir raiz para documento ativo"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:539
+msgid "Set the root to the active document location"
+msgstr "Define o diretório raiz como o mesmo local do documento ativo"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:544
+msgid "_Open terminal here"
+msgstr "_Abrir terminal aqui"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:546
+msgid "Open a terminal at the currently opened directory"
+msgstr "Abre um terminal no diretório aberto atualmente"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:688
+msgid "File Browser"
+msgstr "Navegador de arquivos"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:818
+msgid "An error occurred while creating a new directory"
+msgstr "Ocorreu um erro ao criar um novo diretório"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:821
+msgid "An error occurred while creating a new file"
+msgstr "Ocorreu um erro ao criar um novo arquivo"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:826
+msgid "An error occurred while renaming a file or directory"
+msgstr "Ocorreu um erro ao renomear um arquivo ou diretório"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:831
+msgid "An error occurred while deleting a file or directory"
+msgstr "Ocorreu um erro ao excluir um arquivo ou diretório"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:836
+msgid "An error occurred while opening a directory in the file manager"
+msgstr "Ocorreu um erro ao abrir um diretório no gerenciador de arquivos"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:840
+msgid "An error occurred while setting a root directory"
+msgstr "Ocorreu um erro ao definir um diretório raiz"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:844
+msgid "An error occurred while loading a directory"
+msgstr "Ocorreu um erro ao carregar um diretório"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:847
+msgid "An error occurred"
+msgstr "Ocorreu um erro"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1078
+msgid ""
+"Cannot move file to trash, do you\n"
+"want to delete permanently?"
+msgstr "Não foi possível mover o arquivo para \na lixeira; você deseja excluí-lo permanentemente?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1082
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash."
+msgstr "O arquivo \"%s\" não pôde ser movido para a lixeira."
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1085
+msgid "The selected files cannot be moved to the trash."
+msgstr "Os arquivos selecionados não podem ser movidos para a lixeira."
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1118
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "Você tem certeza de que quer excluir \"%s\" permanentemente?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1121
+msgid "Are you sure you want to permanently delete the selected files?"
+msgstr "Você tem certeza de que quer excluir permanentemente os arquivos selecionados?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1124
+msgid "If you delete an item, it is permanently lost."
+msgstr "Se você excluir um item, ele será perdido permanentemente."
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:1667
+msgid "(Empty)"
+msgstr "(Vazio)"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3305
+msgid ""
+"The renamed file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr "O arquivo renomeado está escondido pelo filtro. Será necessário ajustar a definição do filtro para torná-lo visível"
+
+#. Translators: This is the default name of new files created by the file
+#. browser pane.
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3544
+msgid "file"
+msgstr "arquivo"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3568
+msgid ""
+"The new file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr "O novo arquivo está escondido pelo filtro. Será necessário ajustar a definição do filtro para torná-lo visível"
+
+#. Translators: This is the default name of new directories created by the
+#. file browser pane.
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3597
+msgid "directory"
+msgstr "diretório"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3617
+msgid ""
+"The new directory is currently filtered out. You need to adjust your filter "
+"settings to make the directory visible"
+msgstr "O novo diretório está escondido pelo filtro. Será necessário ajustar a definição do filtro para torná-lo visível"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:724
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:805
+msgid "_Filter"
+msgstr "_Filtrar"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:810
+msgid "_Move to Trash"
+msgstr "_Mover para lixeira"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:811
+msgid "Move selected file or folder to trash"
+msgstr "Move o arquivo ou diretório selecionado para a lixeira"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:813
+msgid "_Delete"
+msgstr "Ex_cluir"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:814
+msgid "Delete selected file or folder"
+msgstr "Exclui o arquivo ou diretório selecionado"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:821
+msgid "Open selected file"
+msgstr "Abre o arquivo selecionado"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:827
+msgid "Up"
+msgstr "Para cima"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:828
+msgid "Open the parent folder"
+msgstr "Abre a pasta pai"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:833
+msgid "_New Folder"
+msgstr "Nova _pasta"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:834
+msgid "Add new empty folder"
+msgstr "Cria nova pasta vazia"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:836
+msgid "New F_ile"
+msgstr "Novo _arquivo"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:837
+msgid "Add new empty file"
+msgstr "Cria novo arquivo vazio"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:842
+msgid "_Rename"
+msgstr "_Renomear"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:843
+msgid "Rename selected file or folder"
+msgstr "Renomeia o arquivo ou diretório selecionado"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:849
+msgid "_Previous Location"
+msgstr "Localização a_nterior"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:851
+msgid "Go to the previous visited location"
+msgstr "Vai para a localização visitada anteriormente"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:853
+msgid "_Next Location"
+msgstr "_Próxima localização"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:854
+msgid "Go to the next visited location"
+msgstr "Vai para a localização visitada posteriormente"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:855
+msgid "Re_fresh View"
+msgstr "Atuali_zar visão"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:856
+msgid "Refresh the view"
+msgstr "Atualiza a visão"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:857
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:875
+msgid "_View Folder"
+msgstr "_Ver pasta"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:858
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:876
+msgid "View folder in file manager"
+msgstr "Abre o diretório no gerenciador de arquivos"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:865
+msgid "Show _Hidden"
+msgstr "Mostrar _ocultos"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:866
+msgid "Show hidden files and folders"
+msgstr "Mostra arquivos e diretórios ocultos"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:868
+msgid "Show _Binary"
+msgstr "Mostrar _binários"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:869
+msgid "Show binary files"
+msgstr "Mostra arquivos binários"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1001
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1010
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1031
+msgid "Previous location"
+msgstr "Localização anterior"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1003
+msgid "Go to previous location"
+msgstr "Vai para a localização anterior"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1005
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1026
+msgid "Go to a previously opened location"
+msgstr "Vai para uma localização aberta anteriormente"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1022
+msgid "Next location"
+msgstr "Próxima localização"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1024
+msgid "Go to next location"
+msgstr "Vai para a próxima localização"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1236
+msgid "_Match Filename"
+msgstr "Coincidir _nome de arquivo"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2165
+#, c-format
+msgid "No mount object for mounted volume: %s"
+msgstr "Nenhum objeto montado para o volume montado: %s"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2245
+#, c-format
+msgid "Could not open media: %s"
+msgstr "Não foi possível abrir a mídia: %s"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2292
+#, c-format
+msgid "Could not mount volume: %s"
+msgstr "Não foi possível abrir o volume: %s"
+
+#. ex:ts=8:noet:
+#: ../plugins/modelines/modelines.scrivi-plugin.desktop.in.h:1
+msgid "Modelines"
+msgstr "Modelines"
+
+#: ../plugins/modelines/modelines.scrivi-plugin.desktop.in.h:2
+msgid "Emacs, Kate and Vim-style modelines support for scrivi."
+msgstr "Suporte para modelines tipo Emacs, Kate e Vim."
+
+#: ../plugins/pythonconsole/pythonconsole.scrivi-plugin.desktop.in.h:1
+#: ../plugins/pythonconsole/pythonconsole/__init__.py:50
+msgid "Python Console"
+msgstr "Console Python"
+
+#: ../plugins/pythonconsole/pythonconsole.scrivi-plugin.desktop.in.h:2
+msgid "Interactive Python console standing in the bottom panel"
+msgstr "Console python interativo situado no painel inferior"
+
+#. ex:et:ts=4:
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:1
+msgid "C_ommand color:"
+msgstr "C_or do comando:"
+
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:2
+msgid "_Error color:"
+msgstr "Cor de _erro:"
+
+#. ex:ts=8:et:
+#: ../plugins/quickopen/quickopen/popup.py:35
+#: ../plugins/quickopen/quickopen.scrivi-plugin.desktop.in.h:1
+msgid "Quick Open"
+msgstr "Abertura rápida"
+
+#: ../plugins/quickopen/quickopen/windowhelper.py:69
+msgid "Quick open"
+msgstr "Abertura rápida"
+
+#: ../plugins/quickopen/quickopen/windowhelper.py:70
+msgid "Quickly open documents"
+msgstr "Abre documento rapidamente"
+
+#: ../plugins/quickopen/quickopen.scrivi-plugin.desktop.in.h:2
+msgid "Quickly open files"
+msgstr "Abre arquivos rapidamente"
+
+#: ../plugins/snippets/snippets.scrivi-plugin.desktop.in.h:1
+#: ../plugins/snippets/snippets/Document.py:58
+msgid "Snippets"
+msgstr "Trechos"
+
+#: ../plugins/snippets/snippets.scrivi-plugin.desktop.in.h:2
+msgid "Insert often-used pieces of text in a fast way"
+msgstr "Insere pedaços de texto frequentemente usados de um jeito rápido"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:1
+msgid "Snippets Manager"
+msgstr "Gerenciador de trechos"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:2
+msgid "_Snippets:"
+msgstr "_Trechos:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:3
+msgid "Create new snippet"
+msgstr "Cria um novo trecho"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:4
+#: ../plugins/snippets/snippets/Manager.py:800
+msgid "Import snippets"
+msgstr "Importa trechos"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:5
+msgid "Export selected snippets"
+msgstr "Exporta os trechos selecionados"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:6
+#: ../plugins/snippets/snippets/Manager.py:412
+msgid "Delete selected snippet"
+msgstr "Exclui o trecho selecionado"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:8
+msgid "Activation"
+msgstr "Ativação"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:10
+msgid "_Tab trigger:"
+msgstr "_Disparador:"
+
+#. self['hbox_tab_trigger'].set_spacing(0)
+#: ../plugins/snippets/snippets/snippets.ui.h:11
+#: ../plugins/snippets/snippets/Manager.py:689
+msgid "Single word the snippet is activated with after pressing Tab"
+msgstr "Uma palavra com a qual o trecho é ativado após pressionar tab"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:12
+msgid "Shortcut key with which the snippet is activated"
+msgstr "Tecla de atalho com a qual o trecho é ativado"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:13
+msgid "S_hortcut key:"
+msgstr "_Tecla de atalho:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:14
+msgid "_Drop targets:"
+msgstr "Alvos _destino:"
+
+#: ../plugins/snippets/snippets/WindowHelper.py:130
+msgid "Manage _Snippets..."
+msgstr "Gerenciar _trechos..."
+
+#: ../plugins/snippets/snippets/WindowHelper.py:131
+msgid "Manage snippets"
+msgstr "Gerenciar trechos"
+
+#: ../plugins/snippets/snippets/Manager.py:46
+msgid "Snippets archive"
+msgstr "Pacote de trechos"
+
+#: ../plugins/snippets/snippets/Manager.py:71
+msgid "Add a new snippet..."
+msgstr "Adicionar um novo trecho..."
+
+#: ../plugins/snippets/snippets/Manager.py:121
+msgid "Global"
+msgstr "Global"
+
+#: ../plugins/snippets/snippets/Manager.py:409
+msgid "Revert selected snippet"
+msgstr "Reverte o trecho selecionado"
+
+#. self['hbox_tab_trigger'].set_spacing(3)
+#: ../plugins/snippets/snippets/Manager.py:682
+msgid ""
+"This is not a valid Tab trigger. Triggers can either contain letters or a "
+"single (non-alphanumeric) character like: {, [, etc."
+msgstr "Esse disparador não é válido. Disparadores podem conter tanto letras quando um único caractere não alfanumérico como {, [, etc."
+
+#: ../plugins/snippets/snippets/Manager.py:779
+#, python-format
+msgid "The following error occurred while importing: %s"
+msgstr "Ocorreu o seguinte erro ao importar: %s"
+
+#: ../plugins/snippets/snippets/Manager.py:786
+msgid "Import successfully completed"
+msgstr "Importação concluída com sucesso"
+
+#: ../plugins/snippets/snippets/Manager.py:805
+#: ../plugins/snippets/snippets/Manager.py:891
+#: ../plugins/snippets/snippets/Manager.py:954
+msgid "All supported archives"
+msgstr "Todos os pacotes com suporte"
+
+#: ../plugins/snippets/snippets/Manager.py:806
+#: ../plugins/snippets/snippets/Manager.py:892
+#: ../plugins/snippets/snippets/Manager.py:955
+msgid "Gzip compressed archive"
+msgstr "Pacote compactado gzip"
+
+#: ../plugins/snippets/snippets/Manager.py:807
+#: ../plugins/snippets/snippets/Manager.py:893
+#: ../plugins/snippets/snippets/Manager.py:956
+msgid "Bzip2 compressed archive"
+msgstr "Pacote compactado bzip2"
+
+#: ../plugins/snippets/snippets/Manager.py:808
+msgid "Single snippets file"
+msgstr "Arquivo simples de trechos"
+
+#: ../plugins/snippets/snippets/Manager.py:809
+#: ../plugins/snippets/snippets/Manager.py:895
+#: ../plugins/snippets/snippets/Manager.py:958
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: ../plugins/snippets/snippets/Manager.py:821
+#, python-format
+msgid "The following error occurred while exporting: %s"
+msgstr "Ocorreu o seguinte erro ao exportar: %s"
+
+#: ../plugins/snippets/snippets/Manager.py:825
+msgid "Export successfully completed"
+msgstr "Exportação concluída com sucesso"
+
+#. Ask if system snippets should also be exported
+#: ../plugins/snippets/snippets/Manager.py:865
+#: ../plugins/snippets/snippets/Manager.py:932
+msgid "Do you want to include selected <b>system</b> snippets in your export?"
+msgstr "Você deseja incluir os trechos do <b>sistema</b> selecionados em sua exportação?"
+
+#: ../plugins/snippets/snippets/Manager.py:880
+#: ../plugins/snippets/snippets/Manager.py:950
+msgid "There are no snippets selected to be exported"
+msgstr "Nenhum trecho selecionado para exportação"
+
+#: ../plugins/snippets/snippets/Manager.py:885
+#: ../plugins/snippets/snippets/Manager.py:923
+msgid "Export snippets"
+msgstr "Exporta trechos"
+
+#: ../plugins/snippets/snippets/Manager.py:1062
+msgid "Type a new shortcut, or press Backspace to clear"
+msgstr "Digite um novo atalho, ou pressione Backspace para limpar"
+
+#: ../plugins/snippets/snippets/Manager.py:1064
+msgid "Type a new shortcut"
+msgstr "Digite um novo atalho"
+
+#: ../plugins/snippets/snippets/Exporter.py:65
+#, python-format
+msgid "The archive \"%s\" could not be created"
+msgstr "O pacote \"%s\" não pôde ser criado"
+
+#: ../plugins/snippets/snippets/Exporter.py:82
+#, python-format
+msgid "Target directory \"%s\" does not exist"
+msgstr "O diretório final \"%s\" não existe"
+
+#: ../plugins/snippets/snippets/Exporter.py:85
+#, python-format
+msgid "Target directory \"%s\" is not a valid directory"
+msgstr "O diretório final \"%s\" não é um diretório válido"
+
+#: ../plugins/snippets/snippets/Importer.py:29
+#: ../plugins/snippets/snippets/Importer.py:83
+#, python-format
+msgid "File \"%s\" does not exist"
+msgstr "O arquivo \"%s\" não existe"
+
+#: ../plugins/snippets/snippets/Importer.py:32
+#, python-format
+msgid "File \"%s\" is not a valid snippets file"
+msgstr "O arquivo \"%s\" não é um arquivo de trechos válido"
+
+#: ../plugins/snippets/snippets/Importer.py:42
+#, python-format
+msgid "Imported file \"%s\" is not a valid snippets file"
+msgstr "O arquivo importado \"%s\" não é um arquivo de trechos válido"
+
+#: ../plugins/snippets/snippets/Importer.py:52
+#, python-format
+msgid "The archive \"%s\" could not be extracted"
+msgstr "O pacote \"%s\" não pôde ser extraído"
+
+#: ../plugins/snippets/snippets/Importer.py:70
+#, python-format
+msgid "The following files could not be imported: %s"
+msgstr "Os seguintes arquivos não puderam ser importados: %s"
+
+#: ../plugins/snippets/snippets/Importer.py:86
+#: ../plugins/snippets/snippets/Importer.py:99
+#, python-format
+msgid "File \"%s\" is not a valid snippets archive"
+msgstr "O arquivo \"%s\" não é um pacote de trechos válido"
+
+#: ../plugins/snippets/snippets/Placeholder.py:594
+#, python-format
+msgid ""
+"Execution of the Python command (%s) exceeds the maximum time, execution "
+"aborted."
+msgstr "A execução do comando python (%s) excedeu o tempo máximo: abortando."
+
+#: ../plugins/snippets/snippets/Placeholder.py:602
+#, python-format
+msgid "Execution of the Python command (%s) failed: %s"
+msgstr "Falha na execução do comando python (%s): %s"
+
+#: ../plugins/sort/scrivi-sort-plugin.c:88
+msgid "S_ort..."
+msgstr "_Ordenar..."
+
+#: ../plugins/sort/scrivi-sort-plugin.c:90
+msgid "Sort the current document or selection"
+msgstr "Ordena o documento atual ou seleção"
+
+#: ../plugins/sort/sort.scrivi-plugin.desktop.in.h:1
+#: ../plugins/sort/sort.ui.h:1
+msgid "Sort"
+msgstr "Ordenar"
+
+#: ../plugins/sort/sort.scrivi-plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "Ordena um documento ou um texto selecionado."
+
+#: ../plugins/sort/sort.ui.h:2
+msgid "_Sort"
+msgstr "_Ordenar"
+
+#: ../plugins/sort/sort.ui.h:3
+msgid "_Reverse order"
+msgstr "Inve_rter ordem"
+
+#: ../plugins/sort/sort.ui.h:4
+msgid "R_emove duplicates"
+msgstr "R_emover duplicadas"
+
+#: ../plugins/sort/sort.ui.h:5
+msgid "_Ignore case"
+msgstr "_Ignorar maiúsculas/minúsculas"
+
+#: ../plugins/sort/sort.ui.h:6
+msgid "S_tart at column:"
+msgstr "_Iniciar na coluna:"
+
+#: ../plugins/sort/sort.ui.h:7
+msgid "You cannot undo a sort operation"
+msgstr "Você não pode desfazer uma operação de ordenação"
+
+#: ../plugins/spell/org.gde2.scrivi.plugins.spell.gschema.xml.in.h:1
+msgid "Autocheck Type"
+msgstr "Tipo de verificação automática"
+
+#. Translators: Displayed in the "Check Spelling" dialog if there are no
+#. suggestions for the current misspelled word
+#. Translators: Displayed in the "Check Spelling" dialog if there are no
+#. suggestions
+#. * for the current misspelled word
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:420
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:455
+msgid "(no suggested words)"
+msgstr "(nenhuma palavra sugerida)"
+
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:444
+msgid "_More..."
+msgstr "_Mais..."
+
+#. Ignore all
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:503
+msgid "_Ignore All"
+msgstr "_Ignorar todos"
+
+#. + Add to Dictionary
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:518
+msgid "_Add"
+msgstr "_Adicionar"
+
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:557
+msgid "_Spelling Suggestions..."
+msgstr "_Sugestões de ortografia..."
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:270
+msgid "Check Spelling"
+msgstr "Verificação de ortografia"
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:281
+msgid "Suggestions"
+msgstr "Sugestões"
+
+#. Translators: Displayed in the "Check Spelling" dialog if the current word
+#. isn't misspelled
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:562
+msgid "(correct spelling)"
+msgstr "(ortografia correta)"
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:709
+msgid "Completed spell checking"
+msgstr "Verificação de ortografia completada"
+
+#. Translators: the first %s is the language name, and
+#. * the second %s is the locale name. Example:
+#. * "French (France)"
+#: ../plugins/spell/scrivi-spell-checker-language.c:285
+#: ../plugins/spell/scrivi-spell-checker-language.c:291
+#, c-format
+msgctxt "language"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#. Translators: this refers to an unknown language code
+#. * (one which isn't in our built-in list).
+#: ../plugins/spell/scrivi-spell-checker-language.c:300
+#, c-format
+msgctxt "language"
+msgid "Unknown (%s)"
+msgstr "Desconhecido (%s)"
+
+#. Translators: this refers the Default language used by the
+#. * spell checker
+#: ../plugins/spell/scrivi-spell-checker-language.c:406
+msgctxt "language"
+msgid "Default"
+msgstr "Padrão"
+
+#: ../plugins/spell/scrivi-spell-language-dialog.c:141
+#: ../plugins/spell/languages-dialog.ui.h:1
+msgid "Set language"
+msgstr "Definir idioma"
+
+#: ../plugins/spell/scrivi-spell-language-dialog.c:195
+msgid "Languages"
+msgstr "Idiomas"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:92
+msgid "_Check Spelling..."
+msgstr "_Verificar ortografia..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:94
+msgid "Check the current document for incorrect spelling"
+msgstr "Verifica ortografia do documento atual"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:100
+msgid "Set _Language..."
+msgstr "Definir _idioma..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:102
+msgid "Set the language of the current document"
+msgstr "Define o idioma do documento atual"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:111
+msgid "_Autocheck Spelling"
+msgstr "Verificar ortografia _automaticamente"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:113
+msgid "Automatically spell-check the current document"
+msgstr "Verifica automaticamente a ortografia do documento atual"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:753
+msgid "Configure Spell Checker plugin..."
+msgstr "Configurar plugin do Corretor Ortográfico"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:962
+msgid "The document is empty."
+msgstr "O documento está vazio."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:992
+msgid "No misspelled words"
+msgstr "Nenhuma palavra incorreta"
+
+#: ../plugins/spell/languages-dialog.ui.h:2
+msgid "Select the _language of the current document."
+msgstr "Selecionar o _idioma do documento atual."
+
+#: ../plugins/spell/spell-checker.ui.h:1
+msgid "Check spelling"
+msgstr "Verificar ortografia"
+
+#: ../plugins/spell/spell-checker.ui.h:2
+msgid "Misspelled word:"
+msgstr "Palavra incorreta:"
+
+#: ../plugins/spell/spell-checker.ui.h:3
+msgid "word"
+msgstr "palavra"
+
+#: ../plugins/spell/spell-checker.ui.h:4
+msgid "Change _to:"
+msgstr "Alterar _para:"
+
+#: ../plugins/spell/spell-checker.ui.h:5
+msgid "Check _Word"
+msgstr "Verificar pala_vra"
+
+#: ../plugins/spell/spell-checker.ui.h:6
+msgid "_Suggestions:"
+msgstr "_Sugestões:"
+
+#: ../plugins/spell/spell-checker.ui.h:7
+msgid "_Ignore"
+msgstr "_Ignorar"
+
+#: ../plugins/spell/spell-checker.ui.h:8
+msgid "Cha_nge"
+msgstr "A_lterar"
+
+#: ../plugins/spell/spell-checker.ui.h:9
+msgid "Ignore _All"
+msgstr "Ignor_ar todos"
+
+#: ../plugins/spell/spell-checker.ui.h:10
+msgid "Change A_ll"
+msgstr "Alterar to_dos"
+
+#: ../plugins/spell/spell-checker.ui.h:11
+msgid "User dictionary:"
+msgstr "Dicionário do usuário:"
+
+#: ../plugins/spell/spell-checker.ui.h:12
+msgid "Add w_ord"
+msgstr "Adicionar _palavra"
+
+#: ../plugins/spell/spell-checker.ui.h:13
+msgid "Language:"
+msgstr "Idioma:"
+
+#: ../plugins/spell/spell-checker.ui.h:14
+msgid "Language"
+msgstr "Idioma"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:1
+msgid "_Configure Spell Checker plugin..."
+msgstr "_Configurar plugin do Corretor Ortográfico"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:2
+msgid "Autocheck spelling on document load..."
+msgstr "Verificar ortografia ao carregar documento..."
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:3
+msgid "_Never autocheck"
+msgstr "_Nunca auto-verificar"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:4
+msgid "_Remember autocheck by document"
+msgstr "_Habilitar verificação automática por documento"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:5
+msgid "_Always autocheck"
+msgstr "_Sempre auto-verificar"
+
+#: ../plugins/spell/spell.scrivi-plugin.desktop.in.h:1
+msgid "Spell Checker"
+msgstr "Verificador ortográfico"
+
+#: ../plugins/spell/spell.scrivi-plugin.desktop.in.h:2
+msgid "Checks the spelling of the current document."
+msgstr "Verifica a ortografia do documento atual."
+
+#: ../plugins/taglist/scrivi-taglist-plugin.c:98
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:725
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:743
+msgid "Tags"
+msgstr "Marcas"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:622
+msgid "Select the group of tags you want to use"
+msgstr "Selecione o grupo de marcas que você quer usar"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:641
+msgid "_Preview"
+msgstr "_Visualização"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:722
+msgid "Available Tag Lists"
+msgstr "Listas de marcas disponíveis"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:1
+msgid "XHTML 1.0 - Tags"
+msgstr "XHTML 1.0 - Marcas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:2
+msgid "Abbreviated form"
+msgstr "Formas abreviadas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:3
+msgid "Abbreviation"
+msgstr "Abreviação"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:4
+msgid "Accessibility key character"
+msgstr "Caractere de tecla de acessibilidade"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:5
+msgid "Acronym"
+msgstr "Acrônimo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:6
+msgid "Align"
+msgstr "Alinhamento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:7
+msgid "Alignment character"
+msgstr "Caractere de alinhamento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:8
+msgid "Alternative"
+msgstr "Alternativo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:9
+msgid "Anchor URI"
+msgstr "URI âncora"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:10
+msgid "Anchor"
+msgstr "Âncora"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:12
+msgid "Applet class file code (deprecated)"
+msgstr "Código de arquivo de classe do miniaplicativo (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:13
+msgid "Associated information"
+msgstr "Informações associadas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:14
+msgid "Author info"
+msgstr "Informações do autor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:15
+msgid "Axis related headers"
+msgstr "Cabeçalhos relacionados a eixos"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:17
+msgid "Background color (deprecated)"
+msgstr "Cor de plano de fundo (obsoleto)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:19
+msgid "Background texture tile (deprecated)"
+msgstr "Textura de plano de fundo lado a lado (obsoleto)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:21
+msgid "Base font (deprecated)"
+msgstr "Fonte de base (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:22
+msgid "Base URI"
+msgstr "URI base"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:23
+msgid "Bold"
+msgstr "Negrito"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:25
+msgid "Border (deprecated)"
+msgstr "Borda (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:26
+msgid "Cell rowspan"
+msgstr "Junção de células em linha"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:28
+msgid "Center (deprecated)"
+msgstr "Centrar (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:29
+msgid "Character encoding of linked resource"
+msgstr "Codificação de caracteres do recurso apontado pelo link"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:30
+msgid "Checked state"
+msgstr "Estado selecionado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:31
+msgid "Citation"
+msgstr "Citação"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:32
+msgid "Cite reason for change"
+msgstr "Cite o motivo para a alteração"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:33
+msgid "Class implementation ID"
+msgstr "ID da implementação de classe"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:34
+msgid "Class list"
+msgstr "Lista de classes"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:35
+msgid "Clear text flow control"
+msgstr "Limpar o controle de fluxo de texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:36
+msgid "Code content type"
+msgstr "Tipo de código de conteúdo"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:38
+msgid "Color of selected links (deprecated)"
+msgstr "Cor dos links selecionados (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:39
+msgid "Column span"
+msgstr "Junção de colunas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:40
+msgid "Columns"
+msgstr "Colunas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:41
+msgid "Comment"
+msgstr "Comentário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:42
+msgid "Computer code fragment"
+msgstr "Fragmento de código de computação"
+
+#. The "type" attribute is deprecated for the "ol" tag only,
+#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:45
+msgid "Content type (deprecated)"
+msgstr "Tipo de conteúdo (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:46
+msgid "Coordinates"
+msgstr "Coordenadas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:47
+msgid "Date and time of change"
+msgstr "Data e hora de alteração"
+
+#. NOTE: used in "object" tag
+#: ../plugins/taglist/HTML.tags.xml.in.h:49
+msgid "Declare flag"
+msgstr "Parâmetro de declaração"
+
+#. Translators: DEFER is an optional attribute of the <script> tag.
+#. It indicates that the script is not going to generate any document
+#. content. The browser can continue parsing and drawing the page.
+#: ../plugins/taglist/HTML.tags.xml.in.h:53
+msgid "Defer attribute"
+msgstr "Atributo deferido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:54
+msgid "Definition description"
+msgstr "Descrição da definição"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:55
+msgid "Definition list"
+msgstr "Lista de definição"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:56
+msgid "Definition term"
+msgstr "Termo de definição"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:57
+msgid "Deleted text"
+msgstr "Texto excluído"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:58
+msgid "Directionality"
+msgstr "Direcionalidade"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:60
+msgid "Directionality (deprecated)"
+msgstr "Direcionalidade (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:61
+msgid "Disabled"
+msgstr "Desabilitado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:62
+msgid "DIV container"
+msgstr "Recipiente DIV"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:63
+msgid "DIV Style container"
+msgstr "Recipiente de estilo DIV"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:64
+msgid "Document base"
+msgstr "Base do documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:65
+msgid "Document body"
+msgstr "Corpo do documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:66
+msgid "Document head"
+msgstr "Cabeçalho do documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:67
+msgid "Element ID"
+msgstr "ID de elemento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:68
+msgid "Document title"
+msgstr "Título do documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:69
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:70
+#: ../plugins/taglist/Latex.tags.xml.in.h:72
+msgid "Emphasis"
+msgstr "Ênfase"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:71
+msgid "Encode type"
+msgstr "Tipo de codificação"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:73
+msgid "Font face (deprecated)"
+msgstr "Fonte (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:74
+msgid "For label"
+msgstr "Para rótulo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:75
+msgid "Forced line break"
+msgstr "Quebra de linha forçada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:76
+msgid "Form action handler"
+msgstr "Manipulador de ação de formulário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:77
+msgid "Form control group"
+msgstr "Grupo de controle de formulário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:78
+msgid "Form field label text"
+msgstr "Texto da marca de campo de formulário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:79
+msgid "Form input type"
+msgstr "Tipo de entrada de dados do formulário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:80
+msgid "Form input"
+msgstr "Entrada de dados do formulário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:81
+msgid "Form method"
+msgstr "Método do formulário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:82
+msgid "Form"
+msgstr "Formulário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:83
+msgid "Forward link"
+msgstr "Relação com o link"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:84
+msgid "Frame render parts"
+msgstr "Partes de renderização do quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:85
+msgid "Frame source"
+msgstr "Código fonte do quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:86
+msgid "Frame target"
+msgstr "Alvo do quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:87
+msgid "Frame"
+msgstr "Quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:88
+msgid "Frame border"
+msgstr "Borda do quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:89
+msgid "Frameset columns"
+msgstr "Colunas do conjunto de quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:90
+msgid "Frameset rows"
+msgstr "Linhas do conjunto de quadros"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:91
+msgid "Frameset"
+msgstr "Conjunto de quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:92
+msgid "Frame spacing"
+msgstr "Espaçamento do quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:93
+msgid "Generic embedded object"
+msgstr "Objetos embutidos genéricos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:94
+msgid "Generic metainformation"
+msgstr "Metainformação genérica"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:95
+msgid "Generic span"
+msgstr "Junção genérica"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:96
+msgid "Header cell IDs"
+msgstr "IDs de célula de cabeçalho"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:97
+msgid "Heading 1"
+msgstr "Título 1"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:98
+msgid "Heading 2"
+msgstr "Título 2"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:99
+msgid "Heading 3"
+msgstr "Título 3"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:100
+msgid "Heading 4"
+msgstr "Título 4"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:101
+msgid "Heading 5"
+msgstr "Título 5"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:102
+msgid "Heading 6"
+msgstr "Título 6"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:103
+msgid "Height"
+msgstr "Altura"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:104
+msgid "Horizontal rule"
+msgstr "Régua horizontal"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:106
+msgid "Horizontal space (deprecated)"
+msgstr "Espaço horizontal (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:107
+msgid "HREF URI"
+msgstr "URI HREF"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:108
+msgid "HTML root element"
+msgstr "Elemento raiz HTML"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:109
+msgid "HTTP header name"
+msgstr "Nome do cabeçalho HTTP"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:110
+msgid "I18N BiDi override"
+msgstr "Controle BiDi de I18N"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:111
+msgid "Image map area"
+msgstr "Área de mapa da imagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:112
+msgid "Image map name"
+msgstr "Nome de mapa da imagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:113
+msgid "Image map"
+msgstr "Mapa de imagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:114
+msgid "Image"
+msgstr "Imagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:115
+msgid "Inline frame"
+msgstr "Quadro embutido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:116
+msgid "Inserted text"
+msgstr "Texto inserido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:117
+msgid "Instance definition"
+msgstr "Definição de instância"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:118
+msgid "Italic text"
+msgstr "Texto em itálico"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:120
+msgid "Java applet (deprecated)"
+msgstr "Miniaplicativo java (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:121
+msgid "Label"
+msgstr "Rótulo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:122
+msgid "Language code"
+msgstr "Código de Idioma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:123
+msgid "Large text style"
+msgstr "Estilo de texto grande"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:125
+msgid "Link color (deprecated)"
+msgstr "Cor do link (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:126
+msgid "List item"
+msgstr "Item de lista"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:127
+msgid "List of MIME types for file upload"
+msgstr "Lista de tipos MIME para envio de arquivos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:128
+msgid "List of supported character sets"
+msgstr "Lista de conjuntos de caracteres com suporte"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:129
+msgid "Local change to font"
+msgstr "Alteração local para fonte"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:130
+msgid "Long description link"
+msgstr "Descrição extensa do link"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:131
+msgid "Long quotation"
+msgstr "Citação extensa"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:133
+msgid "Margin pixel height"
+msgstr "Altura da margem em pixels"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:135
+msgid "Margin pixel width"
+msgstr "Largura da margem em pixels"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:136
+msgid "Maximum length of text field"
+msgstr "Comprimento máximo do campo de texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:137
+msgid "Output media"
+msgstr "Mídia de saída"
+
+#. Here I take some liberties: There's no mandatory attributes,
+#. but those are most common, and will likely be used.
+#: ../plugins/taglist/HTML.tags.xml.in.h:140
+msgid "Media-independent link"
+msgstr "Link independente de mídia"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:142
+msgid "Menu list (deprecated)"
+msgstr "Lista de menu (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:143
+msgid "Multi-line text field"
+msgstr "Campo de texto multilinha"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:144
+msgid "Multiple"
+msgstr "Múltiplo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:145
+msgid "Name"
+msgstr "Nome"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:146
+msgid "Named property value"
+msgstr "Valor de propriedade denominada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:147
+msgid "No frames"
+msgstr "Sem quadros"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:148
+msgid "No resize"
+msgstr "Sem redimensionamento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:149
+msgid "No script"
+msgstr "Sem script"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:151
+msgid "No shade (deprecated)"
+msgstr "Sem sombra (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:152
+msgid "No URI"
+msgstr "Sem URI"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:154
+msgid "No word wrap (deprecated)"
+msgstr "Sem quebra de linha (obsoleto)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:156
+msgid "Object applet file (deprecated)"
+msgstr "Arquivo de objeto de miniaplicativo (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:157
+msgid "Object data reference"
+msgstr "Referência de objeto de dados"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:158
+msgid "Offset for alignment character"
+msgstr "Deslocamento do caractere de alinhamento"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:159
+msgid "OnBlur event"
+msgstr "Evento OnBlur"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:160
+msgid "OnChange event"
+msgstr "Evento OnChange"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:161
+msgid "OnClick event"
+msgstr "Evento OnClick"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:162
+msgid "OnDblClick event"
+msgstr "Evento OnDblClick"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:163
+msgid "OnFocus event"
+msgstr "Evento OnFocus"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:164
+msgid "OnKeyDown event"
+msgstr "Evento OnKeyDown"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:165
+msgid "OnKeyPress event"
+msgstr "Evento OnKeyPress"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:166
+msgid "OnKeyUp event"
+msgstr "Evento OnKeyUp"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:167
+msgid "OnLoad event"
+msgstr "Evento OnLoad"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:168
+msgid "OnMouseDown event"
+msgstr "Evento OnMouseDown"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:169
+msgid "OnMouseMove event"
+msgstr "Evento OnMouseMove"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:170
+msgid "OnMouseOut event"
+msgstr "Evento OnMouseOut"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:171
+msgid "OnMouseOver event"
+msgstr "Evento OnMouseOver"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:172
+msgid "OnMouseUp event"
+msgstr "Evento OnMouseUp"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:173
+msgid "OnReset event"
+msgstr "Evento OnReset"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:174
+msgid "OnSelect event"
+msgstr "Evento OnSelect"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:175
+msgid "OnSubmit event"
+msgstr "Evento OnSubmit"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:176
+msgid "OnUnload event"
+msgstr "Evento OnUnload"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:177
+msgid "Option group"
+msgstr "Grupo de opções"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:178
+msgid "Option selector"
+msgstr "Seletor de opções"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:179
+msgid "Ordered list"
+msgstr "Lista ordenada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:180
+msgid "Paragraph class"
+msgstr "Classe de parágrafo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:181
+msgid "Paragraph style"
+msgstr "Estilo de parágrafo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:182
+msgid "Paragraph"
+msgstr "Parágrafo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:183
+msgid "Preformatted text"
+msgstr "Texto pré-formatado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:184
+msgid "Profile metainfo dictionary"
+msgstr "Dicionário de metainformação de perfil"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:185
+msgid "Push button"
+msgstr "Botão"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:186
+msgid "ReadOnly text and password"
+msgstr "Texto e senha apenas de leitura"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:188
+msgid "Reduced spacing (deprecated)"
+msgstr "Espaçamento reduzido (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:189
+msgid "Reverse link"
+msgstr "Link invertido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:190
+msgid "Rows"
+msgstr "Linhas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:191
+msgid "Rulings between rows and columns"
+msgstr "Traços entre linhas e colunas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:192
+msgid "Sample program output, scripts"
+msgstr "Exemplo de saída de aplicação, scripts"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:193
+msgid "Scope covered by header cells"
+msgstr "Escopo coberto pelos cabeçalhos das células"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:195
+msgid "Script language name"
+msgstr "Nome da linguagem do script"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:196
+msgid "Script statements"
+msgstr "Declarações de script"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:197
+msgid "Scrollbar"
+msgstr "Barra de rolagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:198
+msgid "Selectable option"
+msgstr "Opção selecionável"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:199
+msgid "Selected"
+msgstr "Selecionada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:200
+msgid "Server-side image map"
+msgstr "Mapa de imagem do lado do servidor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:201
+msgid "Shape"
+msgstr "Forma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:202
+msgid "Short inline quotation"
+msgstr "Pequena citação embutida"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:204
+msgid "Size (deprecated)"
+msgstr "Tamanho (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:205
+msgid "Small text style"
+msgstr "Estilo de texto pequeno"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:206
+msgid "Source"
+msgstr "Fonte"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:207
+msgid "Space-separated archive list"
+msgstr "Lista de pacotes separados por espaços"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:208
+msgid "Spacing between cells"
+msgstr "Espaçamento entre células"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:209
+msgid "Spacing within cells"
+msgstr "Espaçamento dentro das células"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:210
+msgid "Span"
+msgstr "Junção"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:211
+msgid "Standby load message"
+msgstr "Mensagem de aguardar carregamento"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:213
+msgid "Starting sequence number (deprecated)"
+msgstr "Número inicial da sequência (obsoleto)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:215
+msgid "Strike-through text style (deprecated)"
+msgstr "Estilo de texto tachado (obsoleto)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:217
+msgid "Strike-through text (deprecated)"
+msgstr "Estilo de texto tachado (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:218
+msgid "Strong emphasis"
+msgstr "Negrito com ênfase"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:219
+msgid "Style info"
+msgstr "Informação de estilo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:220
+msgid "Subscript"
+msgstr "Subscrito"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:221
+msgid "Superscript"
+msgstr "Sobrescrito"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:222
+msgid "Table body"
+msgstr "Corpo da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:223
+msgid "Table caption"
+msgstr "Título da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:224
+msgid "Table column group properties"
+msgstr "Propriedades do grupo de colunas da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:225
+msgid "Table column properties"
+msgstr "Propriedades da coluna da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:226
+msgid "Table data cell"
+msgstr "Célula de dados da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:227
+msgid "Table footer"
+msgstr "Rodapé da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:228
+msgid "Table header cell"
+msgstr "Célula de cabeçalho da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:229
+msgid "Table header"
+msgstr "Cabeçalho da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:230
+msgid "Table row"
+msgstr "Linha da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:231
+msgid "Table summary"
+msgstr "Resumo da tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:232
+msgid "Table"
+msgstr "Tabela"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:233
+msgid "Target - Blank"
+msgstr "Destino - Vazio"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:234
+msgid "Target - Parent"
+msgstr "Destino - Pai"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:235
+msgid "Target - Self"
+msgstr "Destino - Próprio"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:236
+msgid "Target - Top"
+msgstr "Destino - Topo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:237
+msgid "Teletype or monospace text style"
+msgstr "Estilo de texto teletipo ou mono espaço"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:239
+msgid "Text color (deprecated)"
+msgstr "Cor do texto (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:240
+msgid "Text entered by user"
+msgstr "Texto digitado pelo usuário"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:241
+msgid "Title"
+msgstr "Título"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:242
+msgid "Underlined text style"
+msgstr "Estilo de texto sublinhado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:243
+msgid "Unordered list"
+msgstr "Lista desordenada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:244
+msgid "Use image map"
+msgstr "Usar mapa de imagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:245
+msgid "Value interpretation"
+msgstr "Interpretação do valor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:246
+msgid "Value"
+msgstr "Valor"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:247
+msgid "Variable or program argument"
+msgstr "Variável ou argumento de programa"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:248
+msgid "Vertical cell alignment"
+msgstr "Alinhamento vertical da célula"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:250
+msgid "Vertical space (deprecated)"
+msgstr "Espaço vertical (obsoleto)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:252
+msgid "Visited link color (deprecated)"
+msgstr "Cor do link visitado (obsoleto)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:253
+msgid "Width"
+msgstr "Largura"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:254
+msgid "HTML - Tags"
+msgstr "HTML - Marcas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:255
+msgid "Above"
+msgstr "Acima"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:256
+msgid "Applet class file code"
+msgstr "Código de arquivo de classe do miniaplicativo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:257
+msgid "Array"
+msgstr "Matriz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:258
+msgid "Background color"
+msgstr "Cor de plano de fundo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:259
+msgid "Background texture tile"
+msgstr "Textura de plano de fundo lado a lado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:260
+msgid "Base font"
+msgstr "Tamanho de fonte base"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:261
+msgid "Border color"
+msgstr "Cor da borda"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:262
+msgid "Border"
+msgstr "Borda"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:263
+msgid "Center"
+msgstr "Centro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:264
+msgid "Checked (state)"
+msgstr "Selecionado (estado)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:265
+msgid "Color of selected links"
+msgstr "Cor dos links selecionados"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:266
+msgid "Content scheme"
+msgstr "Esquema do conteúdo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:267
+msgid "Content type"
+msgstr "Tipo de conteúdo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:268
+msgid "Direction"
+msgstr "Direção"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:269
+msgid "Directory list"
+msgstr "Lista de diretórios"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:270
+msgid "HTML version"
+msgstr "Versão HTML"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:271
+msgid "Embedded object"
+msgstr "Objetos embutidos"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:272
+msgid "Figure"
+msgstr "Figura"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:273
+msgid "Font face"
+msgstr "Tipo de fonte"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:274
+msgid "Frameborder"
+msgstr "Margem do quadro"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:275
+msgid "Framespacing"
+msgstr "Espaçamento de quadros"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:276
+msgid "Heading"
+msgstr "Título"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:277
+msgid "Horizontal space"
+msgstr "Espaço horizontal"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:278
+msgid "Image source"
+msgstr "Local da imagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:279
+msgid "Inline layer"
+msgstr "Camada embutida"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:280
+msgid "Java applet"
+msgstr "Miniaplicativo java"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:281
+msgid "Layer"
+msgstr "Camada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:282
+msgid "Link color"
+msgstr "Cor do link"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:283
+msgid "Listing"
+msgstr "Listagem"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:284
+msgid "Mail link"
+msgstr "Link de e-mail"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:285
+msgid "Marquee"
+msgstr "Texto rolante"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:286
+msgid "Menu list"
+msgstr "Lista de menu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:287
+msgid "Multicolumn"
+msgstr "Multicoluna"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:288
+msgid "Next ID"
+msgstr "Próximo ID"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:289
+msgid "No embedded objects"
+msgstr "Sem objeto embutido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:290
+msgid "No layers"
+msgstr "Sem camadas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:291
+msgid "No line break"
+msgstr "Sem quebras de linha"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:292
+msgid "No shade"
+msgstr "Sem sombreado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:293
+msgid "No word wrap"
+msgstr "Sem quebra de linha"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:294
+msgid "Note"
+msgstr "Nota"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:295
+msgid "Object applet file"
+msgstr "Arquivo de objeto de miniaplicativo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:296
+msgid "Preformatted listing"
+msgstr "Lista pré-formatada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:297
+msgid "Prompt message"
+msgstr "Mensagem de questão"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:298
+msgid "Quote"
+msgstr "Aspas"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:299
+msgid "Range"
+msgstr "Intervalo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:300
+msgid "Reduced spacing"
+msgstr "Espaçamento reduzido"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:301
+msgid "Root"
+msgstr "Raiz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:302
+msgid "Single line prompt"
+msgstr "Questão de linha única"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:303
+msgid "Size"
+msgstr "Tamanho"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:304
+msgid "Soft line break"
+msgstr "Quebra de linha suave"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:305
+msgid "Sound"
+msgstr "Som"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:306
+msgid "Spacer"
+msgstr "Espaçador"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:307
+msgid "Square root"
+msgstr "Raiz quadrada"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:308
+msgid "Starting sequence number"
+msgstr "Número inicial da sequência"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:309
+msgid "Strike-through text style"
+msgstr "Estilo de texto tachado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:310
+msgid "Strike-through text"
+msgstr "Texto tachado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:311
+msgid "Tab order position"
+msgstr "Posição da ordenação de tabulações"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:312
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:313
+msgid "Text"
+msgstr "Texto"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:314
+msgid "Top margin in pixels"
+msgstr "Margem superior em pixels"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:315
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:316
+msgid "Vertical space"
+msgstr "Espaço vertical"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:317
+msgid "Visited link color"
+msgstr "Cor do link visitado"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:318
+msgid "HTML - Special Characters"
+msgstr "HTML - Caracteres especiais"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:319
+msgid "Non-breaking space"
+msgstr "Espaço não-quebrável"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:1
+msgid "Latex - Tags"
+msgstr "Latex - Marcas"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:2
+msgid "Bibliography (cite)"
+msgstr "Bibliografia (citação)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:3
+msgid "Bibliography (item)"
+msgstr "Bibliografia (item)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:4
+msgid "Bibliography (shortcite)"
+msgstr "Bibliografia (citação abreviada)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:5
+msgid "Bibliography (thebibliography)"
+msgstr "Bibliografia (abibliografia)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:6
+msgid "Brackets ()"
+msgstr "Parênteses ()"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:7
+msgid "Brackets []"
+msgstr "Colchetes []"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:8
+msgid "Brackets {}"
+msgstr "Chaves {}"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:9
+msgid "Brackets <>"
+msgstr "Menor que/Maior que <>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:10
+msgid "File input"
+msgstr "Arquivo de entrada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:11
+msgid "Function cosine"
+msgstr "Função cosseno"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:12
+msgid "Function e^"
+msgstr "Função e^"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:13
+msgid "Function exp"
+msgstr "Função exp"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:14
+msgid "Function log"
+msgstr "Função log"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:15
+msgid "Function log10"
+msgstr "Função log10"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:16
+msgid "Function sine"
+msgstr "Função sen"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:17
+msgid "Greek alpha"
+msgstr "Alfa grego"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:18
+msgid "Greek beta"
+msgstr "Beta grego"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:19
+msgid "Greek epsilon"
+msgstr "Épsilon grego"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:20
+msgid "Greek gamma"
+msgstr "Gama grego"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:21
+msgid "Greek lambda"
+msgstr "Lambda grego"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:22
+msgid "Greek rho"
+msgstr "Rô grego"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:23
+msgid "Greek tau"
+msgstr "Tau grego"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:24
+msgid "Header 0 (chapter)"
+msgstr "Cabeçalho 0 (capítulo)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:25
+msgid "Header 0 (chapter*)"
+msgstr "Cabeçalho 0 (capítulo*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:26
+msgid "Header 1 (section)"
+msgstr "Cabeçalho 1 (seção)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:27
+msgid "Header 1 (section*)"
+msgstr "Cabeçalho 1 (seção*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:28
+msgid "Header 2 (subsection)"
+msgstr "Cabeçalho 2 (subseção)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:29
+msgid "Header 2 (subsection*)"
+msgstr "Cabeçalho 2 (subseção*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:30
+msgid "Header 3 (subsubsection)"
+msgstr "Cabeçalho 3 (subsubseção)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:31
+msgid "Header 3 (subsubsection*)"
+msgstr "Cabeçalho 3 (subsubseção*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:32
+msgid "Header 4 (paragraph)"
+msgstr "Cabeçalho 4 (parágrafo)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:33
+msgid "Header appendix"
+msgstr "Cabeçalho de apêndice"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:34
+msgid "List description"
+msgstr "Descrição de lista"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:35
+msgid "List enumerate"
+msgstr "Lista enumerada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:36
+msgid "List itemize"
+msgstr "Lista itemizada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:37
+msgid "Item with label"
+msgstr "Item com rótulo"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:38
+msgid "Item"
+msgstr "Item"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:39
+msgid "Maths (display)"
+msgstr "Gde2mática (apresentação)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:40
+msgid "Maths (inline)"
+msgstr "Gde2mática (embutida)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:41
+msgid "Operator fraction"
+msgstr "Operador fração"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:42
+msgid "Operator integral (display)"
+msgstr "Operador de integral (apresentação)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:43
+msgid "Operator integral (inline)"
+msgstr "Operador de integral (embutido)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:44
+msgid "Operator sum (display)"
+msgstr "Operador de soma (apresentação)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:45
+msgid "Operator sum (inline)"
+msgstr "Operador de soma (embutido)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:46
+msgid "Reference label"
+msgstr "Rótulo de referência"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:47
+msgid "Reference ref"
+msgstr "Referência ref"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:48
+msgid "Symbol <<"
+msgstr "Símbolo <<"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:49
+msgid "Symbol <="
+msgstr "Símbolo <="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:50
+msgid "Symbol >="
+msgstr "Símbolo >="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:51
+msgid "Symbol >>"
+msgstr "Símbolo >>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:52
+msgid "Symbol and"
+msgstr "Símbolo and"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:53
+msgid "Symbol const"
+msgstr "Símbolo const"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:54
+msgid "Symbol d2-by-dt2-partial"
+msgstr "Símbolo d2-por-dt2-parcial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:55
+msgid "Symbol dagger"
+msgstr "Símbolo punhal"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:56
+msgid "Symbol d-by-dt"
+msgstr "Símbolo d-por-dt"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:57
+msgid "Symbol d-by-dt-partial"
+msgstr "Símbolo d-por-dt-parcial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:58
+msgid "Symbol equiv"
+msgstr "Símbolo equiv"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:59
+msgid "Symbol en-dash --"
+msgstr "Símbolo hífen --"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:60
+msgid "Symbol em-dash ---"
+msgstr "Símbolo hífen ---"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:61
+msgid "Symbol infinity"
+msgstr "Símbolo infinito"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:62
+msgid "Symbol mathspace ,"
+msgstr "Símbolo espaço gde2mático ,"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:63
+msgid "Symbol mathspace ."
+msgstr "Símbolo espaço gde2mático ."
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:64
+msgid "Symbol mathspace _"
+msgstr "Símbolo espaço gde2mático _"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:65
+msgid "Symbol mathspace __"
+msgstr "Símbolo espaço gde2mático __"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:66
+msgid "Symbol simeq"
+msgstr "Símbolo simeq"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:67
+msgid "Symbol star"
+msgstr "Símbolo estrela"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:68
+msgid "Typeface bold"
+msgstr "Tipo de fonte negrito"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:69
+msgid "Typeface type"
+msgstr "Tipo de fonte máquina"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:70
+msgid "Typeface italic"
+msgstr "Tipo de fonte itálico"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:71
+msgid "Typeface slanted"
+msgstr "Tipo de fonte inclinada"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:73
+msgid "Unbreakable text"
+msgstr "Texto sem quebra de linha"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:74
+msgid "Footnote"
+msgstr "Nota de rodapé"
+
+#: ../plugins/taglist/taglist.scrivi-plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr "Lista de marcas"
+
+#: ../plugins/taglist/taglist.scrivi-plugin.desktop.in.h:2
+msgid ""
+"Provides a method to easily insert commonly used tags/strings into a "
+"document without having to type them."
+msgstr "Fornece um método para facilmente inserir marcas/textos comumente usados em um documento sem ter que digitá-los."
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:1
+msgid "XSLT - Elements"
+msgstr "XSLT - Elementos"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:2
+msgid "XSLT - Functions"
+msgstr "XSLT - Funções"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:3
+msgid "XSLT - Axes"
+msgstr "XSLT - Eixos"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:4
+msgid "ancestor"
+msgstr "ancestral"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:5
+msgid "ancestor-or-self"
+msgstr "antecedente-ou-próprio"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:6
+msgid "attribute"
+msgstr "atributo"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:7
+msgid "child"
+msgstr "filho"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:8
+msgid "descendant"
+msgstr "descendente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:9
+msgid "descendant-or-self"
+msgstr "descendente-ou-próprio"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:10
+msgid "following"
+msgstr "seguindo"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:11
+msgid "following-sibling"
+msgstr "filho-seguindo"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:12
+msgid "namespace"
+msgstr "espaço de nomes"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:13
+msgid "parent"
+msgstr "pai"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:14
+msgid "preceding"
+msgstr "precedente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:15
+msgid "preceding-sibling"
+msgstr "filho-precedente"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:16
+msgid "self"
+msgstr "próprio"
+
+#: ../plugins/taglist/XUL.tags.xml.in.h:1
+msgid "XUL - Tags"
+msgstr "XUL - Marcas"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:1
+msgid "Prompt type"
+msgstr "Digite Comando"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:2
+msgid "Selected format"
+msgstr "formato selecionado"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:3
+msgid "Custom format"
+msgstr "formato personalizado"
+
+#: ../plugins/time/scrivi-time-plugin.c:179
+msgid "In_sert Date and Time..."
+msgstr "In_serir data e hora..."
+
+#: ../plugins/time/scrivi-time-plugin.c:181
+msgid "Insert current date and time at the cursor position"
+msgstr "Insere a data e hora atuais na posição do cursor"
+
+#: ../plugins/time/scrivi-time-plugin.c:562
+msgid "Available formats"
+msgstr "Formatos disponíveis"
+
+#: ../plugins/time/scrivi-time-plugin.c:713
+msgid "Configure insert date/time plugin..."
+msgstr "Configurar o plug-in de inserção de data/hora..."
+
+#: ../plugins/time/time.scrivi-plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "Inserir Data/Hora"
+
+#: ../plugins/time/time.scrivi-plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "Insere a data e hora atuais na posição do cursor."
+
+#: ../plugins/trailsave/trailsave.scrivi-plugin.desktop.in.h:1
+msgid "Save Without Trailing Spaces"
+msgstr "Salvar sem a supressão de espaços a direita."
+
+#: ../plugins/trailsave/trailsave.scrivi-plugin.desktop.in.h:2
+msgid "Removes trailing spaces from lines before saving."
+msgstr "Remove os espaços à direita da linha antes de salvar."
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:1
+msgid "Insert Date and Time"
+msgstr "Inserir Data e Hora"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:2
+msgid "_Insert"
+msgstr "_Inserir"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:3
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:5
+msgid "Use the _selected format"
+msgstr "Usar o formato _selecionado"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:5
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:6
+msgid "_Use custom format"
+msgstr "_Usar formato personalizado"
+
+#. Translators: Use the more common date format in your locale
+#: ../plugins/time/scrivi-time-dialog.ui.h:7
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:9
+#, no-c-format
+msgid "%d/%m/%Y %H:%M:%S"
+msgstr "%d/%m/%Y %H:%M:%S"
+
+#. Translators: This example should follow the date format defined in the
+#. entry above
+#: ../plugins/time/scrivi-time-dialog.ui.h:8
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:11
+msgid "01/11/2009 17:52:00"
+msgstr "01/11/2009 17:52:00"
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:1
+msgid "Configure date/time plugin"
+msgstr "Configurar o plug-in de inserção de data/hora"
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:2
+msgid "When inserting date/time..."
+msgstr "Quando inserindo data/horário..."
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:4
+msgid "_Prompt for a format"
+msgstr "_Perguntar por um formato"

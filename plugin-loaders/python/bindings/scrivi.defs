@@ -1,0 +1,1461 @@
+;; -*- scheme -*-
+; object definitions ...
+(define-object App
+  (in-module "Scrivi")
+  (parent "GObject")
+  (c-name "ScriviApp")
+  (gtype-id "SCRIVI_TYPE_APP")
+)
+
+(define-object Document
+  (in-module "Scrivi")
+  (parent "GtkSourceBuffer")
+  (c-name "ScriviDocument")
+  (gtype-id "SCRIVI_TYPE_DOCUMENT")
+)
+
+(define-object Message
+  (in-module "Scrivi")
+  (parent "GObject")
+  (c-name "ScriviMessage")
+  (gtype-id "SCRIVI_TYPE_MESSAGE")
+)
+
+(define-object MessageBus
+  (in-module "Scrivi")
+  (parent "GObject")
+  (c-name "ScriviMessageBus")
+  (gtype-id "SCRIVI_TYPE_MESSAGE_BUS")
+)
+
+(define-object Panel
+  (in-module "Scrivi")
+  (parent "GtkVBox")
+  (c-name "ScriviPanel")
+  (gtype-id "SCRIVI_TYPE_PANEL")
+)
+
+(define-object __Plugin
+  (in-module "Scrivi")
+  (parent "GObject")
+  (c-name "ScriviPlugin")
+  (gtype-id "SCRIVI_TYPE_PLUGIN")
+)
+
+(define-object Plugin
+  (in-module "Scrivi")
+  (parent "ScriviPlugin")
+  (c-name "ScriviPluginPython")
+  (gtype-id "SCRIVI_TYPE_PLUGIN_PYTHON")
+)
+
+(define-object Statusbar
+  (in-module "Scrivi")
+  (parent "GtkStatusbar")
+  (c-name "ScriviStatusbar")
+  (gtype-id "SCRIVI_TYPE_STATUSBAR")
+)
+
+(define-object Tab
+  (in-module "Scrivi")
+  (parent "GtkVBox")
+  (c-name "ScriviTab")
+  (gtype-id "SCRIVI_TYPE_TAB")
+)
+
+(define-object View
+  (in-module "Scrivi")
+  (parent "GtkSourceView")
+  (c-name "ScriviView")
+  (gtype-id "SCRIVI_TYPE_VIEW")
+)
+
+(define-object Window
+  (in-module "Scrivi")
+  (parent "GtkWindow")
+  (c-name "ScriviWindow")
+  (gtype-id "SCRIVI_TYPE_WINDOW")
+)
+
+;; Enumerations and flags ...
+
+(define-flags LockdownMask
+  (in-module "Scrivi")
+  (c-name "ScriviLockdownMask")
+  (gtype-id "SCRIVI_TYPE_LOCKDOWN_MASK")
+  (values
+    '("command-line" "SCRIVI_LOCKDOWN_COMMAND_LINE")
+    '("printing" "SCRIVI_LOCKDOWN_PRINTING")
+    '("print-setup" "SCRIVI_LOCKDOWN_PRINT_SETUP")
+    '("save-to-disk" "SCRIVI_LOCKDOWN_SAVE_TO_DISK")
+    '("all" "SCRIVI_LOCKDOWN_ALL")
+  )
+)
+
+(define-flags SearchFlags
+  (in-module "Scrivi")
+  (c-name "ScriviSearchFlags")
+  (gtype-id "SCRIVI_TYPE_SEARCH_FLAGS")
+  (values
+    '("dont-set-flags" "SCRIVI_SEARCH_DONT_SET_FLAGS")
+    '("entire-word" "SCRIVI_SEARCH_ENTIRE_WORD")
+    '("case-sensitive" "SCRIVI_SEARCH_CASE_SENSITIVE")
+  )
+)
+
+(define-flags DocumentSaveFlags
+  (in-module "Scrivi")
+  (c-name "ScriviDocumentSaveFlags")
+  (gtype-id "SCRIVI_TYPE_DOCUMENT_SAVE_FLAGS")
+  (values
+    '("ignore-mtime" "SCRIVI_DOCUMENT_SAVE_IGNORE_MTIME")
+    '("ignore-backup" "SCRIVI_DOCUMENT_SAVE_IGNORE_BACKUP")
+    '("preserve-backup" "SCRIVI_DOCUMENT_SAVE_PRESERVE_BACKUP")
+  )
+)
+
+(define-enum TabState
+  (in-module "Scrivi")
+  (c-name "ScriviTabState")
+  (gtype-id "SCRIVI_TYPE_TAB_STATE")
+  (values
+    '("normal" "SCRIVI_TAB_STATE_NORMAL")
+    '("loading" "SCRIVI_TAB_STATE_LOADING")
+    '("reverting" "SCRIVI_TAB_STATE_REVERTING")
+    '("saving" "SCRIVI_TAB_STATE_SAVING")
+    '("printing" "SCRIVI_TAB_STATE_PRINTING")
+    '("print-previewing" "SCRIVI_TAB_STATE_PRINT_PREVIEWING")
+    '("showing-print-preview" "SCRIVI_TAB_STATE_SHOWING_PRINT_PREVIEW")
+    '("generic-not-editable" "SCRIVI_TAB_STATE_GENERIC_NOT_EDITABLE")
+    '("loading-error" "SCRIVI_TAB_STATE_LOADING_ERROR")
+    '("reverting-error" "SCRIVI_TAB_STATE_REVERTING_ERROR")
+    '("saving-error" "SCRIVI_TAB_STATE_SAVING_ERROR")
+    '("generic-error" "SCRIVI_TAB_STATE_GENERIC_ERROR")
+    '("closing" "SCRIVI_TAB_STATE_CLOSING")
+  )
+)
+
+(define-flags WindowState
+  (in-module "Scrivi")
+  (c-name "ScriviWindowState")
+  (gtype-id "SCRIVI_TYPE_WINDOW_STATE")
+  (values
+    '("normal" "SCRIVI_WINDOW_STATE_NORMAL")
+    '("saving" "SCRIVI_WINDOW_STATE_SAVING")
+    '("printing" "SCRIVI_WINDOW_STATE_PRINTING")
+    '("loading" "SCRIVI_WINDOW_STATE_LOADING")
+    '("error" "SCRIVI_WINDOW_STATE_ERROR")
+    '("saving-session" "SCRIVI_WINDOW_STATE_SAVING_SESSION")    
+  )
+)
+
+;; Boxed types
+(define-boxed Encoding
+  (in-module "Scrivi")
+  (c-name "ScriviEncoding")
+  (gtype-id "SCRIVI_TYPE_ENCODING")
+  (copy-func "scrivi_encoding_copy")
+  (release-func "scrivi_encoding_free")
+;;  (fields
+;;    '("gint" "index")
+;;    '("gchar*" "charset")
+;;    '("gchar*" "name")
+;;  )
+)
+
+(define-boxed MessageType
+  (in-module "Scrivi")
+  (c-name "ScriviMessageType")
+  (gtype-id "SCRIVI_TYPE_MESSAGE_TYPE")
+  (copy-func "scrivi_message_type_ref")
+  (release-func "scrivi_message_type_unref")
+)
+
+
+;; From ../../scrivi/scrivi-app.h
+
+(define-function scrivi_app_get_type
+  (c-name "scrivi_app_get_type")
+  (return-type "GType")
+)
+
+(define-function app_get_default
+  (c-name "scrivi_app_get_default")
+  (return-type "ScriviApp*")
+)
+
+; deprecated version !
+(define-function scrivi_app_get_default
+  (c-name "scrivi_app_get_default_deprecated")
+  (return-type "ScriviApp*")
+)
+
+(define-method create_window
+  (of-object "ScriviApp")
+  (c-name "scrivi_app_create_window")
+  (return-type "ScriviWindow*")
+  (parameters
+    '("GdkScreen*" "screen")
+  )
+)
+
+(define-method get_windows
+  (of-object "ScriviApp")
+  (c-name "scrivi_app_get_windows")
+  (return-type "const-GList*")
+)
+
+(define-method get_active_window
+  (of-object "ScriviApp")
+  (c-name "scrivi_app_get_active_window")
+  (return-type "ScriviWindow*")
+)
+
+(define-method get_documents
+  (of-object "ScriviApp")
+  (c-name "scrivi_app_get_documents")
+  (return-type "GList*")
+)
+
+(define-method get_views
+  (of-object "ScriviApp")
+  (c-name "scrivi_app_get_views")
+  (return-type "GList*")
+)
+
+(define-method get_lockdown
+  (of-object "ScriviApp")
+  (c-name "scrivi_app_get_lockdown")
+  (return-type "ScriviLockdownMask")
+)
+
+
+;; From ../../scrivi/scrivi-document.h
+
+(define-function document_error_quark
+  (c-name "scrivi_document_error_quark")
+  (return-type "GQuark")
+)
+
+(define-function scrivi_document_get_type
+  (c-name "scrivi_document_get_type")
+  (return-type "GType")
+)
+
+(define-function scrivi_document_new
+  (c-name "scrivi_document_new")
+  (is-constructor-of "ScriviDocument")
+  (return-type "ScriviDocument*")
+)
+
+(define-method get_location
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_location")
+  (return-type "GFile*")
+)
+
+(define-method get_uri
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_uri")
+  (return-type "gchar*")
+)
+
+(define-method set_uri
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_set_uri")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "uri")
+  )
+)
+
+(define-method get_uri_for_display
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_uri_for_display")
+  (return-type "gchar*")
+)
+
+(define-method get_short_name_for_display
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_short_name_for_display")
+  (return-type "gchar*")
+)
+
+(define-method get_content_type
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_content_type")
+  (return-type "gchar*")
+)
+
+(define-method get_mime_type
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_mime_type")
+  (return-type "gchar*")
+)
+
+(define-method get_readonly
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_readonly")
+  (return-type "gboolean")
+)
+
+(define-method load
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_load")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "uri")
+    '("const-ScriviEncoding*" "encoding")
+    '("gint" "line_pos")
+    '("gboolean" "create")
+  )
+)
+
+(define-method insert_file
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_insert_file")
+  (return-type "gboolean")
+  (parameters
+    '("GtkTextIter*" "iter")
+    '("const-gchar*" "uri")
+    '("const-ScriviEncoding*" "encoding")
+  )
+)
+
+(define-method load_cancel
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_load_cancel")
+  (return-type "gboolean")
+)
+
+(define-method save
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_save")
+  (parameters
+    '("ScriviDocumentSaveFlags" "flags")
+  )
+  (return-type "none")
+)
+
+(define-method save_as
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_save_as")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "uri")
+    '("const-ScriviEncoding*" "encoding")
+    '("ScriviDocumentSaveFlags" "flags")
+  )
+)
+
+(define-method is_untouched
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_is_untouched")
+  (return-type "gboolean")
+)
+
+(define-method is_untitled
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_is_untitled")
+  (return-type "gboolean")
+)
+
+(define-method is_local
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_is_local")
+  (return-type "gboolean")
+)
+
+(define-method get_deleted
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_deleted")
+  (return-type "gboolean")
+)
+
+(define-method goto_line
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_goto_line")
+  (return-type "gboolean")
+  (parameters
+    '("gint" "line")
+  )
+)
+
+(define-method set_search_text
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_set_search_text")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "text")
+    '("guint" "flags")
+  )
+)
+
+(define-method get_search_text
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_search_text")
+  (return-type "gchar*")
+  (parameters
+    '("guint*" "flags")
+  )
+)
+
+(define-method get_can_search_again
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_can_search_again")
+  (return-type "gboolean")
+)
+
+(define-method search_forward
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_search_forward")
+  (return-type "gboolean")
+  (parameters
+    '("const-GtkTextIter*" "start")
+    '("const-GtkTextIter*" "end")
+    '("GtkTextIter*" "match_start")
+    '("GtkTextIter*" "match_end")
+  )
+)
+
+(define-method replace_all
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_replace_all")
+  (return-type "gint")
+  (parameters
+    '("const-gchar*" "find")
+    '("const-gchar*" "replace")
+    '("guint" "flags")
+  )
+)
+
+(define-method search_backward
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_search_backward")
+  (return-type "gboolean")
+  (parameters
+    '("const-GtkTextIter*" "start")
+    '("const-GtkTextIter*" "end")
+    '("GtkTextIter*" "match_start")
+    '("GtkTextIter*" "match_end")
+  )
+)
+
+(define-method set_language
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_set_language")
+  (return-type "none")
+  (parameters
+    '("GtkSourceLanguage*" "lang" (null-ok))
+  )
+)
+
+(define-method get_language
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_language")
+  (return-type "GtkSourceLanguage*")
+)
+
+(define-method get_encoding
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_encoding")
+  (return-type "const-ScriviEncoding*")
+)
+
+(define-method set_enable_search_highlighting
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_set_enable_search_highlighting")
+  (return-type "none")
+  (parameters
+    '("gboolean" "enable")
+  )
+)
+
+(define-method get_enable_search_highlighting
+  (of-object "ScriviDocument")
+  (c-name "scrivi_document_get_enable_search_highlighting")
+  (return-type "gboolean")
+)
+
+;; From ../../scrivi/scrivi-encodings.h
+
+(define-function scrivi_encoding_get_type
+  (c-name "scrivi_encoding_get_type")
+  (return-type "GType")
+)
+
+(define-method copy
+  (of-object "ScriviEncoding")
+  (c-name "scrivi_encoding_copy")
+  (return-type "ScriviEncoding*")
+)
+
+(define-method free
+  (of-object "ScriviEncoding")
+  (c-name "scrivi_encoding_free")
+  (return-type "none")
+)
+
+(define-function encoding_get_from_charset
+  (c-name "scrivi_encoding_get_from_charset")
+  (return-type "const-ScriviEncoding*")
+  (parameters
+    '("const-gchar*" "charset")
+  )
+)
+
+; Deprecated version !
+(define-function scrivi_encoding_get_from_charset
+  (c-name "scrivi_encoding_get_from_charset_deprecated")
+  (return-type "const-ScriviEncoding*")
+  (parameters
+    '("const-gchar*" "charset")
+  )
+)
+
+(define-function encoding_get_from_index
+  (c-name "scrivi_encoding_get_from_index")
+  (return-type "const-ScriviEncoding*")
+  (parameters
+    '("gint" "index")
+  )
+)
+
+; Deprecated version !
+(define-function scrivi_encoding_get_from_index
+  (c-name "scrivi_encoding_get_from_index_deprecated")
+  (return-type "const-ScriviEncoding*")
+  (parameters
+    '("gint" "index")
+  )
+)
+
+(define-method to_string
+  (of-object "ScriviEncoding")
+  (c-name "scrivi_encoding_to_string")
+  (return-type "gchar*")
+)
+
+(define-method get_name
+  (of-object "ScriviEncoding")
+  (c-name "scrivi_encoding_get_name")
+  (return-type "const-gchar*")
+)
+
+(define-method get_charset
+  (of-object "ScriviEncoding")
+  (c-name "scrivi_encoding_get_charset")
+  (return-type "const-gchar*")
+)
+
+(define-function encoding_get_utf8
+  (c-name "scrivi_encoding_get_utf8")
+  (return-type "const-ScriviEncoding*")
+)
+
+; Deprecated version !
+(define-function scrivi_encoding_get_utf8
+  (c-name "scrivi_encoding_get_utf8_deprecated")
+  (return-type "const-ScriviEncoding*")
+)
+
+(define-function encoding_get_current
+  (c-name "scrivi_encoding_get_current")
+  (return-type "const-ScriviEncoding*")
+)
+
+; Deprecated version !
+(define-function scrivi_encoding_get_current
+  (c-name "scrivi_encoding_get_current_deprecated")
+  (return-type "const-ScriviEncoding*")
+)
+
+;; From ../../scrivi/scrivi-help.h
+
+(define-function help_display
+  (c-name "scrivi_help_display")
+  (return-type "gboolean")
+  (parameters
+    '("GtkWindow*" "parent")
+    '("const-gchar*" "name")
+    '("const-gchar*" "link_id")
+  )
+)
+
+
+
+;; From ../../scrivi/scrivi-panel.h
+
+(define-function scrivi_panel_get_type
+  (c-name "scrivi_panel_get_type")
+  (return-type "GType")
+)
+
+(define-function scrivi_panel_new
+  (c-name "scrivi_panel_new")
+  (is-constructor-of "ScriviPanel")
+  (return-type "GtkWidget*")
+)
+
+(define-method add_item
+  (of-object "ScriviPanel")
+  (c-name "scrivi_panel_add_item")
+  (return-type "none")
+  (parameters
+    '("GtkWidget*" "item")
+    '("const-gchar*" "name")
+    '("GtkWidget*" "image")
+  )
+)
+
+(define-method add_item_with_stock_icon
+  (of-object "ScriviPanel")
+  (c-name "scrivi_panel_add_item_with_stock_icon")
+  (return-type "none")
+  (parameters
+    '("GtkWidget*" "item")
+    '("const-gchar*" "name")
+    '("const-gchar*" "stock_id")
+  )
+)
+
+(define-method remove_item
+  (of-object "ScriviPanel")
+  (c-name "scrivi_panel_remove_item")
+  (return-type "gboolean")
+  (parameters
+    '("GtkWidget*" "item")
+  )
+)
+
+(define-method activate_item
+  (of-object "ScriviPanel")
+  (c-name "scrivi_panel_activate_item")
+  (return-type "gboolean")
+  (parameters
+    '("GtkWidget*" "item")
+  )
+)
+
+(define-method item_is_active
+  (of-object "ScriviPanel")
+  (c-name "scrivi_panel_item_is_active")
+  (return-type "gboolean")
+  (parameters
+    '("GtkWidget*" "item")
+  )
+)
+
+(define-method get_orientation
+  (of-object "ScriviPanel")
+  (c-name "scrivi_panel_get_orientation")
+  (return-type "GtkOrientation")
+)
+
+(define-method get_n_items
+  (of-object "ScriviPanel")
+  (c-name "scrivi_panel_get_n_items")
+  (return-type "gint")
+)
+
+
+;; From ../../scrivi/scrivi-plugin.h
+
+(define-function scrivi_plugin_get_type
+  (c-name "scrivi_plugin_get_type")
+  (return-type "GType")
+)
+
+(define-method get_install_dir
+  (of-object "ScriviPlugin")
+  (c-name "scrivi_plugin_get_install_dir")
+  (return-type "gchar*")
+)
+
+(define-method get_data_dir
+  (of-object "ScriviPlugin")
+  (c-name "scrivi_plugin_get_data_dir")
+  (return-type "gchar*")
+)
+
+(define-method activate
+  (of-object "ScriviPlugin")
+  (c-name "scrivi_plugin_activate")
+  (return-type "none")
+  (parameters
+    '("ScriviWindow*" "window")
+  )
+)
+
+(define-method deactivate
+  (of-object "ScriviPlugin")
+  (c-name "scrivi_plugin_deactivate")
+  (return-type "none")
+  (parameters
+    '("ScriviWindow*" "window")
+  )
+)
+
+(define-method update_ui
+  (of-object "ScriviPlugin")
+  (c-name "scrivi_plugin_update_ui")
+  (return-type "none")
+  (parameters
+    '("ScriviWindow*" "window")
+  )
+)
+
+(define-method is_configurable
+  (of-object "ScriviPlugin")
+  (c-name "scrivi_plugin_is_configurable")
+  (return-type "gboolean")
+)
+
+(define-method create_configure_dialog
+  (of-object "ScriviPlugin")
+  (c-name "scrivi_plugin_create_configure_dialog")
+  (return-type "GtkWidget*")
+)
+
+;; From ../scrivi/scrivi-plugin-python.h
+
+(define-function scrivi_plugin_python_get_type
+  (c-name "scrivi_plugin_python_get_type")
+  (return-type "GType")
+)
+
+(define-function scrivi_plugin_python_new
+  (c-name "scrivi_plugin_python_new")
+  (is-constructor-of "ScriviPluginPython")
+  (return-type "ScriviPluginPython*")
+)
+
+;; From ../../scrivi/scrivi-status-bar.h
+
+(define-method flash_message
+  (of-object "ScriviStatusbar")
+  (c-name "scrivi_statusbar_flash_message")
+  (return-type "none")
+  (parameters
+    '("int" "context_id")
+    '("const-gchar*" "message")
+  )
+ )
+
+;; From ../../scrivi/scrivi-tab.h
+
+(define-function scrivi_tab_get_type
+  (c-name "scrivi_tab_get_type")
+  (return-type "GType")
+)
+
+(define-method get_view
+  (of-object "ScriviTab")
+  (c-name "scrivi_tab_get_view")
+  (return-type "ScriviView*")
+)
+
+(define-method get_document
+  (of-object "ScriviTab")
+  (c-name "scrivi_tab_get_document")
+  (return-type "ScriviDocument*")
+)
+
+(define-function tab_get_from_document
+  (c-name "scrivi_tab_get_from_document")
+  (return-type "ScriviTab*")
+  (parameters
+    '("ScriviDocument*" "doc")
+  )
+)
+
+; Deprecated version !
+(define-function scrivi_tab_get_from_document
+  (c-name "scrivi_tab_get_from_document_deprecated")
+  (return-type "ScriviTab*")
+  (parameters
+    '("ScriviDocument*" "doc")
+  )
+)
+
+(define-method get_state
+  (of-object "ScriviTab")
+  (c-name "scrivi_tab_get_state")
+  (return-type "ScriviTabState")
+)
+
+(define-method set_auto_save_enabled
+  (of-object "ScriviTab")
+  (c-name "scrivi_tab_set_auto_save_enabled")
+  (return-type "none")
+  (parameters
+    '("gboolean" "enable")
+  )
+)
+
+(define-method get_auto_save_enabled
+  (of-object "ScriviTab")
+  (c-name "scrivi_tab_get_auto_save_enabled")
+  (return-type "gboolean")
+)
+
+(define-method set_auto_save_interval
+  (of-object "ScriviTab")
+  (c-name "scrivi_tab_set_auto_save_interval")
+  (return-type "none")
+  (parameters
+    '("gint" "interval")
+  )
+)
+
+(define-method get_auto_save_interval
+  (of-object "ScriviTab")
+  (c-name "scrivi_tab_get_auto_save_interval")
+  (return-type "gint")
+)
+
+;; From ../../scrivi/scrivi-view.h
+
+(define-function scrivi_view_get_type
+  (c-name "scrivi_view_get_type")
+  (return-type "GtkType")
+)
+
+(define-function scrivi_view_new
+  (c-name "scrivi_view_new")
+  (is-constructor-of "ScriviView")
+  (return-type "GtkWidget*")
+  (parameters
+    '("ScriviDocument*" "doc")
+  )
+)
+
+(define-method cut_clipboard
+  (of-object "ScriviView")
+  (c-name "scrivi_view_cut_clipboard")
+  (return-type "none")
+)
+
+(define-method copy_clipboard
+  (of-object "ScriviView")
+  (c-name "scrivi_view_copy_clipboard")
+  (return-type "none")
+)
+
+(define-method paste_clipboard
+  (of-object "ScriviView")
+  (c-name "scrivi_view_paste_clipboard")
+  (return-type "none")
+)
+
+(define-method delete_selection
+  (of-object "ScriviView")
+  (c-name "scrivi_view_delete_selection")
+  (return-type "none")
+)
+
+(define-method select_all
+  (of-object "ScriviView")
+  (c-name "scrivi_view_select_all")
+  (return-type "none")
+)
+
+(define-method scroll_to_cursor
+  (of-object "ScriviView")
+  (c-name "scrivi_view_scroll_to_cursor")
+  (return-type "none")
+)
+
+(define-method set_font
+  (of-object "ScriviView")
+  (c-name "scrivi_view_set_font")
+  (return-type "none")
+  (parameters
+    '("gboolean" "def")
+    '("const-gchar*" "font_name")
+  )
+)
+
+
+
+;; From ../../scrivi/scrivi-window.h
+
+(define-function scrivi_window_get_type
+  (c-name "scrivi_window_get_type")
+  (return-type "GType")
+)
+
+(define-method create_tab
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_create_tab")
+  (return-type "ScriviTab*")
+  (parameters
+    '("gboolean" "jump_to")
+  )
+)
+
+(define-method create_tab_from_uri
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_create_tab_from_uri")
+  (return-type "ScriviTab*")
+  (parameters
+    '("const-gchar*" "uri")
+    '("const-ScriviEncoding*" "encoding" (null-ok))
+    '("gint" "line_pos")
+    '("gboolean" "create")
+    '("gboolean" "jump_to")
+  )
+)
+
+(define-method close_tab
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_close_tab")
+  (return-type "none")
+  (parameters
+    '("ScriviTab*" "tab")
+  )
+)
+
+(define-method close_tabs
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_close_tabs")
+  (return-type "none")
+  (parameters
+    '("const-GList*" "tabs")
+  )
+)
+
+(define-method close_all_tabs
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_close_all_tabs")
+  (return-type "none")
+)
+
+(define-method get_active_tab
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_active_tab")
+  (return-type "ScriviTab*")
+)
+
+(define-method set_active_tab
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_set_active_tab")
+  (return-type "none")
+  (parameters
+    '("ScriviTab*" "tab")
+  )
+)
+
+(define-method get_active_view
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_active_view")
+  (return-type "ScriviView*")
+)
+
+(define-method get_active_document
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_active_document")
+  (return-type "ScriviDocument*")
+)
+
+(define-method get_documents
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_documents")
+  (return-type "GList*")
+)
+
+(define-method get_unsaved_documents
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_unsaved_documents")
+  (return-type "GList*")
+)
+
+(define-method get_views
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_views")
+  (return-type "GList*")
+)
+
+(define-method get_group
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_group")
+  (return-type "GtkWindowGroup*")
+)
+
+(define-method get_side_panel
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_side_panel")
+  (return-type "ScriviPanel*")
+)
+
+(define-method get_bottom_panel
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_bottom_panel")
+  (return-type "ScriviPanel*")
+)
+
+(define-method get_statusbar
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_statusbar")
+  (return-type "GtkWidget*")
+)
+
+(define-method get_ui_manager
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_ui_manager")
+  (return-type "GtkUIManager*")
+)
+
+(define-method get_state
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_state")
+  (return-type "ScriviWindowState")
+)
+
+(define-method get_message_bus
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_message_bus")
+  (return-type "ScriviMessageBus*")
+)
+
+(define-method get_tab_from_uri
+  (of-object "ScriviWindow")
+  (c-name "scrivi_window_get_tab_from_uri")
+  (return-type "ScriviTab*")
+  (parameters
+    '("const-gchar*" "uri")
+  )
+)
+
+;; From scrivi-language-manager.h
+
+(define-function get_language_manager
+  (c-name "scrivi_get_language_manager")
+  (return-type "GtkSourceLanguageManager*")
+)
+
+(define-function language_manager_list_languages_sorted
+  (c-name "scrivi_language_manager_list_languages_sorted")
+  (return-type "GSList*")
+  (parameters
+    '("GtkSourceLanguageManager*" "lm")
+    '("gboolean" "include_hidden")
+  )
+)
+
+
+;; From scrivi-message-bus.h
+
+(define-function scrivi_message_bus_get_type
+  (c-name "scrivi_message_bus_get_type")
+  (return-type "GType")
+)
+
+(define-function message_bus_get_default
+  (c-name "scrivi_message_bus_get_default")
+  (return-type "ScriviMessageBus*")
+)
+
+(define-function scrivi_message_bus_new
+  (c-name "scrivi_message_bus_new")
+  (is-constructor-of "ScriviMessageBus")
+  (return-type "ScriviMessageBus*")
+)
+
+(define-method lookup
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_lookup")
+  (return-type "ScriviMessageType*")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+  )
+)
+
+(define-method register
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_register")
+  (return-type "ScriviMessageType*")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+    '("guint" "num_optional")
+  )
+  (varargs #t)
+)
+
+(define-method unregister
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_unregister")
+  (return-type "none")
+  (parameters
+    '("ScriviMessageType*" "message_type")
+  )
+)
+
+(define-method unregister_all
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_unregister_all")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "object_path")
+  )
+)
+
+(define-method is_registered
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_is_registered")
+  (return-type "gboolean")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+  )
+)
+
+(define-method connect
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_connect")
+  (return-type "guint")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+    '("ScriviMessageCallback" "callback")
+    '("gpointer" "userdata")
+    '("GDestroyNotify" "destroy_data")
+  )
+)
+
+(define-method disconnect
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_disconnect")
+  (return-type "none")
+  (parameters
+    '("guint" "id")
+  )
+)
+
+(define-method disconnect_by_func
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_disconnect_by_func")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+    '("ScriviMessageCallback" "callback")
+    '("gpointer" "userdata")
+  )
+)
+
+(define-method block
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_block")
+  (return-type "none")
+  (parameters
+    '("guint" "id")
+  )
+)
+
+(define-method block_by_func
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_block_by_func")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+    '("ScriviMessageCallback" "callback")
+    '("gpointer" "userdata")
+  )
+)
+
+(define-method unblock
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_unblock")
+  (return-type "none")
+  (parameters
+    '("guint" "id")
+  )
+)
+
+(define-method unblock_by_func
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_unblock_by_func")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+    '("ScriviMessageCallback" "callback")
+    '("gpointer" "userdata")
+  )
+)
+
+(define-method send_message
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_send_message")
+  (return-type "none")
+  (parameters
+    '("ScriviMessage*" "message")
+  )
+)
+
+(define-method send_message_sync
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_send_message_sync")
+  (return-type "none")
+  (parameters
+    '("ScriviMessage*" "message")
+  )
+)
+
+(define-method send
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_send")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+  )
+  (varargs #t)
+)
+
+(define-method send_sync
+  (of-object "ScriviMessageBus")
+  (c-name "scrivi_message_bus_send_sync")
+  (return-type "ScriviMessage*")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+  )
+  (varargs #t)
+)
+
+
+;; From scrivi-message-type.h
+
+(define-function scrivi_message_type_get_type
+  (c-name "scrivi_message_type_get_type")
+  (return-type "GType")
+)
+
+(define-function scrivi_message_type_is_supported
+  (c-name "scrivi_message_type_is_supported")
+  (return-type "gboolean")
+  (parameters
+    '("GType" "type")
+  )
+)
+
+(define-function scrivi_message_type_identifier
+  (c-name "scrivi_message_type_identifier")
+  (return-type "gchar*")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+  )
+)
+
+(define-function scrivi_message_type_new
+  (c-name "scrivi_message_type_new")
+  (is-constructor-of "ScriviMessageType")
+  (return-type "ScriviMessageType*")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+    '("guint" "num_optional")
+  )
+  (varargs #t)
+)
+
+(define-function scrivi_message_type_new_valist
+  (c-name "scrivi_message_type_new_valist")
+  (return-type "ScriviMessageType*")
+  (parameters
+    '("const-gchar*" "object_path")
+    '("const-gchar*" "method")
+    '("guint" "num_optional")
+    '("va_list" "va_args")
+  )
+)
+
+(define-method ref
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_ref")
+  (return-type "ScriviMessageType*")
+)
+
+(define-method unref
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_unref")
+  (return-type "none")
+)
+
+(define-method instantiate_valist
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_instantiate_valist")
+  (return-type "ScriviMessage*")
+  (parameters
+    '("va_list" "va_args")
+  )
+)
+
+(define-method instantiate
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_instantiate")
+  (return-type "ScriviMessage*")
+  (parameters
+  )
+  (varargs #t)
+)
+
+(define-method get_object_path
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_get_object_path")
+  (return-type "const-gchar*")
+)
+
+(define-method get_method
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_get_method")
+  (return-type "const-gchar*")
+)
+
+(define-method lookup
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_lookup")
+  (return-type "GType")
+  (parameters
+    '("const-gchar*" "key")
+  )
+)
+
+(define-method foreach
+  (of-object "ScriviMessageType")
+  (c-name "scrivi_message_type_foreach")
+  (return-type "none")
+  (parameters
+    '("ScriviMessageTypeForeach" "func")
+    '("gpointer" "user_data")
+  )
+)
+
+
+;; From scrivi-message.h
+
+(define-function scrivi_message_get_type
+  (c-name "scrivi_message_get_type")
+  (return-type "GType")
+)
+
+(define-method get
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_get")
+  (return-type "none")
+  (parameters
+  )
+  (varargs #t)
+)
+
+(define-method get_valist
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_get_valist")
+  (return-type "none")
+  (parameters
+    '("va_list" "var_args")
+  )
+)
+
+(define-method get_value
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_get_value")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "key")
+    '("GValue*" "value")
+  )
+)
+
+(define-method set
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_set")
+  (return-type "none")
+  (parameters
+  )
+  (varargs #t)
+)
+
+(define-method set_valist
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_set_valist")
+  (return-type "none")
+  (parameters
+    '("va_list" "var_args")
+  )
+)
+
+(define-method set_value
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_set_value")
+  (return-type "none")
+  (parameters
+    '("const-gchar*" "key")
+    '("GValue*" "value")
+  )
+)
+
+(define-method set_valuesv
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_set_valuesv")
+  (return-type "none")
+  (parameters
+    '("const-gchar**" "keys")
+    '("GValue*" "values")
+    '("gint" "n_values")
+  )
+)
+
+(define-method get_object_path
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_get_object_path")
+  (return-type "const-gchar*")
+)
+
+(define-method get_method
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_get_method")
+  (return-type "const-gchar*")
+)
+
+(define-method has_key
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_has_key")
+  (return-type "gboolean")
+  (parameters
+    '("const-gchar*" "key")
+  )
+)
+
+(define-method get_key_type
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_get_key_type")
+  (return-type "GType")
+  (parameters
+    '("const-gchar*" "key")
+  )
+)
+
+(define-method validate
+  (of-object "ScriviMessage")
+  (c-name "scrivi_message_validate")
+  (return-type "gboolean")
+)
+
+
+;; From ../../scrivi/scrivi-debug.h
+
+(define-function debug
+  (c-name "scrivi_debug")
+  (parameters
+    '("const-gchar*" "message")
+  )
+  (return-type "none")
+)
+

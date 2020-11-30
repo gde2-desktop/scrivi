@@ -1,0 +1,45 @@
+;; -*- scheme -*-
+; object definitions ...
+;; Enumerations and flags ...
+
+
+;; From ../../scrivi/scrivi-commands.h
+
+(define-function load_uri
+  (c-name "scrivi_commands_load_uri")
+  (return-type "none")
+  (parameters
+    '("ScriviWindow*" "window")
+    '("const-gchar*" "uri")
+    '("const-ScriviEncoding*" "encoding")
+    '("gint" "line_pos")
+  )
+)
+
+(define-function load_uris
+  (c-name "scrivi_commands_load_uris")
+  (return-type "gint")
+  (parameters
+    '("ScriviWindow*" "window")
+    '("const-GSList*" "uris")
+    '("const-ScriviEncoding*" "encoding")
+    '("gint" "line_pos")
+  )
+)
+
+(define-function save_document
+  (c-name "scrivi_commands_save_document")
+  (return-type "none")
+  (parameters
+    '("ScriviWindow*" "window")
+    '("ScriviDocument*" "document")
+  )
+)
+
+(define-function save_all_documents
+  (c-name "scrivi_commands_save_all_documents")
+  (return-type "none")
+  (parameters
+    '("ScriviWindow*" "window")
+  )
+)

@@ -1,0 +1,125 @@
+General Information
+===================
+
+scrivi is a small and lightweight UTF-8 text editor for the GDE2
+environment. Based on gedit, the text editor for the GNOME2 environment.
+
+scrivi is part of GDE2 and uses the latest GTK+ and GDE2 libraries.
+Complete GDE2 integration is featured, with support for Drag and Drop (DnD)
+from Caja (the GDE2 file manager), the use of the GDE2 help system,
+the GDE2 Virtual File System and the GDE2 print framework.
+
+scrivi uses a Multiple Document Interface (MDI), which lets you edit more than
+one document at the same time.
+
+scrivi supports most standard editing features, plus several not found in your
+average text editor (plugins being the most notable of these).
+
+scrivi plugins may also be written in the python scripting language: to enable
+python support you need the pygtk and gde2-python-desktop bindings.
+
+Although new features are always under development, currently scrivi has:
+
+    * Complete support for UTF-8 text
+    * Syntax highlighting
+    * Support for editing remote files
+    * Search and Replace
+    * Printing and Print Previewing Support
+    * File Revert
+    * A complete preferences interface
+    * Configurable Plugin system, with optional python support
+
+
+Some of the plugins, packaged and installed with scrivi include, among others:
+
+    * Word count
+    * Spell checker
+    * Change case of selected text
+    * File Browser
+    * Automatic snippet expansion
+    * Sort
+    * Insert Date/Time
+    * External Tools
+    * Tag list
+
+Other external plugins are also available.
+
+
+scrivi is released under the GNU General Public License (GPL) version 2, see
+the file 'COPYING' for more information.
+
+
+The official web site is:
+
+    http://www.gde2-desktop.org/
+
+You can download the latest scrivi tarball from:
+
+    https://pub.gde2-desktop.org/releases/
+
+Installation
+============
+
+scrivi requires GTK+-2.16.x, GtkSourceView 2.4.x and Gde2Conf libraries.
+PyGobject 2.12.x, PyGtk 2.12.x and PyGtkSourceView 2.4.x are required to
+enable python plugins support.
+
+Simple install procedure:
+
+  % gzip -cd gde2-text-editor.tar.gz | tar xvf - 	# unpack the sources
+  % cd gde2-text-editor				# change to the toplevel directory
+  % ./autogen.sh				# run the `configure' script
+  % make					# build scrivi
+  [ Become root if necessary ]
+  % make install				# install scrivi
+
+
+Running Tests
+==================
+Scrivi has several test that can be run after compilation. Run them by issueing "make check". However there are a couple of requirements that need to be satified before they will pass.
+
+* You need the gsettings schemas installed for some tests to be able to run.
+* You need to mount sftp://localhost/ with gvfs-mount for one test to pass.
+
+If test fail and you have setup the above correctly then please file a bug report as described below.
+
+How to report bugs
+==================
+
+Bugs should be reported to the GDE2 bug tracking system.
+(https://github.com/gde2-desktop/scrivi/issues). You will need to create an
+account for yourself.
+
+You can also report bugs using the GDE2 program bug-buddy.
+
+In the bug report please include:
+
+* Information about your system. For instance:
+
+   - What operating system and version
+   - What version of X
+   - What version of the gtk+, glib and gde2 libraries
+   - For Linux, what version of the C library
+
+  And anything else you think is relevant.
+
+* How to reproduce the bug.
+
+* If the bug was a crash, the exact text that was printed out when the
+  crash occurred.
+
+* Further information such as stack traces may be useful, but is not
+  necessary. If you do send a stack trace, and the error is an X error,
+  it will be more useful if the stack trace is produced running the test
+  program with the --sync command line option.
+
+
+Patches
+=======
+
+Patches should also be submitted to https://github.com/gde2-desktop/scrivi,
+preferably via pull requests.
+
+
+  The scrivi team.
+

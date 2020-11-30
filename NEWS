@@ -1,0 +1,125 @@
+scrivi 1.16.2
+============
+
+  * Close confirm dialog: various fixes for visual issues
+  * GTK+3: force X11 backend
+
+scrivi 1.16.1
+============
+
+  * Build: remove --enable-deprecations option - it actually
+    disabled all deprecated stuff
+  * Modelines plugin: fix random crash on closing one of several
+    Scrivi windows
+  * Snippets plugin: fix snippet parts staying after Ctrl-Z
+  * Fix unexpected closing of the first tab with middle-click
+    under the line numbers column
+  * Fix some runtime warnings in plugins
+  * Some more fixes and cleanups in code and docs
+
+scrivi 1.16.0
+============
+
+  * Use GtkAboutDialog instead of Gde2AboutDialog
+  * Drop dependency on libgde2-desktop and --without-gde2desktop
+    build option
+  * GTK+3: fix lots of deprecations
+  * Some more fixes and cleanups
+  * Translations update
+
+scrivi 1.14.1
+============
+
+  * Enable spell checking for new documents when Always Autocheck
+    option is selected in Spell Check plugin
+  * Fix restoring cursor position when loading a document
+  * Install externaltools plugin only with Python support enabled
+  * Translations update
+  * Make distcheck use currently selected GTK+ version
+
+scrivi 1.14.0
+============
+
+  * Drop Gde2Conf migration script
+  * Implement middle-click tab closing
+  * Add a new Configure dialog for the Spell Check plugin
+  * Make switch-c tool in external tools work, fix security issue
+  * GTK+3: add style classes scrivi-window and scrivi-print-preview
+  * GTK+3: fix several deprecations
+  * Some more fixes and cleanups
+  * Translations update
+  * Add Changelog generation
+
+scrivi 1.12.2
+============
+
+  * Python console plugin: fix missing icon in plugin list
+  * Fix possible use-after-free during incremental search
+  * GTK+3: fix incremental search entry color when text isn't found
+
+scrivi 1.12.1
+============
+
+  * Add --without-gde2desktop option to enable build without
+    dependency on libgde2-desktop
+
+scrivi 1.12.0
+============
+
+  * Add --enable-tests option to enable/disable running tests
+    during the build
+  * Add plugin to strip trailing spaces on saving
+  * Bring back active plugins listing in bugreport script
+  * Drop support for win32/osx and checkupdate plugin
+  * Retrieve strings directly from gschema (requires intltool 0.50.1)
+  * Capitalize Scrivi in window titles and desktop file
+  * GTK3. fix print-preview
+  * Some annotation fixes
+  * Some minor fixes and cleanups
+
+scrivi 1.10.2
+============
+
+  * Window title: display full path to files on mounted drives
+  * Close confirmation dialog: make text unfocusable
+  * Quickopen plugin: fix filebrowser plugin support
+  * Time plugin: GTK+3 fix
+  * Multiple help fixes
+
+scrivi 1.10.1
+============
+
+  * Fix gschema translations
+  * GTK3 fixes
+  * Fix man page formatting
+  * Build system fixes
+
+scrivi 1.10.0
+============
+
+  * Use Gde2AboutDialog from libgde2-desktop
+
+scrivi 1.8.1
+===========
+
+  * Fix go to line crash
+  * Translations updates
+
+scrivi 1.8.0
+===========
+
+  * Add GTK3 support
+  * Use yelp-tools instead of gde2-doc-utils
+  * Move user plugin dir from config_dir to data_dir. Plugins should have
+    never been installed in the config dir as they are not part of the
+    configuration. This means user will need to move the plugins directory
+    from: $HOME/.config/scrivi/ to $HOME/.local/share/scrivi/.
+
+scrivi 1.5.0
+===========
+
+  * Migration to GSettings and drop gde2conf
+    (All code is migrated, except pythonconsole plugin. The plugin works,
+    except you cant configure it; the configurable things were command
+    and error colors; this will be fixed migrating the plugin to Gir
+    instead of python-gtk)

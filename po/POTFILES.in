@@ -1,0 +1,116 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+[encoding: UTF-8]
+[type: gettext/gsettings]data/org.gde2.scrivi.gschema.xml.in
+data/scrivi.appdata.xml.in
+data/scrivi.desktop.in.in
+scrivi/dialogs/scrivi-close-confirmation-dialog.c
+scrivi/dialogs/scrivi-encodings-dialog.c
+[type: gettext/glade]scrivi/dialogs/scrivi-encodings-dialog.ui
+scrivi/dialogs/scrivi-preferences-dialog.c
+[type: gettext/glade]scrivi/dialogs/scrivi-preferences-dialog.ui
+scrivi/dialogs/scrivi-search-dialog.c
+[type: gettext/glade]scrivi/dialogs/scrivi-search-dialog.ui
+[type: gettext/glade]scrivi/dialogs/scrivi-search-dialog-gtk3.ui
+scrivi/scrivi.c
+scrivi/scrivi-app.c
+scrivi/scrivi-commands-file.c
+scrivi/scrivi-commands-help.c
+scrivi/scrivi-commands-search.c
+scrivi/scrivi-debug.c
+scrivi/scrivi-document.c
+scrivi/scrivi-document-saver.c
+scrivi/scrivi-documents-panel.c
+scrivi/scrivi-encodings.c
+scrivi/scrivi-encodings-combo-box.c
+scrivi/scrivi-file-chooser-dialog.c
+scrivi/scrivi-gio-document-loader.c
+scrivi/scrivi-gio-document-saver.c
+scrivi/scrivi-help.c
+scrivi/scrivi-io-error-message-area.c
+scrivi/scrivi-notebook.c
+scrivi/scrivi-panel.c
+scrivi/scrivi-plugin-manager.c
+scrivi/scrivi-plugins-engine.c
+scrivi/scrivi-prefs-manager.c
+scrivi/scrivi-print-job.c
+[type: gettext/glade]scrivi/scrivi-print-preferences.ui
+scrivi/scrivi-print-preview.c
+scrivi/scrivi-smart-charset-converter.c
+scrivi/scrivi-statusbar.c
+scrivi/scrivi-style-scheme-manager.c
+scrivi/scrivi-tab.c
+scrivi/scrivi-tab-label.c
+scrivi/scrivi-ui.h
+scrivi/scrivi-ui.xml
+scrivi/scrivi-utils.c
+scrivi/scrivi-view.c
+scrivi/scrivi-window.c
+plugins/changecase/changecase.scrivi-plugin.desktop.in
+plugins/changecase/scrivi-changecase-plugin.c
+plugins/docinfo/docinfo.scrivi-plugin.desktop.in
+[type: gettext/glade]plugins/docinfo/docinfo.ui
+plugins/docinfo/scrivi-docinfo-plugin.c
+plugins/externaltools/externaltools.scrivi-plugin.desktop.in
+plugins/externaltools/tools/__init__.py
+plugins/externaltools/tools/capture.py
+plugins/externaltools/tools/functions.py
+plugins/externaltools/tools/manager.py
+plugins/externaltools/tools/outputpanel.py
+[type: gettext/glade]plugins/externaltools/tools/tools.ui
+plugins/externaltools/data/build.desktop.in
+plugins/externaltools/data/open-terminal-here.desktop.in
+plugins/externaltools/data/remove-trailing-spaces.desktop.in
+plugins/externaltools/data/run-command.desktop.in
+plugins/externaltools/data/search-recursive.desktop.in
+plugins/externaltools/data/switch-c.desktop.in
+plugins/filebrowser/filebrowser.scrivi-plugin.desktop.in
+[type: gettext/gsettings]plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in
+plugins/filebrowser/scrivi-file-bookmarks-store.c
+plugins/filebrowser/scrivi-file-browser-plugin.c
+plugins/filebrowser/scrivi-file-browser-store.c
+plugins/filebrowser/scrivi-file-browser-view.c
+plugins/filebrowser/scrivi-file-browser-widget.c
+plugins/modelines/modelines.scrivi-plugin.desktop.in
+plugins/pythonconsole/pythonconsole.scrivi-plugin.desktop.in
+plugins/pythonconsole/pythonconsole/__init__.py
+[type: gettext/glade]plugins/pythonconsole/pythonconsole/config.ui
+plugins/quickopen/quickopen/popup.py
+plugins/quickopen/quickopen/windowhelper.py
+plugins/quickopen/quickopen.scrivi-plugin.desktop.in
+plugins/snippets/snippets.scrivi-plugin.desktop.in
+[type: gettext/glade]plugins/snippets/snippets/snippets.ui
+plugins/snippets/snippets/Document.py
+plugins/snippets/snippets/WindowHelper.py
+plugins/snippets/snippets/Manager.py
+plugins/snippets/snippets/Exporter.py
+plugins/snippets/snippets/Importer.py
+plugins/snippets/snippets/Placeholder.py
+plugins/sort/scrivi-sort-plugin.c
+plugins/sort/sort.scrivi-plugin.desktop.in
+[type: gettext/glade]plugins/sort/sort.ui
+[type: gettext/gsettings]plugins/spell/org.gde2.scrivi.plugins.spell.gschema.xml.in
+plugins/spell/scrivi-automatic-spell-checker.c
+plugins/spell/scrivi-spell-checker.c
+plugins/spell/scrivi-spell-checker-dialog.c
+plugins/spell/scrivi-spell-checker-language.c
+plugins/spell/scrivi-spell-language-dialog.c
+plugins/spell/scrivi-spell-plugin.c
+[type: gettext/glade]plugins/spell/languages-dialog.ui
+[type: gettext/glade]plugins/spell/spell-checker.ui
+[type: gettext/glade]plugins/spell/scrivi-spell-setup-dialog.ui
+plugins/spell/spell.scrivi-plugin.desktop.in
+plugins/taglist/scrivi-taglist-plugin.c
+plugins/taglist/scrivi-taglist-plugin-panel.c
+plugins/taglist/scrivi-taglist-plugin-parser.c
+plugins/taglist/HTML.tags.xml.in
+plugins/taglist/Latex.tags.xml.in
+plugins/taglist/taglist.scrivi-plugin.desktop.in
+plugins/taglist/XSLT.tags.xml.in
+plugins/taglist/XUL.tags.xml.in
+[type: gettext/gsettings]plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in
+plugins/time/scrivi-time-plugin.c
+plugins/time/time.scrivi-plugin.desktop.in
+plugins/trailsave/trailsave.scrivi-plugin.desktop.in
+[type: gettext/glade]plugins/time/scrivi-time-dialog.ui
+[type: gettext/glade]plugins/time/scrivi-time-setup-dialog.ui

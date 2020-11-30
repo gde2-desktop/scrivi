@@ -1,0 +1,5006 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Atilla Öntaş <tarakbumba@gmail.com>, 2014
+# Butterfly <gokhanlnx@gmail.com>, 2015
+# Emre <fthsrh17@gmail.com>, 2015
+# mauron, 2012-2013
+# mauron, 2013,2015
+# mauron, 2012
+msgid ""
+msgstr ""
+"Project-Id-Version: GDE2 Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-01 10:33+0300\n"
+"PO-Revision-Date: 2016-03-23 07:56+0000\n"
+"Last-Translator: mauron\n"
+"Language-Team: Turkish (http://www.transifex.com/gde2/GDE2/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:1
+msgid "Use Default Font"
+msgstr "Öntanımlı Yazıtipini Kullan"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:2
+msgid ""
+"Whether to use the system's default fixed width font for editing text "
+"instead of a font specific to scrivi. If this option is turned off, then the "
+"font named in the \"Editor Font\" option will be used instead of the system "
+"font."
+msgstr "Metin düzenleme için sistemin öntanımlı yazıtipi yerine scrivi'ya belirtilen yazıtipinin kullanılması. Bu seçenek kapalı ise, sistem yazıtipi yerine \"Editor Font\" seçeneğinde belirlenmiş olan yazıtipi kullanılır."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:3
+msgctxt "editor-font"
+msgid "'Monospace 12'"
+msgstr "Karakterler Arasındaki Uzaklik 12"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:4
+msgid "Editor Font"
+msgstr "Düzenleyici Yazıtipi"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:5
+msgid ""
+"A custom font that will be used for the editing area. This will only take "
+"effect if the \"Use Default Font\" option is turned off."
+msgstr "Düzenleme bölgesi için kullanılacak özel bir yazıtipi. Bu, sadece \"Use Default Font\" seçeneği kapalı ise etki gösterir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:6
+msgid "Style Scheme"
+msgstr "Biçem Şeması"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:7
+msgid "The ID of a GtkSourceView Style Scheme used to color the text."
+msgstr "Metni renklendirmek için kullanılan GtkSourceView Tarz Şemasının kimliği (ID)."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:8
+msgid "Create Backup Copies"
+msgstr "Yedekleme Kopyaları Oluştur"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:9
+msgid ""
+"Whether scrivi should create backup copies for the files it saves. You can "
+"set the backup file extension with the \"Backup Copy Extension\" option."
+msgstr "Scrivi, kaydettiği dosyalar için yedek kopyalar oluşturur. Yedek dosya uzantısını, \"Backup Copy Extension\" seçeneğiyle ayarlayabilirsiniz."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:10
+msgid "Autosave"
+msgstr "Otomatik Kayıt"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:11
+msgid ""
+"Whether scrivi should automatically save modified files after a time "
+"interval. You can set the time interval with the \"Autosave Interval\" "
+"option."
+msgstr "Scrivi'nın değiştirilen dosyaları belli süre aralıklarıyla kendiliğinden kaydedip kaydetmeyeceğini belirler. Süreyi \"Otomatik Kayıt Aralığı\" seçeneğiyle belirleyebilirsiniz."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:12
+msgid "Autosave Interval"
+msgstr "Otomatik Kaydetme Aralığı"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:13
+msgid ""
+"Number of minutes after which scrivi will automatically save modified files. "
+"This will only take effect if the \"Autosave\" option is turned on."
+msgstr "Scrivi'nın değiştirilen dosyaları otomatik olarak kaydetmesinden önce geçecek dakika sayısı. Bu sadece \"Otomatik Kayıt\" seçeneği etkinleştirildiyse işler."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:14
+msgid "Writable VFS schemes"
+msgstr "Yazılabilir VFS şemaları"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:15
+msgid ""
+"List of VFS schemes scrivi supports in write mode. The 'file' scheme is "
+"writable by default."
+msgstr "Yazma kipinde scrivi'nın desteklediği VFS şemaları listesi. 'file' şeması öntanımlı olarak kaydedilebilirdir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:16
+msgid "Maximum Number of Undo Actions"
+msgstr "Azami Geri Alma Sayısı"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:17
+msgid ""
+"Maximum number of actions that scrivi will be able to undo or redo. Use "
+"\"-1\" for unlimited number of actions."
+msgstr "Scrivi'nın geri alabileceği ya da tekrarlayabileceği eylemlerin azami miktarı. Sınırsız sayıda eylem için \"-1\" kullanın."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:18
+msgid "Line Wrapping Mode"
+msgstr "Satır Bölme Kipi"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:19
+msgid ""
+"Specifies how to wrap long lines in the editing area. Use \"GTK_WRAP_NONE\" "
+"for no wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
+" the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr "Düzenleme alanı için uzun satırların nasıl bölüneceğini belirtir. \"GTK_WRAP_NONE\" bölme olmaması için, \"GTK_WRAP_WORD\", sözcük sınırlarında bölme için,\"GTK_WRAP_CHAR\", bağımsız karakter sınırlarında bölme için kullanınız. Değerler büyük/küçük harf duyarlıdır, tam olarak burada yer aldığı gibi kullanınız."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:20
+msgid "Tab Size"
+msgstr "Sekme Boyutu"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:21
+msgid ""
+"Specifies the number of spaces that should be displayed instead of Tab "
+"characters."
+msgstr "Sekme karakteri yerine görüntülenecek boşluk sayısını belirtir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:22
+msgid "Insert spaces"
+msgstr "Boşlukları araya ekle"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:23
+msgid "Whether scrivi should insert spaces instead of tabs."
+msgstr "Scrivi'nın sekmelerin yerine boşluk eklemesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:24
+msgid "Automatic indent"
+msgstr "Otomatik girinti"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:25
+msgid "Whether scrivi should enable automatic indentation."
+msgstr "Scrivi'nın otomatik girintileri etkinleştirip etkinleştirmeyeceğini belirler."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:26
+msgid "Display Line Numbers"
+msgstr "Satır Sayılarını Göster"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:27
+msgid "Whether scrivi should display line numbers in the editing area."
+msgstr "Scrivi'nın düzenleme alanında satır sayılarını göstermesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:28
+msgid "Highlight Current Line"
+msgstr "Geçerli Satırı Vurgula"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:29
+msgid "Whether scrivi should highlight the current line."
+msgstr "Scrivi'nın mevcut satırı vurgulamasının etkinleştirilmesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:30
+msgid "Highlight Matching Bracket"
+msgstr "Eşleşen Parantezleri Vurgula"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:31
+msgid "Whether scrivi should highlight the bracket matching the selected one."
+msgstr "Scrivi'nın seçilen parantezlerle eşleşenleri vurgulayıp vurgulamayacağını belirler."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:32
+msgid "Display Right Margin"
+msgstr "Sağ Kenar Boşluğunu Göster"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:33
+msgid "Whether scrivi should display the right margin in the editing area."
+msgstr "Scrivi'nın düzenleme alanında sağ kenar boşluğunu göstermesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:34
+msgid "Right Margin Position"
+msgstr "Sağ Kenar Boşluğu Pozisyonu"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:35
+msgid "Specifies the position of the right margin."
+msgstr "Sağ kenar boşluğunun konumunu belirtir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:36
+msgid "Smart Home End"
+msgstr "Akıllı Home End"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:37
+msgid ""
+"Specifies how the cursor moves when the HOME and END keys are pressed. Use "
+"\"DISABLED\" to always move at the start/end of the line, \"AFTER\" to move "
+"to the start/end of the line the first time the keys are pressed and to the "
+"start/end of the text ignoring whitespaces the second time the keys are "
+"pressed, \"BEFORE\" to move to the start/end of the text before moving to "
+"the start/end of the line and \"ALWAYS\" to always move to the start/end of "
+"the text instead of the start/end of the line."
+msgstr "HOME ve END tuşları basıldığında imlecin nasıl hareket edeceğini belirtir. \"DISABLED\"kullanmak her zaman satırın başına ve sonuna taşınmasını sağlar, \"AFTER\" tuşa ilk seferinde basıldığında satırın başına ve sonuna ve ikinci defa basıldığında boşlukların yok sayılarak metnin başına ve sonuna taşınmasını, \"BEFORE\" satırların başına ve sonuna gitmeden önce metnin başına ve sonuna taşınmasını, \"ALWAYS\" ise satırların başına ve sonuna taşınmaktansa metinlerin başına ve sonuna taşınmasını sağlar."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:38
+msgid "Restore Previous Cursor Position"
+msgstr "Önceki İmleç Konumunu Geri Getir"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:39
+msgid ""
+"Whether scrivi should restore the previous cursor position when a file is "
+"loaded."
+msgstr "Scrivi'nın dosya yüklendiği zaman imlecin önceki yerinin geri getirilmesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:40
+msgid "Enable Search Highlighting"
+msgstr "Arama Vurgulamayı Etkinleştir"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:41
+msgid ""
+"Whether scrivi should highlight all the occurrences of the searched text."
+msgstr "Scrivi'nın arama metninin geçtiği yerleri vurgulaması."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:42
+msgid "Enable Syntax Highlighting"
+msgstr "Sözdizimi Vurgulamayı Etkinleştir"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:43
+msgid "Whether scrivi should enable syntax highlighting."
+msgstr "Scrivi'nın sözdizimi renklendirmeyi etkinleştirmesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:44
+msgid "Toolbar is Visible"
+msgstr "Araç Çubuğü Görünür"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:45
+msgid "Whether the toolbar should be visible in editing windows."
+msgstr "Düzenleme penceresindeki araç çubuğunun görünür hale gelmesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:46
+msgid "Toolbar Buttons Style"
+msgstr "Araç Çubuğu Düğmeleri Biçemi"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:47
+msgid ""
+"Style for the toolbar buttons. Possible values are \"SCRIVI_TOOLBAR_SYSTEM\" "
+"to use the system's default style, \"SCRIVI_TOOLBAR_ICONS\" to display icons "
+"only, \"SCRIVI_TOOLBAR_ICONS_AND_TEXT\" to display both icons and text, and "
+"\"SCRIVI_TOOLBAR_ICONS_BOTH_HORIZ\" to display prioritized text beside icons."
+" Note that the values are case-sensitive, so make sure they appear exactly "
+"as mentioned here."
+msgstr "Araç çubuğu düğmeleri biçem. Geçerli değerler, sistemin geçerli biçemi için \"SCRIVI_TOOLBAR_SYSTEM\", sadece simgeleri görüntülemek için \"SCRIVI_TOOLBAR_ICONS\", hem simge hem metin görüntülemek için \"SCRIVI_TOOLBAR_ICONS_AND_TEXT\", hem simge hem de metni yan yana görüntülemek için \"SCRIVI_TOOLBAR_ICONS_BOTH_HORIZ\" olabilir. Değerler büyük/küçük harf duyarlıdır, tam olarak burada yer aldığı gibi kullanınız."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:48
+msgid "Status Bar is Visible"
+msgstr "Durum Çubuğu Görünür"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:49
+msgid ""
+"Whether the status bar at the bottom of editing windows should be visible."
+msgstr "Düzenleme penceresinin altında bulunan durum çubuğunun görünür hale gelmesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:50
+msgid "Side Pane is Visible"
+msgstr "Yan Panel Görünür"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:51
+msgid ""
+"Whether the side pane at the left of editing windows should be visible."
+msgstr "Düzenleme pencerelerinin solundaki yan panelin gösterilip gösterilmeyeceğini ayarlar."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:52
+msgid "Bottom Panel is Visible"
+msgstr "Alt Panel Görünür"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:53
+msgid ""
+"Whether the bottom panel at the bottom of editing windows should be visible."
+msgstr "Düzenleme penceresinin altında bulunan panelin görünür hale gelmesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:54
+msgid "Maximum Recent Files"
+msgstr "Azami Son Kullanılan Dosyalar"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:55
+msgid ""
+"Specifies the maximum number of recently opened files that will be displayed"
+" in the \"Recent Files\" submenu."
+msgstr "\"Son Dosyalar \" altmenüsünde görüntülenecek olan en son açılmış dosyaların en yüksek sayısını belirtir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:56
+msgid "Print Syntax Highlighting"
+msgstr "Vurgulanan Sözdizimlerini Yazdır"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:57
+msgid ""
+"Whether scrivi should print syntax highlighting when printing documents."
+msgstr "Scrivi'nın belgeleri yazdırırken bir belge başlığı eklemesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:58
+msgid "Print Header"
+msgstr "Sayfa Başlıklarını Yazdır"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:59
+msgid ""
+"Whether scrivi should include a document header when printing documents."
+msgstr "Scrivi'nın belgeleri yazdırırken bir belge başlığı eklemesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:60
+msgid "Printing Line Wrapping Mode"
+msgstr "Yazdırma Satır Bölme Kipi"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:61
+msgid ""
+"Specifies how to wrap long lines for printing. Use \"GTK_WRAP_NONE\" for no "
+"wrapping, \"GTK_WRAP_WORD\" for wrapping at word boundaries, and "
+"\"GTK_WRAP_CHAR\" for wrapping at individual character boundaries. Note that"
+" the values are case-sensitive, so make sure they appear exactly as "
+"mentioned here."
+msgstr "Yazdırma işlemi için uzun satırların nasıl bölüneceğini belirtir. \"GTK_WRAP_NONE\" bölme olmaması için, \"GTK_WRAP_WORD\", sözcük sınırlarında bölme için,\"GTK_WRAP_CHAR\", bağımsız karakter sınırlarında bölme için kullanınız. Değerler büyük/küçük harf duyarlıdır, tam olarak burada yer aldığı gibi kullanınız."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:62
+msgid "Print Line Numbers"
+msgstr "Satır Sayılarını Yazdır"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:63
+msgid ""
+"If this value is 0, then no line numbers will be inserted when printing a "
+"document. Otherwise, scrivi will print line numbers every such number of "
+"lines."
+msgstr "Bu değer \"0\" ise, belge yazdırılırken satır sayıları eklenmez. Aksi halde, scrivi her satır için satır sayılarını yazdırır."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:64
+msgctxt "print-font-body-pango"
+msgid "'Monospace 9'"
+msgstr "Karakterler Arasındaki Uzaklik 9"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:65
+msgid "Body Font for Printing"
+msgstr "Yazdırma için Gövde Yazıtipi"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:66
+msgid ""
+"Specifies the font to use for a document's body when printing documents."
+msgstr "Belge yazdırırken belge gövdesi için hangi yazıtipinin kullanılacağını belirtir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:67
+msgctxt "print-font-header-pango"
+msgid "'Sans 11'"
+msgstr "'Sans 11'"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:68
+msgid "Header Font for Printing"
+msgstr "Yazdırma İçin Sayfa Başlığı Yazıtipi"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:69
+msgid ""
+"Specifies the font to use for page headers when printing a document. This "
+"will only take effect if the \"Print Header\" option is turned on."
+msgstr "Yazdırma işleminde satır sayıları için kullanılacak yazıtipini belirtir. Bu, sadece \"Print Header\" açık ise etki gösterir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:70
+msgctxt "print-font-numbers-pango"
+msgid "'Sans 8'"
+msgstr "'Sans 8'"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:71
+msgid "Line Number Font for Printing"
+msgstr "Yazdırma için Satır Sayısı Yazıtipi"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:72
+msgid ""
+"Specifies the font to use for line numbers when printing. This will only "
+"take effect if the \"Print Line Numbers\" option is non-zero."
+msgstr "Yazdırma işleminde satır sayıları için kullanılacak yazıtipini belirtir. Bu, sadece \"Print Line Numbers\" seçeneği sıfırdan başka bir şey ise etki gösterir."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:73
+msgctxt "auto-detected"
+msgid "[ 'UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16' ]"
+msgstr "[UTF-8,Güncel,ISO-8859-9,UTF-16]"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:74
+msgid "Automatically Detected Encodings"
+msgstr "Otomatik Tespit Edilen Kodlamalar"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:75
+msgid ""
+"Sorted list of encodings used by scrivi for automatically detecting the "
+"encoding of a file. \"CURRENT\" represents the current locale encoding. Only"
+" recognized encodings are used."
+msgstr "Dosyaların kodlamalarını otomatik olarak tespit etmek için scrivi tarafından kullanılan kodlamaların sıralanmış listesi. \"CURRENT\" güncel dil kodlamasını temsil eder. Sadece tanınan kodlamalar kullanılır."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:76
+msgctxt "shown-in-menu"
+msgid "[ 'ISO-8859-15' ]"
+msgstr "[ISO-8859-15]"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:77
+msgid "Encodings shown in menu"
+msgstr "Menüde gösterilen kodlamalar"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:78
+msgid ""
+"List of encodings shown in the Character Encoding menu in open/save file "
+"selector. Only recognized encodings are used."
+msgstr "Aç/kaydet dosya seçicisinin Karakter Kodlaması menüsünde gösterilen kodlama listesi. Sadece tanınan kodlamalar kullanılır."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:79
+msgid "History for \"search for\" entries"
+msgstr "\"Bul\" girdileri için tarihçe"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:80
+msgid "List of entries in \"search for\" textbox."
+msgstr "\"Bul\" metin kutusunun girdi listesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:81
+msgid "History for \"replace with\" entries"
+msgstr "\"Bununla değiştir\" girdileri için tarihçe"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:82
+msgid "List of entries in \"replace with\" textbox."
+msgstr "\"Bununla değiştir\" metin kutusunun girdi listesi."
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:83
+msgid "Active plugins"
+msgstr "Etkin eklentiler"
+
+#: ../data/org.gde2.scrivi.gschema.xml.in.h:84
+msgid ""
+"List of active plugins. It contains the \"Location\" of the active plugins. "
+"See the .scrivi-plugin file for obtaining the \"Location\" of a given plugin."
+msgstr "Kullanılan eklentiler listesi. Kullanılan eklentilerin \"Yeri\"ni içerir. Eklentilerin \"Yeri\" için .scrivi-plugins dosyasına bakın."
+
+#: ../data/scrivi.appdata.xml.in.h:1
+msgid "A Text Editor for the GDE2 desktop environment"
+msgstr "GDE2 masaüstü ortami için bir metin düzenleyicisi"
+
+#: ../data/scrivi.appdata.xml.in.h:2
+msgid ""
+"<p> Scrivi is a small, but powerful text editor designed specifically for the"
+" GDE2 desktop. It has most standard text editor functions and fully supports"
+" international text in Unicode. Advanced features include syntax "
+"highlighting and automatic indentation of source code, printing and editing "
+"of multiple documents in one window. </p> <p> Scrivi is extensible through a "
+"plugin system, which currently includes support for spell checking, "
+"comparing files, viewing CVS ChangeLogs, and adjusting indentation levels. "
+"</p>"
+msgstr "<p>Scrivi küçüktür.Ama GDE2 masaüstü için özellikle tasarlanmiş güçlü metin düzenleyicisidir.Standart metin düzenleyici işlevlerine sahiptir ve tamamen Unicode un harfleriyle desteklenir.Üstün özellikleri syntax(söz dizimi kurallarini)  kapsar  ve bir pencere içindeki çoklu belgeleri düzenleme ,yazma ve kaynak koddaki girintileri otamatik içerir.</p><p></p>"
+
+#: ../data/scrivi.desktop.in.in.h:1
+msgid "Scrivi"
+msgstr "Scrivi"
+
+#: ../data/scrivi.desktop.in.in.h:2 ../scrivi/scrivi-print-job.c:767
+msgid "Text Editor"
+msgstr "Metin Düzenleyici"
+
+#: ../data/scrivi.desktop.in.in.h:3
+msgid "Edit text files"
+msgstr "Metin dosyalarını düzenle"
+
+#: ../data/scrivi.desktop.in.in.h:4
+msgid "Scrivi Text Editor"
+msgstr "Scrivi Metin Düzenleyici"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:145
+msgid "Log Out _without Saving"
+msgstr "Ka_ydetmeden Çıkış Yap"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:149
+msgid "_Cancel Logout"
+msgstr "_Oturumdan Çıkışı İptal Et"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:156
+msgid "Close _without Saving"
+msgstr "Kaydetmeden _Kapat"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:216
+msgid "Question"
+msgstr "Soru"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:416
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld second will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "Kaydetmediğiniz takdirde, son %ld saatte yaptığınız değişiklikler kalıcı olarak kaybolacak."
+msgstr[1] "Kaydetmediğiniz takdirde, son %ld saatte yaptığınız değişiklikler kalıcı olarak kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:425
+msgid ""
+"If you don't save, changes from the last minute will be permanently lost."
+msgstr "Kaydetmediğiniz takdirde, son bir dakika içerisinde yaptığınız değişiklikler kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:431
+#, c-format
+msgid ""
+"If you don't save, changes from the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "Kaydetmediğiniz takdirde, son bir dakika ve %ld saniye içerisinde yaptığınız değişiklikler kaybolacak."
+msgstr[1] "Kaydetmediğiniz takdirde, son bir dakika ve %ld saniye içerisinde yaptığınız değişiklikler kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:441
+#, c-format
+msgid ""
+"If you don't save, changes from the last %ld minute will be permanently "
+"lost."
+msgid_plural ""
+"If you don't save, changes from the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "Kaydetmediğiniz takdirde, son %ld dakika içerisinde yaptığınız değişiklikler kaybolacak."
+msgstr[1] "Kaydetmediğiniz takdirde, son %ld dakika içerisinde yaptığınız değişiklikler kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:456
+msgid ""
+"If you don't save, changes from the last hour will be permanently lost."
+msgstr "Kaydetmediğiniz takdirde, son %d saatte yaptığınız değişiklikler kalıcı olarak kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:462
+#, c-format
+msgid ""
+"If you don't save, changes from the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "Kaydetmediğiniz takdirde, son %d dakika içerisinde yaptığınız değişiklikler kaybolacak."
+msgstr[1] "Kaydetmediğiniz takdirde, son %d dakika içerisinde yaptığınız değişiklikler kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:477
+#, c-format
+msgid ""
+"If you don't save, changes from the last %d hour will be permanently lost."
+msgid_plural ""
+"If you don't save, changes from the last %d hours will be permanently lost."
+msgstr[0] "Kaydetmediğiniz takdirde, son %d saatte yaptığınız değişiklikler kalıcı olarak kaybolacak."
+msgstr[1] "Kaydetmediğiniz takdirde, son %d saatte yaptığınız değişiklikler kalıcı olarak kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:535
+#, c-format
+msgid "Changes to document \"%s\" will be permanently lost."
+msgstr "Belge \"%s\" içerisinde yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:540
+#, c-format
+msgid "Save changes to document \"%s\" before closing?"
+msgstr "Kapatmadan önce \"%s\" belgesinde yaptığınız değişiklikleri kaydetmek ister misiniz?"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:554
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:788
+msgid "Saving has been disabled by the system administrator."
+msgstr "Sistem yöneticisi tarafından kaydetme kapatıldı."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:739
+#, c-format
+msgid "Changes to %d document will be permanently lost."
+msgid_plural "Changes to %d documents will be permanently lost."
+msgstr[0] "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
+msgstr[1] "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:745
+#, c-format
+msgid ""
+"There is %d document with unsaved changes. Save changes before closing?"
+msgid_plural ""
+"There are %d documents with unsaved changes. Save changes before closing?"
+msgstr[0] "Kaydedilmemiş değişikliklerin bulunduğu %d belge var. Kapatmadan önce kaydetmek ister misiniz?"
+msgstr[1] "Kaydedilmemiş değişikliklerin bulunduğu %d belge var. Kapatmadan önce kaydetmek ister misiniz?"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:763
+msgid "Docum_ents with unsaved changes:"
+msgstr "Kaydedilmemiş değişiklikleri olan _belgeler:"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:765
+msgid "S_elect the documents you want to save:"
+msgstr "Kaydetmek istediğiniz _belgeleri seçin:"
+
+#: ../scrivi/dialogs/scrivi-close-confirmation-dialog.c:790
+msgid "If you don't save, all your changes will be permanently lost."
+msgstr "Kaydetmediğiniz takdirde, yaptığınız tüm değişiklikler kaybolacak."
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:321
+msgid "Character Encodings"
+msgstr "Karakter Kodlamaları"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:384
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:445
+msgid "_Description"
+msgstr "_Açıklama"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:393
+#: ../scrivi/dialogs/scrivi-encodings-dialog.c:454
+msgid "_Encoding"
+msgstr "_Kodlama"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:1
+msgid "Character encodings"
+msgstr "Karakter kodlamaları"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:2
+msgid "A_vailable encodings:"
+msgstr "K_ullanılabilir kodlamalar:"
+
+#: ../scrivi/dialogs/scrivi-encodings-dialog.ui.h:3
+msgid "E_ncodings shown in menu:"
+msgstr "Menüde gösterilen _kodlamalar:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:574
+msgid "Click on this button to select the font to be used by the editor"
+msgstr "Düzenleyici tarafından kullanılan yazı tipini değiştirmek için bu düğmeye tıklayın"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:584
+#, c-format
+msgid "_Use the system fixed width font (%s)"
+msgstr "_Sistem eş aralıklı yazıtipini (%s) kullan"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:787
+msgid "The selected color scheme cannot be installed."
+msgstr "Seçilen renk şeması yüklenemedi."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:812
+msgid "Add Scheme"
+msgstr "Şema Ekle"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:819
+msgid "A_dd Scheme"
+msgstr "Şema _Ekle"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:827
+msgid "Color Scheme Files"
+msgstr "Renk Şeması Dosyalar"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:834
+#: ../scrivi/scrivi-file-chooser-dialog.c:55
+msgid "All Files"
+msgstr "Tüm Dosyalar"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:879
+#, c-format
+msgid "Could not remove color scheme \"%s\"."
+msgstr "\"%s\" renk şeması silinemedi."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.c:1090
+msgid "Scrivi Preferences"
+msgstr "Scrivi Tercihleri"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:1
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:2
+#: ../scrivi/scrivi-print-preferences.ui.h:9
+msgid "Text Wrapping"
+msgstr "Metin Kaydırması"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:3
+#: ../plugins/docinfo/docinfo.ui.h:4
+#: ../plugins/externaltools/tools/tools.ui.h:21
+#: ../plugins/snippets/snippets/snippets.ui.h:9
+#: ../plugins/time/scrivi-time-dialog.ui.h:4
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:3
+msgid "    "
+msgstr "    "
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:4
+#: ../scrivi/scrivi-print-preferences.ui.h:10
+msgid "Enable text _wrapping"
+msgstr "Metin _bölmeyi etkinleştir"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:5
+#: ../scrivi/scrivi-print-preferences.ui.h:11
+msgid "Do not _split words over two lines"
+msgstr "Ke_limeleri iki ayrı satıra bölme"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:6
+#: ../scrivi/scrivi-print-preferences.ui.h:3
+msgid "Line Numbers"
+msgstr "Satır Numaraları"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:7 ../scrivi/scrivi-view.c:2039
+msgid "_Display line numbers"
+msgstr "Satır sayılarını _göster"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:8
+msgid "Current Line"
+msgstr "Güncel Satır"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:9
+msgid "Highlight current _line"
+msgstr "Mevcut satırı _vurgula"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:10
+msgid "Right Margin"
+msgstr "Sağ Kenar Boşluğu"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:11
+msgid "Display right _margin"
+msgstr "Sağ kenar boşluğunu _göster"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:12
+msgid "_Right margin at column:"
+msgstr "Sütunlardaki sağ _kenar boşluğu:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:13
+msgid "Bracket Matching"
+msgstr "Parantez Eşleşmesi"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:14
+msgid "Highlight matching _bracket"
+msgstr "Eşleşen parantezleri _vurgula"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:15
+msgid "View"
+msgstr "Görünüm"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:16
+msgid "Tab Stops"
+msgstr "Sekmeler"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:17
+msgid "_Tab width:"
+msgstr "Sekme _genişliği:"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:18
+msgid "Insert _spaces instead of tabs"
+msgstr "Sekme yerine _boşluk ekle"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:19
+msgid "Automatic Indentation"
+msgstr "Otomatik Girinti"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:20
+msgid "_Enable automatic indentation"
+msgstr "Otomatik _girintilemeyi etkinleştir"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:21
+msgid "File Saving"
+msgstr "Dosya Kaydı"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:22
+msgid "Create a _backup copy of files before saving"
+msgstr "Dosyaları kaydetmeden önce _yedekleme kopyası oluştur"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:23
+msgid "_Autosave files every"
+msgstr "Dosyaları _otomatik kaydetme sıklığı"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:24
+msgid "_minutes"
+msgstr "_dakika"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:25
+msgid "Editor"
+msgstr "Düzenleyici"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:26
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:27
+msgid "Editor _font: "
+msgstr "_Düzenleyici yazıtipi: "
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:28
+msgid "Pick the editor font"
+msgstr "Düzenleyici yazıtipi seç"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:29
+msgid "Color Scheme"
+msgstr "Renk Şeması"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:30
+msgid "_Add..."
+msgstr "_Ekle..."
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:31
+msgid "Font & Colors"
+msgstr "Yazıtipleri ve Renkler"
+
+#: ../scrivi/dialogs/scrivi-preferences-dialog.ui.h:32
+msgid "Plugins"
+msgstr "Eklentiler"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:302
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:1 ../scrivi/scrivi-window.c:1462
+msgid "Replace"
+msgstr "Değiştir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:313 ../scrivi/scrivi-window.c:1460
+msgid "Find"
+msgstr "Bul"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:417
+msgid "Replace _All"
+msgstr "_Hepsini Değiştir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.c:418
+#: ../scrivi/scrivi-commands-file.c:589
+msgid "_Replace"
+msgstr "_Değiştir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:2
+msgid "Replace All"
+msgstr "Tümünü Değiştir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:3
+msgid "_Search for: "
+msgstr "_Ara: "
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:4
+msgid "Replace _with: "
+msgstr "Bununla _değiştir: "
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:5
+msgid "_Match case"
+msgstr "Büyük/küçük _harf eşleştir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:6
+msgid "Match _entire word only"
+msgstr "Sadece tüm _kelimeyi eşleştir"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:7
+msgid "Search _backwards"
+msgstr "_Geriye doğru ara"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:8
+msgid "_Wrap around"
+msgstr "_Dairesel ara"
+
+#: ../scrivi/dialogs/scrivi-search-dialog.ui.h:9
+msgid "_Parse escape sequences (e.g. \\n)"
+msgstr "Kaçış dizgelerini _çözümle (mesela \\n)"
+
+#: ../scrivi/scrivi.c:104
+msgid "Show the application's version"
+msgstr "Uygulamanın sürümünü göster"
+
+#: ../scrivi/scrivi.c:107
+msgid ""
+"Set the character encoding to be used to open the files listed on the "
+"command line"
+msgstr "Komut satırında dosya açmada kodlanmış karakter kümesi kullan"
+
+#: ../scrivi/scrivi.c:107
+msgid "ENCODING"
+msgstr "KODLAMA"
+
+#: ../scrivi/scrivi.c:110
+msgid "Display list of possible values for the encoding option"
+msgstr "Kodlama seçeneği için geçerli değerlerin listesini göster"
+
+#: ../scrivi/scrivi.c:113
+msgid "Create a new top-level window in an existing instance of scrivi"
+msgstr "Mevcut bir scrivi durumunda yeni üst-düzey pencere oluştur"
+
+#: ../scrivi/scrivi.c:116
+msgid "Create a new document in an existing instance of scrivi"
+msgstr "Scrivi'nın mevcut durumuna yeni bir belge yarat"
+
+#: ../scrivi/scrivi.c:119
+msgid "[FILE...]"
+msgstr "[DOSYA...]"
+
+#: ../scrivi/scrivi.c:174
+#, c-format
+msgid "%s: invalid encoding.\n"
+msgstr "%s: geçersiz kodlama.\n"
+
+#. Setup command line options
+#: ../scrivi/scrivi.c:520
+msgid "- Edit text files"
+msgstr "- Metin dosyalarını düzenle"
+
+#: ../scrivi/scrivi.c:529
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr "%s\nTüm mevcut komut satırı seçeneklerinin tam listesini göstermek için '%s --help' çalıştırın.\n"
+
+#: ../scrivi/scrivi-commands-file.c:250
+#, c-format
+msgid "Loading file '%s'…"
+msgstr "'%s' dosyası yükleniyor..."
+
+#: ../scrivi/scrivi-commands-file.c:259
+#, c-format
+msgid "Loading %d file…"
+msgid_plural "Loading %d files…"
+msgstr[0] "%d dosya yükleniyor..."
+msgstr[1] "%d dosya yükleniyor..."
+
+#. Translators: "Open Files" is the title of the file chooser window
+#: ../scrivi/scrivi-commands-file.c:465
+msgid "Open Files"
+msgstr "Dosya Aç"
+
+#: ../scrivi/scrivi-commands-file.c:576
+#, c-format
+msgid "The file \"%s\" is read-only."
+msgstr "\"%s\" dosyası salt-okunur."
+
+#: ../scrivi/scrivi-commands-file.c:581
+msgid "Do you want to try to replace it with the one you are saving?"
+msgstr "Onu kaydettiğiniz ile değiştirmeyi denemek ister misiniz?"
+
+#: ../scrivi/scrivi-commands-file.c:650 ../scrivi/scrivi-commands-file.c:873
+#, c-format
+msgid "Saving file '%s'…"
+msgstr "'%s' dosyası kaydediliyor..."
+
+#: ../scrivi/scrivi-commands-file.c:758
+msgid "Save As…"
+msgstr "Farklı Kaydet..."
+
+#: ../scrivi/scrivi-commands-file.c:1087
+#, c-format
+msgid "Reverting the document '%s'…"
+msgstr "'%s' belgesi ilk haline getiriliyor..."
+
+#: ../scrivi/scrivi-commands-file.c:1132
+#, c-format
+msgid "Revert unsaved changes to document '%s'?"
+msgstr "'%s' belgesi içerisinde yapılan değişiklikler eski haline getirilsin mi?"
+
+#: ../scrivi/scrivi-commands-file.c:1141
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld second will be permanently "
+"lost."
+msgid_plural ""
+"Changes made to the document in the last %ld seconds will be permanently "
+"lost."
+msgstr[0] "Belge içerisinde son %ld saat içerisinde yapılan değişiklikler kaybolacak."
+msgstr[1] "Belge içerisinde son %ld saat içerisinde yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/scrivi-commands-file.c:1150
+msgid ""
+"Changes made to the document in the last minute will be permanently lost."
+msgstr "Belge içerisinde son bir dakikada yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/scrivi-commands-file.c:1156
+#, c-format
+msgid ""
+"Changes made to the document in the last minute and %ld second will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last minute and %ld seconds will be "
+"permanently lost."
+msgstr[0] "Belge içerisinde son bir dakikada ve %ld saniyede yapılan değişiklikler kaybolacak."
+msgstr[1] "Belge içerisinde son bir dakikada ve %ld saniyede yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/scrivi-commands-file.c:1166
+#, c-format
+msgid ""
+"Changes made to the document in the last %ld minute will be permanently "
+"lost."
+msgid_plural ""
+"Changes made to the document in the last %ld minutes will be permanently "
+"lost."
+msgstr[0] "Belge içerisinde son %ld dakikada yapılan değişiklikler kaybolacak."
+msgstr[1] "Belge içerisinde son %ld dakikada yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/scrivi-commands-file.c:1181
+msgid ""
+"Changes made to the document in the last hour will be permanently lost."
+msgstr "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/scrivi-commands-file.c:1187
+#, c-format
+msgid ""
+"Changes made to the document in the last hour and %d minute will be "
+"permanently lost."
+msgid_plural ""
+"Changes made to the document in the last hour and %d minutes will be "
+"permanently lost."
+msgstr[0] "Belge içerisinde son bir saatte ve son %d dakikada yapılan değişiklikler kaybolacak."
+msgstr[1] "Belge içerisinde son bir saatte ve son %d dakikada yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/scrivi-commands-file.c:1202
+#, c-format
+msgid ""
+"Changes made to the document in the last %d hour will be permanently lost."
+msgid_plural ""
+"Changes made to the document in the last %d hours will be permanently lost."
+msgstr[0] "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
+msgstr[1] "Belge içerisinde son %d saat içerisinde yapılan değişiklikler kaybolacak."
+
+#: ../scrivi/scrivi-commands-file.c:1228
+msgid "_Revert"
+msgstr "_Eski Durumuna Getir"
+
+#: ../scrivi/scrivi-commands-help.c:83
+msgid "Scrivi is a small and lightweight text editor for the GDE2 Desktop"
+msgstr "Scrivi GDE2 masaüstü için sade ve hafif bir metin düzenleyicisidir"
+
+#: ../scrivi/scrivi-commands-help.c:95
+msgid "translator-credits"
+msgstr "Barış Çiçek <baris@teamforce.name.tr>"
+
+#: ../scrivi/scrivi-commands-search.c:115
+#, c-format
+msgid "Found and replaced %d occurrence"
+msgid_plural "Found and replaced %d occurrences"
+msgstr[0] "%d eşleşme bulundu ve değiştirildi."
+msgstr[1] "%d eşleşme bulundu ve değiştirildi."
+
+#: ../scrivi/scrivi-commands-search.c:125
+msgid "Found and replaced one occurrence"
+msgstr "Bir eşleşme bulundu ve değiştirildi"
+
+#. Translators: %s is replaced by the text
+#. entered by the user in the search box
+#: ../scrivi/scrivi-commands-search.c:146
+#, c-format
+msgid "\"%s\" not found"
+msgstr "\"%s\" bulunamadı"
+
+#: ../scrivi/scrivi-document.c:1090 ../scrivi/scrivi-document.c:1110
+#, c-format
+msgid "Unsaved Document %d"
+msgstr "Kaydedilmemiş Belge %d"
+
+#: ../scrivi/scrivi-documents-panel.c:101 ../scrivi/scrivi-documents-panel.c:115
+#: ../scrivi/scrivi-window.c:2187 ../scrivi/scrivi-window.c:2192
+msgid "Read-Only"
+msgstr "Salt-Okunur"
+
+#: ../scrivi/scrivi-documents-panel.c:796 ../scrivi/scrivi-window.c:3577
+msgid "Documents"
+msgstr "Belgeler"
+
+#: ../scrivi/scrivi-encodings.c:138 ../scrivi/scrivi-encodings.c:180
+#: ../scrivi/scrivi-encodings.c:182 ../scrivi/scrivi-encodings.c:184
+#: ../scrivi/scrivi-encodings.c:186 ../scrivi/scrivi-encodings.c:188
+#: ../scrivi/scrivi-encodings.c:190 ../scrivi/scrivi-encodings.c:192
+msgid "Unicode"
+msgstr "Unikod"
+
+#: ../scrivi/scrivi-encodings.c:151 ../scrivi/scrivi-encodings.c:175
+#: ../scrivi/scrivi-encodings.c:225 ../scrivi/scrivi-encodings.c:268
+msgid "Western"
+msgstr "Batı"
+
+#: ../scrivi/scrivi-encodings.c:153 ../scrivi/scrivi-encodings.c:227
+#: ../scrivi/scrivi-encodings.c:264
+msgid "Central European"
+msgstr "Orta Avrupa"
+
+#: ../scrivi/scrivi-encodings.c:155
+msgid "South European"
+msgstr "Güney Avrupa"
+
+#: ../scrivi/scrivi-encodings.c:157 ../scrivi/scrivi-encodings.c:171
+#: ../scrivi/scrivi-encodings.c:278
+msgid "Baltic"
+msgstr "Baltık"
+
+#: ../scrivi/scrivi-encodings.c:159 ../scrivi/scrivi-encodings.c:229
+#: ../scrivi/scrivi-encodings.c:242 ../scrivi/scrivi-encodings.c:246
+#: ../scrivi/scrivi-encodings.c:248 ../scrivi/scrivi-encodings.c:266
+msgid "Cyrillic"
+msgstr "Kiril"
+
+#: ../scrivi/scrivi-encodings.c:161 ../scrivi/scrivi-encodings.c:235
+#: ../scrivi/scrivi-encodings.c:276
+msgid "Arabic"
+msgstr "Arapça"
+
+#: ../scrivi/scrivi-encodings.c:163 ../scrivi/scrivi-encodings.c:270
+msgid "Greek"
+msgstr "Yunanca"
+
+#: ../scrivi/scrivi-encodings.c:165
+msgid "Hebrew Visual"
+msgstr "İbranice Görünümsel"
+
+#: ../scrivi/scrivi-encodings.c:167 ../scrivi/scrivi-encodings.c:231
+#: ../scrivi/scrivi-encodings.c:272
+msgid "Turkish"
+msgstr "Türkçe"
+
+#: ../scrivi/scrivi-encodings.c:169
+msgid "Nordic"
+msgstr "İskandinav"
+
+#: ../scrivi/scrivi-encodings.c:173
+msgid "Celtic"
+msgstr "Kelt"
+
+#: ../scrivi/scrivi-encodings.c:177
+msgid "Romanian"
+msgstr "Romence"
+
+#: ../scrivi/scrivi-encodings.c:195
+msgid "Armenian"
+msgstr "Ermenice"
+
+#: ../scrivi/scrivi-encodings.c:197 ../scrivi/scrivi-encodings.c:199
+#: ../scrivi/scrivi-encodings.c:213
+msgid "Chinese Traditional"
+msgstr "Geleneksel Çince"
+
+#: ../scrivi/scrivi-encodings.c:201
+msgid "Cyrillic/Russian"
+msgstr "Kiril/Rusça"
+
+#: ../scrivi/scrivi-encodings.c:204 ../scrivi/scrivi-encodings.c:206
+#: ../scrivi/scrivi-encodings.c:208 ../scrivi/scrivi-encodings.c:238
+#: ../scrivi/scrivi-encodings.c:253
+msgid "Japanese"
+msgstr "Japonca"
+
+#: ../scrivi/scrivi-encodings.c:211 ../scrivi/scrivi-encodings.c:240
+#: ../scrivi/scrivi-encodings.c:244 ../scrivi/scrivi-encodings.c:259
+msgid "Korean"
+msgstr "Kore Dili"
+
+#: ../scrivi/scrivi-encodings.c:216 ../scrivi/scrivi-encodings.c:218
+#: ../scrivi/scrivi-encodings.c:220
+msgid "Chinese Simplified"
+msgstr "Basitleştirilmiş Çince"
+
+#: ../scrivi/scrivi-encodings.c:222
+msgid "Georgian"
+msgstr "Gürcüce"
+
+#: ../scrivi/scrivi-encodings.c:233 ../scrivi/scrivi-encodings.c:274
+msgid "Hebrew"
+msgstr "İbranice"
+
+#: ../scrivi/scrivi-encodings.c:250
+msgid "Cyrillic/Ukrainian"
+msgstr "Kiril/Ukrayna Dili"
+
+#: ../scrivi/scrivi-encodings.c:255 ../scrivi/scrivi-encodings.c:261
+#: ../scrivi/scrivi-encodings.c:280
+msgid "Vietnamese"
+msgstr "Vietnamca"
+
+#: ../scrivi/scrivi-encodings.c:257
+msgid "Thai"
+msgstr "Tayland Dili"
+
+#: ../scrivi/scrivi-encodings.c:431
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:272
+msgid "Automatically Detected"
+msgstr "Otomatik Tespit"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:288
+#: ../scrivi/scrivi-encodings-combo-box.c:303
+#, c-format
+msgid "Current Locale (%s)"
+msgstr "Geçerli Yerelleştirme (%s)"
+
+#: ../scrivi/scrivi-encodings-combo-box.c:353
+msgid "Add or Remove..."
+msgstr "Ekle ya da Kaldır..."
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:56
+msgid "All Text Files"
+msgstr "Tüm Metin Dosyaları"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:88
+msgid "C_haracter Encoding:"
+msgstr "Ka_rakter Kodlaması:"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:157
+msgid "L_ine Ending:"
+msgstr "S_atır Sonu:"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:180
+msgid "Unix/Linux"
+msgstr "Unix/Linux"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:186
+msgid "Mac OS Classic"
+msgstr "Mac OS Classic"
+
+#: ../scrivi/scrivi-file-chooser-dialog.c:192
+msgid "Windows"
+msgstr "Windows"
+
+#: ../scrivi/scrivi-help.c:81
+msgid "There was an error displaying the help."
+msgstr "Yardım görüntülenirken bir hata oluştu."
+
+#: ../scrivi/scrivi-io-error-message-area.c:196
+#: ../scrivi/scrivi-io-error-message-area.c:498
+msgid "_Retry"
+msgstr "_Tekrar Dene"
+
+#: ../scrivi/scrivi-io-error-message-area.c:217
+#, c-format
+msgid "Could not find the file %s."
+msgstr "%s dosyası bulunamadı."
+
+#: ../scrivi/scrivi-io-error-message-area.c:219
+#: ../scrivi/scrivi-io-error-message-area.c:258
+#: ../scrivi/scrivi-io-error-message-area.c:265
+msgid "Please check that you typed the location correctly and try again."
+msgstr "Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../scrivi/scrivi-io-error-message-area.c:234
+#, c-format
+msgid "scrivi cannot handle %s locations."
+msgstr "scrivi %s konumlarını işleyemiyor."
+
+#: ../scrivi/scrivi-io-error-message-area.c:240
+msgid "scrivi cannot handle this location."
+msgstr "scrivi bu konumu işleyemiyor."
+
+#: ../scrivi/scrivi-io-error-message-area.c:248
+msgid "The location of the file cannot be mounted."
+msgstr "Dosyanın konumu bağlanamıyor."
+
+#: ../scrivi/scrivi-io-error-message-area.c:252
+msgid "The location of the file cannot be accessed because it is not mounted."
+msgstr "Dosyanın konumuna erişilemedi çünkü konum bağlı değil."
+
+#: ../scrivi/scrivi-io-error-message-area.c:256
+#, c-format
+msgid "%s is a directory."
+msgstr "%s bir dizin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:263
+#, c-format
+msgid "%s is not a valid location."
+msgstr "%s geçerli bir konum değil."
+
+#: ../scrivi/scrivi-io-error-message-area.c:293
+#, c-format
+msgid ""
+"Host %s could not be found. Please check that your proxy settings are "
+"correct and try again."
+msgstr "%s makinesi bulunamadı. Lütfen vekil sunucu ayarlarınızın doğru olduğundan emin olun ve tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:306
+#, c-format
+msgid ""
+"Hostname was invalid. Please check that you typed the location correctly and"
+" try again."
+msgstr "Makine ismi geçersizdi. Konumu doğru yazıp yazmadığınızı denetleyip tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:314
+#, c-format
+msgid "%s is not a regular file."
+msgstr "%s normal bir dosya değil."
+
+#: ../scrivi/scrivi-io-error-message-area.c:319
+msgid "Connection timed out. Please try again."
+msgstr "Bağlantı zaman aşımına uğradı. Lütfen tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:342
+msgid "The file is too big."
+msgstr "Dosya çok büyük."
+
+#: ../scrivi/scrivi-io-error-message-area.c:383
+#, c-format
+msgid "Unexpected error: %s"
+msgstr "Beklenmeyen hata: %s"
+
+#: ../scrivi/scrivi-io-error-message-area.c:419
+msgid "scrivi cannot find the file. Perhaps it has recently been deleted."
+msgstr "scrivi dosyayı bulamıyor. Dosya yakın bir zamanda silinmiş olabilir."
+
+#: ../scrivi/scrivi-io-error-message-area.c:429
+#, c-format
+msgid "Could not revert the file %s."
+msgstr "%s dosyası eski haline getirilemedi."
+
+#: ../scrivi/scrivi-io-error-message-area.c:455
+msgid "Ch_aracter Encoding:"
+msgstr "K_arakter Kodlaması:"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../scrivi/scrivi-io-error-message-area.c:507
+#: ../scrivi/scrivi-io-error-message-area.c:794
+msgid "Edit Any_way"
+msgstr "_Gene de Düzenle"
+
+#. Translators: the access key chosen for this string should be
+#. different from other main menu access keys (Open, Edit, View...)
+#: ../scrivi/scrivi-io-error-message-area.c:512
+#: ../scrivi/scrivi-io-error-message-area.c:799
+msgid "D_on't Edit"
+msgstr "_Düzenleme"
+
+#: ../scrivi/scrivi-io-error-message-area.c:620
+msgid ""
+"The number of followed links is limited and the actual file could not be "
+"found within this limit."
+msgstr "Takip edilen bağların sayısı sınırlı ve asıl dosya bu sınırlar içinde bulunamadı."
+
+#: ../scrivi/scrivi-io-error-message-area.c:624
+msgid "You do not have the permissions necessary to open the file."
+msgstr "Dosyayı açmak için gerekli izinlere sahip değilsiniz."
+
+#: ../scrivi/scrivi-io-error-message-area.c:630
+msgid "scrivi has not been able to detect the character encoding."
+msgstr "scrivi karakter kodlamasını tespit edemedi."
+
+#: ../scrivi/scrivi-io-error-message-area.c:632
+#: ../scrivi/scrivi-io-error-message-area.c:654
+msgid "Please check that you are not trying to open a binary file."
+msgstr "Lütfen bir ikili dosya açmadığınızdan emin olun."
+
+#: ../scrivi/scrivi-io-error-message-area.c:633
+msgid "Select a character encoding from the menu and try again."
+msgstr "Menüden bir karakter kodlaması seçip tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:639
+#, c-format
+msgid "There was a problem opening the file %s."
+msgstr "%s adlı dosyayı açarken bir hata meydana geldi."
+
+#: ../scrivi/scrivi-io-error-message-area.c:641
+msgid ""
+"The file you opened has some invalid characters. If you continue editing "
+"this file you could make this document useless."
+msgstr "Açtığınız dosyada geçersiz karakterler bulunmaktadır. Bu dosyayı düzenlemeye devam etmeniz bu belgeyi işe yaramaz hâle getirebilir."
+
+#: ../scrivi/scrivi-io-error-message-area.c:644
+msgid "You can also choose another character encoding and try again."
+msgstr "Başka bir karakter kodlaması seçip devam etmeyi de deneyebilirsiniz."
+
+#: ../scrivi/scrivi-io-error-message-area.c:651
+#, c-format
+msgid "Could not open the file %s using the %s character encoding."
+msgstr "%s dosyası %s karakter kodlaması kullanılarak açılamadı."
+
+#: ../scrivi/scrivi-io-error-message-area.c:655
+#: ../scrivi/scrivi-io-error-message-area.c:730
+msgid "Select a different character encoding from the menu and try again."
+msgstr "Menüden başka bir karakter kodlaması seçip tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:665
+#, c-format
+msgid "Could not open the file %s."
+msgstr "%s dosyası açılamadı."
+
+#: ../scrivi/scrivi-io-error-message-area.c:725
+#, c-format
+msgid "Could not save the file %s using the %s character encoding."
+msgstr "%s dosyası %s karakter kodlaması kullanılarak kaydedilemedi."
+
+#: ../scrivi/scrivi-io-error-message-area.c:728
+msgid ""
+"The document contains one or more characters that cannot be encoded using "
+"the specified character encoding."
+msgstr "Belge belirtilen karakter kodlaması ile kodlanamayacak bir ya da birden fazla karakter içermektedir."
+
+#: ../scrivi/scrivi-io-error-message-area.c:818
+#, c-format
+msgid "This file (%s) is already open in another scrivi window."
+msgstr "Bu dosya (%s) zaten başka bir scrivi penceresinde açık."
+
+#: ../scrivi/scrivi-io-error-message-area.c:836
+msgid ""
+"scrivi opened this instance of the file in a non-editable way. Do you want to"
+" edit it anyway?"
+msgstr "scrivi, dosyanın bu oturumunu düzenlenemeyecek bir yolda açtı. Gene de dosyayı düzenlemek istiyor musunuz?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:899
+#: ../scrivi/scrivi-io-error-message-area.c:1007
+msgid "S_ave Anyway"
+msgstr "_Gene de Kaydet"
+
+#: ../scrivi/scrivi-io-error-message-area.c:903
+#: ../scrivi/scrivi-io-error-message-area.c:1011
+msgid "D_on't Save"
+msgstr "_Kaydetme"
+
+#. FIXME: review this message, it's not clear since for the user the
+#. "modification"
+#. could be interpreted as the changes he made in the document. beside
+#. "reading" is
+#. not accurate (since last load/save)
+#: ../scrivi/scrivi-io-error-message-area.c:925
+#, c-format
+msgid "The file %s has been modified since reading it."
+msgstr "Dosya %s okunduğundan beri değiştirildi."
+
+#: ../scrivi/scrivi-io-error-message-area.c:944
+msgid ""
+"If you save it, all the external changes could be lost. Save it anyway?"
+msgstr "Eğer kaydederseniz, yapılan tüm harici değişiklikler kaybolacak. Gene de kaydedilsin mi?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1033
+#, c-format
+msgid "Could not create a backup file while saving %s"
+msgstr "%s kaydedilirken yedek dosyası oluşturulamadı."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1036
+#, c-format
+msgid "Could not create a temporary backup file while saving %s"
+msgstr "%s kaydedilirken bir geçici yedek dosyası oluşturulamadı"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1056
+msgid ""
+"scrivi could not back up the old copy of the file before saving the new one. "
+"You can ignore this warning and save the file anyway, but if an error occurs"
+" while saving, you could lose the old copy of the file. Save anyway?"
+msgstr "scrivi dosyanın yeni kopyasını kaydetmeden önce eski kopyayı yedekleyemedi. Bu uyarıyı görmezden gelip dosyayı kaydedebilirsiniz, fakat kayıt sırasında bir hata oluşursa dosyanın eski kopyasını kaybedebilirsiniz. Buna rağmen kaydetmek ister misiniz?"
+
+#. Translators: %s is a URI scheme (like for example http:, ftp:, etc.)
+#: ../scrivi/scrivi-io-error-message-area.c:1120
+#, c-format
+msgid ""
+"scrivi cannot handle %s locations in write mode. Please check that you typed "
+"the location correctly and try again."
+msgstr "scrivi yazma kipinde %s konumlarını işleyemez. Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1128
+msgid ""
+"scrivi cannot handle this location in write mode. Please check that you typed"
+" the location correctly and try again."
+msgstr "scrivi yazma kipinde bu konumu işleyemez. Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1137
+#, c-format
+msgid ""
+"%s is not a valid location. Please check that you typed the location "
+"correctly and try again."
+msgstr "%s geçerli bir konum değil. Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1143
+msgid ""
+"You do not have the permissions necessary to save the file. Please check "
+"that you typed the location correctly and try again."
+msgstr "Dosyayı kaydetmek için gerekli izinlere sahip değilsiniz. Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1149
+msgid ""
+"There is not enough disk space to save the file. Please free some disk space"
+" and try again."
+msgstr "Dosyayı kaydetmek için yeterli disk alanı yok. Lütfen diskinizde yer açıp tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1154
+msgid ""
+"You are trying to save the file on a read-only disk. Please check that you "
+"typed the location correctly and try again."
+msgstr "Dosyayı salt okunur bir diske kaydetmeye çalışıyorsunuz. Lütfen konumu doğru yazdığınıza emin olun ve tekrar deneyin."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1160
+msgid "A file with the same name already exists. Please use a different name."
+msgstr "Aynı isimde başka bir dosya zaten var. Lütfen başka bir isim kullanın."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1165
+msgid ""
+"The disk where you are trying to save the file has a limitation on length of"
+" the file names. Please use a shorter name."
+msgstr "Dosyayı kaydetmeye çalıştığınız diskte dosya boyutu sınırı var. Lütfen daha kısa bir isim kullanın."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1172
+msgid ""
+"The disk where you are trying to save the file has a limitation on file "
+"sizes. Please try saving a smaller file or saving it to a disk that does not"
+" have this limitation."
+msgstr "Dosyayı kaydetmeyi istediğiniz diskte dosya boyutu sınırlaması vardır. Daha küçük bir dosya kaydetmeyi ya da böyle bir sınırlaması olmayan bir diskte kaydetmeyi deneyiniz."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1188
+#, c-format
+msgid "Could not save the file %s."
+msgstr "%s dosyası kaydedilemedi."
+
+#. FIXME: review this message, it's not clear since for the user the
+#. "modification"
+#. could be interpreted as the changes he made in the document. beside
+#. "reading" is
+#. not accurate (since last load/save)
+#: ../scrivi/scrivi-io-error-message-area.c:1232
+#, c-format
+msgid "The file %s changed on disk."
+msgstr "Dosya %s disk üzerinde değişmiş."
+
+#: ../scrivi/scrivi-io-error-message-area.c:1237
+msgid "Do you want to drop your changes and reload the file?"
+msgstr "Değişiklikleri bırakıp dosyayı yeniden yüklemek ister misiniz?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1239
+msgid "Do you want to reload the file?"
+msgstr "Dosyayı yeniden yüklemek istiyor musunuz?"
+
+#: ../scrivi/scrivi-io-error-message-area.c:1244
+msgid "_Reload"
+msgstr "_Yeniden Yükle"
+
+#: ../scrivi/scrivi-panel.c:372 ../scrivi/scrivi-panel.c:549
+msgid "Empty"
+msgstr "Boş"
+
+#: ../scrivi/scrivi-panel.c:439
+msgid "Hide panel"
+msgstr "Paneli gizle"
+
+#: ../scrivi/scrivi-plugin-manager.c:54
+msgid "Plugin"
+msgstr "Eklenti"
+
+#: ../scrivi/scrivi-plugin-manager.c:55
+msgid "Enabled"
+msgstr "Etkin"
+
+#: ../scrivi/scrivi-plugin-manager.c:508
+msgid "_About"
+msgstr "_Hakkında"
+
+#: ../scrivi/scrivi-plugin-manager.c:516
+msgid "C_onfigure"
+msgstr "_Yapılandır"
+
+#: ../scrivi/scrivi-plugin-manager.c:525
+msgid "A_ctivate"
+msgstr "_Etkinleştir"
+
+#: ../scrivi/scrivi-plugin-manager.c:536
+msgid "Ac_tivate All"
+msgstr "Hepsini _Etkinleştir"
+
+#: ../scrivi/scrivi-plugin-manager.c:541
+msgid "_Deactivate All"
+msgstr "Hepsini E_tkinsizleştir"
+
+#: ../scrivi/scrivi-plugin-manager.c:811
+msgid "Active _Plugins:"
+msgstr "Etkin _Eklentiler:"
+
+#: ../scrivi/scrivi-plugin-manager.c:844
+msgid "_About Plugin"
+msgstr "Eklenti _Hakkında"
+
+#: ../scrivi/scrivi-plugin-manager.c:848
+msgid "C_onfigure Plugin"
+msgstr "E_klentiyi Yapılandır"
+
+#: ../scrivi/scrivi-print-job.c:551
+#, c-format
+msgid "File: %s"
+msgstr "Dosya: %s"
+
+#: ../scrivi/scrivi-print-job.c:560
+msgid "Page %N of %Q"
+msgstr "Sayfa %N / %Q"
+
+#: ../scrivi/scrivi-print-job.c:817
+msgid "Preparing..."
+msgstr "Hazırlanıyor..."
+
+#: ../scrivi/scrivi-print-preferences.ui.h:1
+msgid "Syntax Highlighting"
+msgstr "Sözdizimi Aydınlatma"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:2
+msgid "Print synta_x highlighting"
+msgstr "Vurgulanan sözdizimini _yazdır"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:4
+msgid "Print line nu_mbers"
+msgstr "_Satır numaralarını yazdır"
+
+#. 'Number every' from 'Number every 3 lines' in the 'Text Editor' tab of the
+#. print preferences.
+#: ../scrivi/scrivi-print-preferences.ui.h:6
+msgid "_Number every"
+msgstr "_Numara artışı için"
+
+#. 'lines' from 'Number every 3 lines' in the 'Text Editor' tab of the print
+#. preferences.
+#: ../scrivi/scrivi-print-preferences.ui.h:8
+msgid "lines"
+msgstr "satır"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:12
+msgid "Page header"
+msgstr "Sayfa Başlığı"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:13
+msgid "Print page _headers"
+msgstr "_Sayfa başlıklarını yazdır"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:14
+msgid "Fonts"
+msgstr "Yazı tipleri"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:15
+msgid "_Body:"
+msgstr "_Gövde:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:16
+msgid "_Line numbers:"
+msgstr "_Satır numarası:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:17
+msgid "He_aders and footers:"
+msgstr "B_aşlıklar ve dipnotlar:"
+
+#: ../scrivi/scrivi-print-preferences.ui.h:18
+msgid "_Restore Default Fonts"
+msgstr "Ö_ntanımlı Yazıtipine Dön"
+
+#: ../scrivi/scrivi-print-preview.c:572
+msgid "Show the previous page"
+msgstr "Önceki sayfayı göster"
+
+#: ../scrivi/scrivi-print-preview.c:584
+msgid "Show the next page"
+msgstr "Sonraki sayfayı göster"
+
+#: ../scrivi/scrivi-print-preview.c:600
+msgid "Current page (Alt+P)"
+msgstr "Mevcut sayfa (Alt+P)"
+
+#. Translators: the "of" from "1 of 19" in print preview.
+#: ../scrivi/scrivi-print-preview.c:623
+msgid "of"
+msgstr "/"
+
+#: ../scrivi/scrivi-print-preview.c:631
+msgid "Page total"
+msgstr "Sayfa toplamı"
+
+#: ../scrivi/scrivi-print-preview.c:632
+msgid "The total number of pages in the document"
+msgstr "Belgedeki toplam sayfa sayısı"
+
+#: ../scrivi/scrivi-print-preview.c:649
+msgid "Show multiple pages"
+msgstr "Çoklu sayfa göster"
+
+#: ../scrivi/scrivi-print-preview.c:662
+msgid "Zoom 1:1"
+msgstr "Odaklama 1:1"
+
+#: ../scrivi/scrivi-print-preview.c:671
+msgid "Zoom to fit the whole page"
+msgstr "Tam sayfaya sığacak şekilde odakla"
+
+#: ../scrivi/scrivi-print-preview.c:680
+msgid "Zoom the page in"
+msgstr "Sayfayı yakınlaştır"
+
+#: ../scrivi/scrivi-print-preview.c:689
+msgid "Zoom the page out"
+msgstr "Sayfayı uzaklaştır"
+
+#: ../scrivi/scrivi-print-preview.c:701
+msgid "_Close Preview"
+msgstr "Ö_nizlemeyi Kapat"
+
+#: ../scrivi/scrivi-print-preview.c:704
+msgid "Close print preview"
+msgstr "Yazdırma önizlemesini kapat"
+
+#: ../scrivi/scrivi-print-preview.c:774
+#, c-format
+msgid "Page %d of %d"
+msgstr "Sayfa %d / %d"
+
+#: ../scrivi/scrivi-print-preview.c:958
+msgid "Page Preview"
+msgstr "Sayfa Önizleme"
+
+#: ../scrivi/scrivi-print-preview.c:959
+msgid "The preview of a page in the document to be printed"
+msgstr "Belgenin yazdırılacak sayfa önizlemesi"
+
+#: ../scrivi/scrivi-smart-charset-converter.c:319
+msgid "It is not possible to detect the encoding automatically"
+msgstr "Kodlamayı otomatik olarak tespit etmek mümkün değil"
+
+#: ../scrivi/scrivi-statusbar.c:74 ../scrivi/scrivi-statusbar.c:80
+msgid "OVR"
+msgstr "ÜZR"
+
+#: ../scrivi/scrivi-statusbar.c:74 ../scrivi/scrivi-statusbar.c:80
+msgid "INS"
+msgstr "ARY"
+
+#. Translators: "Ln" is an abbreviation for "Line", Col is an abbreviation for
+#. "Column". Please,
+#. use abbreviations if possible to avoid space problems.
+#: ../scrivi/scrivi-statusbar.c:266
+#, c-format
+msgid "  Ln %d, Col %d"
+msgstr "  Sat %d, Süt %d"
+
+#: ../scrivi/scrivi-statusbar.c:367
+#, c-format
+msgid "There is a tab with errors"
+msgid_plural "There are %d tabs with errors"
+msgstr[0] "Hatalar içeren %d sekme var"
+msgstr[1] "Hatalar içeren %d sekme var"
+
+#: ../scrivi/scrivi-style-scheme-manager.c:220
+#, c-format
+msgid "Directory '%s' could not be created: g_mkdir_with_parents() failed: %s"
+msgstr "Dizin '%s' oluşturulamadı: g_mkdir_with_parents() başarısız oldu: %s"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:664
+#, c-format
+msgid "Reverting %s from %s"
+msgstr "%s dosyası %s konumundan eski haline getiriliyor"
+
+#: ../scrivi/scrivi-tab.c:671
+#, c-format
+msgid "Reverting %s"
+msgstr "%s ilk haline getiriliyor"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:687
+#, c-format
+msgid "Loading %s from %s"
+msgstr "%s dosyası %s konumundan yükleniyor"
+
+#: ../scrivi/scrivi-tab.c:694
+#, c-format
+msgid "Loading %s"
+msgstr "%s yükleniyor"
+
+#. Translators: the first %s is a file name (e.g. test.txt) the second one
+#. is a directory (e.g. ssh://master.gnome.org/home/users/paolo)
+#: ../scrivi/scrivi-tab.c:777
+#, c-format
+msgid "Saving %s to %s"
+msgstr "%s, %s konumuna kaydediliyor"
+
+#: ../scrivi/scrivi-tab.c:784
+#, c-format
+msgid "Saving %s"
+msgstr "%s kaydediliyor"
+
+#. Read only
+#: ../scrivi/scrivi-tab.c:1662
+msgid "RO"
+msgstr "SO"
+
+#: ../scrivi/scrivi-tab.c:1709
+#, c-format
+msgid "Error opening file %s"
+msgstr "%s dosyası açılırken hata"
+
+#: ../scrivi/scrivi-tab.c:1714
+#, c-format
+msgid "Error reverting file %s"
+msgstr "%s dosyası ilk haline getirilirken hata"
+
+#: ../scrivi/scrivi-tab.c:1719
+#, c-format
+msgid "Error saving file %s"
+msgstr "%s dosyası kaydedilirken hata"
+
+#: ../scrivi/scrivi-tab.c:1740
+msgid "Unicode (UTF-8)"
+msgstr "Unikod (UTF-8)"
+
+#: ../scrivi/scrivi-tab.c:1747
+msgid "Name:"
+msgstr "İsim:"
+
+#: ../scrivi/scrivi-tab.c:1748
+msgid "MIME Type:"
+msgstr "MIME Türü:"
+
+#: ../scrivi/scrivi-tab.c:1749
+msgid "Encoding:"
+msgstr "Kodlama:"
+
+#: ../scrivi/scrivi-tab-label.c:285
+msgid "Close document"
+msgstr "Belgeyi kapat"
+
+#. Toplevel
+#: ../scrivi/scrivi-ui.h:47
+msgid "_File"
+msgstr "_Dosya"
+
+#: ../scrivi/scrivi-ui.h:48
+msgid "_Edit"
+msgstr "_Düzenle"
+
+#: ../scrivi/scrivi-ui.h:49
+msgid "_View"
+msgstr "_Görünüm"
+
+#: ../scrivi/scrivi-ui.h:50
+msgid "_Search"
+msgstr "_Ara"
+
+#: ../scrivi/scrivi-ui.h:51
+msgid "_Tools"
+msgstr "_Araçlar"
+
+#: ../scrivi/scrivi-ui.h:52
+msgid "_Documents"
+msgstr "_Belgeler"
+
+#: ../scrivi/scrivi-ui.h:53
+msgid "_Help"
+msgstr "_Yardım"
+
+#: ../scrivi/scrivi-ui.h:57
+msgid "Create a new document"
+msgstr "Yeni bir belge oluştur"
+
+#: ../scrivi/scrivi-ui.h:58
+msgid "_Open..."
+msgstr "_Aç..."
+
+#: ../scrivi/scrivi-ui.h:59 ../scrivi/scrivi-window.c:1390
+msgid "Open a file"
+msgstr "Bir dosya aç"
+
+#. Edit menu
+#: ../scrivi/scrivi-ui.h:62
+msgid "Pr_eferences"
+msgstr "Ter_cihler"
+
+#: ../scrivi/scrivi-ui.h:63
+msgid "Configure the application"
+msgstr "Uygulamayı yapılandır"
+
+#. Help menu
+#: ../scrivi/scrivi-ui.h:66
+msgid "_Contents"
+msgstr "_İçindekiler"
+
+#: ../scrivi/scrivi-ui.h:67
+msgid "Open the scrivi manual"
+msgstr "Scrivi kılavuzunu aç"
+
+#: ../scrivi/scrivi-ui.h:69
+msgid "About this application"
+msgstr "Bu uygulama hakkında"
+
+#: ../scrivi/scrivi-ui.h:73
+msgid "Leave fullscreen mode"
+msgstr "Tam ekran kipini terket"
+
+#: ../scrivi/scrivi-ui.h:81
+msgid "Save the current file"
+msgstr "Çalışılan dosyayı kaydet"
+
+#: ../scrivi/scrivi-ui.h:82
+msgid "Save _As..."
+msgstr "_Farklı Kaydet..."
+
+#: ../scrivi/scrivi-ui.h:83
+msgid "Save the current file with a different name"
+msgstr "Çalışılan dosyayı başka bir dosya adıyla kaydet"
+
+#: ../scrivi/scrivi-ui.h:85
+msgid "Revert to a saved version of the file"
+msgstr "Dosyayı kaydedilmiş haline dönüştürür"
+
+#: ../scrivi/scrivi-ui.h:86
+msgid "Print Previe_w"
+msgstr "Yazdırma Ö_nizleme"
+
+#: ../scrivi/scrivi-ui.h:87
+msgid "Print preview"
+msgstr "Yazdırma önizlemesi"
+
+#: ../scrivi/scrivi-ui.h:88
+msgid "_Print..."
+msgstr "_Yazdır..."
+
+#: ../scrivi/scrivi-ui.h:89
+msgid "Print the current page"
+msgstr "Mevcut sayfayı yazdır"
+
+#: ../scrivi/scrivi-ui.h:93
+msgid "Undo the last action"
+msgstr "Son işlemi geri al"
+
+#: ../scrivi/scrivi-ui.h:95
+msgid "Redo the last undone action"
+msgstr "Geri alınan işlemi tekrar yap"
+
+#: ../scrivi/scrivi-ui.h:97
+msgid "Cut the selection"
+msgstr "Seçimi kes"
+
+#: ../scrivi/scrivi-ui.h:99
+msgid "Copy the selection"
+msgstr "Seçimi panoya kopyala"
+
+#: ../scrivi/scrivi-ui.h:101
+msgid "Paste the clipboard"
+msgstr "Panodan yapıştır"
+
+#: ../scrivi/scrivi-ui.h:103
+msgid "Delete the selected text"
+msgstr "Seçili metni sil"
+
+#: ../scrivi/scrivi-ui.h:104
+msgid "Select _All"
+msgstr "_Tümünü Seç"
+
+#: ../scrivi/scrivi-ui.h:105
+msgid "Select the entire document"
+msgstr "Belgenin tamamını seçili duruma getir"
+
+#. View menu
+#: ../scrivi/scrivi-ui.h:108
+msgid "_Highlight Mode"
+msgstr "_Vurgu Kipi"
+
+#. Search menu
+#: ../scrivi/scrivi-ui.h:111
+msgid "_Find..."
+msgstr "_Bul..."
+
+#: ../scrivi/scrivi-ui.h:112
+msgid "Search for text"
+msgstr "Metin ara"
+
+#: ../scrivi/scrivi-ui.h:113
+msgid "Find Ne_xt"
+msgstr "Sonrakini B_ul"
+
+#: ../scrivi/scrivi-ui.h:114
+msgid "Search forwards for the same text"
+msgstr "Aynı metni ileriye doğru ara"
+
+#: ../scrivi/scrivi-ui.h:115
+msgid "Find Pre_vious"
+msgstr "Ö_ncekini Bul"
+
+#: ../scrivi/scrivi-ui.h:116
+msgid "Search backwards for the same text"
+msgstr "Aynı metin için geriye doğru ara"
+
+#: ../scrivi/scrivi-ui.h:117
+msgid "_Replace..."
+msgstr "_Değiştir..."
+
+#: ../scrivi/scrivi-ui.h:118
+msgid "Search for and replace text"
+msgstr "Metin ara ve değiştir"
+
+#: ../scrivi/scrivi-ui.h:119
+msgid "_Clear Highlight"
+msgstr "_Vurguları Temizle"
+
+#: ../scrivi/scrivi-ui.h:120
+msgid "Clear highlighting of search matches"
+msgstr "Arama eşleşmelerinin vurgularını temizle"
+
+#: ../scrivi/scrivi-ui.h:121
+msgid "Go to _Line..."
+msgstr "Satıra _Git..."
+
+#: ../scrivi/scrivi-ui.h:122
+msgid "Go to a specific line"
+msgstr "Belirtilen satıra git"
+
+#: ../scrivi/scrivi-ui.h:123
+msgid "_Incremental Search..."
+msgstr "_Artan Arama..."
+
+#: ../scrivi/scrivi-ui.h:124
+msgid "Incrementally search for text"
+msgstr "Metin için artan şekilde ara"
+
+#. Documents menu
+#: ../scrivi/scrivi-ui.h:127
+msgid "_Save All"
+msgstr "Hepsini _Kaydet"
+
+#: ../scrivi/scrivi-ui.h:128
+msgid "Save all open files"
+msgstr "Tüm açık dosyaları kaydet"
+
+#: ../scrivi/scrivi-ui.h:129
+msgid "_Close All"
+msgstr "_Hepsini Kapat"
+
+#: ../scrivi/scrivi-ui.h:130
+msgid "Close all open files"
+msgstr "Açık tüm dosyaları kapat"
+
+#: ../scrivi/scrivi-ui.h:131
+msgid "_Previous Document"
+msgstr "Ö_nceki Belge"
+
+#: ../scrivi/scrivi-ui.h:132
+msgid "Activate previous document"
+msgstr "Önceki belgeyi etkinleştir"
+
+#: ../scrivi/scrivi-ui.h:133
+msgid "_Next Document"
+msgstr "_Sonraki Belge"
+
+#: ../scrivi/scrivi-ui.h:134
+msgid "Activate next document"
+msgstr "Sonraki belgeyi etkinleştir"
+
+#: ../scrivi/scrivi-ui.h:135
+msgid "_Move to New Window"
+msgstr "Yeni bir _pencereye taşı"
+
+#: ../scrivi/scrivi-ui.h:136
+msgid "Move the current document to a new window"
+msgstr "Geçerli belgeyi yeni bir pencereye taşı"
+
+#: ../scrivi/scrivi-ui.h:143
+msgid "Close the current file"
+msgstr "Çalışılan dosyayı kapat"
+
+#: ../scrivi/scrivi-ui.h:150
+msgid "Quit the program"
+msgstr "Programdan çık"
+
+#: ../scrivi/scrivi-ui.h:155
+msgid "_Toolbar"
+msgstr "_Araç Çubuğu"
+
+#: ../scrivi/scrivi-ui.h:156
+msgid "Show or hide the toolbar in the current window"
+msgstr "Geçerli penceredeki araç çubuğunu göster ya da gizle"
+
+#: ../scrivi/scrivi-ui.h:158
+msgid "_Statusbar"
+msgstr "_Durum çubuğu"
+
+#: ../scrivi/scrivi-ui.h:159
+msgid "Show or hide the statusbar in the current window"
+msgstr "Geçerli penceredeki durum çubuğunu göster ya da gizle"
+
+#: ../scrivi/scrivi-ui.h:162
+msgid "Edit text in fullscreen"
+msgstr "Metni tam ekranda düzenleyin"
+
+#: ../scrivi/scrivi-ui.h:169
+msgid "Side _Pane"
+msgstr "_Kenar Paneli"
+
+#: ../scrivi/scrivi-ui.h:170
+msgid "Show or hide the side pane in the current window"
+msgstr "Geçerli penceredeki kenar panelini göster ya da gizle"
+
+#: ../scrivi/scrivi-ui.h:172
+msgid "_Bottom Pane"
+msgstr "_Alt Panel"
+
+#: ../scrivi/scrivi-ui.h:173
+msgid "Show or hide the bottom pane in the current window"
+msgstr "Geçerli penceredeki alt paneli göster ya da gizle"
+
+#: ../scrivi/scrivi-utils.c:1100
+msgid "Please check your installation."
+msgstr "Lütfen kurulumunuzu kontrol edin."
+
+#: ../scrivi/scrivi-utils.c:1177
+#, c-format
+msgid "Unable to open UI file %s. Error: %s"
+msgstr "%s arayüz dosyası açılamadı: %s"
+
+#: ../scrivi/scrivi-utils.c:1197
+#, c-format
+msgid "Unable to find the object '%s' inside file %s."
+msgstr "'%s' nesnesi %s dosyası içerisinde bulunamadı."
+
+#. Translators: '/ on <remote-share>'
+#: ../scrivi/scrivi-utils.c:1357
+#, c-format
+msgid "/ on %s"
+msgstr "%s üzerinde /"
+
+#. create "Wrap Around" menu item.
+#: ../scrivi/scrivi-view.c:1261
+msgid "_Wrap Around"
+msgstr "_Satır Bölme"
+
+#. create "Match Entire Word Only" menu item.
+#: ../scrivi/scrivi-view.c:1271
+msgid "Match _Entire Word Only"
+msgstr "Sadece Tüm _Kelimeyi Eşleştir"
+
+#. create "Match Case" menu item.
+#: ../scrivi/scrivi-view.c:1281
+msgid "_Match Case"
+msgstr "Büyük/Küçük _Harf Eşleştir"
+
+#. create "Parse escapes" menu item.
+#: ../scrivi/scrivi-view.c:1291
+msgid ""
+"_Parse escape sequences (e.g. \n"
+")"
+msgstr "Kaçış dizgelerini _çözümle (mesela \n)"
+
+#: ../scrivi/scrivi-view.c:1405
+msgid "String you want to search for"
+msgstr "Arama yapılacak dizgi"
+
+#: ../scrivi/scrivi-view.c:1414
+msgid "Line you want to move the cursor to"
+msgstr "İmleci taşımak istediğiniz satır"
+
+#: ../scrivi/scrivi-window.c:943
+#, c-format
+msgid "Use %s highlight mode"
+msgstr "%s vurgu kipini kullan"
+
+#. add the "Plain Text" item before all the others
+#. Translators: "Plain Text" means that no highlight mode is selected in the
+#. * "View->Highlight Mode" submenu and so syntax highlighting is disabled
+#: ../scrivi/scrivi-window.c:1000 ../scrivi/scrivi-window.c:1892
+#: ../plugins/externaltools/tools/manager.py:121
+#: ../plugins/externaltools/tools/manager.py:419
+#: ../plugins/externaltools/tools/manager.py:529
+#: ../plugins/externaltools/tools/manager.py:844
+msgid "Plain Text"
+msgstr "Düz Metin"
+
+#: ../scrivi/scrivi-window.c:1001
+msgid "Disable syntax highlighting"
+msgstr "Sözdizimi vurgulamayı kapat"
+
+#. Translators: %s is a URI
+#: ../scrivi/scrivi-window.c:1287
+#, c-format
+msgid "Open '%s'"
+msgstr "'%s' adresini aç"
+
+#: ../scrivi/scrivi-window.c:1392
+msgid "Open a recently used file"
+msgstr "En son kullanılan dosyayı aç"
+
+#: ../scrivi/scrivi-window.c:1398
+msgid "Open"
+msgstr "Aç"
+
+#: ../scrivi/scrivi-window.c:1456
+msgid "Save"
+msgstr "Kaydet"
+
+#: ../scrivi/scrivi-window.c:1458
+msgid "Print"
+msgstr "Yazdır"
+
+#. Translators: %s is a URI
+#: ../scrivi/scrivi-window.c:1617
+#, c-format
+msgid "Activate '%s'"
+msgstr "'%s' etkinleştir"
+
+#: ../scrivi/scrivi-window.c:1870
+msgid "Use Spaces"
+msgstr "Boşlukları Kullan"
+
+#: ../scrivi/scrivi-window.c:1941
+msgid "Tab Width"
+msgstr "Sekme Genişliği"
+
+#: ../plugins/changecase/changecase.scrivi-plugin.desktop.in.h:1
+msgid "Change Case"
+msgstr "Büyük/Küçük Harf Değiştir"
+
+#: ../plugins/changecase/changecase.scrivi-plugin.desktop.in.h:2
+msgid "Changes the case of selected text."
+msgstr "Seçili metinde büyük/küçük harfleri değiştirir."
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:222
+msgid "C_hange Case"
+msgstr "Büyük/Küçük Harf _Değiştir"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:223
+msgid "All _Upper Case"
+msgstr "Hepsi _Büyük Harf"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:224
+msgid "Change selected text to upper case"
+msgstr "Seçili metni büyük harfe çevir"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:226
+msgid "All _Lower Case"
+msgstr "Hepsi _Küçük Harf"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:227
+msgid "Change selected text to lower case"
+msgstr "Seçili metni küçük harfe çevir"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:229
+msgid "_Invert Case"
+msgstr "Büyük/küçük _Harfleri Tersine Çevir"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:230
+msgid "Invert the case of selected text"
+msgstr "Seçili metinde büyük/küçük harfi tersine çevir"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:232
+msgid "_Title Case"
+msgstr "_Başlık Büyük/Küçük Durumu"
+
+#: ../plugins/changecase/scrivi-changecase-plugin.c:233
+msgid "Capitalize the first letter of each selected word"
+msgstr "Seçilmiş kelimenin ilk harfini büyük yap"
+
+#: ../plugins/docinfo/docinfo.scrivi-plugin.desktop.in.h:1
+#: ../plugins/docinfo/docinfo.ui.h:1
+msgid "Document Statistics"
+msgstr "Belge İstatistikleri"
+
+#: ../plugins/docinfo/docinfo.scrivi-plugin.desktop.in.h:2
+msgid ""
+"Analyzes the current document and reports the number of words, lines, "
+"characters and non-space characters in it."
+msgstr "Belge istatistik eklentisi, belgenizi analiz ederek, sözcükleri, satırları ve boşluklar dışındaki karakterleri sayar ve sonuçları size gösterir."
+
+#: ../plugins/docinfo/docinfo.ui.h:2
+msgid "_Update"
+msgstr "_Güncelle"
+
+#: ../plugins/docinfo/docinfo.ui.h:3
+msgid "File Name"
+msgstr "Dosya Adı"
+
+#: ../plugins/docinfo/docinfo.ui.h:5
+msgid "Bytes"
+msgstr "Bayt"
+
+#: ../plugins/docinfo/docinfo.ui.h:6
+msgid "Characters (no spaces)"
+msgstr "Karakterler (boşluksuz)"
+
+#: ../plugins/docinfo/docinfo.ui.h:7
+msgid "Characters (with spaces)"
+msgstr "Karakterler (boşluklu)"
+
+#: ../plugins/docinfo/docinfo.ui.h:8
+msgid "Words"
+msgstr "Kelimeler"
+
+#: ../plugins/docinfo/docinfo.ui.h:9
+msgid "Lines"
+msgstr "Satırlar"
+
+#: ../plugins/docinfo/docinfo.ui.h:10
+msgid "Document"
+msgstr "Belge"
+
+#: ../plugins/docinfo/docinfo.ui.h:11
+msgid "Selection"
+msgstr "Seçim"
+
+#: ../plugins/docinfo/scrivi-docinfo-plugin.c:423
+msgid "_Document Statistics"
+msgstr "_Belge İstatistikleri"
+
+#: ../plugins/docinfo/scrivi-docinfo-plugin.c:425
+msgid "Get statistical information on the current document"
+msgstr "Güncel belge hakkında istatistiki veri al"
+
+#: ../plugins/externaltools/externaltools.scrivi-plugin.desktop.in.h:1
+msgid "External Tools"
+msgstr "Harici Araçlar"
+
+#: ../plugins/externaltools/externaltools.scrivi-plugin.desktop.in.h:2
+msgid "Execute external commands and shell scripts."
+msgstr "Harici komutları ve kabuk betiklerini çalıştırır."
+
+#: ../plugins/externaltools/tools/__init__.py:172
+msgid "Manage _External Tools..."
+msgstr "_Harici Araçları Yönet..."
+
+#: ../plugins/externaltools/tools/__init__.py:174
+msgid "Opens the External Tools Manager"
+msgstr "Harici Araçlar Yöneticisini Açar"
+
+#: ../plugins/externaltools/tools/__init__.py:178
+msgid "External _Tools"
+msgstr "Harici ?Araçlar"
+
+#: ../plugins/externaltools/tools/__init__.py:180
+msgid "External tools"
+msgstr "Harici araçlar"
+
+#: ../plugins/externaltools/tools/__init__.py:212
+msgid "Shell Output"
+msgstr "Kabuk Çıktısı"
+
+#: ../plugins/externaltools/tools/capture.py:93
+#, python-format
+msgid "Could not execute command: %s"
+msgstr "Komut çalıştırılamadı: %s"
+
+#: ../plugins/externaltools/tools/functions.py:162
+msgid "You must be inside a word to run this command"
+msgstr "Bu komutu çalıştırmak için kelimenin içinde olmanız gerekiyor"
+
+#: ../plugins/externaltools/tools/functions.py:267
+msgid "Running tool:"
+msgstr "Çalıştırılacak araç:"
+
+#: ../plugins/externaltools/tools/functions.py:292
+msgid "Done."
+msgstr "Bitti."
+
+#: ../plugins/externaltools/tools/functions.py:294
+msgid "Exited"
+msgstr "Çıkıldı"
+
+#: ../plugins/externaltools/tools/manager.py:119
+msgid "All languages"
+msgstr "Tüm diller"
+
+#: ../plugins/externaltools/tools/manager.py:518
+#: ../plugins/externaltools/tools/manager.py:522
+#: ../plugins/externaltools/tools/manager.py:842
+#: ../plugins/externaltools/tools/tools.ui.h:22
+msgid "All Languages"
+msgstr "Tüm Diller"
+
+#: ../plugins/externaltools/tools/manager.py:628
+msgid "New tool"
+msgstr "Yeni araç"
+
+#: ../plugins/externaltools/tools/manager.py:759
+#, python-format
+msgid "This accelerator is already bound to %s"
+msgstr "Bu hızlandırıcı zaten %s ile bağlı"
+
+#: ../plugins/externaltools/tools/manager.py:810
+msgid "Type a new accelerator, or press Backspace to clear"
+msgstr "Yeni bir hızlandırıcı belirtin, ya da temizlemek için Backspace tuşuna basın"
+
+#: ../plugins/externaltools/tools/manager.py:812
+msgid "Type a new accelerator"
+msgstr "Yeni bir hızlandırıcı belirtin"
+
+#: ../plugins/externaltools/tools/outputpanel.py:105
+msgid "Stopped."
+msgstr "Durduruldu."
+
+#. ex:ts=4:et:
+#: ../plugins/externaltools/tools/tools.ui.h:1
+msgid "Nothing"
+msgstr "Hiçbir şey"
+
+#: ../plugins/externaltools/tools/tools.ui.h:2
+msgid "Current document"
+msgstr "Mevcut belge"
+
+#: ../plugins/externaltools/tools/tools.ui.h:3
+msgid "All documents"
+msgstr "Tüm belgeler"
+
+#: ../plugins/externaltools/tools/tools.ui.h:4
+msgid "Current selection"
+msgstr "Mevcut seçim"
+
+#: ../plugins/externaltools/tools/tools.ui.h:5
+msgid "Current selection (default to document)"
+msgstr "Mevcut seçim (belge olarak öntanımlıdır)"
+
+#: ../plugins/externaltools/tools/tools.ui.h:6
+msgid "Current line"
+msgstr "Mevcut satır"
+
+#: ../plugins/externaltools/tools/tools.ui.h:7
+msgid "Current word"
+msgstr "Mevcut kelime"
+
+#: ../plugins/externaltools/tools/tools.ui.h:8
+msgid "Display in bottom pane"
+msgstr "Alt panel içinde göster"
+
+#: ../plugins/externaltools/tools/tools.ui.h:9
+msgid "Create new document"
+msgstr "Yeni belge oluştur"
+
+#: ../plugins/externaltools/tools/tools.ui.h:10
+msgid "Append to current document"
+msgstr "Mevcut belgeye ekle"
+
+#: ../plugins/externaltools/tools/tools.ui.h:11
+msgid "Replace current document"
+msgstr "Mevcut belgenin yerine koy"
+
+#: ../plugins/externaltools/tools/tools.ui.h:12
+msgid "Replace current selection"
+msgstr "Mevcut seçimin yerine koy"
+
+#: ../plugins/externaltools/tools/tools.ui.h:13
+msgid "Insert at cursor position"
+msgstr "İmlecin konumunda ekle"
+
+#: ../plugins/externaltools/tools/tools.ui.h:14
+msgid "All documents except untitled ones"
+msgstr "İsimlendirilmemişler dışında tüm belgeler"
+
+#: ../plugins/externaltools/tools/tools.ui.h:15
+msgid "Local files only"
+msgstr "Sadece yerel dosyalar"
+
+#: ../plugins/externaltools/tools/tools.ui.h:16
+msgid "Remote files only"
+msgstr "Sadece uzaktaki dosyalar"
+
+#: ../plugins/externaltools/tools/tools.ui.h:17
+msgid "Untitled documents only"
+msgstr "Sadece isimlendirilmemiş belgeler"
+
+#: ../plugins/externaltools/tools/tools.ui.h:18
+msgid "External Tools Manager"
+msgstr "Harici Araçlar Yöneticisi"
+
+#: ../plugins/externaltools/tools/tools.ui.h:19
+msgid "_Tools:"
+msgstr "_Araçlar:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:20
+#: ../plugins/snippets/snippets/snippets.ui.h:7
+msgid "_Edit:"
+msgstr "_Düzenle:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:23
+msgid "_Applicability:"
+msgstr "Ç_alıştırılabilirlik:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:24
+msgid "_Output:"
+msgstr "_Çıktı:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:25
+msgid "_Input:"
+msgstr "_Girdi:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:26
+msgid "_Save:"
+msgstr "_Kaydet:"
+
+#: ../plugins/externaltools/tools/tools.ui.h:27
+msgid "_Shortcut Key:"
+msgstr "_Kısayol Tuşu:"
+
+#: ../plugins/externaltools/data/build.desktop.in.h:1
+msgid "Build"
+msgstr "Derle"
+
+#: ../plugins/externaltools/data/build.desktop.in.h:2
+msgid "Run \"make\" in the document directory"
+msgstr "Belge dizininde \"make\" çalıştır"
+
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:1
+msgid "Open terminal here"
+msgstr "Burada uçbirim aç"
+
+#: ../plugins/externaltools/data/open-terminal-here.desktop.in.h:2
+msgid "Open a terminal in the document location"
+msgstr "Belge konumunda bir uçbirim aç"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:1
+msgid "Remove trailing spaces"
+msgstr "Sondaki boşlukları sil"
+
+#: ../plugins/externaltools/data/remove-trailing-spaces.desktop.in.h:2
+msgid "Remove useless trailing spaces in your file"
+msgstr "Dosyanızın sonundaki gereksiz boşlukları siler"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:1
+msgid "Run command"
+msgstr "Komut çalıştır"
+
+#: ../plugins/externaltools/data/run-command.desktop.in.h:2
+msgid "Execute a custom command and put its output in a new document"
+msgstr "Harici bir özel komut çalıştır ve çıktıyı yeni bir belgeye koy"
+
+#: ../plugins/externaltools/data/search-recursive.desktop.in.h:1
+msgid "Search"
+msgstr "Ara"
+
+#: ../plugins/externaltools/data/switch-c.desktop.in.h:1
+msgid "Switch onto a file .c and .h"
+msgstr ".c ve .h dosyasına geç"
+
+#: ../plugins/filebrowser/filebrowser.scrivi-plugin.desktop.in.h:1
+msgid "File Browser Pane"
+msgstr "Dosya Tarayıcısı Paneli"
+
+#: ../plugins/filebrowser/filebrowser.scrivi-plugin.desktop.in.h:2
+msgid "Easy file access from the side pane"
+msgstr "Kenar panelinden kolay dosya erişimi"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:1
+msgid "Set Location to First Document"
+msgstr "İlk Belge için Konumu belirle"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:2
+msgid ""
+"If TRUE the file browser plugin will view the directory of the first opened "
+"document given that the file browser hasn't been used yet. (Thus this "
+"generally applies to opening a document from the command line or opening it "
+"with Caja, etc.)"
+msgstr "Eğer seçiliyse, dosya tarayıcı eklentisi dosya tarayıcısı henüz kullanılmamışsa ilk açılan belge dizinini gösterecektir. (Dolayısıyla bu genellikle komut satırından ya da Caja ile bir belge açılması gibi durumlarda geçerlidir.)"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:3
+msgid "File Browser Filter Mode"
+msgstr "Dosya Tarayıcısı Filtre Kipi"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:4
+msgid ""
+"This value determines what files get filtered from the file browser. Valid "
+"values are: none (filter nothing), hidden (filter hidden files), binary "
+"(filter binary files) and hidden_and_binary (filter both hidden and binary "
+"files)."
+msgstr "Bu değer dosya tarayıcısında hangi dosyaların filtreleneceğini belirler. Geçerli değerler none (hiçbir filtreleme yok), hidden (gizli dosyalar), binary (ikili dosyalar) ve hidden_and_binary (hem ikili hem de gizli dosyalar)."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:5
+msgid "File Browser Filter Pattern"
+msgstr "Dosya Tarayıcısı Filtre Dokusu"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:6
+msgid ""
+"The filter pattern to filter the file browser with. This filter works on top"
+" of the filter_mode."
+msgstr "Dosya tarayıcısının kullanacağı filtre dokusu. Bu filtre filter_mode üstünde çalışır."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:7
+msgid "Open With Tree View"
+msgstr "Ağaç Görünümü ile Aç"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:8
+msgid ""
+"Open the tree view when the file browser plugin gets loaded instead of the "
+"bookmarks view"
+msgstr "Dosya tarayıcısı eklentisi yüklendiğinde yer imleri görünümü yerine ağaç görünümünü aç"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:9
+msgid "File Browser Root Directory"
+msgstr "Dosya Tarayıcısı Başlangıç Dizini"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:10
+msgid ""
+"The file browser root directory to use when loading the file browser plugin "
+"and onload/tree_view is TRUE."
+msgstr "Dosya tarayıcısı eklentisi yüklendiğinde ve onload/tree_view TRUE ise kullanılacak dosya tarayıcısı başlangıç dizini."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:11
+msgid "File Browser Virtual Root Directory"
+msgstr "Dosya Tarayıcısı Sanal Başlangıç Dizini"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:12
+msgid ""
+"The file browser virtual root directory to use when loading the file browser"
+" plugin when onload/tree_view is TRUE. The virtual root must always be below"
+" the actual root."
+msgstr "Dosya tarayıcısı eklentisi yüklendiğinde ve onload/tree_view TRUE ise kullanılacak dosya tarayıcısı sanal başlangıç dizini. Sanal başlangıç asıl başlangıcın altında olmalıdır."
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:13
+msgid "Enable Restore of Remote Locations"
+msgstr "Uzaktaki Konumların İlk Haline Gelmesini Etkinleştir"
+
+#: ../plugins/filebrowser/org.gde2.scrivi.plugins.filebrowser.gschema.xml.in.h:14
+msgid "Sets whether to enable restoring of remote locations."
+msgstr "Uzaktaki konumların ilk haline getirilmesinin etkinliğini atar."
+
+#: ../plugins/filebrowser/scrivi-file-bookmarks-store.c:235
+msgid "File System"
+msgstr "Dosya Sistemi"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:537
+msgid "_Set root to active document"
+msgstr "_Başlangıcı aktif belge olarak ata"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:539
+msgid "Set the root to the active document location"
+msgstr "Başlangıcı aktif belgenin konumu olarak ata"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:544
+msgid "_Open terminal here"
+msgstr "_Burada uçbirim aç"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:546
+msgid "Open a terminal at the currently opened directory"
+msgstr "Mevcut açık dizinde bir uçbirim açar"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:688
+msgid "File Browser"
+msgstr "Dosya Yöneticisi"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:818
+msgid "An error occurred while creating a new directory"
+msgstr "Yeni bir dizin oluşturulurken bir hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:821
+msgid "An error occurred while creating a new file"
+msgstr "Yeni bir dosya oluşturulurken bir hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:826
+msgid "An error occurred while renaming a file or directory"
+msgstr "Bir dosyanın ya da dizinin adı değiştirilirken hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:831
+msgid "An error occurred while deleting a file or directory"
+msgstr "Bir dosya ya da dizin silinirken hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:836
+msgid "An error occurred while opening a directory in the file manager"
+msgstr "Bir dizin dosya yöneticisinde açılırken hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:840
+msgid "An error occurred while setting a root directory"
+msgstr "Başlangıç dizini atanırken bir hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:844
+msgid "An error occurred while loading a directory"
+msgstr "Bir dizin yüklenirken hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:847
+msgid "An error occurred"
+msgstr "Bir hata oluştu"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1078
+msgid ""
+"Cannot move file to trash, do you\n"
+"want to delete permanently?"
+msgstr "Dosya çöpe taşınamıyor, \n kalıcı olarak silmek ister misiniz?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1082
+#, c-format
+msgid "The file \"%s\" cannot be moved to the trash."
+msgstr "Dosya \"%s\" çöpe taşınamıyor."
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1085
+msgid "The selected files cannot be moved to the trash."
+msgstr "Seçilen dosyalar çöpe taşınamıyor."
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1118
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "\"%s\" dosyayı kalıcı olarak silmek istediğinizden emin misiniz?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1121
+msgid "Are you sure you want to permanently delete the selected files?"
+msgstr "Seçili dosyaları kalıcı olarak silmek istediğinizden emin misiniz?"
+
+#: ../plugins/filebrowser/scrivi-file-browser-plugin.c:1124
+msgid "If you delete an item, it is permanently lost."
+msgstr "Eğer bir öğeyi silerseniz, kalıcı bir şekilde kaybolur."
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:1667
+msgid "(Empty)"
+msgstr "(Boş)"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3305
+msgid ""
+"The renamed file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr "İsmi değiştirilen dosya şu anda filtrelendi. Dosyayı görünebilir yapmak için filtrenizi ayarlamanız gerekiyor"
+
+#. Translators: This is the default name of new files created by the file
+#. browser pane.
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3544
+msgid "file"
+msgstr "dosya"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3568
+msgid ""
+"The new file is currently filtered out. You need to adjust your filter "
+"settings to make the file visible"
+msgstr "Yeni dosya şu anda filtrelendi. Dosyayı görünebilir yapmak için filtrenizi ayarlamanız gerekiyor"
+
+#. Translators: This is the default name of new directories created by the
+#. file browser pane.
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3597
+msgid "directory"
+msgstr "dizin"
+
+#: ../plugins/filebrowser/scrivi-file-browser-store.c:3617
+msgid ""
+"The new directory is currently filtered out. You need to adjust your filter "
+"settings to make the directory visible"
+msgstr "Yeni dizin şu anda filtrelendi. Dizini görünebilir yapmak için filtrenizi ayarlamanız gerekiyor"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:724
+msgid "Bookmarks"
+msgstr "Yerimleri"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:805
+msgid "_Filter"
+msgstr "_Filtre"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:810
+msgid "_Move to Trash"
+msgstr "_Çöpe Taşı"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:811
+msgid "Move selected file or folder to trash"
+msgstr "Seçili dosyayı ya da dizini çöpe taşı"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:813
+msgid "_Delete"
+msgstr "_Sil"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:814
+msgid "Delete selected file or folder"
+msgstr "Seçilen dosyayı ya da dizini sil"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:821
+msgid "Open selected file"
+msgstr "Seçilen dosyayı aç"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:827
+msgid "Up"
+msgstr "Üst"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:828
+msgid "Open the parent folder"
+msgstr "Üst dizini aç"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:833
+msgid "_New Folder"
+msgstr "_Yeni Dizin"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:834
+msgid "Add new empty folder"
+msgstr "Yeni boş dizin ekle"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:836
+msgid "New F_ile"
+msgstr "Yeni _Dosya"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:837
+msgid "Add new empty file"
+msgstr "Yeni boş dosya ekle"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:842
+msgid "_Rename"
+msgstr "_Yeniden Adlandır"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:843
+msgid "Rename selected file or folder"
+msgstr "Seçilen dosyayı ya da dizini yeniden adlandır"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:849
+msgid "_Previous Location"
+msgstr "Ö_nceki Konum"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:851
+msgid "Go to the previous visited location"
+msgstr "Önceki gezilen konuma git"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:853
+msgid "_Next Location"
+msgstr "_Sonraki Konum"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:854
+msgid "Go to the next visited location"
+msgstr "Sonraki gezilen konuma git"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:855
+msgid "Re_fresh View"
+msgstr "Görünümü _Yenile"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:856
+msgid "Refresh the view"
+msgstr "Görünümü yenile"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:857
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:875
+msgid "_View Folder"
+msgstr "_Dizini Görüntüle"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:858
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:876
+msgid "View folder in file manager"
+msgstr "Dizini dosya yöneticisinde göster"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:865
+msgid "Show _Hidden"
+msgstr "_Gizlileri Göster"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:866
+msgid "Show hidden files and folders"
+msgstr "Gizli dosyaları ve dizinleri göster"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:868
+msgid "Show _Binary"
+msgstr "İ_kilileri Göster"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:869
+msgid "Show binary files"
+msgstr "İkili dosyaları göster"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1001
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1010
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1031
+msgid "Previous location"
+msgstr "Önceki Konum"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1003
+msgid "Go to previous location"
+msgstr "Önceki konuma git"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1005
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1026
+msgid "Go to a previously opened location"
+msgstr "Önceki açılan konuma git"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1022
+msgid "Next location"
+msgstr "Sonraki konum"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1024
+msgid "Go to next location"
+msgstr "Sonraki konuma git"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:1236
+msgid "_Match Filename"
+msgstr "_Dosya İsmi Eşleştir"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2165
+#, c-format
+msgid "No mount object for mounted volume: %s"
+msgstr "Bağlanan sistem için hiçbir bağlama nesnesi yok: %s"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2245
+#, c-format
+msgid "Could not open media: %s"
+msgstr "Ortam açılamadı: %s"
+
+#: ../plugins/filebrowser/scrivi-file-browser-widget.c:2292
+#, c-format
+msgid "Could not mount volume: %s"
+msgstr "Sistem bağlanamadı: %s"
+
+#. ex:ts=8:noet:
+#: ../plugins/modelines/modelines.scrivi-plugin.desktop.in.h:1
+msgid "Modelines"
+msgstr "Kip Satırları"
+
+#: ../plugins/modelines/modelines.scrivi-plugin.desktop.in.h:2
+msgid "Emacs, Kate and Vim-style modelines support for scrivi."
+msgstr "scrivi Emacs, Kate ve Vim-style kip satırları desteği."
+
+#: ../plugins/pythonconsole/pythonconsole.scrivi-plugin.desktop.in.h:1
+#: ../plugins/pythonconsole/pythonconsole/__init__.py:50
+msgid "Python Console"
+msgstr "Python Konsolu"
+
+#: ../plugins/pythonconsole/pythonconsole.scrivi-plugin.desktop.in.h:2
+msgid "Interactive Python console standing in the bottom panel"
+msgstr "Alt panelde etkileşimli Python konsolu"
+
+#. ex:et:ts=4:
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:1
+msgid "C_ommand color:"
+msgstr "_Komut rengi:"
+
+#: ../plugins/pythonconsole/pythonconsole/config.ui.h:2
+msgid "_Error color:"
+msgstr "_Hata rengi:"
+
+#. ex:ts=8:et:
+#: ../plugins/quickopen/quickopen/popup.py:35
+#: ../plugins/quickopen/quickopen.scrivi-plugin.desktop.in.h:1
+msgid "Quick Open"
+msgstr "Hızlı Aç"
+
+#: ../plugins/quickopen/quickopen/windowhelper.py:69
+msgid "Quick open"
+msgstr "Hızlı aç"
+
+#: ../plugins/quickopen/quickopen/windowhelper.py:70
+msgid "Quickly open documents"
+msgstr "Belgeleri hızlıca açar"
+
+#: ../plugins/quickopen/quickopen.scrivi-plugin.desktop.in.h:2
+msgid "Quickly open files"
+msgstr "Dosyaları hızlıca açar"
+
+#: ../plugins/snippets/snippets.scrivi-plugin.desktop.in.h:1
+#: ../plugins/snippets/snippets/Document.py:58
+msgid "Snippets"
+msgstr "Parçalar"
+
+#: ../plugins/snippets/snippets.scrivi-plugin.desktop.in.h:2
+msgid "Insert often-used pieces of text in a fast way"
+msgstr "Sık kullanılan metin parçalarını çabucak ekleyin"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:1
+msgid "Snippets Manager"
+msgstr "Bölüm Yöneticisi"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:2
+msgid "_Snippets:"
+msgstr "_Parçalar:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:3
+msgid "Create new snippet"
+msgstr "Yeni bir parça oluştur"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:4
+#: ../plugins/snippets/snippets/Manager.py:800
+msgid "Import snippets"
+msgstr "Parçaları aktar"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:5
+msgid "Export selected snippets"
+msgstr "Seçili bölümleri aktar"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:6
+#: ../plugins/snippets/snippets/Manager.py:412
+msgid "Delete selected snippet"
+msgstr "Seçili bölümü sil"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:8
+msgid "Activation"
+msgstr "Etkinleştiriliş"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:10
+msgid "_Tab trigger:"
+msgstr "_Tab tetikleyicisi:"
+
+#. self['hbox_tab_trigger'].set_spacing(0)
+#: ../plugins/snippets/snippets/snippets.ui.h:11
+#: ../plugins/snippets/snippets/Manager.py:689
+msgid "Single word the snippet is activated with after pressing Tab"
+msgstr "Sekme tuşuna basıldıktan sonra parçayı etkinleştirecek kelime"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:12
+msgid "Shortcut key with which the snippet is activated"
+msgstr "Parçanın etkinleşeceği kısayol tuşu"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:13
+msgid "S_hortcut key:"
+msgstr "_Kısayol tuşu:"
+
+#: ../plugins/snippets/snippets/snippets.ui.h:14
+msgid "_Drop targets:"
+msgstr "Hedefleri _bırak:"
+
+#: ../plugins/snippets/snippets/WindowHelper.py:130
+msgid "Manage _Snippets..."
+msgstr "_Parçaları Yönet..."
+
+#: ../plugins/snippets/snippets/WindowHelper.py:131
+msgid "Manage snippets"
+msgstr "Parçaları yönet"
+
+#: ../plugins/snippets/snippets/Manager.py:46
+msgid "Snippets archive"
+msgstr "Parçalar arşivi"
+
+#: ../plugins/snippets/snippets/Manager.py:71
+msgid "Add a new snippet..."
+msgstr "Yeni bir parça ekle..."
+
+#: ../plugins/snippets/snippets/Manager.py:121
+msgid "Global"
+msgstr "Genel"
+
+#: ../plugins/snippets/snippets/Manager.py:409
+msgid "Revert selected snippet"
+msgstr "Seçilen bölümleri ilk haline getir"
+
+#. self['hbox_tab_trigger'].set_spacing(3)
+#: ../plugins/snippets/snippets/Manager.py:682
+msgid ""
+"This is not a valid Tab trigger. Triggers can either contain letters or a "
+"single (non-alphanumeric) character like: {, [, etc."
+msgstr "Bu geçerli bir sekme tetikleyicisi değildir. Tetikler ya birden çok harf ya da tek, {, [ gibi (alfanumerik olmayan) harf içerir."
+
+#: ../plugins/snippets/snippets/Manager.py:779
+#, python-format
+msgid "The following error occurred while importing: %s"
+msgstr "İçe aktarım sırasında aşağıdaki hata oluştu: %s"
+
+#: ../plugins/snippets/snippets/Manager.py:786
+msgid "Import successfully completed"
+msgstr "İçe aktarma başarıyla tamamlandı"
+
+#: ../plugins/snippets/snippets/Manager.py:805
+#: ../plugins/snippets/snippets/Manager.py:891
+#: ../plugins/snippets/snippets/Manager.py:954
+msgid "All supported archives"
+msgstr "Tüm desteklenen arşivler"
+
+#: ../plugins/snippets/snippets/Manager.py:806
+#: ../plugins/snippets/snippets/Manager.py:892
+#: ../plugins/snippets/snippets/Manager.py:955
+msgid "Gzip compressed archive"
+msgstr "Gzip ile sıkıştırılmış arşiv"
+
+#: ../plugins/snippets/snippets/Manager.py:807
+#: ../plugins/snippets/snippets/Manager.py:893
+#: ../plugins/snippets/snippets/Manager.py:956
+msgid "Bzip2 compressed archive"
+msgstr "Bzip2 ile sıkıştırılmış arşiv"
+
+#: ../plugins/snippets/snippets/Manager.py:808
+msgid "Single snippets file"
+msgstr "Tek parçalar dosyası"
+
+#: ../plugins/snippets/snippets/Manager.py:809
+#: ../plugins/snippets/snippets/Manager.py:895
+#: ../plugins/snippets/snippets/Manager.py:958
+msgid "All files"
+msgstr "Tüm dosyalar"
+
+#: ../plugins/snippets/snippets/Manager.py:821
+#, python-format
+msgid "The following error occurred while exporting: %s"
+msgstr "Aktarılırken aşağıdaki hata oluştu: %s"
+
+#: ../plugins/snippets/snippets/Manager.py:825
+msgid "Export successfully completed"
+msgstr "Aktarma başarıyla tamamlandı"
+
+#. Ask if system snippets should also be exported
+#: ../plugins/snippets/snippets/Manager.py:865
+#: ../plugins/snippets/snippets/Manager.py:932
+msgid "Do you want to include selected <b>system</b> snippets in your export?"
+msgstr "Aktarmanızda seçilen <b>sistem</b> parçalarını da dahil etmek ister misiniz?"
+
+#: ../plugins/snippets/snippets/Manager.py:880
+#: ../plugins/snippets/snippets/Manager.py:950
+msgid "There are no snippets selected to be exported"
+msgstr "Aktarma için hiçbir parça seçilmemiş"
+
+#: ../plugins/snippets/snippets/Manager.py:885
+#: ../plugins/snippets/snippets/Manager.py:923
+msgid "Export snippets"
+msgstr "Parçaları aktar"
+
+#: ../plugins/snippets/snippets/Manager.py:1062
+msgid "Type a new shortcut, or press Backspace to clear"
+msgstr "Yeni bir kısayol yazın, ya da temizlemek için Geri Silme tuşuna basın"
+
+#: ../plugins/snippets/snippets/Manager.py:1064
+msgid "Type a new shortcut"
+msgstr "Yeni bir kısayol yaz"
+
+#: ../plugins/snippets/snippets/Exporter.py:65
+#, python-format
+msgid "The archive \"%s\" could not be created"
+msgstr "\"%s\" arşivi oluşturulamadı"
+
+#: ../plugins/snippets/snippets/Exporter.py:82
+#, python-format
+msgid "Target directory \"%s\" does not exist"
+msgstr "Hedef dizini \"%s\" mevcut değildir"
+
+#: ../plugins/snippets/snippets/Exporter.py:85
+#, python-format
+msgid "Target directory \"%s\" is not a valid directory"
+msgstr "Hedef dizini \"%s\" geçerli bir dizin değildir"
+
+#: ../plugins/snippets/snippets/Importer.py:29
+#: ../plugins/snippets/snippets/Importer.py:83
+#, python-format
+msgid "File \"%s\" does not exist"
+msgstr "\"%s\" adlı dosya yoktur"
+
+#: ../plugins/snippets/snippets/Importer.py:32
+#, python-format
+msgid "File \"%s\" is not a valid snippets file"
+msgstr "\"%s\" dosyası geçerli bir parça dosyası değildir"
+
+#: ../plugins/snippets/snippets/Importer.py:42
+#, python-format
+msgid "Imported file \"%s\" is not a valid snippets file"
+msgstr "İçe aktarılan \"%s\" dosyası geçerli bir parça dosyası değildir"
+
+#: ../plugins/snippets/snippets/Importer.py:52
+#, python-format
+msgid "The archive \"%s\" could not be extracted"
+msgstr "\"%s\" arşivi açılamadı"
+
+#: ../plugins/snippets/snippets/Importer.py:70
+#, python-format
+msgid "The following files could not be imported: %s"
+msgstr "Bu dosyalar aktarılamadı: %s"
+
+#: ../plugins/snippets/snippets/Importer.py:86
+#: ../plugins/snippets/snippets/Importer.py:99
+#, python-format
+msgid "File \"%s\" is not a valid snippets archive"
+msgstr "\"%s\" dosyası geçerli bir parça arşivi değildir"
+
+#: ../plugins/snippets/snippets/Placeholder.py:594
+#, python-format
+msgid ""
+"Execution of the Python command (%s) exceeds the maximum time, execution "
+"aborted."
+msgstr "Python komutunun (%s) çalıştırılması azami süreyi geçti, çalıştırma iptal edildi."
+
+#: ../plugins/snippets/snippets/Placeholder.py:602
+#, python-format
+msgid "Execution of the Python command (%s) failed: %s"
+msgstr "Python komutunun (%s) çalıştırılması başarısız oldu: %s"
+
+#: ../plugins/sort/scrivi-sort-plugin.c:88
+msgid "S_ort..."
+msgstr "_Sırala..."
+
+#: ../plugins/sort/scrivi-sort-plugin.c:90
+msgid "Sort the current document or selection"
+msgstr "Geçerli belgeyi ya da seçili bölgeyi sırala"
+
+#: ../plugins/sort/sort.scrivi-plugin.desktop.in.h:1
+#: ../plugins/sort/sort.ui.h:1
+msgid "Sort"
+msgstr "Sırala"
+
+#: ../plugins/sort/sort.scrivi-plugin.desktop.in.h:2
+msgid "Sorts a document or selected text."
+msgstr "Bir belge veya seçili metni sıraya dizer."
+
+#: ../plugins/sort/sort.ui.h:2
+msgid "_Sort"
+msgstr "_Sırala"
+
+#: ../plugins/sort/sort.ui.h:3
+msgid "_Reverse order"
+msgstr "_Ters sırada"
+
+#: ../plugins/sort/sort.ui.h:4
+msgid "R_emove duplicates"
+msgstr "Çiftleri _sil"
+
+#: ../plugins/sort/sort.ui.h:5
+msgid "_Ignore case"
+msgstr "Büyük/küçük harf önemli _değil"
+
+#: ../plugins/sort/sort.ui.h:6
+msgid "S_tart at column:"
+msgstr "Sü_tundan başla:"
+
+#: ../plugins/sort/sort.ui.h:7
+msgid "You cannot undo a sort operation"
+msgstr "Bir sıralama işlemini geri alamazsınız"
+
+#: ../plugins/spell/org.gde2.scrivi.plugins.spell.gschema.xml.in.h:1
+msgid "Autocheck Type"
+msgstr "Otomatik Kontrol Türü"
+
+#. Translators: Displayed in the "Check Spelling" dialog if there are no
+#. suggestions for the current misspelled word
+#. Translators: Displayed in the "Check Spelling" dialog if there are no
+#. suggestions
+#. * for the current misspelled word
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:420
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:455
+msgid "(no suggested words)"
+msgstr "(kelime önerisi yok)"
+
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:444
+msgid "_More..."
+msgstr "_Daha fazla..."
+
+#. Ignore all
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:503
+msgid "_Ignore All"
+msgstr "Hepsini _Yoksay"
+
+#. + Add to Dictionary
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:518
+msgid "_Add"
+msgstr "_Ekle"
+
+#: ../plugins/spell/scrivi-automatic-spell-checker.c:557
+msgid "_Spelling Suggestions..."
+msgstr "_Yazım Önerileri..."
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:270
+msgid "Check Spelling"
+msgstr "Yazım Denetimi"
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:281
+msgid "Suggestions"
+msgstr "Öneriler"
+
+#. Translators: Displayed in the "Check Spelling" dialog if the current word
+#. isn't misspelled
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:562
+msgid "(correct spelling)"
+msgstr "(imla hatalarını düzelt)"
+
+#: ../plugins/spell/scrivi-spell-checker-dialog.c:709
+msgid "Completed spell checking"
+msgstr "Yazım denetimi tamamlandı"
+
+#. Translators: the first %s is the language name, and
+#. * the second %s is the locale name. Example:
+#. * "French (France)"
+#: ../plugins/spell/scrivi-spell-checker-language.c:285
+#: ../plugins/spell/scrivi-spell-checker-language.c:291
+#, c-format
+msgctxt "language"
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#. Translators: this refers to an unknown language code
+#. * (one which isn't in our built-in list).
+#: ../plugins/spell/scrivi-spell-checker-language.c:300
+#, c-format
+msgctxt "language"
+msgid "Unknown (%s)"
+msgstr "Bilinmeyen (%s)"
+
+#. Translators: this refers the Default language used by the
+#. * spell checker
+#: ../plugins/spell/scrivi-spell-checker-language.c:406
+msgctxt "language"
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: ../plugins/spell/scrivi-spell-language-dialog.c:141
+#: ../plugins/spell/languages-dialog.ui.h:1
+msgid "Set language"
+msgstr "Dili ayarla"
+
+#: ../plugins/spell/scrivi-spell-language-dialog.c:195
+msgid "Languages"
+msgstr "Diller"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:92
+msgid "_Check Spelling..."
+msgstr "_Yazım Denetimi..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:94
+msgid "Check the current document for incorrect spelling"
+msgstr "Geçerli belgeyi yazım hatalarına karşı denetle"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:100
+msgid "Set _Language..."
+msgstr "_Dili Ayarla..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:102
+msgid "Set the language of the current document"
+msgstr "Geçerli belgenin dilini ayarla"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:111
+msgid "_Autocheck Spelling"
+msgstr "_Kendiliğinden Yazım Denetimi"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:113
+msgid "Automatically spell-check the current document"
+msgstr "Geçerli belgede yazım denetimini kendiliğinden yap"
+
+#: ../plugins/spell/scrivi-spell-plugin.c:753
+msgid "Configure Spell Checker plugin..."
+msgstr "İmlâ Kontrolü Eklentisini yapılandır..."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:962
+msgid "The document is empty."
+msgstr "Belge boş."
+
+#: ../plugins/spell/scrivi-spell-plugin.c:992
+msgid "No misspelled words"
+msgstr "Hatalı yazılmış sözcük yok"
+
+#: ../plugins/spell/languages-dialog.ui.h:2
+msgid "Select the _language of the current document."
+msgstr "Geçerli belgenin _dilini seç."
+
+#: ../plugins/spell/spell-checker.ui.h:1
+msgid "Check spelling"
+msgstr "Yazım denetimi"
+
+#: ../plugins/spell/spell-checker.ui.h:2
+msgid "Misspelled word:"
+msgstr "Hatalı yazılmış sözcük:"
+
+#: ../plugins/spell/spell-checker.ui.h:3
+msgid "word"
+msgstr "kelime"
+
+#: ../plugins/spell/spell-checker.ui.h:4
+msgid "Change _to:"
+msgstr "Değiş_tir:"
+
+#: ../plugins/spell/spell-checker.ui.h:5
+msgid "Check _Word"
+msgstr "Sözcük De_netle"
+
+#: ../plugins/spell/spell-checker.ui.h:6
+msgid "_Suggestions:"
+msgstr "_Öneriler:"
+
+#: ../plugins/spell/spell-checker.ui.h:7
+msgid "_Ignore"
+msgstr "_Yoksay"
+
+#: ../plugins/spell/spell-checker.ui.h:8
+msgid "Cha_nge"
+msgstr "_Değiştir"
+
+#: ../plugins/spell/spell-checker.ui.h:9
+msgid "Ignore _All"
+msgstr "Tü_münü Yoksay"
+
+#: ../plugins/spell/spell-checker.ui.h:10
+msgid "Change A_ll"
+msgstr "_Tümünü Değiştir"
+
+#: ../plugins/spell/spell-checker.ui.h:11
+msgid "User dictionary:"
+msgstr "Kullanıcı sözlüğü:"
+
+#: ../plugins/spell/spell-checker.ui.h:12
+msgid "Add w_ord"
+msgstr "S_özcük ekle"
+
+#: ../plugins/spell/spell-checker.ui.h:13
+msgid "Language:"
+msgstr "Dil:"
+
+#: ../plugins/spell/spell-checker.ui.h:14
+msgid "Language"
+msgstr "Lisan"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:1
+msgid "_Configure Spell Checker plugin..."
+msgstr "_İmlâ Kontrolü Eklentisini yapılandır..."
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:2
+msgid "Autocheck spelling on document load..."
+msgstr "Belge yüklenince otomatik olarak imlâ kontrolü yap..."
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:3
+msgid "_Never autocheck"
+msgstr "_Asla otomatik kontrol yapma"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:4
+msgid "_Remember autocheck by document"
+msgstr "Otomatik kontrolü belge başına _hatırla"
+
+#: ../plugins/spell/scrivi-spell-setup-dialog.ui.h:5
+msgid "_Always autocheck"
+msgstr "_Daima otomatik kontrol yap"
+
+#: ../plugins/spell/spell.scrivi-plugin.desktop.in.h:1
+msgid "Spell Checker"
+msgstr "Yazım Denetleyicisi"
+
+#: ../plugins/spell/spell.scrivi-plugin.desktop.in.h:2
+msgid "Checks the spelling of the current document."
+msgstr "Geçerli belgede yazım denetimi yapar."
+
+#: ../plugins/taglist/scrivi-taglist-plugin.c:98
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:725
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:743
+msgid "Tags"
+msgstr "Etiketler"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:622
+msgid "Select the group of tags you want to use"
+msgstr "Kullanacağınız etiket grubunu seçiniz"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:641
+msgid "_Preview"
+msgstr "Ö_nizleme"
+
+#: ../plugins/taglist/scrivi-taglist-plugin-panel.c:722
+msgid "Available Tag Lists"
+msgstr "Kullanılabilir Etiket Listeleri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:1
+msgid "XHTML 1.0 - Tags"
+msgstr "XHTML 1.0 - Etiketler"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:2
+msgid "Abbreviated form"
+msgstr "Kısaltılmış biçim"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:3
+msgid "Abbreviation"
+msgstr "Kısaltma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:4
+msgid "Accessibility key character"
+msgstr "Erişilebilirlik tuşu karakteri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:5
+msgid "Acronym"
+msgstr "Kısaltma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:6
+msgid "Align"
+msgstr "Hizala"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:7
+msgid "Alignment character"
+msgstr "Hizalama karakteri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:8
+msgid "Alternative"
+msgstr "Alternatif"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:9
+msgid "Anchor URI"
+msgstr "Bağlantı URI'ı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:10
+msgid "Anchor"
+msgstr "Bağlantı"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:12
+msgid "Applet class file code (deprecated)"
+msgstr "Uygulamacık sınıfı dosya kodu (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:13
+msgid "Associated information"
+msgstr "İçerik bilgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:14
+msgid "Author info"
+msgstr "Sahip bilgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:15
+msgid "Axis related headers"
+msgstr "Kordinat bağımlı başlıklar"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:17
+msgid "Background color (deprecated)"
+msgstr "Arkaplan rengi (kullanılmıyor)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:19
+msgid "Background texture tile (deprecated)"
+msgstr "Arkaplan dokusu döşemesi (kullanılmıyor)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:21
+msgid "Base font (deprecated)"
+msgstr "Temel yazı tipi (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:22
+msgid "Base URI"
+msgstr "Taban URI"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:23
+msgid "Bold"
+msgstr "Kalın"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:25
+msgid "Border (deprecated)"
+msgstr "Kenarlık (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:26
+msgid "Cell rowspan"
+msgstr "Hücre sütun grubu"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:28
+msgid "Center (deprecated)"
+msgstr "Orta (Kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:29
+msgid "Character encoding of linked resource"
+msgstr "Bağlanmış kaynakların karakter kodlaması"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:30
+msgid "Checked state"
+msgstr "İşaretli durumu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:31
+msgid "Citation"
+msgstr "Alıntı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:32
+msgid "Cite reason for change"
+msgstr "Değişiklik için neden belirt"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:33
+msgid "Class implementation ID"
+msgstr "Sınıf uygulama kimliği"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:34
+msgid "Class list"
+msgstr "Sınıf etiketi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:35
+msgid "Clear text flow control"
+msgstr "Metin akışı temizleme denetimi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:36
+msgid "Code content type"
+msgstr "Kod içerik tipi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:38
+msgid "Color of selected links (deprecated)"
+msgstr "Seçili bağların rengi (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:39
+msgid "Column span"
+msgstr "Sütun aralığı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:40
+msgid "Columns"
+msgstr "Sütunlar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:41
+msgid "Comment"
+msgstr "Açıklama"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:42
+msgid "Computer code fragment"
+msgstr "Bilgisayar kodu parçası"
+
+#. The "type" attribute is deprecated for the "ol" tag only,
+#. since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:45
+msgid "Content type (deprecated)"
+msgstr "İçerik türü (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:46
+msgid "Coordinates"
+msgstr "Koordinatlar"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:47
+msgid "Date and time of change"
+msgstr "Değişim tarihi ve zamanı"
+
+#. NOTE: used in "object" tag
+#: ../plugins/taglist/HTML.tags.xml.in.h:49
+msgid "Declare flag"
+msgstr "Bayrak bildir"
+
+#. Translators: DEFER is an optional attribute of the <script> tag.
+#. It indicates that the script is not going to generate any document
+#. content. The browser can continue parsing and drawing the page.
+#: ../plugins/taglist/HTML.tags.xml.in.h:53
+msgid "Defer attribute"
+msgstr "Erteleme simgesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:54
+msgid "Definition description"
+msgstr "Tanım açıklaması"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:55
+msgid "Definition list"
+msgstr "Tanımlama listesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:56
+msgid "Definition term"
+msgstr "Tanımlama terimi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:57
+msgid "Deleted text"
+msgstr "Silinmiş metin"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:58
+msgid "Directionality"
+msgstr "Yön"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:60
+msgid "Directionality (deprecated)"
+msgstr "Yön (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:61
+msgid "Disabled"
+msgstr "Kapalı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:62
+msgid "DIV container"
+msgstr "DIV kutusu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:63
+msgid "DIV Style container"
+msgstr "DIV biçim kutusu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:64
+msgid "Document base"
+msgstr "Belge temeli"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:65
+msgid "Document body"
+msgstr "Belge vücudu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:66
+msgid "Document head"
+msgstr "Belge başı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:67
+msgid "Element ID"
+msgstr "Öğe ID'si"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:68
+msgid "Document title"
+msgstr "Belge başlığı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:69
+msgid "Document type"
+msgstr "Belge türü"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:70
+#: ../plugins/taglist/Latex.tags.xml.in.h:72
+msgid "Emphasis"
+msgstr "Vurgu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:71
+msgid "Encode type"
+msgstr "Kodlama tipi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:73
+msgid "Font face (deprecated)"
+msgstr "Yazı tipi yüzü (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:74
+msgid "For label"
+msgstr "Etiket için"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:75
+msgid "Forced line break"
+msgstr "Satır sonu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:76
+msgid "Form action handler"
+msgstr "Form eylem işleyicisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:77
+msgid "Form control group"
+msgstr "Form denetim grubu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:78
+msgid "Form field label text"
+msgstr "Form bölgesi etiket metni"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:79
+msgid "Form input type"
+msgstr "Form girdi tipi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:80
+msgid "Form input"
+msgstr "Form girdisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:81
+msgid "Form method"
+msgstr "Form yöntemi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:82
+msgid "Form"
+msgstr "Form"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:83
+msgid "Forward link"
+msgstr "Yönlendirme bağlantısı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:84
+msgid "Frame render parts"
+msgstr "Çerçeve bölümleri çizimi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:85
+msgid "Frame source"
+msgstr "Çerçeve kaynağı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:86
+msgid "Frame target"
+msgstr "Çerçeve hedefi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:87
+msgid "Frame"
+msgstr "Çerçeve"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:88
+msgid "Frame border"
+msgstr "Çerçeve kenarı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:89
+msgid "Frameset columns"
+msgstr "Çerçeve kümesi sütunları"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:90
+msgid "Frameset rows"
+msgstr "Çerçeve grubu satırı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:91
+msgid "Frameset"
+msgstr "Çerçeve kümesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:92
+msgid "Frame spacing"
+msgstr "Çerçeve aralığı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:93
+msgid "Generic embedded object"
+msgstr "Sıradan gömülü nesne"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:94
+msgid "Generic metainformation"
+msgstr "Sıradan meta bilgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:95
+msgid "Generic span"
+msgstr "Genel gruplama"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:96
+msgid "Header cell IDs"
+msgstr "Başlık hücre kimlikleri (ID)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:97
+msgid "Heading 1"
+msgstr "Başlık 1"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:98
+msgid "Heading 2"
+msgstr "Başlık 2"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:99
+msgid "Heading 3"
+msgstr "Başlık 3"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:100
+msgid "Heading 4"
+msgstr "Başlık 4"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:101
+msgid "Heading 5"
+msgstr "Başlık 5"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:102
+msgid "Heading 6"
+msgstr "Başlık 6"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:103
+msgid "Height"
+msgstr "Başlık"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:104
+msgid "Horizontal rule"
+msgstr "Yatay çizgi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:106
+msgid "Horizontal space (deprecated)"
+msgstr "Yatay boşluk (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:107
+msgid "HREF URI"
+msgstr "HREF URI"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:108
+msgid "HTML root element"
+msgstr "HTML ana bileşeni"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:109
+msgid "HTTP header name"
+msgstr "HTTP başlık ismi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:110
+msgid "I18N BiDi override"
+msgstr "Dilin yazım yönünü değiştir"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:111
+msgid "Image map area"
+msgstr "Resim haritası bölgesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:112
+msgid "Image map name"
+msgstr "Resim haritası adı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:113
+msgid "Image map"
+msgstr "Resim haritası"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:114
+msgid "Image"
+msgstr "Resim"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:115
+msgid "Inline frame"
+msgstr "Satır arası çerçeve"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:116
+msgid "Inserted text"
+msgstr "Eklenmiş metin"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:117
+msgid "Instance definition"
+msgstr "Tanımlama oluştur"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:118
+msgid "Italic text"
+msgstr "Eğik metin"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:120
+msgid "Java applet (deprecated)"
+msgstr "Java uygulamacığı (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:121
+msgid "Label"
+msgstr "Etiket"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:122
+msgid "Language code"
+msgstr "Dil kodu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:123
+msgid "Large text style"
+msgstr "Büyük metin biçimi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:125
+msgid "Link color (deprecated)"
+msgstr "Bağ rengin (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:126
+msgid "List item"
+msgstr "Liste öğesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:127
+msgid "List of MIME types for file upload"
+msgstr "Dosya yükleme için MIME tipi listesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:128
+msgid "List of supported character sets"
+msgstr "Desteklenen karakter seti listesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:129
+msgid "Local change to font"
+msgstr "Yazıtipine yerel değişim"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:130
+msgid "Long description link"
+msgstr "Uzun açıklama bağı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:131
+msgid "Long quotation"
+msgstr "Uzun alıntı"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:133
+msgid "Margin pixel height"
+msgstr "Nokta olarak dikey sınır"
+
+#. Supported in XHTML 1.0 Frameset DTD only.
+#: ../plugins/taglist/HTML.tags.xml.in.h:135
+msgid "Margin pixel width"
+msgstr "Nokta olarak yatay sınır"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:136
+msgid "Maximum length of text field"
+msgstr "Metin alanı için en yüksek genişlik"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:137
+msgid "Output media"
+msgstr "Çıktı ortamı"
+
+#. Here I take some liberties: There's no mandatory attributes,
+#. but those are most common, and will likely be used.
+#: ../plugins/taglist/HTML.tags.xml.in.h:140
+msgid "Media-independent link"
+msgstr "Ortam bağımsız bağlantı"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:142
+msgid "Menu list (deprecated)"
+msgstr "Menü listesi (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:143
+msgid "Multi-line text field"
+msgstr "Çok satırlı metin alanı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:144
+msgid "Multiple"
+msgstr "Çoklu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:145
+msgid "Name"
+msgstr "İsim"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:146
+msgid "Named property value"
+msgstr "İsimlendirilmiş nitelik değeri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:147
+msgid "No frames"
+msgstr "Çerçeve yok"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:148
+msgid "No resize"
+msgstr "Yeniden boyutlandırma yok"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:149
+msgid "No script"
+msgstr "Betik yok"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:151
+msgid "No shade (deprecated)"
+msgstr "Gölge yok (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:152
+msgid "No URI"
+msgstr "URI yok"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:154
+msgid "No word wrap (deprecated)"
+msgstr "Kelime bölme yok (kullanılmıyor)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:156
+msgid "Object applet file (deprecated)"
+msgstr "Nesne uygulamacık dosyası (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:157
+msgid "Object data reference"
+msgstr "Nesne bilgi başvurusu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:158
+msgid "Offset for alignment character"
+msgstr "Karakter hizalama dengesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:159
+msgid "OnBlur event"
+msgstr "OnBlur olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:160
+msgid "OnChange event"
+msgstr "OnChange eylemi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:161
+msgid "OnClick event"
+msgstr "OnClick olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:162
+msgid "OnDblClick event"
+msgstr "OnDblClick olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:163
+msgid "OnFocus event"
+msgstr "OnFocus olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:164
+msgid "OnKeyDown event"
+msgstr "OnKeyDown olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:165
+msgid "OnKeyPress event"
+msgstr "OnKeyPress olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:166
+msgid "OnKeyUp event"
+msgstr "OnKeyUp olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:167
+msgid "OnLoad event"
+msgstr "OnLoad olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:168
+msgid "OnMouseDown event"
+msgstr "OnMouseDown olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:169
+msgid "OnMouseMove event"
+msgstr "OnMouseMove olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:170
+msgid "OnMouseOut event"
+msgstr "OnMouseOut olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:171
+msgid "OnMouseOver event"
+msgstr "OnMouseOver olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:172
+msgid "OnMouseUp event"
+msgstr "OnMouseUp olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:173
+msgid "OnReset event"
+msgstr "OnReset olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:174
+msgid "OnSelect event"
+msgstr "OnSelect olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:175
+msgid "OnSubmit event"
+msgstr "OnSubmit olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:176
+msgid "OnUnload event"
+msgstr "OnUnload olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:177
+msgid "Option group"
+msgstr "Option olayı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:178
+msgid "Option selector"
+msgstr "Seçenek seçici"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:179
+msgid "Ordered list"
+msgstr "Sıralı liste"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:180
+msgid "Paragraph class"
+msgstr "Paragraf sınıfı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:181
+msgid "Paragraph style"
+msgstr "Paragraf biçimi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:182
+msgid "Paragraph"
+msgstr "Paragraf"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:183
+msgid "Preformatted text"
+msgstr "Önbiçimli metin"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:184
+msgid "Profile metainfo dictionary"
+msgstr "Metainfo profil sözlüğü"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:185
+msgid "Push button"
+msgstr "İtme düğmesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:186
+msgid "ReadOnly text and password"
+msgstr "Salt okunur metin ve parola"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:188
+msgid "Reduced spacing (deprecated)"
+msgstr "Düşürülmüş aralık bırakma (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:189
+msgid "Reverse link"
+msgstr "Ters bağ"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:190
+msgid "Rows"
+msgstr "Satır"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:191
+msgid "Rulings between rows and columns"
+msgstr "Satırlar ve sütunlar arasındaki aralık"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:192
+msgid "Sample program output, scripts"
+msgstr "Örnek uygulama çıktısı, betikler"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:193
+msgid "Scope covered by header cells"
+msgstr "Başlık hücrelerinin kapladığı alan"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:195
+msgid "Script language name"
+msgstr "Betik dil ismi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:196
+msgid "Script statements"
+msgstr "Betik ifadeleri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:197
+msgid "Scrollbar"
+msgstr "Kaydırma çubuğu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:198
+msgid "Selectable option"
+msgstr "Seçilebilir seçenek"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:199
+msgid "Selected"
+msgstr "Seçili"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:200
+msgid "Server-side image map"
+msgstr "Sunucu taraflı resim haritası"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:201
+msgid "Shape"
+msgstr "Şekil"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:202
+msgid "Short inline quotation"
+msgstr "Kısa satır içi alıntı"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:204
+msgid "Size (deprecated)"
+msgstr "Boyut (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:205
+msgid "Small text style"
+msgstr "Küçük metin biçemi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:206
+msgid "Source"
+msgstr "Kaynak"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:207
+msgid "Space-separated archive list"
+msgstr "Boşlukla-ayrılan arşiv listesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:208
+msgid "Spacing between cells"
+msgstr "Hücreler arasındaki boşluk"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:209
+msgid "Spacing within cells"
+msgstr "Hücreler ile beraber boşluk"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:210
+msgid "Span"
+msgstr "Grup"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:211
+msgid "Standby load message"
+msgstr "Yükleme durumu mesajı"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:213
+msgid "Starting sequence number (deprecated)"
+msgstr "Dizi başlama numarası (kullanılmıyor)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:215
+msgid "Strike-through text style (deprecated)"
+msgstr "Üstü çizili metin biçemi (kullanılmıyor)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:217
+msgid "Strike-through text (deprecated)"
+msgstr "Üstü çizili metin biçemi (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:218
+msgid "Strong emphasis"
+msgstr "Güçlü vurgu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:219
+msgid "Style info"
+msgstr "Biçim bilgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:220
+msgid "Subscript"
+msgstr "Alçak yazı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:221
+msgid "Superscript"
+msgstr "Yüksek yazı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:222
+msgid "Table body"
+msgstr "Tablo vücudu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:223
+msgid "Table caption"
+msgstr "Tablo başlığı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:224
+msgid "Table column group properties"
+msgstr "Tablo sütun gruplama özellikleri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:225
+msgid "Table column properties"
+msgstr "Tablo sütun özellikleri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:226
+msgid "Table data cell"
+msgstr "Tablo veri hücresi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:227
+msgid "Table footer"
+msgstr "Tablo alt bilgisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:228
+msgid "Table header cell"
+msgstr "Tablo başlık hücresi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:229
+msgid "Table header"
+msgstr "Tablo başlığı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:230
+msgid "Table row"
+msgstr "Tablo satırı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:231
+msgid "Table summary"
+msgstr "Tablo özeti"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:232
+msgid "Table"
+msgstr "Tablo"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:233
+msgid "Target - Blank"
+msgstr "Hedef - Boş"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:234
+msgid "Target - Parent"
+msgstr "Hedef - Üst"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:235
+msgid "Target - Self"
+msgstr "Hedef - Kendisi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:236
+msgid "Target - Top"
+msgstr "Hedef - En üst"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:237
+msgid "Teletype or monospace text style"
+msgstr "Teletype ya da monospace metin biçemi"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:239
+msgid "Text color (deprecated)"
+msgstr "Metin rengi (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:240
+msgid "Text entered by user"
+msgstr "Kullanıcı tarafında girilmiş metin"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:241
+msgid "Title"
+msgstr "Başlık"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:242
+msgid "Underlined text style"
+msgstr "Altı çizili metin biçemi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:243
+msgid "Unordered list"
+msgstr "Sıralanmamış liste"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:244
+msgid "Use image map"
+msgstr "Resim haritası kullan"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:245
+msgid "Value interpretation"
+msgstr "Değer işleme"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:246
+msgid "Value"
+msgstr "Değer"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:247
+msgid "Variable or program argument"
+msgstr "Değişken ya da uygulama değişkeni"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:248
+msgid "Vertical cell alignment"
+msgstr "Yatay hücre hizalaması"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:250
+msgid "Vertical space (deprecated)"
+msgstr "Dikey boşluk (kullanılmıyor)"
+
+#. Deprecated since HTML 4.01, not supported in XHTML 1.0 Strict DTD.
+#: ../plugins/taglist/HTML.tags.xml.in.h:252
+msgid "Visited link color (deprecated)"
+msgstr "Ziyaret edilmiş bağ rengi (kullanılmıyor)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:253
+msgid "Width"
+msgstr "Genişlik"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:254
+msgid "HTML - Tags"
+msgstr "HTML - Etiketler"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:255
+msgid "Above"
+msgstr "Üstünde"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:256
+msgid "Applet class file code"
+msgstr "Uygulamacık sınıfı dosya kodu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:257
+msgid "Array"
+msgstr "Dizi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:258
+msgid "Background color"
+msgstr "Arkaplan rengi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:259
+msgid "Background texture tile"
+msgstr "Arkaplan dokusu döşemesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:260
+msgid "Base font"
+msgstr "Temel yazı tipi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:261
+msgid "Border color"
+msgstr "Kenarlık rengi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:262
+msgid "Border"
+msgstr "Kenarlık"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:263
+msgid "Center"
+msgstr "Orta"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:264
+msgid "Checked (state)"
+msgstr "İşaretli (durum)"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:265
+msgid "Color of selected links"
+msgstr "Seçili bağların rengi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:266
+msgid "Content scheme"
+msgstr "İçerik şeması"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:267
+msgid "Content type"
+msgstr "İçerik türü"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:268
+msgid "Direction"
+msgstr "Yön"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:269
+msgid "Directory list"
+msgstr "Dizin listesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:270
+msgid "HTML version"
+msgstr "HTML sürümü"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:271
+msgid "Embedded object"
+msgstr "Gömülü nesne"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:272
+msgid "Figure"
+msgstr "Şekil"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:273
+msgid "Font face"
+msgstr "Yazıtipi yüzü"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:274
+msgid "Frameborder"
+msgstr "Çerçeve kenarı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:275
+msgid "Framespacing"
+msgstr "Çerçeve aralığı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:276
+msgid "Heading"
+msgstr "Başlık"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:277
+msgid "Horizontal space"
+msgstr "Yatay boşluk"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:278
+msgid "Image source"
+msgstr "Resim kaynağı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:279
+msgid "Inline layer"
+msgstr "Satır içi katman"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:280
+msgid "Java applet"
+msgstr "Java uygulamacığı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:281
+msgid "Layer"
+msgstr "Katman"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:282
+msgid "Link color"
+msgstr "Bağ rengin"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:283
+msgid "Listing"
+msgstr "Liste"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:284
+msgid "Mail link"
+msgstr "Posta bağlantısı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:285
+msgid "Marquee"
+msgstr "Kayan yazı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:286
+msgid "Menu list"
+msgstr "Menü listesi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:287
+msgid "Multicolumn"
+msgstr "Çok sütunlu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:288
+msgid "Next ID"
+msgstr "Sonraki Kimlik"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:289
+msgid "No embedded objects"
+msgstr "Gömülü nesne yok"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:290
+msgid "No layers"
+msgstr "Katman yok"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:291
+msgid "No line break"
+msgstr "Satır sonu yok"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:292
+msgid "No shade"
+msgstr "Gölge yok"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:293
+msgid "No word wrap"
+msgstr "Kelime bölme yok"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:294
+msgid "Note"
+msgstr "Not"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:295
+msgid "Object applet file"
+msgstr "Nesne uygulamacık dosyası"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:296
+msgid "Preformatted listing"
+msgstr "Önbiçimli liste"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:297
+msgid "Prompt message"
+msgstr "Mesaj göster"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:298
+msgid "Quote"
+msgstr "Söz"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:299
+msgid "Range"
+msgstr "Aralık"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:300
+msgid "Reduced spacing"
+msgstr "Düşürülmüş aralık bırakma"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:301
+msgid "Root"
+msgstr "Root"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:302
+msgid "Single line prompt"
+msgstr "Tek satırlık girdi alanı"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:303
+msgid "Size"
+msgstr "Boyut"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:304
+msgid "Soft line break"
+msgstr "Yumuşak satır kesme"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:305
+msgid "Sound"
+msgstr "Ses"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:306
+msgid "Spacer"
+msgstr "Boşlukçu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:307
+msgid "Square root"
+msgstr "Kare kökü"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:308
+msgid "Starting sequence number"
+msgstr "Dizi başlama numarası"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:309
+msgid "Strike-through text style"
+msgstr "Üstü çizili metin biçemi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:310
+msgid "Strike-through text"
+msgstr "Üstü çizili metin"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:311
+msgid "Tab order position"
+msgstr "Sekme düzeni yeri"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:312
+msgid "Text color"
+msgstr "Metin rengi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:313
+msgid "Text"
+msgstr "Metin"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:314
+msgid "Top margin in pixels"
+msgstr "Piksel olarak üst kenar boşluğu"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:315
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:316
+msgid "Vertical space"
+msgstr "Dikey boşluk"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:317
+msgid "Visited link color"
+msgstr "Ziyaret edilmiş bağ rengi"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:318
+msgid "HTML - Special Characters"
+msgstr "HTML - Özel Karakter"
+
+#: ../plugins/taglist/HTML.tags.xml.in.h:319
+msgid "Non-breaking space"
+msgstr "Bölünmeyen boşluk"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:1
+msgid "Latex - Tags"
+msgstr "Latex - Etiketler"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:2
+msgid "Bibliography (cite)"
+msgstr "Bibliyografik (alıntı)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:3
+msgid "Bibliography (item)"
+msgstr "Bibliyografik (öğe)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:4
+msgid "Bibliography (shortcite)"
+msgstr "Bibliyografik (kısaca alıntı)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:5
+msgid "Bibliography (thebibliography)"
+msgstr "Bibliyografik (bibliyografik)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:6
+msgid "Brackets ()"
+msgstr "() parantezleri"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:7
+msgid "Brackets []"
+msgstr "[] parantezleri"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:8
+msgid "Brackets {}"
+msgstr "{} parantezleri"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:9
+msgid "Brackets <>"
+msgstr "<> parantezleri "
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:10
+msgid "File input"
+msgstr "Dosya girdisi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:11
+msgid "Function cosine"
+msgstr "Kosinüs işlevi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:12
+msgid "Function e^"
+msgstr "e^ işlevi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:13
+msgid "Function exp"
+msgstr "exp işlevi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:14
+msgid "Function log"
+msgstr "log işlevi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:15
+msgid "Function log10"
+msgstr "log10 işlevi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:16
+msgid "Function sine"
+msgstr "Sinüs işlevi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:17
+msgid "Greek alpha"
+msgstr "Yunanca alfa"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:18
+msgid "Greek beta"
+msgstr "Yunanca beta"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:19
+msgid "Greek epsilon"
+msgstr "Yunanca epsilon"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:20
+msgid "Greek gamma"
+msgstr "Yunanca gama"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:21
+msgid "Greek lambda"
+msgstr "Yunanca lambda"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:22
+msgid "Greek rho"
+msgstr "Yunanca rho"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:23
+msgid "Greek tau"
+msgstr "Yunanca tau"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:24
+msgid "Header 0 (chapter)"
+msgstr "Başlık 0 (bölüm)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:25
+msgid "Header 0 (chapter*)"
+msgstr "Başlık 0 (bölüm*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:26
+msgid "Header 1 (section)"
+msgstr "Başlık 1 (kısım)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:27
+msgid "Header 1 (section*)"
+msgstr "Başlık 1 (kısım*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:28
+msgid "Header 2 (subsection)"
+msgstr "Başlık 2 (alt kısım)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:29
+msgid "Header 2 (subsection*)"
+msgstr "Başlık 2 (alt kısım*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:30
+msgid "Header 3 (subsubsection)"
+msgstr "Başlık 3 (altınaltıbölüm)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:31
+msgid "Header 3 (subsubsection*)"
+msgstr "Başlık 3 (altınaltıbölüm*)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:32
+msgid "Header 4 (paragraph)"
+msgstr "Başlık 4 (paragraf)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:33
+msgid "Header appendix"
+msgstr "Başlık ek bölümü"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:34
+msgid "List description"
+msgstr "Liste tanımı"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:35
+msgid "List enumerate"
+msgstr "Liste numaralaması"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:36
+msgid "List itemize"
+msgstr "Liste öğelemesi"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:37
+msgid "Item with label"
+msgstr "Etiketli öğe"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:38
+msgid "Item"
+msgstr "Öğe"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:39
+msgid "Maths (display)"
+msgstr "Gde2matik (görüntü)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:40
+msgid "Maths (inline)"
+msgstr "Gde2matik (satır arası)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:41
+msgid "Operator fraction"
+msgstr "Payda operatörü"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:42
+msgid "Operator integral (display)"
+msgstr "İntegral operatörü (görüntü)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:43
+msgid "Operator integral (inline)"
+msgstr "İntegral operatörü (satır arası)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:44
+msgid "Operator sum (display)"
+msgstr "Toplama operatörü (görüntü)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:45
+msgid "Operator sum (inline)"
+msgstr "Toplama operatörü (satır arası)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:46
+msgid "Reference label"
+msgstr "Referans etiket"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:47
+msgid "Reference ref"
+msgstr "Referans ref"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:48
+msgid "Symbol <<"
+msgstr "Sembol <<"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:49
+msgid "Symbol <="
+msgstr "Sembol <="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:50
+msgid "Symbol >="
+msgstr "Sembol >="
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:51
+msgid "Symbol >>"
+msgstr "Sembol >>"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:52
+msgid "Symbol and"
+msgstr "Sembol and"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:53
+msgid "Symbol const"
+msgstr "Sembol const"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:54
+msgid "Symbol d2-by-dt2-partial"
+msgstr "Sembol d-by-dt-partial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:55
+msgid "Symbol dagger"
+msgstr "Sembol dagger"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:56
+msgid "Symbol d-by-dt"
+msgstr "Sembol d-by-dt"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:57
+msgid "Symbol d-by-dt-partial"
+msgstr "Sembol d-by-dt-partial"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:58
+msgid "Symbol equiv"
+msgstr "Sembol equiv"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:59
+msgid "Symbol en-dash --"
+msgstr "Orta tire simgesi --"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:60
+msgid "Symbol em-dash ---"
+msgstr "Uzun tire simgesi ---"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:61
+msgid "Symbol infinity"
+msgstr "Sembol sonsuz"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:62
+msgid "Symbol mathspace ,"
+msgstr "Sembol mathspace ,"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:63
+msgid "Symbol mathspace ."
+msgstr "Sembol mathspace ."
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:64
+msgid "Symbol mathspace _"
+msgstr "Sembol mathspace _"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:65
+msgid "Symbol mathspace __"
+msgstr "Sembol mathspace __"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:66
+msgid "Symbol simeq"
+msgstr "Sembol simeq"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:67
+msgid "Symbol star"
+msgstr "Sembol yıldız"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:68
+msgid "Typeface bold"
+msgstr "Yazıtipi yüzü kalın"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:69
+msgid "Typeface type"
+msgstr "Yazıtipi yüzü tip"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:70
+msgid "Typeface italic"
+msgstr "Yazıtipi yüzü eğik"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:71
+msgid "Typeface slanted"
+msgstr "Yazıtipi yüzü yatık (slanted)"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:73
+msgid "Unbreakable text"
+msgstr "Kırılamaz metin"
+
+#: ../plugins/taglist/Latex.tags.xml.in.h:74
+msgid "Footnote"
+msgstr "Son not"
+
+#: ../plugins/taglist/taglist.scrivi-plugin.desktop.in.h:1
+msgid "Tag list"
+msgstr "Etiket Listesi"
+
+#: ../plugins/taglist/taglist.scrivi-plugin.desktop.in.h:2
+msgid ""
+"Provides a method to easily insert commonly used tags/strings into a "
+"document without having to type them."
+msgstr "Yaygın olarak kullanılan etiket/metinleri belgelere klavyede yazmadan kolayca ekleme yöntemi sunar."
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:1
+msgid "XSLT - Elements"
+msgstr "XSLT - Öğeler"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:2
+msgid "XSLT - Functions"
+msgstr "XSLT - İşlevler"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:3
+msgid "XSLT - Axes"
+msgstr "XSLT - Akslar"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:4
+msgid "ancestor"
+msgstr "ancestor"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:5
+msgid "ancestor-or-self"
+msgstr "ancestor-or-self"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:6
+msgid "attribute"
+msgstr "attribute"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:7
+msgid "child"
+msgstr "child"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:8
+msgid "descendant"
+msgstr "descendant"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:9
+msgid "descendant-or-self"
+msgstr "descendant-or-self"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:10
+msgid "following"
+msgstr "following"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:11
+msgid "following-sibling"
+msgstr "following-sibling"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:12
+msgid "namespace"
+msgstr "isim uzayı"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:13
+msgid "parent"
+msgstr "üst"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:14
+msgid "preceding"
+msgstr "preceding"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:15
+msgid "preceding-sibling"
+msgstr "preceding-sibling"
+
+#: ../plugins/taglist/XSLT.tags.xml.in.h:16
+msgid "self"
+msgstr "self"
+
+#: ../plugins/taglist/XUL.tags.xml.in.h:1
+msgid "XUL - Tags"
+msgstr "XUL - Etiketler"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:1
+msgid "Prompt type"
+msgstr "Komut istemi türü"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:2
+msgid "Selected format"
+msgstr "Seçilen biçim"
+
+#: ../plugins/time/org.gde2.scrivi.plugins.time.gschema.xml.in.h:3
+msgid "Custom format"
+msgstr "Özel biçim"
+
+#: ../plugins/time/scrivi-time-plugin.c:179
+msgid "In_sert Date and Time..."
+msgstr "Tari_h ve Zaman Ekle..."
+
+#: ../plugins/time/scrivi-time-plugin.c:181
+msgid "Insert current date and time at the cursor position"
+msgstr "İmlecin bulunduğu yere şimdiki tarihi ve zamanı ekler"
+
+#: ../plugins/time/scrivi-time-plugin.c:562
+msgid "Available formats"
+msgstr "Kullanılabilir biçimler"
+
+#: ../plugins/time/scrivi-time-plugin.c:713
+msgid "Configure insert date/time plugin..."
+msgstr "Tarih/zaman ekleme eklentisini yapılandır..."
+
+#: ../plugins/time/time.scrivi-plugin.desktop.in.h:1
+msgid "Insert Date/Time"
+msgstr "Tarih/Zaman Ekle"
+
+#: ../plugins/time/time.scrivi-plugin.desktop.in.h:2
+msgid "Inserts current date and time at the cursor position."
+msgstr "İmlecin bulunduğu yere şimdiki tarihi ve zamanı ekler."
+
+#: ../plugins/trailsave/trailsave.scrivi-plugin.desktop.in.h:1
+msgid "Save Without Trailing Spaces"
+msgstr "Sondaki Boşluklar Olmadan Kaydetmek"
+
+#: ../plugins/trailsave/trailsave.scrivi-plugin.desktop.in.h:2
+msgid "Removes trailing spaces from lines before saving."
+msgstr "Kaydetmeden önce , sondaki boşluklari kaldirir."
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:1
+msgid "Insert Date and Time"
+msgstr "Tarih ve Zaman Ekle"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:2
+msgid "_Insert"
+msgstr "_Ekle"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:3
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:5
+msgid "Use the _selected format"
+msgstr "_Seçili biçimi kullan"
+
+#: ../plugins/time/scrivi-time-dialog.ui.h:5
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:6
+msgid "_Use custom format"
+msgstr "_Özel bir biçim kullan"
+
+#. Translators: Use the more common date format in your locale
+#: ../plugins/time/scrivi-time-dialog.ui.h:7
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:9
+#, no-c-format
+msgid "%d/%m/%Y %H:%M:%S"
+msgstr "%d/%m/%Y %H:%M:%S"
+
+#. Translators: This example should follow the date format defined in the
+#. entry above
+#: ../plugins/time/scrivi-time-dialog.ui.h:8
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:11
+msgid "01/11/2009 17:52:00"
+msgstr "01/11/2009 17:52:00"
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:1
+msgid "Configure date/time plugin"
+msgstr "Tarih/Zaman eklentisini yapılandır"
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:2
+msgid "When inserting date/time..."
+msgstr "Tarih/zaman eklendiğinde..."
+
+#: ../plugins/time/scrivi-time-setup-dialog.ui.h:4
+msgid "_Prompt for a format"
+msgstr "_Bir biçim için sor"
